@@ -13,7 +13,6 @@ import Header from "./Header.tsx";
 import Footer from "./Footer.tsx";
 import Verb from "./Verb.tsx";
 import Conjugation from "./Conjugation.tsx";
-import { find, includes } from "lodash";
 
 function App() {
   const [verb, setVerb] = useState({ conjugation: {} });
@@ -31,7 +30,7 @@ function App() {
     let cnt = 0;
     while (cnt < numberOfVerbs) {
       verbId = (Math.random() * (numberOfVerbs - 1) + 1).toFixed(0).toString();
-      if (!includes(locStorage, verbId)) {
+      if (!locStorage.includes(verbId)) {
         locStorage.push(verbId);
         break;
       }
@@ -43,7 +42,12 @@ function App() {
 
     localStorage.setItem("verbs", JSON.stringify(locStorage));
     setShowConjugation(false);
-    setVerb(find(data, { id: parseInt(verbId) }));
+    //setVerb(find(data, { id: parseInt(verbId) }));
+    setVerb(
+      data.find((verb) => {
+        return verb.id === parseInt(verbId);
+      })
+    );
   };
 
   const setConjugation = () => {
