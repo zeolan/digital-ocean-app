@@ -16,17 +16,13 @@
   text-transform: uppercase;
 }
 
-.App-header button {
-  position: relative;
-  right: 0;
-}
-
 .App-footer {
   align-items: end;
   display: flex;
   justify-content: center;
   position: relative;
-  font-size: 10px;
+  font-size: 11px;
+  padding-top: 10px;
   margin-top: auto;
 }
 
@@ -69,7 +65,7 @@
 }
 
 .App-animate1 {
-  width: 60%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: end;

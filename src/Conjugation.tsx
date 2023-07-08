@@ -6,9 +6,9 @@ import { CapButton, LowCaseButton } from "./MyButtons";
 import "./App.css";
 
 const personButtons = [
-  <Button key="blank" variant="outlined">
+  <CapButton key="blank" variant="outlined">
     Persona
-  </Button>,
+  </CapButton>,
   <LowCaseButton key="eu">Eu</LowCaseButton>,
   <LowCaseButton key="tu">Tu</LowCaseButton>,
   <LowCaseButton key="el/ea">El/Ea</LowCaseButton>,
@@ -24,9 +24,9 @@ interface ConjugationProps {
 
 const Conjugation: React.FC<ConjugationProps> = ({ verb, onNextClick }) => {
   const presentButtons = [
-    <Button key="title" variant="outlined">
+    <CapButton key="title" variant="outlined">
       Present
-    </Button>,
+    </CapButton>,
     <LowCaseButton key="eu">{verb.conjugation.eu}</LowCaseButton>,
     <LowCaseButton key="tu">{verb.conjugation.tu}</LowCaseButton>,
     <LowCaseButton key="el">{verb.conjugation.el}</LowCaseButton>,
@@ -35,9 +35,9 @@ const Conjugation: React.FC<ConjugationProps> = ({ verb, onNextClick }) => {
     <LowCaseButton key="ei">{verb.conjugation.ei}</LowCaseButton>,
   ];
   const conjuctivButtons = [
-    <Button key="title" variant="outlined">
+    <CapButton key="title" variant="outlined">
       Conjuctive
-    </Button>,
+    </CapButton>,
     <LowCaseButton key="eu1">{"să " + verb.conjugation.eu1}</LowCaseButton>,
     <LowCaseButton key="tu1">{"să " + verb.conjugation.tu1}</LowCaseButton>,
     <LowCaseButton key="el1">{"să " + verb.conjugation.el1}</LowCaseButton>,
@@ -46,23 +46,23 @@ const Conjugation: React.FC<ConjugationProps> = ({ verb, onNextClick }) => {
     <LowCaseButton key="ei1">{"să " + verb.conjugation.ei1}</LowCaseButton>,
   ];
   const partButtons = [
-    <Button key="title" variant="outlined">
+    <CapButton key="title" variant="outlined">
       Participiu
-    </Button>,
+    </CapButton>,
     <LowCaseButton key="part">{verb.participle}</LowCaseButton>,
   ];
   const impSButtons = [
-    <Button key="title" variant="outlined">
+    <CapButton key="title" variant="outlined">
       Imp.sing.
-    </Button>,
+    </CapButton>,
     <LowCaseButton key="impS">
       {verb.conjugation[verb.impS] || verb.impS}
     </LowCaseButton>,
   ];
   const impPButtons = [
-    <Button key="title" variant="outlined">
+    <CapButton key="title" variant="outlined">
       Imp.plur.
-    </Button>,
+    </CapButton>,
     <LowCaseButton key="impP">
       {verb.conjugation[verb.impP] || verb.impP}
     </LowCaseButton>,
@@ -70,8 +70,15 @@ const Conjugation: React.FC<ConjugationProps> = ({ verb, onNextClick }) => {
 
   return (
     <div className="App-conjugation">
-      <div style={{ marginBottom: "30px" }}>
+      <div
+        style={{
+          marginBottom: "30px",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
         <ButtonGroup
+          style={{ width: "20%" }}
           orientation="vertical"
           className="App-conjugation-btn-group"
           variant="text"

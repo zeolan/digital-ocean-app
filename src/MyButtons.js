@@ -2,10 +2,10 @@ import { Button } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
 export const CapButton = styled(Button)({
-  textTransform: "capitalize",
+  textTransform: "none",
   //fontSize: 40,
   padding: "px 12px",
-  //fontWeight: "bolder",
+  fontWeight: "normal",
   //lineHeight: 2.0,
   fontFamily: [
     "-apple-system",

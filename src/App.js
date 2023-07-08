@@ -42,7 +42,6 @@ function App() {
 
     localStorage.setItem("verbs", JSON.stringify(locStorage));
     setShowConjugation(false);
-    //setVerb(find(data, { id: parseInt(verbId) }));
     setVerb(
       data.find((verb) => {
         return verb.id === parseInt(verbId);

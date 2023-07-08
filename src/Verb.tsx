@@ -117,12 +117,24 @@ const Verb: React.FC<VerbProps> = ({ verb, onNextClick, onConjClick }) => {
       </div>
       <div className={cx("App-verb2")}>
         <div>
-          <Button variant="text" onClick={onConjClick}>
+          <Button
+            variant="text"
+            onClick={() => {
+              setTooltipOpen(false);
+              onConjClick();
+            }}
+          >
             Спряжение
           </Button>
         </div>
         <div>
-          <Button variant={"text"} onClick={onNextClick}>
+          <Button
+            variant={"text"}
+            onClick={() => {
+              setTooltipOpen(false);
+              onNextClick();
+            }}
+          >
             Дальше
           </Button>
         </div>
