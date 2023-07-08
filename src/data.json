@@ -1,0 +1,1235 @@
+[
+  {
+    "id": 1,
+    "nameRo": "ajuta",
+    "nameRu": "помогать",
+    "conjugation": {
+      "eu": "ajut",
+      "tu": "ajuți",
+      "el": "ajută",
+      "noi": "ajutăm",
+      "voi": "ajutați",
+      "ei": "ajută",
+      "eu1": "ajut",
+      "tu1": "ajuți",
+      "el1": "ajute",
+      "noi1": "ajutăm",
+      "voi1": "ajutați",
+      "ei1": "ajute"
+    },
+    "participle": "ajutat",
+    "impS": "el",
+    "impP": "voi"
+  },
+  {
+    "id": 2,
+    "nameRo": "coborî",
+    "nameRu": "спускаться, выходить",
+    "conjugation": {
+      "eu": "cobor",
+      "tu": "cobori",
+      "el": "coboară",
+      "noi": "coborâm",
+      "voi": "coborâți",
+      "ei": "coboară",
+      "eu1": "cobor",
+      "tu1": "cobori",
+      "el1": "coboare",
+      "noi1": "coborâm",
+      "voi1": "coborâți",
+      "ei1": "coboare"
+    },
+    "participle": "coborât",
+    "impS": "el",
+    "impP": "voi"
+  },
+  {
+    "id": 3,
+    "nameRo": "ieși",
+    "nameRu": "выходить",
+    "conjugation": {
+      "eu": "ies",
+      "tu": "ieși",
+      "el": "iese",
+      "noi": "ieșim",
+      "voi": "ieșiți",
+      "ei": "ies",
+      "eu1": "ies",
+      "tu1": "ieși",
+      "el1": "iasă",
+      "noi1": "ieșim",
+      "voi1": "ieșiți",
+      "ei1": "iasă"
+    },
+    "participle": "ieșit",
+    "impS": "tu",
+    "impP": "voi"
+  },
+  {
+    "id": 4,
+    "nameRo": "merge",
+    "nameRu": "идти",
+    "conjugation": {
+      "eu": "merg",
+      "tu": "mergi",
+      "el": "merge",
+      "noi": "mergem",
+      "voi": "mergeți",
+      "ei": "merg",
+      "eu1": "merge",
+      "tu1": "mergi",
+      "el1": "meargă",
+      "noi1": "mergem",
+      "voi1": "mergeți",
+      "ei1": "meargă"
+    },
+    "participle": "mers",
+    "impS": "tu",
+    "impP": "voi"
+  },
+  {
+    "id": 5,
+    "nameRo": "intra",
+    "nameRu": "входить, заходить",
+    "conjugation": {
+      "eu": "intru",
+      "tu": "intri",
+      "el": "intră",
+      "noi": "intrăm",
+      "voi": "intrați",
+      "ei": "intră",
+      "eu1": "intru",
+      "tu1": "intri",
+      "el1": "intre",
+      "noi1": "intrăm",
+      "voi1": "intrați",
+      "ei1": "intre"
+    },
+    "participle": "intrat",
+    "impS": "el",
+    "impP": "voi"
+  },
+  {
+    "id": 6,
+    "nameRo": "face",
+    "nameRu": "делать",
+    "conjugation": {
+      "eu": "fac",
+      "tu": "faci",
+      "el": "face",
+      "noi": "facem",
+      "voi": "faceți",
+      "ei": "fac",
+      "eu1": "fac",
+      "tu1": "faci",
+      "el1": "facă",
+      "noi1": "facem",
+      "voi1": "faceți",
+      "ei1": "facă"
+    },
+    "participle": "făcut",
+    "impS": "fă",
+    "impP": "voi"
+  },
+  {
+    "id": 7,
+    "nameRo": "vorbi",
+    "nameRu": "разговаривать",
+    "conjugation": {
+      "eu": "vorbesc",
+      "tu": "vorbeșți",
+      "el": "vorbește",
+      "noi": "vorbim",
+      "voi": "vorbiți",
+      "ei": "vorbesc",
+      "eu1": "vorbesc",
+      "tu1": "vorbeșți",
+      "el1": "vorbească",
+      "noi1": "vorbim",
+      "voi1": "vorbiți",
+      "ei1": "vorbească"
+    },
+    "participle": "vorbit",
+    "impS": "el",
+    "impP": "voi"
+  },
+  {
+    "id": 8,
+    "nameRo": "sta",
+    "nameRu": "стоять, оставаться, находиться",
+    "conjugation": {
+      "eu": "stau",
+      "tu": "stai",
+      "el": "stă",
+      "noi": "stăm",
+      "voi": "stați",
+      "ei": "stau",
+      "eu1": "stau",
+      "tu1": "stai",
+      "el1": "stea",
+      "noi1": "stăm",
+      "voi1": "stați",
+      "ei1": "stea"
+    },
+    "participle": "stat",
+    "impS": "tu",
+    "impP": "voi"
+  },
+  {
+    "id": 9,
+    "nameRo": "ști",
+    "nameRu": "знать",
+    "conjugation": {
+      "eu": "știu",
+      "tu": "știi",
+      "el": "știe",
+      "noi": "știm",
+      "voi": "știți",
+      "ei": "știu",
+      "eu1": "știu",
+      "tu1": "știi",
+      "el1": "știe",
+      "noi1": "știm",
+      "voi1": "știți",
+      "ei1": "știe"
+    },
+    "participle": "știut",
+    "impS": "tu",
+    "impP": "voi"
+  },
+  {
+    "id": 10,
+    "nameRo": "(se) duce",
+    "nameRu": "нести (идти)",
+    "conjugation": {
+      "eu": "duc",
+      "tu": "duci",
+      "el": "duce",
+      "noi": "ducem",
+      "voi": "duceți",
+      "ei": "duc",
+
+      "eu1": "duc",
+      "tu1": "duci",
+      "el1": "ducă",
+      "noi1": "ducem",
+      "voi1": "duceți",
+      "ei1": "ducă"
+    },
+    "participle": "dus",
+    "impS": "du",
+    "impP": "voi"
+  },
+  {
+    "id": 11,
+    "nameRo": "vrea",
+    "nameRu": "хотеть",
+    "conjugation": {
+      "eu": "vreau",
+      "tu": "vrei",
+      "el": "vrea",
+      "noi": "vrem",
+      "voi": "vreți",
+      "ei": "vor",
+
+      "eu1": "vreau",
+      "tu1": "vrei",
+      "el1": "vrea",
+      "noi1": "vrem",
+      "voi1": "vreți",
+      "ei1": "vrea"
+    },
+    "participle": "vrut",
+    "impS": "-",
+    "impP": "-"
+  },
+  {
+    "id": 12,
+    "nameRo": "mânca",
+    "nameRu": "есть, кушать",
+    "conjugation": {
+      "eu": "mănânc",
+      "tu": "mănânci",
+      "el": "mănâncă",
+      "noi": "mâncăm",
+      "voi": "mâncați",
+      "ei": "mănânce",
+
+      "eu1": "mănânc",
+      "tu1": "mănânci",
+      "el1": "mănâncă",
+      "noi1": "mâncăm",
+      "voi1": "mâncați",
+      "ei1": "mănânce"
+    },
+    "participle": "mâncat",
+    "impS": "el",
+    "impP": "voi"
+  },
+  {
+    "id": 13,
+    "nameRo": "citi",
+    "nameRu": "читать",
+    "conjugation": {
+      "eu": "citesc",
+      "tu": "citești",
+      "el": "citește",
+      "noi": "citim",
+      "voi": "citiți",
+      "ei": "citesc",
+
+      "eu1": "citesc",
+      "tu1": "citești",
+      "el1": "citească",
+      "noi1": "citim",
+      "voi1": "citiți",
+      "ei1": "citească"
+    },
+    "participle": "citit",
+    "impS": "citește",
+    "impP": "citiți"
+  },
+  {
+    "id": 14,
+    "nameRo": "bea",
+    "nameRu": "пить",
+    "conjugation": {
+      "eu": "beau",
+      "tu": "bei",
+      "el": "bea",
+      "noi": "bem",
+      "voi": "beți",
+      "ei": "beau",
+
+      "eu1": "beau",
+      "tu1": "bei",
+      "el1": "bea",
+      "noi1": "bem",
+      "voi1": "beți",
+      "ei1": "bea"
+    },
+    "participle": "băut",
+    "impS": "bea",
+    "impP": "beți"
+  },
+  {
+    "id": 15,
+    "nameRo": "vedea",
+    "nameRu": "видеть",
+    "conjugation": {
+      "eu": "văd",
+      "tu": "vezi",
+      "el": "vede",
+      "noi": "vedem",
+      "voi": "vedeți",
+      "ei": "văd",
+
+      "eu1": "văd",
+      "tu1": "vezi",
+      "el1": "vadă",
+      "noi1": "vedem",
+      "voi1": "vedeți",
+      "ei1": "vadă"
+    },
+    "participle": "băut",
+    "impS": "bea",
+    "impP": "beți"
+  },
+  {
+    "id": 16,
+    "nameRo": "cumpăra",
+    "nameRu": "покупать",
+    "conjugation": {
+      "eu": "cumpăr",
+      "tu": "cumperi",
+      "el": "cumpără",
+      "noi": "cumpărăm",
+      "voi": "cumpărați",
+      "ei": "cumpără",
+
+      "eu1": "cumpăr",
+      "tu1": "cumperi",
+      "el1": "cumpere",
+      "noi1": "cumpărăm",
+      "voi1": "cumpărați",
+      "ei1": "cumpere"
+    },
+    "participle": "cumpărat",
+    "impS": "cumpără",
+    "impP": "cumpărați"
+  },
+  {
+    "id": 17,
+    "nameRo": "vinde",
+    "nameRu": "продавать",
+    "conjugation": {
+      "eu": "vând",
+      "tu": "vizi",
+      "el": "vinde",
+      "noi": "vindem",
+      "voi": "vindeți",
+      "ei": "vând",
+
+      "eu1": "vând",
+      "tu1": "vizi",
+      "el1": "vândă",
+      "noi1": "vindem",
+      "voi1": "vindeți",
+      "ei1": "vândă"
+    },
+    "participle": "vândut",
+    "impS": "vinde",
+    "impP": "vindeți"
+  },
+  {
+    "id": 18,
+    "nameRo": "lucra",
+    "nameRu": "работать",
+    "conjugation": {
+      "eu": "lucrez",
+      "tu": "lucrezi",
+      "el": "lucrează",
+      "noi": "lucrăm",
+      "voi": "lucrați",
+      "ei": "lucrează",
+
+      "eu1": "lucrez",
+      "tu1": "lucrezi",
+      "el1": "lucreze",
+      "noi1": "lucrăm",
+      "voi1": "lucrați",
+      "ei1": "lucreze"
+    },
+    "participle": "lucrat",
+    "impS": "lucrează",
+    "impP": "lucrați"
+  },
+  {
+    "id": 19,
+    "nameRo": "aștepta",
+    "nameRu": "ждать, ожидать",
+    "conjugation": {
+      "eu": "aștept",
+      "tu": "aștepți",
+      "el": "așteaptă",
+      "noi": "așteptăm",
+      "voi": "așteptați",
+      "ei": "așteaptă",
+
+      "eu1": "aștept",
+      "tu1": "aștepți",
+      "el1": "aștepte",
+      "noi1": "așteptăm",
+      "voi1": "așteptați",
+      "ei1": "aștepte"
+    },
+    "participle": "așteptat",
+    "impS": "așteaptă",
+    "impP": "așteptați"
+  },
+  {
+    "id": 20,
+    "nameRo": "învăța",
+    "nameRu": "учить",
+    "conjugation": {
+      "eu": "învăț",
+      "tu": "înveți",
+      "el": "învață",
+      "noi": "învățăm",
+      "voi": "învățați",
+      "ei": "învață",
+
+      "eu1": "învăț",
+      "tu1": "înveți",
+      "el1": "învețe",
+      "noi1": "învățăm",
+      "voi1": "învățați",
+      "ei1": "învețe"
+    },
+    "participle": "învățat",
+    "impS": "învață",
+    "impP": "învățați"
+  },
+  {
+    "id": 21,
+    "nameRo": "juca",
+    "nameRu": "играть",
+    "conjugation": {
+      "eu": "joc",
+      "tu": "joci",
+      "el": "joacă",
+      "noi": "jucăm",
+      "voi": "jucați",
+      "ei": "joacă",
+
+      "eu1": "joc",
+      "tu1": "joci",
+      "el1": "joace",
+      "noi1": "jucăm",
+      "voi1": "jucați",
+      "ei1": "joace"
+    },
+    "participle": "jucat",
+    "impS": "joacă",
+    "impP": "jucați"
+  },
+  {
+    "id": 22,
+    "nameRo": "(se) uita",
+    "nameRu": "забывать (смотреть)",
+    "conjugation": {
+      "eu": "uit",
+      "tu": "uiți",
+      "el": "uită",
+      "noi": "uităm",
+      "voi": "uitați",
+      "ei": "uită",
+
+      "eu1": "uit",
+      "tu1": "uiți",
+      "el1": "uite",
+      "noi1": "uităm",
+      "voi1": "uitați",
+      "ei1": "uite"
+    },
+    "participle": "uitat",
+    "impS": "uită",
+    "impP": "uitați"
+  },
+  {
+    "id": 23,
+    "nameRo": "lua",
+    "nameRu": "брать, взять",
+    "conjugation": {
+      "eu": "iau",
+      "tu": "iei",
+      "el": "ia",
+      "noi": "luăm",
+      "voi": "luați",
+      "ei": "iau",
+
+      "eu1": "iau",
+      "tu1": "iei",
+      "el1": "ia",
+      "noi1": "luăm",
+      "voi1": "luați",
+      "ei1": "ia"
+    },
+    "participle": "luat",
+    "impS": "ia",
+    "impP": "luați"
+  },
+  {
+    "id": 24,
+    "nameRo": "locui",
+    "nameRu": "жить, проживать",
+    "conjugation": {
+      "eu": "locuiesc",
+      "tu": "locuiești",
+      "el": "locuiește",
+      "noi": "locuim",
+      "voi": "locuiți",
+      "ei": "locuiesc",
+
+      "eu1": "locuiesc",
+      "tu1": "locuiești",
+      "el1": "locuiască",
+      "noi1": "locuim",
+      "voi1": "locuiți",
+      "ei1": "locuiască"
+    },
+    "participle": "locuit",
+    "impS": "locuiește",
+    "impP": "locuiți"
+  },
+  {
+    "id": 25,
+    "nameRo": "număra",
+    "nameRu": "считать",
+    "conjugation": {
+      "eu": "număr",
+      "tu": "numeri",
+      "el": "numără",
+      "noi": "numărăm",
+      "voi": "numărați",
+      "ei": "numără",
+
+      "eu1": "număr",
+      "tu1": "numeri",
+      "el1": "numere",
+      "noi1": "numărăm",
+      "voi1": "numărați",
+      "ei1": "numere"
+    },
+    "participle": "numărat",
+    "impS": "numără",
+    "impP": "numărați"
+  },
+  {
+    "id": 26,
+    "nameRo": "privi",
+    "nameRu": "смотреть",
+    "conjugation": {
+      "eu": "privesc",
+      "tu": "privești",
+      "el": "privește",
+      "noi": "privim",
+      "voi": "priviți",
+      "ei": "privesc",
+
+      "eu1": "privesc",
+      "tu1": "privești",
+      "el1": "privească",
+      "noi1": "privim",
+      "voi1": "priviți",
+      "ei1": "privească"
+    },
+    "participle": "privit",
+    "impS": "privește",
+    "impP": "priviți"
+  },
+  {
+    "id": 27,
+    "nameRo": "dormi",
+    "nameRu": "спать",
+    "conjugation": {
+      "eu": "dorm",
+      "tu": "dormi",
+      "el": "doarme",
+      "noi": "dormim",
+      "voi": "dormiți",
+      "ei": "dorm",
+
+      "eu1": "dorm",
+      "tu1": "dormi",
+      "el1": "doarmă",
+      "noi1": "dormim",
+      "voi1": "dormiți",
+      "ei1": "doarmă"
+    },
+    "participle": "dormit",
+    "impS": "dormi",
+    "impP": "dormiți"
+  },
+  {
+    "id": 28,
+    "nameRo": "răspunde",
+    "nameRu": "отвечать",
+    "conjugation": {
+      "eu": "răspund",
+      "tu": "răspunzi",
+      "el": "răspunde",
+      "noi": "răspundem",
+      "voi": "răspundeți",
+      "ei": "răspund",
+
+      "eu1": "răspund",
+      "tu1": "răspunzi",
+      "el1": "răspundă",
+      "noi1": "răspundem",
+      "voi1": "răspundeți",
+      "ei1": "răspundă"
+    },
+    "participle": "răspuns",
+    "impS": "răspunde",
+    "impP": "răspundeți"
+  },
+  {
+    "id": 29,
+    "nameRo": "dori",
+    "nameRu": "желать, хотеть",
+    "conjugation": {
+      "eu": "doresc",
+      "tu": "dorești",
+      "el": "dorește",
+      "noi": "dorim",
+      "voi": "doriți",
+      "ei": "doresc",
+
+      "eu1": "doresc",
+      "tu1": "dorești",
+      "el1": "dorească",
+      "noi1": "dorim",
+      "voi1": "doriți",
+      "ei1": "dorească"
+    },
+    "participle": "dorit",
+    "impS": "dorește",
+    "impP": "doriți"
+  },
+  {
+    "id": 30,
+    "nameRo": "spune",
+    "nameRu": "сказать, говорить",
+    "conjugation": {
+      "eu": "spun",
+      "tu": "spui",
+      "el": "spune",
+      "noi": "spunem",
+      "voi": "spuneți",
+      "ei": "spun",
+
+      "eu1": "spun",
+      "tu1": "spui",
+      "el1": "spună",
+      "noi1": "spunem",
+      "voi1": "spuneți",
+      "ei1": "spună"
+    },
+    "participle": "spus",
+    "impS": "spune",
+    "impP": "spuneți"
+  },
+  {
+    "id": 31,
+    "nameRo": "fugi",
+    "nameRu": "бежать, убегать",
+    "conjugation": {
+      "eu": "fug",
+      "tu": "fugi",
+      "el": "fuge",
+      "noi": "fugim",
+      "voi": "fugiți",
+      "ei": "fug",
+
+      "eu1": "fug",
+      "tu1": "fugi",
+      "el1": "fugă",
+      "noi1": "fugim",
+      "voi1": "fugiți",
+      "ei1": "fugă"
+    },
+    "participle": "fugit",
+    "impS": "fugi",
+    "impP": "fugiți"
+  },
+  {
+    "id": 32,
+    "nameRo": "începe",
+    "nameRu": "начинать",
+    "conjugation": {
+      "eu": "încep",
+      "tu": "începi",
+      "el": "începe",
+      "noi": "începem",
+      "voi": "începeți",
+      "ei": "încep",
+
+      "eu1": "încep",
+      "tu1": "începi",
+      "el1": "înceapă",
+      "noi1": "începem",
+      "voi1": "începeți",
+      "ei1": "înceapă"
+    },
+    "participle": "început",
+    "impS": "începe",
+    "impP": "începeți"
+  },
+  {
+    "id": 33,
+    "nameRo": "saluta",
+    "nameRu": "приветствовать",
+    "conjugation": {
+      "eu": "salut",
+      "tu": "saluți",
+      "el": "salută",
+      "noi": "salutăm",
+      "voi": "salutați",
+      "ei": "salută",
+
+      "eu1": "salut",
+      "tu1": "saluți",
+      "el1": "salute",
+      "noi1": "salutăm",
+      "voi1": "salutați",
+      "ei1": "salute"
+    },
+    "participle": "salutat",
+    "impS": "salută",
+    "impP": "salutați"
+  },
+  {
+    "id": 34,
+    "nameRo": "scrie",
+    "nameRu": "писать",
+    "conjugation": {
+      "eu": "scriu",
+      "tu": "scrii",
+      "el": "scrie",
+      "noi": "scriem",
+      "voi": "scrieți",
+      "ei": "scriu",
+
+      "eu1": "scriu",
+      "tu1": "scrii",
+      "el1": "scrie",
+      "noi1": "scriem",
+      "voi1": "scrieți",
+      "ei1": "scrie"
+    },
+    "participle": "scris",
+    "impS": "scrie",
+    "impP": "scrieți"
+  },
+  {
+    "id": 35,
+    "nameRo": "termina",
+    "nameRu": "заканчивать",
+    "conjugation": {
+      "eu": "termin",
+      "tu": "termini",
+      "el": "termină",
+      "noi": "terminăm",
+      "voi": "terminați",
+      "ei": "termine",
+
+      "eu1": "termin",
+      "tu1": "termini",
+      "el1": "termină",
+      "noi1": "terminăm",
+      "voi1": "terminați",
+      "ei1": "termine"
+    },
+    "participle": "terminat",
+    "impS": "termină",
+    "impP": "terminați"
+  },
+  {
+    "id": 36,
+    "nameRo": "plăti",
+    "nameRu": "платить",
+    "conjugation": {
+      "eu": "plătesc",
+      "tu": "plătești",
+      "el": "plătește",
+      "noi": "plătim",
+      "voi": "plătiți",
+      "ei": "plătesc",
+
+      "eu1": "plătesc",
+      "tu1": "plătești",
+      "el1": "plătește",
+      "noi1": "plătim",
+      "voi1": "plătiți",
+      "ei1": "plătesc"
+    },
+    "participle": "plătit",
+    "impS": "plătește",
+    "impP": "plătiți"
+  },
+  {
+    "id": 37,
+    "nameRo": "găsi",
+    "nameRu": "находить",
+    "conjugation": {
+      "eu": "găsesc",
+      "tu": "găsești",
+      "el": "găsește",
+      "noi": "găsim",
+      "voi": "găsiți",
+      "ei": "găsesc",
+
+      "eu1": "găsesc",
+      "tu1": "găsești",
+      "el1": "găsească",
+      "noi1": "găsim",
+      "voi1": "găsiți",
+      "ei1": "găsească"
+    },
+    "participle": "găsit",
+    "impS": "găsește",
+    "impP": "găsiți"
+  },
+  {
+    "id": 38,
+    "nameRo": "găti",
+    "nameRu": "готовить",
+    "conjugation": {
+      "eu": "gătesc",
+      "tu": "gătești",
+      "el": "gătește",
+      "noi": "gătim",
+      "voi": "gătiți",
+      "ei": "gătesc",
+
+      "eu1": "gătesc",
+      "tu1": "gătești",
+      "el1": "gătească",
+      "noi1": "gătim",
+      "voi1": "gătiți",
+      "ei1": "gătească"
+    },
+    "participle": "gătit",
+    "impS": "gătește",
+    "impP": "gătiți"
+  },
+  {
+    "id": 39,
+    "nameRo": "greși",
+    "nameRu": "ошибаться",
+    "conjugation": {
+      "eu": "greșesc",
+      "tu": "greșești",
+      "el": "greșește",
+      "noi": "greșim",
+      "voi": "greșiți",
+      "ei": "greșesc",
+
+      "eu1": "greșesc",
+      "tu1": "greșești",
+      "el1": "greșească",
+      "noi1": "greșim",
+      "voi1": "greșiți",
+      "ei1": "greșească"
+    },
+    "participle": "greșit",
+    "impS": "greșește",
+    "impP": "greșiți"
+  },
+  {
+    "id": 40,
+    "nameRo": "fuma",
+    "nameRu": "курить",
+    "conjugation": {
+      "eu": "fumez",
+      "tu": "fumezi",
+      "el": "fumează",
+      "noi": "fumăm",
+      "voi": "fumați",
+      "ei": "fumează",
+
+      "eu1": "fumez",
+      "tu1": "fumezi",
+      "el1": "fumeze",
+      "noi1": "fumăm",
+      "voi1": "fumați",
+      "ei1": "fumeze"
+    },
+    "participle": "fumat",
+    "impS": "fumează",
+    "impP": "fumați"
+  },
+  {
+    "id": 41,
+    "nameRo": "comanda",
+    "nameRu": "заказывать",
+    "conjugation": {
+      "eu": "comand",
+      "tu": "comanzi",
+      "el": "comandă",
+      "noi": "comandăm",
+      "voi": "comandați",
+      "ei": "comandă",
+
+      "eu1": "comand",
+      "tu1": "comanzi",
+      "el1": "comande",
+      "noi1": "comandăm",
+      "voi1": "comandați",
+      "ei1": "comande"
+    },
+    "participle": "comandat",
+    "impS": "comandă",
+    "impP": "conamdați"
+  },
+  {
+    "id": 42,
+    "nameRo": "câștiga",
+    "nameRu": "выигрывать",
+    "conjugation": {
+      "eu": "câștig",
+      "tu": "câștigi",
+      "el": "câștigă",
+      "noi": "câștigăm",
+      "voi": "câștigați",
+      "ei": "câștigă",
+
+      "eu1": "câștig",
+      "tu1": "câștigi",
+      "el1": "câștige",
+      "noi1": "câștigăm",
+      "voi1": "câștigați",
+      "ei1": "câștige"
+    },
+    "participle": "câștigat",
+    "impS": "câștigă",
+    "impP": "câștigați"
+  },
+  {
+    "id": 43,
+    "nameRo": "căuta",
+    "nameRu": "искать",
+    "conjugation": {
+      "eu": "caut",
+      "tu": "cauți",
+      "el": "caută",
+      "noi": "căutăm",
+      "voi": "căutați",
+      "ei": "caută",
+
+      "eu1": "caut",
+      "tu1": "cauți",
+      "el1": "caute",
+      "noi1": "căutăm",
+      "voi1": "căutați",
+      "ei1": "caute"
+    },
+    "participle": "căutat",
+    "impS": "caută",
+    "impP": "căutați"
+  },
+  {
+    "id": 44,
+    "nameRo": "(se) bucura",
+    "nameRu": "радовать (радоваться)",
+    "conjugation": {
+      "eu": "bucur",
+      "tu": "bucuri",
+      "el": "bucură",
+      "noi": "bucurăm",
+      "voi": "bucurați",
+      "ei": "bucură",
+
+      "eu1": "bucur",
+      "tu1": "bucuri",
+      "el1": "bucure",
+      "noi1": "bucurăm",
+      "voi1": "bucurați",
+      "ei1": "bucure"
+    },
+    "participle": "bucurat",
+    "impS": "bucură",
+    "impP": "bucurați"
+  },
+  {
+    "id": 45,
+    "nameRo": "asculta",
+    "nameRu": "слушать",
+    "conjugation": {
+      "eu": "ascult",
+      "tu": "asculți",
+      "el": "ascultă",
+      "noi": "ascultăm",
+      "voi": "ascultați",
+      "ei": "ascultă",
+
+      "eu1": "ascult",
+      "tu1": "asculți",
+      "el1": "asculte",
+      "noi1": "ascultăm",
+      "voi1": "ascultați",
+      "ei1": "asculte"
+    },
+    "participle": "ascultat",
+    "impS": "ascultă",
+    "impP": "ascultați"
+  },
+  {
+    "id": 46,
+    "nameRo": "auzi",
+    "nameRu": "слышать",
+    "conjugation": {
+      "eu": "aud",
+      "tu": "auzi",
+      "el": "aude",
+      "noi": "auzim",
+      "voi": "auziți",
+      "ei": "aud",
+
+      "eu1": "aud",
+      "tu1": "auzi",
+      "el1": "audă",
+      "noi1": "auzim",
+      "voi1": "auziți",
+      "ei1": "audă"
+    },
+    "participle": "auzit",
+    "impS": "auzi",
+    "impP": "auziți"
+  },
+  {
+    "id": 47,
+    "nameRo": "(se) întâlni",
+    "nameRu": "встречать (встречаться)",
+    "conjugation": {
+      "eu": "întâlnesc",
+      "tu": "întâlnești",
+      "el": "întâlnește",
+      "noi": "întâlnim",
+      "voi": "întâlniți",
+      "ei": "întâlnesc",
+
+      "eu1": "întâlnesc",
+      "tu1": "întâlnești",
+      "el1": "întâlnească",
+      "noi1": "întâlnim",
+      "voi1": "întâlniți",
+      "ei1": "întâlnească"
+    },
+    "participle": "întâlnit",
+    "impS": "întâlnește",
+    "impP": "întâlniți"
+  },
+  {
+    "id": 48,
+    "nameRo": "vizita",
+    "nameRu": "посещать",
+    "conjugation": {
+      "eu": "vizitez",
+      "tu": "vizitezi",
+      "el": "vizitează",
+      "noi": "vizităm",
+      "voi": "vizitați",
+      "ei": "vizitează",
+
+      "eu1": "vizitez",
+      "tu1": "vizitezi",
+      "el1": "viziteze",
+      "noi1": "vizităm",
+      "voi1": "vizitați",
+      "ei1": "viziteze"
+    },
+    "participle": "vizitat",
+    "impS": "vizitează",
+    "impP": "vizitați"
+  },
+  {
+    "id": 49,
+    "nameRo": "cânta",
+    "nameRu": "петь, играть муз.инстр.",
+    "conjugation": {
+      "eu": "cânt",
+      "tu": "cânți",
+      "el": "cântă",
+      "noi": "cântăm",
+      "voi": "cântați",
+      "ei": "cântă",
+
+      "eu1": "cânt",
+      "tu1": "cânți",
+      "el1": "cânte",
+      "noi1": "cântăm",
+      "voi1": "cântați",
+      "ei1": "cânte"
+    },
+    "participle": "cântat",
+    "impS": "cântă",
+    "impP": "cântați"
+  },
+  {
+    "id": 50,
+    "nameRo": "muri",
+    "nameRu": "умирать",
+    "conjugation": {
+      "eu": "mor",
+      "tu": "mori",
+      "el": "moare",
+      "noi": "murim",
+      "voi": "muriți",
+      "ei": "mor",
+
+      "eu1": "mor",
+      "tu1": "mori",
+      "el1": "moară",
+      "noi1": "murim",
+      "voi1": "muriți",
+      "ei1": "moară"
+    },
+    "participle": "murit",
+    "impS": "mori",
+    "impP": "muriți"
+  },
+  {
+    "id": 51,
+    "nameRo": "cere",
+    "nameRu": "просить",
+    "conjugation": {
+      "eu": "cer",
+      "tu": "ceri",
+      "el": "cere",
+      "noi": "cerem",
+      "voi": "cereți",
+      "ei": "cer",
+
+      "eu1": "cer",
+      "tu1": "ceri",
+      "el1": "ceară",
+      "noi1": "cerem",
+      "voi1": "cereți",
+      "ei1": "ceară"
+    },
+    "participle": "cerut",
+    "impS": "cere",
+    "impP": "cereți"
+  },
+  {
+    "id": 52,
+    "nameRo": "veni",
+    "nameRu": "приходить",
+    "conjugation": {
+      "eu": "vin",
+      "tu": "vii",
+      "el": "vine",
+      "noi": "venim",
+      "voi": "veniți",
+      "ei": "vin",
+
+      "eu1": "vin",
+      "tu1": "vii",
+      "el1": "vină",
+      "noi1": "venim",
+      "voi1": "veniți",
+      "ei1": "vină"
+    },
+    "participle": "venit",
+    "impS": "vino",
+    "impP": "veniți"
+  },
+  {
+    "id": 53,
+    "nameRo": "alege",
+    "nameRu": "выбирать",
+    "conjugation": {
+      "eu": "aleg",
+      "tu": "alegi",
+      "el": "alege",
+      "noi": "alegem",
+      "voi": "alegeți",
+      "ei": "aleg",
+
+      "eu1": "aleg",
+      "tu1": "alegi",
+      "el1": "aleagă",
+      "noi1": "alegem",
+      "voi1": "alegeți",
+      "ei1": "aleagă"
+    },
+    "participle": "ales",
+    "impS": "alege",
+    "impP": "alegeți"
+  },
+  {
+    "id": 54,
+    "nameRo": "pune",
+    "nameRu": "положить, класть",
+    "conjugation": {
+      "eu": "pun",
+      "tu": "pui",
+      "el": "pune",
+      "noi": "punem",
+      "voi": "puneți",
+      "ei": "pun",
+
+      "eu1": "pun",
+      "tu1": "pui",
+      "el1": "pună",
+      "noi1": "punem",
+      "voi1": "puneți",
+      "ei1": "pună"
+    },
+    "participle": "pus",
+    "impS": "pune",
+    "impP": "puneți"
+  }
+]

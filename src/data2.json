@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "nameRo": "ajuta",
+    "nameRu": "помогать",
+    "conjugation": {
+      "eu": "ajut",
+      "tu": "ajuți",
+      "el": "ajută",
+      "noi": "ajutăm",
+      "voi": "ajutați",
+      "ei": "ajută",
+      "eu1": "ajut",
+      "tu1": "ajuți",
+      "el1": "ajute",
+      "noi1": "ajutăm",
+      "voi1": "ajutați",
+      "ei1": "ajute"
+    },
+    "participle": "ajutat",
+    "impS": "el",
+    "impP": "voi"
+  },
+  {
+    "id": 2,
+    "nameRo": "coborî",
+    "nameRu": "спускаться, выходить",
+    "conjugation": {
+      "eu": "cobor",
+      "tu": "cobori",
+      "el": "coboară",
+      "noi": "coborâm",
+      "voi": "coborâți",
+      "ei": "coboară",
+      "eu1": "cobor",
+      "tu1": "cobori",
+      "el1": "coboare",
+      "noi1": "coborâm",
+      "voi1": "coborâți",
+      "ei1": "coboare"
+    },
+    "participle": "coborât",
+    "impS": "el",
+    "impP": "voi"
+  }
+]
