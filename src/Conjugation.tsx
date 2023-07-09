@@ -23,11 +23,47 @@ interface ConjugationProps {
 }
 
 const Conjugation: React.FC<ConjugationProps> = ({ verb, onNextClick }) => {
+  const getNameRo = (nameRo: any) => {
+    if (
+      typeof nameRo === "object" &&
+      nameRo[0] &&
+      nameRo[1] &&
+      typeof nameRo[0] === "string" &&
+      typeof nameRo[1] === "number"
+    ) {
+      const name = (nameRo[0] as String).split("");
+      console.log(name);
+      let key = 1;
+      const result = name.map((item: string) => {
+        return key !== nameRo[1] ? (
+          item !== " " ? (
+            <span key={++key}>{item}</span>
+          ) : (
+            <span key={++key}>&nbsp;</span>
+          )
+        ) : (
+          <span key={++key} style={{ textDecoration: "overline" }}>
+            {item}
+          </span>
+        );
+      });
+      return (
+        <>
+          <span>&nbsp;</span>
+          {result}
+          <span>&nbsp;</span>
+        </>
+      );
+    } else {
+      return nameRo;
+    }
+  };
+
   const presentButtons = [
     <CapButton key="title" variant="outlined">
       Present
     </CapButton>,
-    <LowCaseButton key="eu">{verb.conjugation.eu}</LowCaseButton>,
+    <LowCaseButton key="eu">{getNameRo(verb.conjugation.eu)}</LowCaseButton>,
     <LowCaseButton key="tu">{verb.conjugation.tu}</LowCaseButton>,
     <LowCaseButton key="el">{verb.conjugation.el}</LowCaseButton>,
     <LowCaseButton key="noi">{verb.conjugation.noi}</LowCaseButton>,
@@ -70,15 +106,13 @@ const Conjugation: React.FC<ConjugationProps> = ({ verb, onNextClick }) => {
 
   return (
     <div className="App-conjugation">
-      <div
-        style={{
-          marginBottom: "30px",
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
+      <div className="App-conjugation-block1">
+        <span>a&nbsp;</span>
+        {getNameRo(verb.nameRo)}
+        <span>- {verb.nameRu}</span>
+      </div>
+      <div className="App-conjugation-block2">
         <ButtonGroup
-          style={{ width: "20%" }}
           orientation="vertical"
           className="App-conjugation-btn-group"
           variant="text"
@@ -100,7 +134,7 @@ const Conjugation: React.FC<ConjugationProps> = ({ verb, onNextClick }) => {
           {conjuctivButtons}
         </ButtonGroup>
       </div>
-      <div style={{ marginBottom: "30px" }}>
+      <div className="App-conjugation-block3">
         <ButtonGroup
           orientation="vertical"
           className="App-conjugation-btn-group"

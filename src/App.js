@@ -20,6 +20,7 @@ function App() {
   let locStorage = useLocalStorage();
   const numberOfVerbs = data.length;
   localStorage.setItem("numberOfVerbs", JSON.stringify(numberOfVerbs));
+  localStorage.setItem("version", [process.env.REACT_APP_VERSION]);
 
   useEffect(() => {
     onNextVerb();
@@ -28,8 +29,8 @@ function App() {
   const onNextVerb = () => {
     let verbId = 0;
     let cnt = 0;
-    while (cnt < numberOfVerbs) {
-      verbId = (Math.random() * (numberOfVerbs - 1) + 1).toFixed(0).toString();
+    while (cnt < numberOfVerbs * 10) {
+      verbId = (Math.random() * (numberOfVerbs - 1)).toFixed(0).toString();
       if (!locStorage.includes(verbId)) {
         locStorage.push(verbId);
         break;
@@ -42,11 +43,10 @@ function App() {
 
     localStorage.setItem("verbs", JSON.stringify(locStorage));
     setShowConjugation(false);
-    setVerb(
-      data.find((verb) => {
-        return verb.id === parseInt(verbId);
-      })
-    );
+    const foudVerb = data.find((verb) => {
+      return verb.id === parseInt(verbId);
+    });
+    foudVerb && setVerb(foudVerb);
   };
 
   const setConjugation = () => {

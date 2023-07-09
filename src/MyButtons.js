@@ -23,7 +23,7 @@ export const CapButton = styled(Button)({
 
 export const LowCaseButton = styled(Button)({
   textTransform: "lowercase",
-  fontSize: 18,
+  fontSize: 17,
   padding: "2px 12px",
   //lineHeight: 2.0,
   fontFamily: [

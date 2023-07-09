@@ -1,10 +1,20 @@
 import React, { useState, useEffect } from "react";
-import { Button } from "@mui/material";
+import {
+  Button,
+  IconButton,
+  List,
+  ListItem,
+  ListItemText,
+} from "@mui/material";
 import { styled } from "@mui/material/styles";
+import { Search } from "@mui/icons-material";
 import Tooltip, { TooltipProps, tooltipClasses } from "@mui/material/Tooltip";
+import TextField from "@mui/material/TextField";
+import MenuItem from "@mui/material/MenuItem";
 
 import cx from "classnames";
 
+import data from "./data.json";
 import { CapButton } from "./MyButtons";
 import "./App.css";
 
@@ -54,7 +64,10 @@ const LightTooltip = styled(({ className, ...props }: TooltipProps) => (
 }));
 
 const Verb: React.FC<VerbProps> = ({ verb, onNextClick, onConjClick }) => {
+  const [verbs, setVerbs] = useState<any[]>(data);
   const [lang, setLang] = useState<Lang>(Lang.ro);
+  const [showSearchInput, setShowSearchInput] = useState<boolean>(false);
+  const [searchResults, setSearchResults] = useState<any[]>([]);
   const [tooltipOpen, setTooltipOpen] = useState<boolean>(false);
   const [localNameRu, setLocalNameRu] = useState<string>("");
   const { id, nameRo, nameRu } = verb;
@@ -82,12 +95,87 @@ const Verb: React.FC<VerbProps> = ({ verb, onNextClick, onConjClick }) => {
 
   const translate = () => {
     setTooltipOpen(false);
+    setShowSearchInput(false);
     lang === Lang.ro ? setLang(Lang.ru) : setLang(Lang.ro);
+  };
+
+  const getNameRo = () => {
+    if (
+      typeof nameRo === "object" &&
+      nameRo[0] &&
+      nameRo[1] &&
+      typeof nameRo[0] === "string" &&
+      typeof nameRo[1] === "number"
+    ) {
+      const name = (nameRo[0] as String).split("");
+      let key = 1;
+      const result = name.map((item: string) => {
+        return key !== nameRo[1] ? (
+          item !== " " ? (
+            <span key={++key}>{item}</span>
+          ) : (
+            <span key={++key}>&nbsp;</span>
+          )
+        ) : (
+          <span key={++key} style={{ textDecoration: "overline" }}>
+            {item}
+          </span>
+        );
+      });
+      return <>{result}</>;
+    } else {
+      return nameRo;
+    }
+  };
+
+  const onSearchClick = () => {
+    setShowSearchInput(true);
+  };
+
+  const onSearchChange = (e: any) => {
+    console.log(e);
+    const searchResults = verbs.filter((item: any) =>
+      item.nameRo.includes(e.target.value)
+    );
+    setSearchResults(searchResults);
+    console.log(searchResults);
   };
 
   return (
     <div className={cx("App-verb")}>
       <div className={cx("App-verb1")}>
+        {false && (
+          <div className={cx("App-verb-block1")}>
+            {!showSearchInput ? (
+              <IconButton onClick={onSearchClick}>
+                <Search />
+              </IconButton>
+            ) : (
+              <>
+                <TextField
+                  id="standard-basic"
+                  label=""
+                  variant="standard"
+                  autoFocus={true}
+                  onChange={onSearchChange}
+                />
+                {searchResults.length > 0
+                  ? searchResults.map((option) => (
+                      <List>
+                        <ListItem
+                          key={option.id}
+                          value={option.nameRo}
+                          disablePadding
+                        >
+                          <ListItemText primary={option.nameRo} />
+                        </ListItem>
+                      </List>
+                    ))
+                  : null}
+              </>
+            )}
+          </div>
+        )}
         <div
           className={cx("button", "App-animate1", {
             rotated: lang === Lang.ru,
@@ -100,7 +188,7 @@ const Verb: React.FC<VerbProps> = ({ verb, onNextClick, onConjClick }) => {
             arrow
           >
             <CapButton variant="contained" onClick={translate}>
-              {nameRo}
+              {getNameRo()}
             </CapButton>
           </LightTooltip>
         </div>
@@ -121,6 +209,7 @@ const Verb: React.FC<VerbProps> = ({ verb, onNextClick, onConjClick }) => {
             variant="text"
             onClick={() => {
               setTooltipOpen(false);
+              setShowSearchInput(false);
               onConjClick();
             }}
           >
@@ -132,6 +221,7 @@ const Verb: React.FC<VerbProps> = ({ verb, onNextClick, onConjClick }) => {
             variant={"text"}
             onClick={() => {
               setTooltipOpen(false);
+              setShowSearchInput(false);
               onNextClick();
             }}
           >
