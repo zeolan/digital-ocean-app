@@ -68,7 +68,7 @@
   },
   {
     "id": 3,
-    "nameRo": "ieși",
+    "nameRo": ["ieși", 4],
     "nameRu": "выходить",
     "conjugation": {
       "eu": ["ies", 2],
@@ -93,7 +93,7 @@
     "nameRo": ["merge", 2],
     "nameRu": "идти",
     "conjugation": {
-      "eu": "merg",
+      "eu": ["merg", 2],
       "tu": "mergi",
       "el": "merge",
       "noi": "mergem",
@@ -115,7 +115,7 @@
     "nameRo": ["intra", 5],
     "nameRu": "входить, заходить",
     "conjugation": {
-      "eu": "intru",
+      "eu": ["intru", 1],
       "tu": "intri",
       "el": "intră",
       "noi": "intrăm",
@@ -159,7 +159,7 @@
     "nameRo": ["vorbi", 5],
     "nameRu": "разговаривать",
     "conjugation": {
-      "eu": "vorbesc",
+      "eu": ["vorbesc", 5],
       "tu": "vorbeșți",
       "el": "vorbește",
       "noi": "vorbim",
@@ -178,10 +178,10 @@
   },
   {
     "id": 8,
-    "nameRo": "sta",
+    "nameRo": ["sta", 3],
     "nameRu": "стоять, оставаться, находиться",
     "conjugation": {
-      "eu": "stau",
+      "eu": ["stau", 3],
       "tu": "stai",
       "el": "stă",
       "noi": "stăm",
@@ -200,7 +200,7 @@
   },
   {
     "id": 9,
-    "nameRo": "ști",
+    "nameRo": ["ști", 3],
     "nameRu": "знать",
     "conjugation": {
       "eu": ["știu", 3],
@@ -222,10 +222,10 @@
   },
   {
     "id": 10,
-    "nameRo": "(se) duce",
+    "nameRo": ["(se) duce", 7],
     "nameRu": "нести (идти)",
     "conjugation": {
-      "eu": "duc",
+      "eu": ["duc", 2],
       "tu": "duci",
       "el": "duce",
       "noi": "ducem",
@@ -245,10 +245,10 @@
   },
   {
     "id": 11,
-    "nameRo": "vrea",
+    "nameRo": ["vrea", 3],
     "nameRu": "хотеть",
     "conjugation": {
-      "eu": "vreau",
+      "eu": ["vreau", 3],
       "tu": "vrei",
       "el": "vrea",
       "noi": "vrem",
@@ -268,7 +268,7 @@
   },
   {
     "id": 12,
-    "nameRo": "mânca",
+    "nameRo": ["mânca", 5],
     "nameRu": "есть, кушать",
     "conjugation": {
       "eu": ["mănânc", 4],
@@ -291,10 +291,10 @@
   },
   {
     "id": 13,
-    "nameRo": "citi",
+    "nameRo": ["citi", 4],
     "nameRu": "читать",
     "conjugation": {
-      "eu": "citesc",
+      "eu": ["citesc", 4],
       "tu": "citești",
       "el": "citește",
       "noi": "citim",
@@ -314,7 +314,7 @@
   },
   {
     "id": 14,
-    "nameRo": "bea",
+    "nameRo": ["bea", 2],
     "nameRu": "пить",
     "conjugation": {
       "eu": ["beau", 2],
@@ -337,10 +337,10 @@
   },
   {
     "id": 15,
-    "nameRo": "vedea",
+    "nameRo": ["vedea", 4],
     "nameRu": "видеть",
     "conjugation": {
-      "eu": "văd",
+      "eu": ["văd", 2],
       "tu": "vezi",
       "el": "vede",
       "noi": "vedem",
@@ -360,7 +360,7 @@
   },
   {
     "id": 16,
-    "nameRo": "cumpăra",
+    "nameRo": ["cumpăra", 7],
     "nameRu": "покупать",
     "conjugation": {
       "eu": ["cumpăr", 2],
@@ -383,10 +383,10 @@
   },
   {
     "id": 17,
-    "nameRo": "vinde",
+    "nameRo": ["vinde", 5],
     "nameRu": "продавать",
     "conjugation": {
-      "eu": "vând",
+      "eu": ["vând", 2],
       "tu": "vinzi",
       "el": "vinde",
       "noi": "vindem",
@@ -406,7 +406,7 @@
   },
   {
     "id": 18,
-    "nameRo": "lucra",
+    "nameRo": ["lucra", 5],
     "nameRu": "работать",
     "conjugation": {
       "eu": ["lucrez", 5],
@@ -432,7 +432,7 @@
     "nameRo": ["aștepta", 7],
     "nameRu": "ждать, ожидать",
     "conjugation": {
-      "eu": "aștept",
+      "eu": ["aștept", 4],
       "tu": "aștepți",
       "el": "așteaptă",
       "noi": "așteptăm",
@@ -452,7 +452,7 @@
   },
   {
     "id": 20,
-    "nameRo": "învăța",
+    "nameRo": ["învăța", 6],
     "nameRu": "учить",
     "conjugation": {
       "eu": ["învăț", 4],
@@ -475,10 +475,10 @@
   },
   {
     "id": 21,
-    "nameRo": "(se) juca",
+    "nameRo": ["(se) juca", 9],
     "nameRu": "играть (играться)",
     "conjugation": {
-      "eu": "joc",
+      "eu": ["joc", 2],
       "tu": "joci",
       "el": "joacă",
       "noi": "jucăm",
@@ -498,7 +498,7 @@
   },
   {
     "id": 22,
-    "nameRo": "(se) uita",
+    "nameRo": ["(se) uita", 9],
     "nameRu": "забывать (смотреть)",
     "conjugation": {
       "eu": ["uit", 1],
@@ -521,10 +521,10 @@
   },
   {
     "id": 23,
-    "nameRo": "lua",
+    "nameRo": ["lua", 3],
     "nameRu": "брать, взять",
     "conjugation": {
-      "eu": "iau",
+      "eu": ["iau", 1],
       "tu": "iei",
       "el": "ia",
       "noi": "luăm",
@@ -544,7 +544,7 @@
   },
   {
     "id": 24,
-    "nameRo": "locui",
+    "nameRo": ["locui", 5],
     "nameRu": "жить, проживать",
     "conjugation": {
       "eu": ["locuiesc", 6],
@@ -567,7 +567,7 @@
   },
   {
     "id": 25,
-    "nameRo": "număra",
+    "nameRo": ["număra", 6],
     "nameRu": "считать",
     "conjugation": {
       "eu": ["număr", 2],
@@ -590,10 +590,10 @@
   },
   {
     "id": 26,
-    "nameRo": "privi",
+    "nameRo": ["privi", 5],
     "nameRu": "смотреть",
     "conjugation": {
-      "eu": "privesc",
+      "eu": ["privesc", 5],
       "tu": "privești",
       "el": "privește",
       "noi": "privim",
@@ -613,10 +613,10 @@
   },
   {
     "id": 27,
-    "nameRo": "dormi",
+    "nameRo": ["dormi", 5],
     "nameRu": "спать",
     "conjugation": {
-      "eu": "dorm",
+      "eu": ["dorm", 2],
       "tu": "dormi",
       "el": "doarme",
       "noi": "dormim",
@@ -636,7 +636,7 @@
   },
   {
     "id": 28,
-    "nameRo": "răspunde",
+    "nameRo": ["răspunde", 8],
     "nameRu": "отвечать",
     "conjugation": {
       "eu": ["răspund", 5],
@@ -659,10 +659,10 @@
   },
   {
     "id": 29,
-    "nameRo": "dori",
+    "nameRo": ["dori", 4],
     "nameRu": "желать, хотеть",
     "conjugation": {
-      "eu": "doresc",
+      "eu": ["doresc", 4],
       "tu": "dorești",
       "el": "dorește",
       "noi": "dorim",
@@ -682,10 +682,10 @@
   },
   {
     "id": 30,
-    "nameRo": "spune",
+    "nameRo": ["spune", 3],
     "nameRu": "сказать, говорить",
     "conjugation": {
-      "eu": "spun",
+      "eu": ["spun", 2],
       "tu": "spui",
       "el": "spune",
       "noi": "spunem",
@@ -705,7 +705,7 @@
   },
   {
     "id": 31,
-    "nameRo": "fugi",
+    "nameRo": ["fugi", 4],
     "nameRu": "бежать, убегать",
     "conjugation": {
       "eu": "fug",
@@ -728,10 +728,10 @@
   },
   {
     "id": 32,
-    "nameRo": "începe",
+    "nameRo": ["începe", 4],
     "nameRu": "начинать",
     "conjugation": {
-      "eu": "încep",
+      "eu": ["încep", 4],
       "tu": "începi",
       "el": "începe",
       "noi": "începem",
@@ -754,7 +754,7 @@
     "nameRo": ["saluta", 6],
     "nameRu": "приветствовать",
     "conjugation": {
-      "eu": "salut",
+      "eu": ["salut", 4],
       "tu": "saluți",
       "el": "salută",
       "noi": "salutăm",
@@ -774,10 +774,10 @@
   },
   {
     "id": 34,
-    "nameRo": "scrie",
+    "nameRo": ["scrie", 4],
     "nameRu": "писать",
     "conjugation": {
-      "eu": "scriu",
+      "eu": ["scriu", 4],
       "tu": "scrii",
       "el": "scrie",
       "noi": "scriem",
@@ -797,7 +797,7 @@
   },
   {
     "id": 35,
-    "nameRo": "termina",
+    "nameRo": ["termina", 7],
     "nameRu": "заканчивать",
     "conjugation": {
       "eu": ["termin", 2],
@@ -820,10 +820,10 @@
   },
   {
     "id": 36,
-    "nameRo": "plăti",
+    "nameRo": ["plăti", 5],
     "nameRu": "платить",
     "conjugation": {
-      "eu": "plătesc",
+      "eu": ["plătesc", 5],
       "tu": "plătești",
       "el": "plătește",
       "noi": "plătim",
@@ -843,10 +843,10 @@
   },
   {
     "id": 37,
-    "nameRo": "găsi",
+    "nameRo": ["găsi", 4],
     "nameRu": "находить",
     "conjugation": {
-      "eu": "găsesc",
+      "eu": ["găsesc", 4],
       "tu": "găsești",
       "el": "găsește",
       "noi": "găsim",
@@ -866,10 +866,10 @@
   },
   {
     "id": 38,
-    "nameRo": "găti",
+    "nameRo": ["găti", 4],
     "nameRu": "готовить",
     "conjugation": {
-      "eu": "gătesc",
+      "eu": ["gătesc", 4],
       "tu": "gătești",
       "el": "gătește",
       "noi": "gătim",
@@ -889,10 +889,10 @@
   },
   {
     "id": 39,
-    "nameRo": "greși",
+    "nameRo": ["greși", 5],
     "nameRu": "ошибаться",
     "conjugation": {
-      "eu": "greșesc",
+      "eu": ["greșesc", 5],
       "tu": "greșești",
       "el": "greșește",
       "noi": "greșim",
@@ -912,7 +912,7 @@
   },
   {
     "id": 40,
-    "nameRo": "fuma",
+    "nameRo": ["fuma", 4],
     "nameRu": "курить",
     "conjugation": {
       "eu": ["fumez", 4],
@@ -935,7 +935,7 @@
   },
   {
     "id": 41,
-    "nameRo": "comanda",
+    "nameRo": ["comanda", 7],
     "nameRu": "заказывать",
     "conjugation": {
       "eu": ["comand", 4],
@@ -958,7 +958,7 @@
   },
   {
     "id": 42,
-    "nameRo": "câștiga",
+    "nameRo": ["câștiga", 7],
     "nameRu": "выигрывать",
     "conjugation": {
       "eu": ["câștig", 5],
@@ -981,7 +981,7 @@
   },
   {
     "id": 43,
-    "nameRo": "căuta",
+    "nameRo": ["căuta", 5],
     "nameRu": "искать",
     "conjugation": {
       "eu": ["caut", 2],
@@ -1004,7 +1004,7 @@
   },
   {
     "id": 44,
-    "nameRo": "(se) bucura",
+    "nameRo": ["(se) bucura", 11],
     "nameRu": "радовать (радоваться)",
     "conjugation": {
       "eu": ["bucur", 2],
@@ -1027,10 +1027,10 @@
   },
   {
     "id": 45,
-    "nameRo": "asculta",
+    "nameRo": ["asculta", 7],
     "nameRu": "слушать",
     "conjugation": {
-      "eu": "ascult",
+      "eu": ["ascult", 4],
       "tu": "asculți",
       "el": "ascultă",
       "noi": "ascultăm",
@@ -1050,7 +1050,7 @@
   },
   {
     "id": 46,
-    "nameRo": "auzi",
+    "nameRo": ["auzi", 4],
     "nameRu": "слышать",
     "conjugation": {
       "eu": ["aud", 2],
@@ -1073,10 +1073,10 @@
   },
   {
     "id": 47,
-    "nameRo": "(se) întâlni",
+    "nameRo": ["(se) întâlni", 12],
     "nameRu": "встречать (встречаться)",
     "conjugation": {
-      "eu": "întâlnesc",
+      "eu": ["întâlnesc", 7],
       "tu": "întâlnești",
       "el": "întâlnește",
       "noi": "întâlnim",
@@ -1096,7 +1096,7 @@
   },
   {
     "id": 48,
-    "nameRo": "vizita",
+    "nameRo": ["vizita", 6],
     "nameRu": "посещать",
     "conjugation": {
       "eu": ["vizitez", 6],
@@ -1119,7 +1119,7 @@
   },
   {
     "id": 49,
-    "nameRo": "cânta",
+    "nameRo": ["cânta", 5],
     "nameRu": "петь, играть муз.инстр.",
     "conjugation": {
       "eu": "cânt",
@@ -1142,7 +1142,7 @@
   },
   {
     "id": 50,
-    "nameRo": "muri",
+    "nameRo": ["muri", 4],
     "nameRu": "умирать",
     "conjugation": {
       "eu": "mor",
@@ -1165,7 +1165,7 @@
   },
   {
     "id": 51,
-    "nameRo": "cere",
+    "nameRo": ["cere", 2],
     "nameRu": "просить",
     "conjugation": {
       "eu": "cer",
@@ -1418,7 +1418,7 @@
   },
   {
     "id": 62,
-    "nameRo": "purta",
+    "nameRo": ["purta", 5],
     "nameRu": "носить (одежду,обувь,оружие,волосы,имя...)",
     "conjugation": {
       "eu": "port",
@@ -1464,7 +1464,7 @@
   },
   {
     "id": 64,
-    "nameRo": "(se) mișca",
+    "nameRo": ["(se) mișca", 10],
     "nameRu": "двигать (шевелиться, двигаться)",
     "conjugation": {
       "eu": "mișc",
@@ -1487,7 +1487,7 @@
   },
   {
     "id": 65,
-    "nameRo": "spera",
+    "nameRo": ["spera", 5],
     "nameRu": "надеяться",
     "conjugation": {
       "eu": "sper",
@@ -1786,10 +1786,10 @@
   },
   {
     "id": 78,
-    "nameRo": "aprinde",
+    "nameRo": ["aprinde", 4],
     "nameRu": "включать, зажигать свет, огонь",
     "conjugation": {
-      "eu": "aprind",
+      "eu": ["aprind", 4],
       "tu": "aprinzi",
       "el": "aprinde",
       "noi": "aprindem",
@@ -1855,10 +1855,10 @@
   },
   {
     "id": 80,
-    "nameRo": "închide",
+    "nameRo": ["închide", 5],
     "nameRu": "закрывать",
     "conjugation": {
-      "eu": "închid",
+      "eu": ["închid", 5],
       "tu": "închizi",
       "el": "închide",
       "noi": "închidem",
@@ -1904,7 +1904,7 @@
     "nameRo": ["închiria", 8],
     "nameRu": "снимать, арендовать",
     "conjugation": {
-      "eu": "închiriez",
+      "eu": ["închiriez", 8],
       "tu": "închiriezi",
       "el": "închiriază",
       "noi": "închiriem",
@@ -1927,7 +1927,7 @@
     "nameRo": ["deranja", 7],
     "nameRu": "беспокоить, волновать (кого-то)",
     "conjugation": {
-      "eu": "deranjez",
+      "eu": ["deranjez", 7],
       "tu": "deranjezi",
       "el": "deranjează",
       "noi": "deranjăm",
@@ -1947,10 +1947,10 @@
   },
   {
     "id": 84,
-    "nameRo": "odihni",
+    "nameRo": ["odihni", 6],
     "nameRu": "отдыхать",
     "conjugation": {
-      "eu": "odihnesc",
+      "eu": ["odihnesc", 6],
       "tu": "odihnești",
       "el": "odihnește",
       "noi": "odihnim",
@@ -1993,10 +1993,10 @@
   },
   {
     "id": 86,
-    "nameRo": "călători",
+    "nameRo": ["călători", 8],
     "nameRu": "путешествовать",
     "conjugation": {
-      "eu": "călătoresc",
+      "eu": ["călătoresc", 8],
       "tu": "călătorești",
       "el": "călătorește",
       "noi": "călătorim",
@@ -2016,10 +2016,10 @@
   },
   {
     "id": 87,
-    "nameRo": "căsători",
+    "nameRo": ["căsători", 8],
     "nameRu": "жениться, выходить замуж",
     "conjugation": {
-      "eu": "căsătoresc",
+      "eu": ["căsătoresc", 8],
       "tu": "căsătorești",
       "el": "căsătorește",
       "noi": "căsătorim",
