@@ -8,7 +8,7 @@ import "./App.css";
 const Header: React.FC<{ darkMode: boolean }> = ({ darkMode }) => {
   return (
     <div className="App-header">
-      <div>Тренажер румынских глаголов</div>
+      <div>Тренажер румунських дієслів</div>
       {false && (
         <IconButton>
           {darkMode ? <DarkModeIcon /> : <LightModeIcon />}

@@ -1808,29 +1808,6 @@
     "impP": "aprindeți"
   },
   {
-    "id": 78,
-    "nameRo": ["conduce", 5],
-    "nameRu": "вести (машину), руководить",
-    "conjugation": {
-      "eu": ["conduc", 5],
-      "tu": "conduci",
-      "el": "conduce",
-      "noi": "conducem",
-      "voi": "conduceți",
-      "ei": "conduc",
-
-      "eu1": "conduc",
-      "tu1": "conduci",
-      "el1": "conducă",
-      "noi1": "conducem",
-      "voi1": "conduceți",
-      "ei1": "conducă"
-    },
-    "participle": "condus",
-    "impS": "condu",
-    "impP": "conduceți"
-  },
-  {
     "id": 79,
     "nameRo": ["adăuga", 6],
     "nameRu": "добавлять",
@@ -2703,5 +2680,166 @@
     "participle": "ridicat",
     "impS": "ridică",
     "impP": "ridicați"
+  },
+  {
+    "id": 117,
+    "nameRo": ["(se) plimba", 11],
+    "nameRu": "выгуливать (прогуливаться, гулять)",
+    "conjugation": {
+      "eu": ["plimb", 3],
+      "tu": "plimbi",
+      "el": "plimbă",
+      "noi": "plimbăm",
+      "voi": "plimbați",
+      "ei": "plimbă",
+
+      "eu1": "plimb",
+      "tu1": "plimbi",
+      "el1": "plimbe",
+      "noi1": "plimbăm",
+      "voi1": "plimbați",
+      "ei1": "plimbe"
+    },
+    "participle": "plimbat",
+    "impS": "plimbă",
+    "impP": "plimbați"
+  },
+  {
+    "id": 118,
+    "nameRo": ["proteja", 7],
+    "nameRu": "защищать",
+    "conjugation": {
+      "eu": ["protejez", 7],
+      "tu": "protejezi",
+      "el": "protejează",
+      "noi": "protejăm",
+      "voi": "protejați",
+      "ei": "protejează",
+
+      "eu1": "protejez",
+      "tu1": "protejezi",
+      "el1": "protejeze",
+      "noi1": "protejăm",
+      "voi1": "protejați",
+      "ei1": "protejeze"
+    },
+    "participle": "protejat",
+    "impS": "protejează",
+    "impP": "protejați"
+  },
+  {
+    "id": 119,
+    "nameRo": ["rupe", 2],
+    "nameRu": "сломать, переломать, переломить",
+    "conjugation": {
+      "eu": ["rup", 2],
+      "tu": "rupi",
+      "el": "rupe",
+      "noi": "rupem",
+      "voi": "rupeți",
+      "ei": "rup",
+
+      "eu1": "rup",
+      "tu1": "rupi",
+      "el1": "rupă",
+      "noi1": "rupem",
+      "voi1": "rupeți",
+      "ei1": "rupă"
+    },
+    "participle": "rupt",
+    "impS": "rupe",
+    "impP": "rupeți"
+  },
+  {
+    "id": 120,
+    "nameRo": ["salva", 5],
+    "nameRu": "спасать",
+    "conjugation": {
+      "eu": ["salvez", 5],
+      "tu": "salvezi",
+      "el": "salvează",
+      "noi": "salvăm",
+      "voi": "salvați",
+      "ei": "salvează",
+
+      "eu1": "salvez",
+      "tu1": "salvezi",
+      "el1": "salveze",
+      "noi1": "salvăm",
+      "voi1": "salvați",
+      "ei1": "salveze"
+    },
+    "participle": "salvat",
+    "impS": "salvează",
+    "impP": "salvați"
+  },
+  {
+    "id": 121,
+    "nameRo": ["reuși", 5],
+    "nameRu": "удаться, получиться, преуспеть, справиться",
+    "conjugation": {
+      "eu": ["reușesc", 5],
+      "tu": "reușești",
+      "el": "reușește",
+      "noi": "reușim",
+      "voi": "reușiți",
+      "ei": "reușesc",
+
+      "eu1": "reușesc",
+      "tu1": "reușești",
+      "el1": "reușească",
+      "noi1": "reușim",
+      "voi1": "reușiți",
+      "ei1": "reușească"
+    },
+    "participle": "reușit",
+    "impS": "reușește",
+    "impP": "reușiți"
+  },
+  {
+    "id": 122,
+    "nameRo": ["conduce", 5],
+    "nameRu": "вести (машину), руководить",
+    "conjugation": {
+      "eu": ["conduc", 5],
+      "tu": "conduci",
+      "el": "conduce",
+      "noi": "conducem",
+      "voi": "conduceți",
+      "ei": "conduc",
+
+      "eu1": "conduc",
+      "tu1": "conduci",
+      "el1": "conducă",
+      "noi1": "conducem",
+      "voi1": "conduceți",
+      "ei1": "conducă"
+    },
+    "participle": "condus",
+    "impS": "condu",
+    "impP": "conduceți"
+  },
+  {
+    "id": 123,
+    "nameRo": ["scădea", 5],
+    "nameRu": "понижаться, уменьшаться",
+    "conjugation": {
+      "eu": ["scad", 3],
+      "tu": "scazi",
+      "el": "scade",
+      "noi": "scădem",
+      "voi": "scădeți",
+      "ei": "scad",
+
+      "eu1": "scad",
+      "tu1": "scazi",
+      "el1": "scadă",
+      "noi1": "scădem",
+      "voi1": "scădeți",
+      "ei1": "scadă"
+    },
+    "participle": "scăzut",
+    "impS": "scazi",
+    "impP": "scădeți"
   }
 ]
