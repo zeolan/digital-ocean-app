@@ -72,7 +72,7 @@ const Verb: React.FC<VerbProps> = ({ verb, onNextClick, onConjClick }) => {
   const [localNameRu, setLocalNameRu] = useState<string>("");
   const { id, nameRo, nameRu } = verb;
   const tooltipText =
-    "Нажмите на ГЛАГОЛ чтобы посмотреть перевод. Посмотреть спряжение глагола - нажмите СПРЯЖЕНИЕ. Перейти к след. глаголу - нажмите ДАЛЬШЕ";
+    "Натисніть на дієслово щоб подивитись переклад. Натисніть ВІДМІНЮВАННЯ щоб подивитися відмінювання дієслова. Натисніть ДАЛІ щоб перейти до наступного дієслова";
   const hideTooltip = sessionStorage.getItem("tooltip");
 
   useEffect(() => {
@@ -213,7 +213,7 @@ const Verb: React.FC<VerbProps> = ({ verb, onNextClick, onConjClick }) => {
               onConjClick();
             }}
           >
-            Спряжение
+            ВІДМІНЮВАННЯ
           </Button>
         </div>
         <div>
@@ -225,7 +225,7 @@ const Verb: React.FC<VerbProps> = ({ verb, onNextClick, onConjClick }) => {
               onNextClick();
             }}
           >
-            Дальше
+            ДАЛІ
           </Button>
         </div>
       </div>

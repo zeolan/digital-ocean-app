@@ -179,7 +179,7 @@
   {
     "id": 8,
     "nameRo": ["sta", 3],
-    "nameRu": "стоять, оставаться, находиться",
+    "nameRu": "стоять, оставаться, находиться? пребывать",
     "conjugation": {
       "eu": ["stau", 3],
       "tu": "stai",
@@ -201,7 +201,7 @@
   {
     "id": 9,
     "nameRo": ["ști", 3],
-    "nameRu": "знать",
+    "nameRu": "знать, уметь",
     "conjugation": {
       "eu": ["știu", 3],
       "tu": "știi",
@@ -752,7 +752,7 @@
   {
     "id": 33,
     "nameRo": ["saluta", 6],
-    "nameRu": "приветствовать",
+    "nameRu": "приветствовать, передавать привет",
     "conjugation": {
       "eu": ["salut", 4],
       "tu": "saluți",
@@ -775,7 +775,7 @@
   {
     "id": 34,
     "nameRo": ["scrie", 4],
-    "nameRu": "писать",
+    "nameRu": "писатьб записывать",
     "conjugation": {
       "eu": ["scriu", 4],
       "tu": "scrii",
@@ -1281,7 +1281,7 @@
   {
     "id": 56,
     "nameRo": ["(se) spăla", 10],
-    "nameRu": "мыть (мыться)",
+    "nameRu": "мыть (мыться), помыть",
     "conjugation": {
       "eu": ["spăl", 3],
       "tu": "speli",
@@ -1350,7 +1350,7 @@
   {
     "id": 59,
     "nameRo": ["schimba", 7],
-    "nameRu": "менять, обменивать",
+    "nameRu": "менять, обменивать, поменять, изменить",
     "conjugation": {
       "eu": ["schimb", 4],
       "tu": "schimbi",
@@ -1556,8 +1556,8 @@
   },
   {
     "id": 68,
-    "nameRo": ["strica", 6],
-    "nameRu": "ломать",
+    "nameRo": ["(se) strica", 11],
+    "nameRu": "ломать (ломаться), приходить в негодность",
     "conjugation": {
       "eu": "stric",
       "tu": "strici",
@@ -1626,7 +1626,7 @@
   {
     "id": 71,
     "nameRo": ["simți", 5],
-    "nameRu": "чувствовать",
+    "nameRu": "чувствовать, ощущать",
     "conjugation": {
       "eu": "simt",
       "tu": "simți",
@@ -2500,30 +2500,7 @@
   {
     "id": 108,
     "nameRo": ["distruge", 6],
-    "nameRu": "разрушать",
-    "conjugation": {
-      "eu": ["distrug", 6],
-      "tu": "distrugi",
-      "el": "distruge",
-      "noi": "distrugem",
-      "voi": "distrugeți",
-      "ei": "distrug",
-
-      "eu1": "distrug",
-      "tu1": "distrugi",
-      "el1": "distrugă",
-      "noi1": "distrugem",
-      "voi1": "distrugeți",
-      "ei1": "distrugă"
-    },
-    "participle": "distrus",
-    "impS": "distruge",
-    "impP": "distrugeți"
-  },
-  {
-    "id": 108,
-    "nameRo": ["distruge", 6],
-    "nameRu": "разрушать",
+    "nameRu": "разрушать, разрушить",
     "conjugation": {
       "eu": ["distrug", 6],
       "tu": "distrugi",
@@ -2588,5 +2565,143 @@
     "participle": "urât",
     "impS": "urăște",
     "impP": "urâți"
+  },
+  {
+    "id": 111,
+    "nameRo": ["(se) întoarce", 5],
+    "nameRu": "возвращать (возвращаться)",
+    "conjugation": {
+      "eu": ["întorc", 4],
+      "tu": "întorci",
+      "el": "întoarce",
+      "noi": "întoarcem",
+      "voi": "întoarceți",
+      "ei": "întorc",
+
+      "eu1": "întorc",
+      "tu1": "întorci",
+      "el1": "întoarcă",
+      "noi1": "întoarcem",
+      "voi1": "întoarceți",
+      "ei1": "întoarcă"
+    },
+    "participle": "întors",
+    "impS": "întoarce",
+    "impP": "întoarceți"
+  },
+  {
+    "id": 112,
+    "nameRo": ["fura", 4],
+    "nameRu": "красть, украсть, воровать",
+    "conjugation": {
+      "eu": ["fur", 2],
+      "tu": "furi",
+      "el": "fură",
+      "noi": "furăm",
+      "voi": "furați",
+      "ei": "fură",
+
+      "eu1": "fur",
+      "tu1": "furi",
+      "el1": "fure",
+      "noi1": "furăm",
+      "voi1": "furați",
+      "ei1": "fure"
+    },
+    "participle": "furat",
+    "impS": "fură",
+    "impP": "furați"
+  },
+  {
+    "id": 113,
+    "nameRo": ["muta", 4],
+    "nameRu": "переехать, сменить место, изменить",
+    "conjugation": {
+      "eu": ["mut", 2],
+      "tu": "muți",
+      "el": "mută",
+      "noi": "mutăm",
+      "voi": "mutați",
+      "ei": "mută",
+
+      "eu1": "mut",
+      "tu1": "muți",
+      "el1": "mute",
+      "noi1": "mutăm",
+      "voi1": "mutați",
+      "ei1": "mute"
+    },
+    "participle": "mutat",
+    "impS": "mută",
+    "impP": "mutați"
+  },
+  {
+    "id": 114,
+    "nameRo": ["șterge", 3],
+    "nameRu": "стереть, вытереть, протереть",
+    "conjugation": {
+      "eu": ["șterg", 3],
+      "tu": "ștergi",
+      "el": "șterge",
+      "noi": "ștergem",
+      "voi": "ștergeți",
+      "ei": "șterg",
+
+      "eu1": "șterg",
+      "tu1": "ștergi",
+      "el1": "șteargă",
+      "noi1": "ștergem",
+      "voi1": "ștergeți",
+      "ei1": "șteargă"
+    },
+    "participle": "șters",
+    "impS": "șterge",
+    "impP": "ștergeți"
+  },
+  {
+    "id": 115,
+    "nameRo": ["lipsi", 5],
+    "nameRu": "отсутствовать, не хватать",
+    "conjugation": {
+      "eu": ["lipsesc", 5],
+      "tu": "lipsești",
+      "el": "lipsește",
+      "noi": "lipsim",
+      "voi": "lipsiți",
+      "ei": "lipsesc",
+
+      "eu1": "lipsesc",
+      "tu1": "lipsești",
+      "el1": "lipsească",
+      "noi1": "lipsim",
+      "voi1": "lipsiți",
+      "ei1": "lipsească"
+    },
+    "participle": "lipsit",
+    "impS": "lipsește",
+    "impP": "lipsiți"
+  },
+  {
+    "id": 116,
+    "nameRo": ["(se) ridica", 11],
+    "nameRu": "поднимать (подниматься)",
+    "conjugation": {
+      "eu": ["ridic", 4],
+      "tu": "ridici",
+      "el": "ridică",
+      "noi": "ridicăm",
+      "voi": "ridicați",
+      "ei": "ridică",
+
+      "eu1": "ridic",
+      "tu1": "ridici",
+      "el1": "ridice",
+      "noi1": "ridicăm",
+      "voi1": "ridicați",
+      "ei1": "ridice"
+    },
+    "participle": "ridicat",
+    "impS": "ridică",
+    "impP": "ridicați"
   }
 ]
