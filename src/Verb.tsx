@@ -53,13 +53,14 @@ interface VerbProps {
 }
 
 const LightTooltip = styled(({ className, ...props }: TooltipProps) => (
-  <Tooltip {...props} classes={{ popper: className }} />
+  <Tooltip {...props} classes={{ popper: className }} arrow />
 ))(({ theme }) => ({
   [`& .${tooltipClasses.tooltip}`]: {
     //backgroundColor: theme.palette.common.white,
     //color: "rgba(0, 0, 0, 0.87)",
     boxShadow: theme.shadows[1],
     fontSize: 20,
+    maxWidth: "none",
   },
 }));
 
@@ -181,12 +182,7 @@ const Verb: React.FC<VerbProps> = ({ verb, onNextClick, onConjClick }) => {
             rotated: lang === Lang.ru,
           })}
         >
-          <LightTooltip
-            title={tooltipText}
-            placement="top"
-            open={tooltipOpen}
-            arrow
-          >
+          <LightTooltip title={tooltipText} placement="top" open={tooltipOpen}>
             <CapButton variant="contained" onClick={translate}>
               {getNameRo()}
             </CapButton>
