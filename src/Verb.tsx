@@ -59,8 +59,10 @@ const LightTooltip = styled(({ className, ...props }: TooltipProps) => (
     //backgroundColor: theme.palette.common.white,
     //color: "rgba(0, 0, 0, 0.87)",
     boxShadow: theme.shadows[1],
-    fontSize: 20,
-    maxWidth: "none",
+    fontSize: 18,
+    maxWidth: "98%",
+    marginRight: "1%",
+    marginLeft: "1%",
   },
 }));
 
@@ -72,8 +74,10 @@ const Verb: React.FC<VerbProps> = ({ verb, onNextClick, onConjClick }) => {
   const [tooltipOpen, setTooltipOpen] = useState<boolean>(false);
   const [localNameRu, setLocalNameRu] = useState<string>("");
   const { id, nameRo, nameRu } = verb;
-  const tooltipText =
-    "Натисніть на дієслово щоб подивитись переклад. Натисніть ВІДМІНЮВАННЯ щоб подивитися відмінювання дієслова. Натисніть ДАЛІ щоб перейти до наступного дієслова";
+  const tooltipText = `Натисніть на дієслово щоб подивитись переклад.
+     Натисніть ВІДМІНЮВАННЯ щоб подивитися відмінювання дієслова.
+     Натисніть ДАЛІ щоб перейти до наступного дієслова.
+     Наголос в дієслові позначається рисочкою над буквою`;
   const hideTooltip = sessionStorage.getItem("tooltip");
 
   useEffect(() => {

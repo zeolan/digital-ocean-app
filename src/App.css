@@ -88,7 +88,7 @@
   position: absolute;
   backface-visibility: hidden;
   transform: rotateX(0deg);
-  transition: transform 1s 0s;
+  transition: transform 0.8s 0s;
 }
 .App-animate1.rotated {
   transform: rotateX(180deg);
@@ -102,7 +102,7 @@
   position: absolute;
   backface-visibility: hidden;
   transform: rotateX(-180deg);
-  transition: transform 1s 0s;
+  transition: transform 0.8s 0s;
 }
 
 .App-animate2.rotated {
