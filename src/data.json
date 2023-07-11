@@ -2956,5 +2956,143 @@
     "participle": "bătut",
     "impS": "bate",
     "impP": "bateți"
+  },
+  {
+    "id": 129,
+    "nameRo": ["semna", 5],
+    "nameRu": "подписывать, подписать",
+    "conjugation": {
+      "eu": ["semnez", 5],
+      "tu": "semnezi",
+      "el": "semnează",
+      "noi": "semnăm",
+      "voi": "semnați",
+      "ei": "semnează",
+
+      "eu1": "semnez",
+      "tu1": "semnezi",
+      "el1": "semneze",
+      "noi1": "semnăm",
+      "voi1": "semnați",
+      "ei1": "semneze"
+    },
+    "participle": "semnat",
+    "impS": "semnează",
+    "impP": "semnați"
+  },
+  {
+    "id": 130,
+    "nameRo": ["urma", 4],
+    "nameRu": "(по)следовать, идти за кем/чем",
+    "conjugation": {
+      "eu": ["urmez", 4],
+      "tu": "urmezi",
+      "el": "urmează",
+      "noi": "urmăm",
+      "voi": "urmați",
+      "ei": "urmează",
+
+      "eu1": "urmez",
+      "tu1": "urmezi",
+      "el1": "urmeze",
+      "noi1": "urmăm",
+      "voi1": "urmați",
+      "ei1": "urmeze"
+    },
+    "participle": "urmat",
+    "impS": "urmează",
+    "impP": "urmați"
+  },
+  {
+    "id": 131,
+    "nameRo": ["tăia", 4],
+    "nameRu": "резать, нарезать",
+    "conjugation": {
+      "eu": ["tai", 2],
+      "tu": "tai",
+      "el": "taie",
+      "noi": "tăiem",
+      "voi": "tăiați",
+      "ei": "taie",
+
+      "eu1": "tai",
+      "tu1": "tai",
+      "el1": "taie",
+      "noi1": "tăiem",
+      "voi1": "tăiați",
+      "ei1": "taie"
+    },
+    "participle": "tăiat",
+    "impS": "taie",
+    "impP": "tăiați"
+  },
+  {
+    "id": 132,
+    "nameRo": ["(se) teme", 7],
+    "nameRu": "бояться, опасаться кого/чего",
+    "conjugation": {
+      "eu": ["tem", 2],
+      "tu": "temi",
+      "el": "teme",
+      "noi": "temem",
+      "voi": "temeți",
+      "ei": "tem",
+
+      "eu1": "tem",
+      "tu1": "temi",
+      "el1": "teamă",
+      "noi1": "temem",
+      "voi1": "temeți",
+      "ei1": "teamă"
+    },
+    "participle": "temut",
+    "impS": "teme",
+    "impP": "temeți"
+  },
+  {
+    "id": 133,
+    "nameRo": ["(se) umple", 6],
+    "nameRu": "наполнять(ся), заполнять(ся), начинить (что-то чем-то)",
+    "conjugation": {
+      "eu": ["umplu", 1],
+      "tu": "umpli",
+      "el": "umple",
+      "noi": "umplem",
+      "voi": "umpleți",
+      "ei": "umplu",
+
+      "eu1": "umplu",
+      "tu1": "umpli",
+      "el1": "umple",
+      "noi1": "umplem",
+      "voi1": "umpleți",
+      "ei1": "umple"
+    },
+    "participle": "umplut",
+    "impS": "umple",
+    "impP": "umpleți"
+  },
+  {
+    "id": 134,
+    "nameRo": ["întreba", 7],
+    "nameRu": "спрашивать",
+    "conjugation": {
+      "eu": ["întreb", 5],
+      "tu": "întrebi",
+      "el": "întreabă",
+      "noi": "întrebăm",
+      "voi": "întrebați",
+      "ei": "întreabă",
+
+      "eu1": "întreb",
+      "tu1": "întrebi",
+      "el1": "întrebe",
+      "noi1": "întrebăm",
+      "voi1": "întrebați",
+      "ei1": "întrebe"
+    },
+    "participle": "întrebat",
+    "impS": "întreabă",
+    "impP": "întrebați"
   }
 ]

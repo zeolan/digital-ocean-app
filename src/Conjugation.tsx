@@ -32,7 +32,6 @@ const Conjugation: React.FC<ConjugationProps> = ({ verb, onNextClick }) => {
       typeof nameRo[1] === "number"
     ) {
       const name = (nameRo[0] as String).split("");
-      console.log(name);
       let key = 1;
       const result = name.map((item: string) => {
         return key !== nameRo[1] ? (

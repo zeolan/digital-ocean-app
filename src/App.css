@@ -78,6 +78,14 @@
 
 .App-verb2 button {
   font-size: 14px;
+  border: 1px solid #1976d2;
+}
+
+.App-verb2 button:first-of-type {
+  margin-right: 10px;
+}
+.App-verb2 button:last-of-type {
+  margin-left: 10px;
 }
 
 .App-animate1 {
