@@ -2841,5 +2841,120 @@
     "participle": "scăzut",
     "impS": "scazi",
     "impP": "scădeți"
+  },
+  {
+    "id": 124,
+    "nameRo": ["săruta", 6],
+    "nameRu": "целовать",
+    "conjugation": {
+      "eu": ["sărut", 4],
+      "tu": "săruți",
+      "el": "sărută",
+      "noi": "sărutăm",
+      "voi": "sărutați",
+      "ei": "sărută",
+
+      "eu1": "sărut",
+      "tu1": "săruți",
+      "el1": "sărute",
+      "noi1": "sărutăm",
+      "voi1": "sărutați",
+      "ei1": "sărute"
+    },
+    "participle": "sărutat",
+    "impS": "sărută",
+    "impP": "sărutați"
+  },
+  {
+    "id": 125,
+    "nameRo": ["propune", 5],
+    "nameRu": "предлагать",
+    "conjugation": {
+      "eu": ["propun", 5],
+      "tu": "propui",
+      "el": "propune",
+      "noi": "propunem",
+      "voi": "propuneți",
+      "ei": "propun",
+
+      "eu1": "propun",
+      "tu1": "propui",
+      "el1": "propună",
+      "noi1": "propunem",
+      "voi1": "propuneți",
+      "ei1": "propună"
+    },
+    "participle": "propus",
+    "impS": "propune",
+    "impP": "propuneți"
+  },
+  {
+    "id": 126,
+    "nameRo": ["(se) pricepe", 10],
+    "nameRu": "понимать, постигать, разбираться, преуспеть в чем-то",
+    "conjugation": {
+      "eu": ["pricep", 5],
+      "tu": "pricepi",
+      "el": "pricepe",
+      "noi": "pricepem",
+      "voi": "pricepeți",
+      "ei": "pricep",
+
+      "eu1": "pricep",
+      "tu1": "pricepi",
+      "el1": "priceapă",
+      "noi1": "pricepem",
+      "voi1": "pricepeți",
+      "ei1": "priceapă"
+    },
+    "participle": "priceput",
+    "impS": "pricepe",
+    "impP": "pricepeți"
+  },
+  {
+    "id": 127,
+    "nameRo": ["prinde", 3],
+    "nameRu": "хватать, схватить, поймать, успеть",
+    "conjugation": {
+      "eu": ["prind", 3],
+      "tu": "prinzi",
+      "el": "prinde",
+      "noi": "prindem",
+      "voi": "prindeți",
+      "ei": "prind",
+
+      "eu1": "prind",
+      "tu1": "prinzi",
+      "el1": "prindă",
+      "noi1": "prindem",
+      "voi1": "prindeți",
+      "ei1": "prindă"
+    },
+    "participle": "prins",
+    "impS": "prinde",
+    "impP": "prindeți"
+  },
+  {
+    "id": 128,
+    "nameRo": ["(se) bate", 7],
+    "nameRu": "ударять(ся), бить, побить (рекорд, выиграть)",
+    "conjugation": {
+      "eu": ["bat", 2],
+      "tu": "bați",
+      "el": "bate",
+      "noi": "batem",
+      "voi": "bateți",
+      "ei": "bat",
+
+      "eu1": "bat",
+      "tu1": "bați",
+      "el1": "bată",
+      "noi1": "batem",
+      "voi1": "bateți",
+      "ei1": "bată"
+    },
+    "participle": "bătut",
+    "impS": "bate",
+    "impP": "bateți"
   }
 ]

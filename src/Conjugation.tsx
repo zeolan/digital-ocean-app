@@ -159,7 +159,7 @@ const Conjugation: React.FC<ConjugationProps> = ({ verb, onNextClick }) => {
       </div>
       <div>
         <Button variant={"contained"} onClick={onNextClick}>
-          Дальше
+          Далі
         </Button>
       </div>
     </div>
