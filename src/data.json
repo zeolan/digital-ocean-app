@@ -775,7 +775,7 @@
   {
     "id": 34,
     "nameRo": ["scrie", 4],
-    "nameRu": "писатьб записывать",
+    "nameRu": "писать, записывать",
     "conjugation": {
       "eu": ["scriu", 4],
       "tu": "scrii",
@@ -1901,8 +1901,8 @@
   },
   {
     "id": 83,
-    "nameRo": ["deranja", 7],
-    "nameRu": "беспокоить, волновать (кого-то)",
+    "nameRo": ["(se) deranja", 5],
+    "nameRu": "беспокоить(-ся), волновать (кого-то)",
     "conjugation": {
       "eu": ["deranjez", 7],
       "tu": "deranjezi",
@@ -3094,5 +3094,51 @@
     "participle": "întrebat",
     "impS": "întreabă",
     "impP": "întrebați"
+  },
+  {
+    "id": 135,
+    "nameRo": ["pescui", 6],
+    "nameRu": "рыбачить, ловить рыбу, вылавливать кого/что",
+    "conjugation": {
+      "eu": ["pescuiesc", 7],
+      "tu": "pescuiești",
+      "el": "pescuiește",
+      "noi": "pescuim",
+      "voi": "pescuiți",
+      "ei": "pescuiesc",
+
+      "eu1": "pescuiesc",
+      "tu1": "pescuiești",
+      "el1": "pescuiască",
+      "noi1": "pescuim",
+      "voi1": "pescuiți",
+      "ei1": "pescuiască"
+    },
+    "participle": "pescui",
+    "impS": "pescuiește",
+    "impP": "pescuiți"
+  },
+  {
+    "id": 136,
+    "nameRo": ["strădui", 7],
+    "nameRu": "стараться, пытаться",
+    "conjugation": {
+      "eu": ["străduiesc", 7],
+      "tu": "străduiești",
+      "el": "străduiește",
+      "noi": "străduim",
+      "voi": "străduiți",
+      "ei": "străduiesc",
+
+      "eu1": "străduiesc",
+      "tu1": "străduiești",
+      "el1": "străduiască",
+      "noi1": "străduim",
+      "voi1": "străduiți",
+      "ei1": "străduiască"
+    },
+    "participle": "străduit",
+    "impS": "străduiește",
+    "impP": "străduiți"
   }
 ]
