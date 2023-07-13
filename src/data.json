@@ -245,10 +245,10 @@
   },
   {
     "id": 11,
-    "nameRo": ["vrea", 3],
+    "nameRo": ["vrea", 4],
     "nameRu": "хотеть",
     "conjugation": {
-      "eu": ["vreau", 3],
+      "eu": ["vreau", 4],
       "tu": "vrei",
       "el": "vrea",
       "noi": "vrem",
@@ -1510,10 +1510,10 @@
   },
   {
     "id": 66,
-    "nameRo": ["cădea", 4],
+    "nameRo": ["cădea", 5],
     "nameRu": "падать",
     "conjugation": {
-      "eu": "cad",
+      "eu": ["cad", 2],
       "tu": "cazi",
       "el": "cade",
       "noi": "cădem",
