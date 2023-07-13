@@ -137,7 +137,7 @@
     "nameRo": ["face", 2],
     "nameRu": "делать",
     "conjugation": {
-      "eu": "fac",
+      "eu": ["fac", 2],
       "tu": "faci",
       "el": "face",
       "noi": "facem",
@@ -685,7 +685,7 @@
     "nameRo": ["spune", 3],
     "nameRu": "сказать, говорить",
     "conjugation": {
-      "eu": ["spun", 2],
+      "eu": ["spun", 3],
       "tu": "spui",
       "el": "spune",
       "noi": "spunem",
@@ -1467,7 +1467,7 @@
     "nameRo": ["(se) mișca", 10],
     "nameRu": "двигать (шевелиться, двигаться)",
     "conjugation": {
-      "eu": "mișc",
+      "eu": ["mișc", 2],
       "tu": "miști",
       "el": "mișcă",
       "noi": "mișcăm",
@@ -1490,7 +1490,7 @@
     "nameRo": ["spera", 5],
     "nameRu": "надеяться",
     "conjugation": {
-      "eu": "sper",
+      "eu": ["sper", 3],
       "tu": "speri",
       "el": "speră",
       "noi": "sperăm",
@@ -1536,7 +1536,7 @@
     "nameRo": ["plânge", 3],
     "nameRu": "плакать",
     "conjugation": {
-      "eu": "plâng",
+      "eu": ["plâng", 3],
       "tu": "plângi",
       "el": "plânge",
       "noi": "plângem",
@@ -2042,7 +2042,7 @@
     "nameRo": ["(se) gândi", 10],
     "nameRu": "думать",
     "conjugation": {
-      "eu": "gândesc",
+      "eu": ["gândesc", 5],
       "tu": "gândești",
       "el": "gândește",
       "noi": "gândim",
@@ -2111,7 +2111,7 @@
     "nameRo": ["(se) culca", 10],
     "nameRu": "класть, (ложиться в кровать)",
     "conjugation": {
-      "eu": "culc",
+      "eu": ["culc", 2],
       "tu": "culci",
       "el": "culcă",
       "noi": "culcăm",

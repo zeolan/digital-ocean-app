@@ -29,7 +29,7 @@ function App() {
   const onNextVerb = () => {
     let verbId = 0;
     let cnt = 0;
-    while (cnt < numberOfVerbs * 30) {
+    while (cnt < numberOfVerbs * 50) {
       verbId = (Math.random() * (numberOfVerbs - 1)).toFixed(0).toString();
       if (!locStorage.includes(verbId)) {
         locStorage.push(verbId);
@@ -37,7 +37,7 @@ function App() {
       }
       cnt++;
     }
-    if (cnt >= numberOfVerbs * 30) {
+    if (cnt >= numberOfVerbs * 50) {
       locStorage = [verbId];
     }
 
