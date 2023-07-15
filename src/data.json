@@ -636,7 +636,7 @@
   },
   {
     "id": 28,
-    "nameRo": ["răspunde", 8],
+    "nameRo": ["răspunde", 5],
     "nameRu": "отвечать",
     "conjugation": {
       "eu": ["răspund", 5],
@@ -1855,10 +1855,10 @@
   },
   {
     "id": 81,
-    "nameRo": ["stinge", 6],
+    "nameRo": ["stinge", 3],
     "nameRu": "выключать, тушить свет, огонь",
     "conjugation": {
-      "eu": "sting",
+      "eu": ["sting", 3],
       "tu": "stingi",
       "el": "stinge",
       "noi": "stingem",
@@ -2477,7 +2477,7 @@
   {
     "id": 108,
     "nameRo": ["distruge", 6],
-    "nameRu": "разрушать, разрушить",
+    "nameRu": "разрушать, разрушить, уничтожить",
     "conjugation": {
       "eu": ["distrug", 6],
       "tu": "distrugi",
@@ -3140,5 +3140,281 @@
     "participle": "străduit",
     "impS": "străduiește",
     "impP": "străduiți"
+  },
+  {
+    "id": 137,
+    "nameRo": ["insista", 7],
+    "nameRu": "наставивать (на чем-то)",
+    "conjugation": {
+      "eu": ["insist", 4],
+      "tu": "insiști",
+      "el": "insistă",
+      "noi": "insistăm",
+      "voi": "insistați",
+      "ei": "insistă",
+
+      "eu1": "insist",
+      "tu1": "insiști",
+      "el1": "insiste",
+      "noi1": "insistăm",
+      "voi1": "insistați",
+      "ei1": "insiste"
+    },
+    "participle": "insistat",
+    "impS": "insistă",
+    "impP": "insistați"
+  },
+  {
+    "id": 138,
+    "nameRo": ["înota", 5],
+    "nameRu": "плавать",
+    "conjugation": {
+      "eu": ["înot", 3],
+      "tu": "înoți",
+      "el": "înoată",
+      "noi": "înotăm",
+      "voi": "înotați",
+      "ei": "înoată",
+
+      "eu1": "înot",
+      "tu1": "înoți",
+      "el1": "înoate",
+      "noi1": "înotăm",
+      "voi1": "înotați",
+      "ei1": "înoate"
+    },
+    "participle": "înotat",
+    "impS": "înoată",
+    "impP": "înotați"
+  },
+  {
+    "id": 139,
+    "nameRo": ["alerga", 6],
+    "nameRu": "бегать",
+    "conjugation": {
+      "eu": ["alerg", 3],
+      "tu": "alergi",
+      "el": "aleargă",
+      "noi": "alergăm",
+      "voi": "alergați",
+      "ei": "aleargă",
+
+      "eu1": "alerg",
+      "tu1": "alergi",
+      "el1": "alerge",
+      "noi1": "alergăm",
+      "voi1": "alergați",
+      "ei1": "alerge"
+    },
+    "participle": "alergat",
+    "impS": "aleargă",
+    "impP": "alergați"
+  },
+  {
+    "id": 140,
+    "nameRo": ["încuia", 6],
+    "nameRu": "запирать, запереть",
+    "conjugation": {
+      "eu": ["încui", 4],
+      "tu": "încui",
+      "el": "încuie",
+      "noi": "încuiem",
+      "voi": "încuiați",
+      "ei": "încuie",
+
+      "eu1": "încui",
+      "tu1": "încui",
+      "el1": "încuie",
+      "noi1": "încuiem",
+      "voi1": "încuiați",
+      "ei1": "încuie"
+    },
+    "participle": "încuiat",
+    "impS": "încuie",
+    "impP": "încuiați"
+  },
+  {
+    "id": 141,
+    "nameRo": ["desena", 6],
+    "nameRu": "(на)рисовать, (на)чертить)",
+    "conjugation": {
+      "eu": ["desenez", 6],
+      "tu": "desenezi",
+      "el": "desenează",
+      "noi": "desenăm",
+      "voi": "desenați",
+      "ei": "desenează",
+
+      "eu1": "desenez",
+      "tu1": "desenezi",
+      "el1": "deseneze",
+      "noi1": "desenăm",
+      "voi1": "desenați",
+      "ei1": "deseneze"
+    },
+    "participle": "desenat",
+    "impS": "desenează",
+    "impP": "desenați"
+  },
+  {
+    "id": 142,
+    "nameRo": ["lupta", 5],
+    "nameRu": "сражаться, биться, воевать, бороться",
+    "conjugation": {
+      "eu": ["lupt", 2],
+      "tu": "lupți",
+      "el": "luptă",
+      "noi": "luptăm",
+      "voi": "luptați",
+      "ei": "luptă",
+
+      "eu1": "lupt",
+      "tu1": "lupți",
+      "el1": "lupte",
+      "noi1": "luptăm",
+      "voi1": "luptați",
+      "ei1": "lupte"
+    },
+    "participle": "luptat",
+    "impS": "luptă",
+    "impP": "luptați"
+  },
+  {
+    "id": 143,
+    "nameRo": ["mirosi", 6],
+    "nameRu": "пахнуть, слышать запах",
+    "conjugation": {
+      "eu": ["miros", 4],
+      "tu": "miroși",
+      "el": "miroase",
+      "noi": "mirosim",
+      "voi": "mirosiți",
+      "ei": "miros",
+
+      "eu1": "miros",
+      "tu1": "miroși",
+      "el1": "miroasă",
+      "noi1": "mirosim",
+      "voi1": "mirosiți",
+      "ei1": "miroasă"
+    },
+    "participle": "mirosit",
+    "impS": "miroase",
+    "impP": "mirosiți"
+  },
+  {
+    "id": 144,
+    "nameRo": ["măsura", 6],
+    "nameRu": "мерить, измерять",
+    "conjugation": {
+      "eu": ["măsur", 2],
+      "tu": "măsuri",
+      "el": "măsură",
+      "noi": "măsurăm",
+      "voi": "măsurați",
+      "ei": "măsură",
+
+      "eu1": "măsur",
+      "tu1": "măsuri",
+      "el1": "măsure",
+      "noi1": "măsurăm",
+      "voi1": "măsurați",
+      "ei1": "măsure"
+    },
+    "participle": "măsurat",
+    "impS": "măsură",
+    "impP": "măsurați"
+  },
+  {
+    "id": 145,
+    "nameRo": ["omorî", 5],
+    "nameRu": "убивать",
+    "conjugation": {
+      "eu": ["omor", 3],
+      "tu": "omori",
+      "el": "omoară",
+      "noi": "omorâm",
+      "voi": "omorâți",
+      "ei": "omoară",
+
+      "eu1": "omor",
+      "tu1": "omori",
+      "el1": "omoare",
+      "noi1": "omorâm",
+      "voi1": "omorâți",
+      "ei1": "omoare"
+    },
+    "participle": "omorât",
+    "impS": "omoară",
+    "impP": "omorâți"
+  },
+  {
+    "id": 146,
+    "nameRo": ["cheltui", 7],
+    "nameRu": "потратить, тратить, израсходовать",
+    "conjugation": {
+      "eu": ["cheltuiesc", 8],
+      "tu": "cheltuiești",
+      "el": "cheltuiește",
+      "noi": "cheltuim",
+      "voi": "cheltuiți",
+      "ei": "cheltuiesc",
+
+      "eu1": "cheltuiesc",
+      "tu1": "cheltuiești",
+      "el1": "cheltuiască",
+      "noi1": "cheltuim",
+      "voi1": "cheltuiți",
+      "ei1": "cheltuiască"
+    },
+    "participle": "cheltuit",
+    "impS": "cheltuiește",
+    "impP": "cheltuiți"
+  },
+  {
+    "id": 147,
+    "nameRo": ["confunda", 8],
+    "nameRu": "путать, перепутать",
+    "conjugation": {
+      "eu": ["confund", 5],
+      "tu": "confunzi",
+      "el": "confundă",
+      "noi": "confundăm",
+      "voi": "confundați",
+      "ei": "confundă",
+
+      "eu1": "confund",
+      "tu1": "confunzi",
+      "el1": "confunde",
+      "noi1": "confundăm",
+      "voi1": "confundați",
+      "ei1": "confunde"
+    },
+    "participle": "confundat",
+    "impS": "confundă",
+    "impP": "confundați"
+  },
+  {
+    "id": 148,
+    "nameRo": ["funcționa", 9],
+    "nameRu": "функционировать, действовать, работать",
+    "conjugation": {
+      "eu": ["funcționez", 9],
+      "tu": "funcționezi",
+      "el": "funcționează",
+      "noi": "funcționăm",
+      "voi": "funcționați",
+      "ei": "funcționează",
+
+      "eu1": "funcționez",
+      "tu1": "funcționezi",
+      "el1": "funcționeze",
+      "noi1": "funcționăm",
+      "voi1": "funcționați",
+      "ei1": "funcționeze"
+    },
+    "participle": "funcționat",
+    "impS": "funcționează",
+    "impP": "funcționați"
   }
 ]
