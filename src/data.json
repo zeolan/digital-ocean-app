@@ -2707,7 +2707,7 @@
   {
     "id": 118,
     "nameRo": ["proteja", 7],
-    "nameRu": "защищать",
+    "nameRu": "охранять, защищать, беречь",
     "conjugation": {
       "eu": ["protejez", 7],
       "tu": "protejezi",
@@ -3236,7 +3236,7 @@
   {
     "id": 141,
     "nameRo": ["desena", 6],
-    "nameRu": "(на)рисовать, (на)чертить)",
+    "nameRu": "(на)рисовать, (на)чертить",
     "conjugation": {
       "eu": ["desenez", 6],
       "tu": "desenezi",
@@ -3305,7 +3305,7 @@
   {
     "id": 144,
     "nameRo": ["măsura", 6],
-    "nameRu": "мерить, измерять",
+    "nameRu": "мерить, измерять, померять",
     "conjugation": {
       "eu": ["măsur", 2],
       "tu": "măsuri",
@@ -3416,5 +3416,166 @@
     "participle": "funcționat",
     "impS": "funcționează",
     "impP": "funcționați"
+  },
+  {
+    "id": 149,
+    "nameRo": ["(se) apăra", 10],
+    "nameRu": "защищать(-ся), оборонять(-ся)",
+    "conjugation": {
+      "eu": ["apăr", 1],
+      "tu": "aperi",
+      "el": "apără",
+      "noi": "apărăm",
+      "voi": "apărați",
+      "ei": "apără",
+
+      "eu1": "apăr",
+      "tu1": "aperi",
+      "el1": "apere",
+      "noi1": "apărăm",
+      "voi1": "apărați",
+      "ei1": "apere"
+    },
+    "participle": "apărat",
+    "impS": "apără",
+    "impP": "apărați"
+  },
+  {
+    "id": 150,
+    "nameRo": ["se amuza", 8],
+    "nameRu": "веселиться, развлекаться",
+    "conjugation": {
+      "eu": ["amuz", 3],
+      "tu": "amuzi",
+      "el": "amuză",
+      "noi": "amuzăm",
+      "voi": "amuzați",
+      "ei": "amuză",
+
+      "eu1": "amuz",
+      "tu1": "amuzi",
+      "el1": "amuze",
+      "noi1": "amuzăm",
+      "voi1": "amuzați",
+      "ei1": "amuze"
+    },
+    "participle": "amuzat",
+    "impS": "amuză",
+    "impP": "amuzați"
+  },
+  {
+    "id": 151,
+    "nameRo": ["dovedi", 6],
+    "nameRu": "доказывать, подтверждать",
+    "conjugation": {
+      "eu": ["dovedesc", 6],
+      "tu": "dovedești",
+      "el": "dovedește",
+      "noi": "dovedim",
+      "voi": "dovediți",
+      "ei": "dovedesc",
+
+      "eu1": "dovedesc",
+      "tu1": "dovedești",
+      "el1": "dovedească",
+      "noi1": "dovedim",
+      "voi1": "dovediți",
+      "ei1": "dovedească"
+    },
+    "participle": "dovedit",
+    "impS": "dovedește",
+    "impP": "dovediți"
+  },
+  {
+    "id": 152,
+    "nameRo": ["însemna", 7],
+    "nameRu": "значить, обозначать",
+    "conjugation": {
+      "eu": ["însemn", 4],
+      "tu": "însemni",
+      "el": "înseamnă",
+      "noi": "însemnăm",
+      "voi": "însemnați",
+      "ei": "înseamnă",
+
+      "eu1": "însemn",
+      "tu1": "însemni",
+      "el1": "însemne",
+      "noi1": "însemnăm",
+      "voi1": "însemnați",
+      "ei1": "însemne"
+    },
+    "participle": "însemnat",
+    "impS": "înseamnă",
+    "impP": "însemnați"
+  },
+  {
+    "id": 153,
+    "nameRo": ["mușca", 5],
+    "nameRu": "кусать",
+    "conjugation": {
+      "eu": ["mușc", 2],
+      "tu": "muști",
+      "el": "mușcă",
+      "noi": "mușcăm",
+      "voi": "mușcați",
+      "ei": "mușcă",
+
+      "eu1": "mușc",
+      "tu1": "muști",
+      "el1": "muște",
+      "noi1": "mușcăm",
+      "voi1": "mușcați",
+      "ei1": "muște"
+    },
+    "participle": "mușcat",
+    "impS": "mușcă",
+    "impP": "mușcați"
+  },
+  {
+    "id": 154,
+    "nameRo": ["parca", 5],
+    "nameRu": "парковаться",
+    "conjugation": {
+      "eu": ["parchez", 6],
+      "tu": "parchezi",
+      "el": "parchează",
+      "noi": "parcăm",
+      "voi": "parcați",
+      "ei": "parchează",
+
+      "eu1": "parchez",
+      "tu1": "parchezi",
+      "el1": "parcheze",
+      "noi1": "parcăm",
+      "voi1": "parcați",
+      "ei1": "parcheze"
+    },
+    "participle": "parcat",
+    "impS": "parchează",
+    "impP": "parcați"
+  },
+  {
+    "id": 155,
+    "nameRo": ["săra", 4],
+    "nameRu": "солить",
+    "conjugation": {
+      "eu": ["sărez", 4],
+      "tu": "sărezi",
+      "el": "sărează",
+      "noi": "sărăm",
+      "voi": "sărați",
+      "ei": "sărează",
+
+      "eu1": "sărez",
+      "tu1": "sărezi",
+      "el1": "săreze",
+      "noi1": "sărăm",
+      "voi1": "sărați",
+      "ei1": "săreze"
+    },
+    "participle": "sărat",
+    "impS": "sărează",
+    "impP": "sărați"
   }
 ]
