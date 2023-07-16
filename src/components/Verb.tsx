@@ -101,14 +101,17 @@ const Verb: React.FC = () => {
       dispatch(setVerb(foundVerb));
     }
   };
+
   const onSearchClick = () => {
     hideTooltip();
     setShowSearchInput(true);
   };
+
   const onCancelSearchClick = () => {
     setSearchResults([]);
     setShowSearchInput(false);
   };
+
   const onListItemClick = (item: IVerb) => {
     setSearchResults([]);
     setShowSearchInput(false);
@@ -127,12 +130,10 @@ const Verb: React.FC = () => {
   };
 
   return verb ? (
-    <div className={cx("App-verb")} onClick={hideTooltip}>
+    <div className="App-verb" onClick={hideTooltip}>
       {showSearchInput ? (
         <div className={cx("App-verb-search-block")}>
           <TextField
-            id="standard-basic"
-            label=""
             variant="standard"
             autoFocus={true}
             onChange={onSearchChange}
@@ -160,17 +161,13 @@ const Verb: React.FC = () => {
         </div>
       ) : (
         <>
-          <div className={cx("App-verb1")}>
+          <div className="App-verb1">
             <div
               className={cx("button", "App-animate1", {
                 rotated: lang === Lang.ru,
               })}
             >
-              <LightTooltip
-                title={tooltipText}
-                placement="top"
-                open={tooltipOpen}
-              >
+              <LightTooltip title={tooltipText} open={tooltipOpen}>
                 <CapButton variant="contained" onClick={translate}>
                   {getNameRo()}
                 </CapButton>
@@ -187,24 +184,18 @@ const Verb: React.FC = () => {
               </CapButton>
             </div>
           </div>
-          <div className={cx("App-verb2")}>
-            <div>
-              <Button variant="text" onClick={onConjugationClick}>
-                ВІДМІНЮВАННЯ
-              </Button>
-            </div>
-            <div>
-              <Button variant={"text"} onClick={onNextClick}>
-                ДАЛІ
-              </Button>
-            </div>
+          <div className="App-verb-buttons">
+            <Button variant="text" onClick={onConjugationClick}>
+              ВІДМІНЮВАННЯ
+            </Button>
+            <Button variant="text" onClick={onNextClick}>
+              ДАЛІ
+            </Button>
           </div>
-          <div className={cx("App-verb-block1")}>
-            {!showSearchInput ? (
-              <IconButton onClick={onSearchClick}>
-                <Search fontSize="large" />
-              </IconButton>
-            ) : null}
+          <div className="App-verb-search-icon">
+            <IconButton onClick={onSearchClick}>
+              <Search fontSize="large" />
+            </IconButton>
           </div>
         </>
       )}

@@ -34,7 +34,6 @@
   height: 100%;
   position: fixed;
   z-index: 10;
-  background-color: #ffffff;
 }
 
 .App-verb-search-list {
@@ -57,37 +56,28 @@
   align-items: end;
 }
 
-.App-verb-block1 {
+.App-verb-search-icon {
   display: flex;
   flex-direction: column;
   position: relative;
   top: 20px;
 }
 
-.App-verb-block1 button {
+.App-verb-search-icon button {
   color: #1976d2;
 }
 
-.App-verb2 {
+.App-verb-buttons {
   padding-top: 20px;
-  width: 60%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
 }
 
-.App-verb2 button {
+.App-verb-buttons button {
   font-size: 14px;
   border: 1px solid #1976d2;
-}
-
-.App-verb2 button:first-of-type {
-  margin-right: 10px;
-}
-.App-verb2 button:last-of-type {
-  margin-left: 10px;
 }
 
 @media screen and (min-width: 300px) {
@@ -215,7 +205,10 @@
   padding-top: 10px;
   margin-top: auto;
 }
-
+.App-footer-author {
+  position: absolute;
+  left: 10px;
+}
 .App-footer-version {
   position: absolute;
   right: 10px;

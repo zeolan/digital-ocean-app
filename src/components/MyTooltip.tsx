@@ -4,7 +4,7 @@ import { styled } from "@mui/material/styles";
 import Tooltip, { TooltipProps, tooltipClasses } from "@mui/material/Tooltip";
 
 export const LightTooltip = styled(({ className, ...props }: TooltipProps) => (
-  <Tooltip {...props} classes={{ popper: className }} arrow />
+  <Tooltip {...props} classes={{ popper: className }} arrow placement="top" />
 ))(({ theme }) => ({
   [`& .${tooltipClasses.tooltip}`]: {
     //backgroundColor: theme.palette.common.white,

@@ -3,6 +3,7 @@ import { styled } from "@mui/material/styles";
 
 export const CapButton = styled(Button)({
   textTransform: "none",
+  //backgroundColor: "#447744",
   //fontSize: 40,
   padding: "px 12px",
   fontWeight: "normal",
@@ -23,6 +24,7 @@ export const CapButton = styled(Button)({
 
 export const LowCaseButton = styled(Button)({
   textTransform: "lowercase",
+  //color: "#444444",
   fontSize: 17,
   padding: "2px 12px",
   //lineHeight: 2.0,

@@ -1,10 +1,10 @@
 [
   {
     "id": 0,
-    "nameRo": "fi",
+    "nameRo": ["fi", 2],
     "nameRu": "быть",
     "conjugation": {
-      "eu": "sunt",
+      "eu": ["sunt", 2],
       "tu": "ești",
       "el": "este, e",
       "noi": "suntem",
@@ -1419,7 +1419,7 @@
   {
     "id": 62,
     "nameRo": ["purta", 5],
-    "nameRu": "носить (одежду,обувь,оружие,волосы,имя...)",
+    "nameRu": "носить (одежду, обувь, оружие, имя...)",
     "conjugation": {
       "eu": "port",
       "tu": "porți",
@@ -3807,5 +3807,28 @@
     "participle": "pornit",
     "impS": "pornește",
     "impP": "porniți"
+  },
+  {
+    "id": 166,
+    "nameRo": ["rămâne", 4],
+    "nameRu": "задержаться, остаться, оставаться",
+    "conjugation": {
+      "eu": ["rămân", 4],
+      "tu": "rămâi",
+      "el": "rămâne",
+      "noi": "rămânem",
+      "voi": "rămâneți",
+      "ei": "rămân",
+
+      "eu1": "rămân",
+      "tu1": "rămâi",
+      "el1": "rămână",
+      "noi1": "rămânem",
+      "voi1": "rămâneți",
+      "ei1": "rămână"
+    },
+    "participle": "rămas",
+    "impS": "rămâi",
+    "impP": "rămâneți"
   }
 ]

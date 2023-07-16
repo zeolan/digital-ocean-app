@@ -31,14 +31,10 @@ function App() {
     onNextVerb();
   }, []);
 
-  const onNextVerb = (verb) => {
-    if (verb) {
-      dispatch(setVerb(verb));
-    } else {
-      const foundVerb = getNextVerb();
-      if (foundVerb) {
-        dispatch(setVerb(foundVerb));
-      }
+  const onNextVerb = () => {
+    const foundVerb = getNextVerb();
+    if (foundVerb) {
+      dispatch(setVerb(foundVerb));
     }
   };
 
@@ -90,17 +86,12 @@ function App() {
               </Button>
             </div>
             <div>
-              <Button
-                variant={showConjugation ? "contained" : "text"}
-                onClick={onNextVerb}
-              >
+              <Button variant="contained" onClick={onNextVerb}>
                 Дальше
               </Button>
             </div>
           </div>
-        ) : (
-          <div></div>
-        )}
+        ) : null}
 
         <Footer />
       </div>
