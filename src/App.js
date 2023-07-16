@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
 
-import "./App.css";
 import { Button, Fab, IconButton } from "@mui/material";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
@@ -8,49 +8,42 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
 import data from "./data.json";
-import useLocalStorage from "./useLocalStorage";
-import Header from "./Header.tsx";
-import Footer from "./Footer.tsx";
-import Verb from "./Verb.tsx";
-import Conjugation from "./Conjugation.tsx";
+import { getNextVerb } from "./utils";
+import {
+  getShowConjugation,
+  setShowConjugation,
+  getVerb,
+  setVerb,
+} from "./store/appSlice.ts";
+import Header from "./components/Header.tsx";
+import Footer from "./components/Footer.tsx";
+import Verb from "./components/Verb.tsx";
+import Conjugation from "./components/Conjugation.tsx";
+import "./App.css";
 
 function App() {
-  const [verb, setVerb] = useState({ conjugation: {} });
-  const [showConjugation, setShowConjugation] = useState(false);
-  let locStorage = useLocalStorage();
-  const numberOfVerbs = data.length;
-  localStorage.setItem("numberOfVerbs", JSON.stringify(numberOfVerbs));
+  const showConjugation = useSelector(getShowConjugation);
+  const dispatch = useDispatch();
+  localStorage.setItem("numberOfVerbs", JSON.stringify(data.length));
   localStorage.setItem("version", [process.env.REACT_APP_VERSION]);
 
   useEffect(() => {
     onNextVerb();
   }, []);
 
-  const onNextVerb = () => {
-    let verbId = 0;
-    let cnt = 0;
-    while (cnt < numberOfVerbs * 50) {
-      verbId = (Math.random() * (numberOfVerbs - 1)).toFixed(0).toString();
-      if (!locStorage.includes(verbId)) {
-        locStorage.push(verbId);
-        break;
+  const onNextVerb = (verb) => {
+    if (verb) {
+      dispatch(setVerb(verb));
+    } else {
+      const foundVerb = getNextVerb();
+      if (foundVerb) {
+        dispatch(setVerb(foundVerb));
       }
-      cnt++;
     }
-    if (cnt >= numberOfVerbs * 50) {
-      locStorage = [verbId];
-    }
-
-    localStorage.setItem("verbs", JSON.stringify(locStorage));
-    setShowConjugation(false);
-    const foudVerb = data.find((verb) => {
-      return verb.id === parseInt(verbId);
-    });
-    foudVerb && setVerb(foudVerb);
   };
 
   const setConjugation = () => {
-    setShowConjugation(true);
+    dispatch(setShowConjugation(true));
   };
 
   const darkTheme = createTheme({
@@ -82,15 +75,7 @@ function App() {
           </Fab>
         )}
         <Header></Header>
-        {showConjugation ? (
-          <Conjugation verb={verb} onNextClick={onNextVerb} />
-        ) : (
-          <Verb
-            verb={verb}
-            onNextClick={onNextVerb}
-            onConjClick={setConjugation}
-          />
-        )}
+        {showConjugation ? <Conjugation /> : <Verb />}
         {false ? (
           <div
             style={{

@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+
 import { Button, ButtonGroup } from "@mui/material";
 
-import { Verb } from "./Verb";
-import { CapButton, LowCaseButton } from "./MyButtons";
-import "./App.css";
+import { CapButton, LowCaseButton } from "./MyButtons.js";
+import { getVerb, setVerb, setShowConjugation } from "../store/appSlice.ts";
+import { getNextVerb } from "../utils.js";
+
+import "../App.css";
 
 const personButtons = [
   <CapButton key="blank" variant="outlined">
@@ -17,12 +21,10 @@ const personButtons = [
   <LowCaseButton key="ei/ele">Ei/Ele</LowCaseButton>,
 ];
 
-interface ConjugationProps {
-  verb: Verb;
-  onNextClick: () => void;
-}
+const Conjugation: React.FC = () => {
+  const verb = useSelector(getVerb);
+  const dispatch = useDispatch();
 
-const Conjugation: React.FC<ConjugationProps> = ({ verb, onNextClick }) => {
   const getNameRo = (nameRo: any) => {
     if (
       typeof nameRo === "object" &&
@@ -102,6 +104,11 @@ const Conjugation: React.FC<ConjugationProps> = ({ verb, onNextClick }) => {
       {verb.conjugation[verb.impP] || verb.impP}
     </LowCaseButton>,
   ];
+
+  const onNextClick = () => {
+    dispatch(setVerb(getNextVerb()));
+    dispatch(setShowConjugation(false));
+  };
 
   return (
     <div className="App-conjugation">

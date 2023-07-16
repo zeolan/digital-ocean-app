@@ -1,0 +1,11 @@
+{
+  "moduleResolution": "bundler",
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true
+  }
+}
