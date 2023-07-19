@@ -1,16 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 
-import { Button, ButtonGroup } from "@mui/material";
+import { Button, ButtonGroup, Paper } from "@mui/material";
+import { styled } from "@mui/material/styles";
 
 import { CapButton, LowCaseButton } from "./MyButtons.js";
 import { getVerb, setVerb, setShowConjugation } from "../store/appSlice.ts";
 import { getNextVerb } from "../utils.js";
 
-import "../App.css";
+import "../App.scss";
 
 const personButtons = [
-  <CapButton key="blank" variant="outlined">
+  <CapButton key="persona" variant="outlined">
     Persona
   </CapButton>,
   <LowCaseButton key="eu">Eu</LowCaseButton>,
@@ -20,6 +21,13 @@ const personButtons = [
   <LowCaseButton key="voi">Voi</LowCaseButton>,
   <LowCaseButton key="ei/ele">Ei/Ele</LowCaseButton>,
 ];
+
+const StyledPaper = styled(Paper)(({ theme }) => ({
+  color: theme.palette.primary.main,
+  marginBottom: "15px",
+  fontSize: "18px",
+  lineHeight: "1.3em",
+}));
 
 const Conjugation: React.FC = () => {
   const verb = useSelector(getVerb);
@@ -112,11 +120,11 @@ const Conjugation: React.FC = () => {
 
   return (
     <div className="App-conjugation">
-      <div className="App-conjugation-block1">
+      <StyledPaper elevation={0}>
         <span>a&nbsp;</span>
         {getNameRo(verb.nameRo)}
         <span>- {verb.nameRu}</span>
-      </div>
+      </StyledPaper>
       <div className="App-conjugation-block2">
         <ButtonGroup
           orientation="vertical"

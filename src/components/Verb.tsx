@@ -1,35 +1,31 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
-import {
-  Button,
-  IconButton,
-  List,
-  ListItem,
-  ListItemText,
-} from "@mui/material";
+import { IconButton, List, ListItem, ListItemText } from "@mui/material";
 import { Search, Cancel } from "@mui/icons-material";
 import TextField from "@mui/material/TextField";
 
 import cx from "classnames";
 
 import data from "../data.json";
-import { CapButton } from "./MyButtons.js";
+import { CapButton, OutlinedButton } from "./MyButtons.js";
 import { LightTooltip } from "./MyTooltip.tsx";
-import "../App.css";
+import "../App.scss";
 import {
   getVerb,
   setVerb,
   setShowConjugation,
   getShowTooltip,
   setShowTooltip,
+  getMode,
 } from "../store/appSlice.ts";
 import { getNextVerb } from "../utils.js";
-import { IVerb, Lang } from "../types.ts";
+import { IVerb, Lang, Mode } from "../types.ts";
 
 const Verb: React.FC = () => {
   const dispatch = useDispatch();
   const verb = useSelector(getVerb);
+  const isLightMode = useSelector(getMode) === Mode.light;
   const tooltipOpen = useSelector(getShowTooltip);
   const [lang, setLang] = useState<Lang>(Lang.ro);
   const [showSearchInput, setShowSearchInput] = useState<boolean>(false);
@@ -144,7 +140,11 @@ const Verb: React.FC = () => {
           </IconButton>
           {searchResults.length > 0 ? (
             <div className="App-verb-search-list">
-              <List>
+              <List
+                style={{
+                  backgroundColor: !isLightMode ? "#555555" : "#cccccc",
+                }}
+              >
                 {searchResults.map((option) => (
                   <ListItem
                     key={option.id}
@@ -185,22 +185,22 @@ const Verb: React.FC = () => {
             </div>
           </div>
           <div className="App-verb-buttons">
-            <Button variant="text" onClick={onConjugationClick}>
+            <OutlinedButton onClick={onConjugationClick}>
               ВІДМІНЮВАННЯ
-            </Button>
-            <Button variant="text" onClick={onNextClick}>
-              ДАЛІ
-            </Button>
+            </OutlinedButton>
+            <OutlinedButton onClick={onNextClick}>Далі</OutlinedButton>
           </div>
           <div className="App-verb-search-icon">
             <IconButton onClick={onSearchClick}>
-              <Search fontSize="large" />
+              <Search fontSize="large" color="primary" />
             </IconButton>
           </div>
         </>
       )}
     </div>
-  ) : null;
+  ) : (
+    <div className="App-verb"></div>
+  );
 };
 
 export default Verb;

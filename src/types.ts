@@ -25,3 +25,8 @@ export enum Lang {
   ro = "Ro",
   ru = "Ru",
 }
+
+export enum Mode {
+  dark = "dark",
+  light = "light",
+}
