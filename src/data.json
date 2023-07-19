@@ -1901,7 +1901,7 @@
   },
   {
     "id": 83,
-    "nameRo": ["(se) deranja", 5],
+    "nameRo": ["(se) deranja", 12],
     "nameRu": "беспокоить(-ся), волновать (кого-то)",
     "conjugation": {
       "eu": ["deranjez", 7],
@@ -3718,26 +3718,26 @@
   },
   {
     "id": 162,
-    "nameRo": ["păstra", 6],
-    "nameRu": "оставить(себе), сохранять, хранить",
+    "nameRo": ["săpa", 4],
+    "nameRu": "копать, выкапывать",
     "conjugation": {
-      "eu": ["păstrez", 6],
-      "tu": "păstrezi",
-      "el": "păstrează",
-      "noi": "păstrăm",
-      "voi": "păstrați",
-      "ei": "păstrează",
+      "eu": ["sap", 2],
+      "tu": "sapi",
+      "el": "sapă",
+      "noi": "săpăm",
+      "voi": "săpați",
+      "ei": "sapă",
 
-      "eu1": "păstrez",
-      "tu1": "păstrezi",
-      "el1": "păstreze",
-      "noi1": "păstrăm",
-      "voi1": "păstrați",
-      "ei1": "păstreze"
+      "eu1": "sap",
+      "tu1": "sapi",
+      "el1": "sape",
+      "noi1": "săpăm",
+      "voi1": "săpați",
+      "ei1": "sape"
     },
-    "participle": "păstrat",
-    "impS": "păstrează",
-    "impP": "păstrați"
+    "participle": "săpat",
+    "impS": "sapă",
+    "impP": "săpați"
   },
   {
     "id": 163,
@@ -4152,5 +4152,51 @@
     "participle": "urcat",
     "impS": "urcă",
     "impP": "urcați"
+  },
+  {
+    "id": 181,
+    "nameRo": ["chema", 5],
+    "nameRu": "звать, называть",
+    "conjugation": {
+      "eu": ["chem", 3],
+      "tu": "chemi",
+      "el": "cheamă",
+      "noi": "chemăm",
+      "voi": "chemați",
+      "ei": "cheamă",
+
+      "eu1": "chem",
+      "tu1": "chemi",
+      "el1": "cheme",
+      "noi1": "chemăm",
+      "voi1": "chemați",
+      "ei1": "cheme"
+    },
+    "participle": "chemat",
+    "impS": "cheamă",
+    "impP": "chemați"
+  },
+  {
+    "id": 182,
+    "nameRo": ["refuza", 6],
+    "nameRu": "отказаться, отказываться",
+    "conjugation": {
+      "eu": ["refuz", 4],
+      "tu": "refuzi",
+      "el": "refuză",
+      "noi": "refuzăm",
+      "voi": "refuzați",
+      "ei": "refuză",
+
+      "eu1": "refuz",
+      "tu1": "refuzi",
+      "el1": "refuze",
+      "noi1": "refuzăm",
+      "voi1": "refuzați",
+      "ei1": "refuze"
+    },
+    "participle": "refuzat",
+    "impS": "refuză",
+    "impP": "refuzați"
   }
 ]
