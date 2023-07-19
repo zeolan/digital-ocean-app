@@ -25,7 +25,8 @@ const personButtons = [
 const StyledPaper = styled(Paper)(({ theme }) => ({
   color: theme.palette.primary.main,
   marginBottom: "15px",
-  fontSize: "18px",
+  fontSize: "19px",
+  fontWeight: "bolder",
   lineHeight: "1.3em",
 }));
 
