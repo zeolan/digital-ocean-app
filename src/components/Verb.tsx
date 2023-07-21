@@ -28,6 +28,7 @@ const Verb: React.FC = () => {
   const isLightMode = useSelector(getMode) === Mode.light;
   const tooltipOpen = useSelector(getShowTooltip);
   const [lang, setLang] = useState<Lang>(Lang.ro);
+  const [searchLang, setSearchLang] = useState<Lang>(Lang.ro);
   const [showSearchInput, setShowSearchInput] = useState<boolean>(false);
   const [searchResults, setSearchResults] = useState<any[]>([]);
   const [localNameRu, setLocalNameRu] = useState<string>("");
@@ -116,9 +117,17 @@ const Verb: React.FC = () => {
 
   const onSearchChange = (e: any) => {
     if (e.target.value.length > 1) {
-      const searchResults = data.filter((item: any) =>
+      const searchResultsRo = data.filter((item: any) =>
         item.nameRo[0].includes(e.target.value.toLowerCase())
       );
+      const searchResultsRu = data.filter((item: any) =>
+        item.nameRu.includes(e.target.value.toLowerCase())
+      );
+      const searchResults = searchResultsRo.length
+        ? searchResultsRo
+        : searchResultsRu;
+      const searchLang = searchResultsRo.length ? Lang.ro : Lang.ru;
+      setSearchLang(searchLang);
       setSearchResults(searchResults);
     } else {
       setSearchResults([]);
@@ -152,7 +161,14 @@ const Verb: React.FC = () => {
                     disablePadding
                     onClick={() => onListItemClick(option)}
                   >
-                    <ListItemText primary={option.nameRo[0]} />
+                    <ListItemText
+                      primary={
+                        searchLang === Lang.ro
+                          ? option.nameRo[0]
+                          : option.nameRu
+                      }
+                      sx={{ borderBottom: "1px solid #aaaaaa" }}
+                    />
                   </ListItem>
                 ))}
               </List>

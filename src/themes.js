@@ -20,13 +20,14 @@ export const defaultTheme = createTheme({
   palette: {
     mode: "light",
     primary: {
-      main: "#118877",
+      main: "#118877", //"#117755"
     },
     secondary: {
       main: "#f50057",
     },
     background: {
-      //default: "#373535",
+      default: "#eeeeee",
+      paper: "#eeeeee",
     },
     text: {
       primary: "#444444",

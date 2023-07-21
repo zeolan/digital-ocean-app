@@ -1167,7 +1167,7 @@
   {
     "id": 51,
     "nameRo": ["cere", 2],
-    "nameRu": "просить",
+    "nameRu": "просить, требовать",
     "conjugation": {
       "eu": "cer",
       "tu": "ceri",
@@ -1259,7 +1259,7 @@
   {
     "id": 55,
     "nameRo": ["ghici", 5],
-    "nameRu": "угадать, угадывать",
+    "nameRu": "угадать, угадывать, предсказывать",
     "conjugation": {
       "eu": ["ghicesc", 5],
       "tu": "ghicești",
@@ -1925,7 +1925,7 @@
   },
   {
     "id": 84,
-    "nameRo": ["odihni", 6],
+    "nameRo": ["se odihni", 9],
     "nameRu": "отдыхать",
     "conjugation": {
       "eu": ["odihnesc", 6],
@@ -2041,7 +2041,7 @@
   {
     "id": 89,
     "nameRo": ["(se) gândi", 10],
-    "nameRu": "думать",
+    "nameRu": "думать, размышлять",
     "conjugation": {
       "eu": ["gândesc", 5],
       "tu": "gândești",
@@ -4459,10 +4459,10 @@
     "conjugation": {
       "eu": ["supăr", 2],
       "tu": "superi",
-      "el": "supăra",
+      "el": "supără",
       "noi": "supărăm",
       "voi": "supărați",
-      "ei": "supăra",
+      "ei": "supără",
 
       "eu1": "supăr",
       "tu1": "superi",
@@ -4474,5 +4474,304 @@
     "participle": "supărat",
     "impS": "supăra",
     "impP": "supărați"
+  },
+  {
+    "id": 195,
+    "nameRo": ["rezolva", 7],
+    "nameRu": "разрешать, уладить",
+    "conjugation": {
+      "eu": ["rezolv", 4],
+      "tu": "rezolvi",
+      "el": "rezolvă",
+      "noi": "rezolvăm",
+      "voi": "rezolvați",
+      "ei": "rezolvă",
+
+      "eu1": "rezolv",
+      "tu1": "rezolvi",
+      "el1": "rezolve",
+      "noi1": "rezolvăm",
+      "voi1": "rezolvați",
+      "ei1": "rezolve"
+    },
+    "participle": "rezolvat",
+    "impS": "rezolvă",
+    "impP": "rezolvați"
+  },
+  {
+    "id": 196,
+    "nameRo": ["crește", 3],
+    "nameRu": "расти, вырастать",
+    "conjugation": {
+      "eu": ["cresc", 3],
+      "tu": "crești",
+      "el": "crește",
+      "noi": "creștem",
+      "voi": "creșteți",
+      "ei": "cresc",
+
+      "eu1": "cresc",
+      "tu1": "crești",
+      "el1": "crească",
+      "noi1": "creștem",
+      "voi1": "creșteți",
+      "ei1": "crească"
+    },
+    "participle": "crescut",
+    "impS": "crești",
+    "impP": "creșteți"
+  },
+  {
+    "id": 197,
+    "nameRo": ["scoate", 4],
+    "nameRu": "выводить, удалять, вытаскивать, извлекать",
+    "conjugation": {
+      "eu": ["scot", 3],
+      "tu": "scoți",
+      "el": "scoate",
+      "noi": "scoatem",
+      "voi": "scoateți",
+      "ei": "scot",
+
+      "eu1": "scot",
+      "tu1": "scoți",
+      "el1": "scoată",
+      "noi1": "scoatem",
+      "voi1": "scoateți",
+      "ei1": "scoată"
+    },
+    "participle": "scos",
+    "impS": "scoate",
+    "impP": "scoateți"
+  },
+  {
+    "id": 198,
+    "nameRo": ["(se) încălzi", 12],
+    "nameRu": "нагревать(-ся)",
+    "conjugation": {
+      "eu": ["încălzesc", 7],
+      "tu": "încălzești",
+      "el": "încălzește",
+      "noi": "încălzim",
+      "voi": "încălziți",
+      "ei": "încălzesc",
+
+      "eu1": "încălzesc",
+      "tu1": "încălzești",
+      "el1": "încălzească",
+      "noi1": "încălzim",
+      "voi1": "încălziți",
+      "ei1": "încălzească"
+    },
+    "participle": "încălzit",
+    "impS": "încălzește",
+    "impP": "încălziți"
+  },
+  {
+    "id": 199,
+    "nameRo": ["se relaxa", 9],
+    "nameRu": "расслабляться",
+    "conjugation": {
+      "eu": ["relaxez", 6],
+      "tu": "relaxezi",
+      "el": "relaxează",
+      "noi": "relaxăm",
+      "voi": "relaxați",
+      "ei": "relaxează",
+
+      "eu1": "relaxez",
+      "tu1": "relaxezi",
+      "el1": "relaxeze",
+      "noi1": "relaxăm",
+      "voi1": "relaxați",
+      "ei1": "relaxeze"
+    },
+    "participle": "relaxat",
+    "impS": "relaxează",
+    "impP": "relaxați"
+  },
+  {
+    "id": 200,
+    "nameRo": ["se întâmpla", 11],
+    "nameRu": "случаться, происходить",
+    "conjugation": {
+      "eu": ["-", -1],
+      "tu": "-",
+      "el": "întâmplă",
+      "noi": "-",
+      "voi": "-",
+      "ei": "întâmplă",
+
+      "eu1": "-",
+      "tu1": "-",
+      "el1": "întâmple",
+      "noi1": "-",
+      "voi1": "-",
+      "ei1": "întâmple"
+    },
+    "participle": "întâmplat",
+    "impS": "-",
+    "impP": "-"
+  },
+  {
+    "id": 201,
+    "nameRo": ["acuza", 5],
+    "nameRu": "обвинять, винить",
+    "conjugation": {
+      "eu": ["acuz", 3],
+      "tu": "acuzi",
+      "el": "acuză",
+      "noi": "acuzăm",
+      "voi": "acuzați",
+      "ei": "acuză",
+
+      "eu1": "acuz",
+      "tu1": "acuzi",
+      "el1": "acuze",
+      "noi1": "acuzăm",
+      "voi1": "acuzați",
+      "ei1": "acuze"
+    },
+    "participle": "acuzat",
+    "impS": "acuză",
+    "impP": "acuzați"
+  },
+  {
+    "id": 202,
+    "nameRo": ["dura", 4],
+    "nameRu": "длиться, продолжаться, занимать время",
+    "conjugation": {
+      "eu": ["durez", 4],
+      "tu": "durezi",
+      "el": "durează",
+      "noi": "durăm",
+      "voi": "durați",
+      "ei": "durează",
+
+      "eu1": "durez",
+      "tu1": "durezi",
+      "el1": "dureze",
+      "noi1": "durăm",
+      "voi1": "durați",
+      "ei1": "dureze"
+    },
+    "participle": "durat",
+    "impS": "durează",
+    "impP": "durați"
+  },
+  {
+    "id": 203,
+    "nameRo": ["evalua", 6],
+    "nameRu": "оценивать",
+    "conjugation": {
+      "eu": ["evaluez", 6],
+      "tu": "evaluezi",
+      "el": "evaluează",
+      "noi": "evaluăm",
+      "voi": "evaluați",
+      "ei": "evaluează",
+
+      "eu1": "evaluez",
+      "tu1": "evaluezi",
+      "el1": "evalueze",
+      "noi1": "evaluăm",
+      "voi1": "evaluați",
+      "ei1": "evalueze"
+    },
+    "participle": "evaluat",
+    "impS": "evaluează",
+    "impP": "evaluați"
+  },
+  {
+    "id": 204,
+    "nameRo": ["gâdila", 6],
+    "nameRu": "щекотать",
+    "conjugation": {
+      "eu": ["gâdil", 2],
+      "tu": "gâdili",
+      "el": "gâdilă",
+      "noi": "gâdilăm",
+      "voi": "gâdilați",
+      "ei": "gâdilă",
+
+      "eu1": "gâdil",
+      "tu1": "gâdili",
+      "el1": "gâdile",
+      "noi1": "gâdilăm",
+      "voi1": "gâdilați",
+      "ei1": "gâdile"
+    },
+    "participle": "gâdilat",
+    "impS": "gâdilă",
+    "impP": "gâdilați"
+  },
+  {
+    "id": 205,
+    "nameRo": ["crea", 4],
+    "nameRu": "создавать",
+    "conjugation": {
+      "eu": ["creez", 4],
+      "tu": "creezi",
+      "el": "creează",
+      "noi": "creăm",
+      "voi": "creați",
+      "ei": "creează",
+
+      "eu1": "creez",
+      "tu1": "creezi",
+      "el1": "creeze",
+      "noi1": "creăm",
+      "voi1": "creați",
+      "ei1": "creeze"
+    },
+    "participle": "creat",
+    "impS": "creează",
+    "impP": "creați"
+  },
+  {
+    "id": 206,
+    "nameRo": ["prăji", 5],
+    "nameRu": "жарить, поджаривать, обжаривать",
+    "conjugation": {
+      "eu": ["prăjesc", 5],
+      "tu": "prăjești",
+      "el": "prăjește",
+      "noi": "prăjim",
+      "voi": "prăjiți",
+      "ei": "prăjesc",
+
+      "eu1": "prăjesc",
+      "tu1": "prăjești",
+      "el1": "prăjească",
+      "noi1": "prăjim",
+      "voi1": "prăjiți",
+      "ei1": "prăjească"
+    },
+    "participle": "prăjit",
+    "impS": "prăjește",
+    "impP": "prăjiți"
+  },
+  {
+    "id": 207,
+    "nameRo": ["(se) elibera", 12],
+    "nameRu": "освобождать(-ся)",
+    "conjugation": {
+      "eu": ["eliberez", 7],
+      "tu": "eliberezi",
+      "el": "eliberează",
+      "noi": "eliberăm",
+      "voi": "eliberați",
+      "ei": "eliberează",
+
+      "eu1": "eliberez",
+      "tu1": "eliberezi",
+      "el1": "elibereze",
+      "noi1": "eliberăm",
+      "voi1": "eliberați",
+      "ei1": "elibereze"
+    },
+    "participle": "elibera",
+    "impS": "eliberează",
+    "impP": "eliberați"
   }
 ]
