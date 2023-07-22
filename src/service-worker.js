@@ -18,7 +18,13 @@ const CACHE_VERSION = 1;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
 // these are the routes we are going to cache for offline support
-const cacheFiles = ["/"];
+const cacheFiles = [
+  "/",
+  "/static",
+  "/static/*",
+  "/static/js/*",
+  "/static/css/*",
+];
 
 clientsClaim();
 
