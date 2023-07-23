@@ -14,7 +14,7 @@ import { registerRoute } from "workbox-routing";
 import { StaleWhileRevalidate } from "workbox-strategies";
 
 // the cache version gets updated every time there is a new deployment
-const CACHE_VERSION = 4;
+const CACHE_VERSION = 5;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
 // these are the routes we are going to cache for offline support
@@ -90,7 +90,6 @@ self.addEventListener("activate", (evt) =>
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((cacheName) => {
-          console.log("on activate: delete old caches");
           if (cacheName !== CURRENT_CACHE) {
             return caches.delete(cacheName);
           }
@@ -104,26 +103,21 @@ self.addEventListener("activate", (evt) =>
 self.addEventListener("install", (evt) =>
   evt.waitUntil(
     caches.open(CURRENT_CACHE).then((cache) => {
-      console.log("on install: open current cache ", CURRENT_CACHE);
-      console.log(cache);
       return cache.addAll(cacheFiles);
     })
   )
 );
 
 // fetch the resource from the network
-const fromNetwork = (request, timeout) => {
-  console.log("=== fromNetwork");
-  return new Promise((fulfill, reject) => {
+const fromNetwork = (request, timeout) =>
+  new Promise((fulfill, reject) => {
     const timeoutId = setTimeout(reject, timeout);
     fetch(request).then((response) => {
-      console.log("=== fromNetwork success");
       clearTimeout(timeoutId);
       fulfill(response);
       update(request);
     }, reject);
   });
-};
 
 // fetch the resource from the browser cache
 const fromCache = (request) =>
