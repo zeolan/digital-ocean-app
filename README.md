@@ -1,6 +1,9 @@
 # Description
 
-Тренажер румунських дієслів / Romanian verbs trainer / Trainer de verbe românești
+Тренажер румунських дієслів / Romanian verbs trainer / Trainer de verbe românești.
+
+CRA based small project to help Ukrainians to learn Romanian verbs.
+Also, the goal of creating this app was to play with PWA, OpenGraphProtocol, responsive design.
 
 # Getting Started with Create React App
 
