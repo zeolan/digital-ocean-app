@@ -16,5 +16,5 @@ root.render(
   </Provider>
 );
 
-serviceWorkerRegistration.unregister();
+//serviceWorkerRegistration.unregister();
 serviceWorkerRegistration.register();

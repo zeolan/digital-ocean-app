@@ -14,7 +14,7 @@ import { registerRoute } from "workbox-routing";
 import { StaleWhileRevalidate } from "workbox-strategies";
 
 // the cache version gets updated every time there is a new deployment
-const CACHE_VERSION = 2;
+const CACHE_VERSION = 3;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
 // these are the routes we are going to cache for offline support
@@ -109,15 +109,18 @@ self.addEventListener("install", (evt) =>
 );
 
 // fetch the resource from the network
-const fromNetwork = (request, timeout) =>
-  new Promise((fulfill, reject) => {
+const fromNetwork = (request, timeout) => {
+  console.log("=== fromNetwork");
+  return new Promise((fulfill, reject) => {
     const timeoutId = setTimeout(reject, timeout);
     fetch(request).then((response) => {
+      console.log("=== fromNetwork success");
       clearTimeout(timeoutId);
       fulfill(response);
       update(request);
     }, reject);
   });
+};
 
 // fetch the resource from the browser cache
 const fromCache = (request) =>
