@@ -1,18 +1,16 @@
 import React from "react";
 import { Paper } from "@mui/material";
 
-import "../App.scss";
-
 const Footer: React.FC = () => {
   return (
-    <Paper elevation={0}>
-      <div className="App-footer" color="primary">
-        <div className="App-footer-author">Автор: OleksandrZ</div>
+    <div className="App-footer">
+      <Paper elevation={0} sx={{ display: "flex" }}>
+        <div className="App-footer-author">Author: Oleksandr_Z</div>
         <div className="App-footer-version">
-          v{process.env.REACT_APP_VERSION}
+          {`v${process.env.REACT_APP_VERSION}`}
         </div>
-      </div>
-    </Paper>
+      </Paper>
+    </div>
   );
 };
 

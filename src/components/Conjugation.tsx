@@ -8,8 +8,6 @@ import { CapButton, LowCaseButton } from "./MyButtons.js";
 import { getVerb, setVerb, setShowConjugation } from "../store/appSlice.ts";
 import { getNextVerb } from "../utils.js";
 
-import "../App.scss";
-
 const personButtons = [
   <CapButton key="persona" variant="outlined">
     Persona
@@ -95,13 +93,15 @@ const Conjugation: React.FC = () => {
     <CapButton key="title" variant="outlined">
       Participiu
     </CapButton>,
-    <LowCaseButton key="part">{verb.participle}</LowCaseButton>,
+    <LowCaseButton key="part" sx={{ pl: "5px", pr: "5px" }}>
+      {verb.participle}
+    </LowCaseButton>,
   ];
   const impSButtons = [
     <CapButton key="title" variant="outlined">
       Imp.sing.
     </CapButton>,
-    <LowCaseButton key="impS">
+    <LowCaseButton key="impS" sx={{ pl: "5px", pr: "5px" }}>
       {verb.conjugation[verb.impS] || verb.impS}
     </LowCaseButton>,
   ];
@@ -109,7 +109,7 @@ const Conjugation: React.FC = () => {
     <CapButton key="title" variant="outlined">
       Imp.plur.
     </CapButton>,
-    <LowCaseButton key="impP">
+    <LowCaseButton key="impP" sx={{ pl: "5px", pr: "5px" }}>
       {verb.conjugation[verb.impP] || verb.impP}
     </LowCaseButton>,
   ];
@@ -127,52 +127,28 @@ const Conjugation: React.FC = () => {
         <span>- {verb.nameRu}</span>
       </StyledPaper>
       <div className="App-conjugation-block2">
-        <ButtonGroup
-          orientation="vertical"
-          className="App-conjugation-btn-group"
-          variant="text"
-        >
+        <ButtonGroup orientation="vertical" variant="text">
           {personButtons}
         </ButtonGroup>
-        <ButtonGroup
-          orientation="vertical"
-          className="App-conjugation-btn-group"
-          variant="text"
-        >
+        <ButtonGroup orientation="vertical" variant="text">
           {presentButtons}
         </ButtonGroup>
-        <ButtonGroup
-          orientation="vertical"
-          className="App-conjugation-btn-group"
-          variant="text"
-        >
+        <ButtonGroup orientation="vertical" variant="text">
           {conjuctivButtons}
         </ButtonGroup>
       </div>
       <div className="App-conjugation-block3">
-        <ButtonGroup
-          orientation="vertical"
-          className="App-conjugation-btn-group"
-          variant="text"
-        >
+        <ButtonGroup orientation="vertical" variant="text">
           {partButtons}
         </ButtonGroup>
-        <ButtonGroup
-          orientation="vertical"
-          className="App-conjugation-btn-group"
-          variant="text"
-        >
+        <ButtonGroup orientation="vertical" variant="text">
           {impSButtons}
         </ButtonGroup>
-        <ButtonGroup
-          orientation="vertical"
-          className="App-conjugation-btn-group"
-          variant="text"
-        >
+        <ButtonGroup orientation="vertical" variant="text">
           {impPButtons}
         </ButtonGroup>
       </div>
-      <div>
+      <div className="App-conjugation-block4">
         <Button variant={"contained"} onClick={onNextClick}>
           Далі
         </Button>

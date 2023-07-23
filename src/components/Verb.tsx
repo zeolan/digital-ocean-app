@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-
 import { IconButton, List, ListItem, ListItemText } from "@mui/material";
 import { Search, Cancel } from "@mui/icons-material";
 import TextField from "@mui/material/TextField";
-
+import { useTheme } from "@mui/material/styles";
 import cx from "classnames";
 
 import data from "../data.json";
-import { CapButton, OutlinedButton } from "./MyButtons.js";
+import { OutlinedButton, VerbButton } from "./MyButtons.js";
 import { LightTooltip } from "./MyTooltip.tsx";
-import "../App.scss";
 import {
   getVerb,
   setVerb,
@@ -23,6 +21,7 @@ import { getNextVerb } from "../utils.js";
 import { IVerb, Lang, Mode } from "../types.ts";
 
 const Verb: React.FC = () => {
+  const theme = useTheme();
   const dispatch = useDispatch();
   const verb = useSelector(getVerb);
   const isLightMode = useSelector(getMode) === Mode.light;
@@ -177,34 +176,50 @@ const Verb: React.FC = () => {
         </div>
       ) : (
         <>
-          <div className="App-verb1">
+          <div className="App-verb-block1">
             <div
-              className={cx("button", "App-animate1", {
+              className={cx("App-verb-block1-button", "front", {
                 rotated: lang === Lang.ru,
               })}
             >
-              <LightTooltip title={tooltipText} open={tooltipOpen}>
-                <CapButton variant="contained" onClick={translate}>
+              <LightTooltip
+                title={tooltipText}
+                open={tooltipOpen}
+                className="App-verb-tooltip"
+              >
+                <VerbButton variant="contained" onClick={translate}>
                   {getNameRo()}
-                </CapButton>
+                </VerbButton>
               </LightTooltip>
             </div>
 
             <div
-              className={cx("button", "App-animate2", {
+              className={cx("App-verb-block1-button", "back", {
                 rotated: lang === Lang.ru,
               })}
             >
-              <CapButton variant="contained" onClick={translate}>
+              <VerbButton
+                variant="contained"
+                onClick={translate}
+                sx={{ pt: "7px" }}
+              >
                 {localNameRu}
-              </CapButton>
+              </VerbButton>
             </div>
           </div>
           <div className="App-verb-buttons">
-            <OutlinedButton onClick={onConjugationClick}>
+            <OutlinedButton
+              onClick={onConjugationClick}
+              sx={{ borderColor: theme.palette.primary.main }}
+            >
               ВІДМІНЮВАННЯ
             </OutlinedButton>
-            <OutlinedButton onClick={onNextClick}>Далі</OutlinedButton>
+            <OutlinedButton
+              onClick={onNextClick}
+              sx={{ borderColor: theme.palette.primary.main }}
+            >
+              Далі
+            </OutlinedButton>
           </div>
           <div className="App-verb-search-icon">
             <IconButton onClick={onSearchClick}>
