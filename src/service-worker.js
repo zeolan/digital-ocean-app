@@ -90,6 +90,7 @@ self.addEventListener("activate", (evt) =>
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((cacheName) => {
+          console.log("on activate: delete old caches");
           if (cacheName !== CURRENT_CACHE) {
             return caches.delete(cacheName);
           }
@@ -103,6 +104,7 @@ self.addEventListener("activate", (evt) =>
 self.addEventListener("install", (evt) =>
   evt.waitUntil(
     caches.open(CURRENT_CACHE).then((cache) => {
+      console.log("on install: open current cache ", CURRENT_CACHE);
       return cache.addAll(cacheFiles);
     })
   )
