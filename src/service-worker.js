@@ -14,7 +14,7 @@ import { registerRoute } from "workbox-routing";
 import { StaleWhileRevalidate } from "workbox-strategies";
 
 // the cache version gets updated every time there is a new deployment
-const CACHE_VERSION = 1;
+const CACHE_VERSION = 2;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
 // these are the routes we are going to cache for offline support
