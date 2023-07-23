@@ -4773,5 +4773,189 @@
     "participle": "elibera",
     "impS": "eliberează",
     "impP": "eliberați"
+  },
+  {
+    "id": 208,
+    "nameRo": ["(se) jura", 9],
+    "nameRu": "присягать, клясться",
+    "conjugation": {
+      "eu": ["jur", 2],
+      "tu": "juri",
+      "el": "jură",
+      "noi": "jurăm",
+      "voi": "jurați",
+      "ei": "jură",
+
+      "eu1": "jur",
+      "tu1": "juri",
+      "el1": "jure",
+      "noi1": "jurăm",
+      "voi1": "jurați",
+      "ei1": "jure"
+    },
+    "participle": "jurat",
+    "impS": "jură",
+    "impP": "jurați"
+  },
+  {
+    "id": 209,
+    "nameRo": ["aranja", 6],
+    "nameRu": "упорядочить, расположить, привести в порядок",
+    "conjugation": {
+      "eu": ["aranjez", 6],
+      "tu": "aranjezi",
+      "el": "aranjează",
+      "noi": "aranjăm",
+      "voi": "aranjați",
+      "ei": "aranjează",
+
+      "eu1": "aranjez",
+      "tu1": "aranjezi",
+      "el1": "aranjeze",
+      "noi1": "aranjăm",
+      "voi1": "aranjați",
+      "ei1": "aranjeze"
+    },
+    "participle": "aranjat",
+    "impS": "aranjează",
+    "impP": "aranjați"
+  },
+  {
+    "id": 210,
+    "nameRo": ["vărsa", 5],
+    "nameRu": "вылить, разлить, лить",
+    "conjugation": {
+      "eu": ["vărs", 2],
+      "tu": "verși",
+      "el": "varsă",
+      "noi": "vărsăm",
+      "voi": "vărsați",
+      "ei": "varsă",
+
+      "eu1": "vărs",
+      "tu1": "verși",
+      "el1": "verse",
+      "noi1": "vărsăm",
+      "voi1": "vărsați",
+      "ei1": "verse"
+    },
+    "participle": "vărsat",
+    "impS": "varsă",
+    "impP": "vărsați"
+  },
+  {
+    "id": 211,
+    "nameRo": ["atinge", 3],
+    "nameRu": "трогать, (при)касаться",
+    "conjugation": {
+      "eu": ["ating", 3],
+      "tu": "atingi",
+      "el": "atinge",
+      "noi": "atingem",
+      "voi": "atingeți",
+      "ei": "ating",
+
+      "eu1": "ating",
+      "tu1": "atingi",
+      "el1": "atingă",
+      "noi1": "atingem",
+      "voi1": "atingeți",
+      "ei1": "atingă"
+    },
+    "participle": "atins",
+    "impS": "atinge",
+    "impP": "atingeți"
+  },
+  {
+    "id": 212,
+    "nameRo": ["lega", 4],
+    "nameRu": "завязать, привязать, связать",
+    "conjugation": {
+      "eu": ["leg", 2],
+      "tu": "legi",
+      "el": "leagă",
+      "noi": "legăm",
+      "voi": "legați",
+      "ei": "leagă",
+
+      "eu1": "leg",
+      "tu1": "legi",
+      "el1": "lege",
+      "noi1": "legăm",
+      "voi1": "legați",
+      "ei1": "lege"
+    },
+    "participle": "legat",
+    "impS": "leagă",
+    "impP": "legați"
+  },
+  {
+    "id": 213,
+    "nameRo": ["cultiva", 7],
+    "nameRu": "выращивать, растить",
+    "conjugation": {
+      "eu": ["cultiv", 5],
+      "tu": "cultivi",
+      "el": "cultivă",
+      "noi": "cultivăm",
+      "voi": "cultivați",
+      "ei": "cultivă",
+
+      "eu1": "cultiv",
+      "tu1": "cultivi",
+      "el1": "cultive",
+      "noi1": "cultivăm",
+      "voi1": "cultivați",
+      "ei1": "cultive"
+    },
+    "participle": "cultivat",
+    "impS": "cultivă",
+    "impP": "cultivați"
+  },
+  {
+    "id": 214,
+    "nameRo": ["tuși", 4],
+    "nameRu": "кашлять",
+    "conjugation": {
+      "eu": ["tușesc", 4],
+      "tu": "tușești",
+      "el": "tușește",
+      "noi": "tușim",
+      "voi": "tușiți",
+      "ei": "tușesc",
+
+      "eu1": "tușesc",
+      "tu1": "tușești",
+      "el1": "tușească",
+      "noi1": "tușim",
+      "voi1": "tușiți",
+      "ei1": "tușească"
+    },
+    "participle": "tușit",
+    "impS": "tușește",
+    "impP": "tușiți"
+  },
+  {
+    "id": 215,
+    "nameRo": ["strănuta", 8],
+    "nameRu": "чихать",
+    "conjugation": {
+      "eu": ["strănut", 6],
+      "tu": "strănuți",
+      "el": "strănută",
+      "noi": "strănutăm",
+      "voi": "strănutați",
+      "ei": "strănută",
+
+      "eu1": "strănut",
+      "tu1": "strănuți",
+      "el1": "strănute",
+      "noi1": "strănutăm",
+      "voi1": "strănutați",
+      "ei1": "strănute"
+    },
+    "participle": "strănutat",
+    "impS": "strănută",
+    "impP": "strănutați"
   }
 ]
