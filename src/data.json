@@ -4957,5 +4957,120 @@
     "participle": "strănutat",
     "impS": "strănută",
     "impP": "strănutați"
+  },
+  {
+    "id": 216,
+    "nameRo": ["anunța", 6],
+    "nameRu": "сообщить, известить, уведомить",
+    "conjugation": {
+      "eu": ["anunț", 3],
+      "tu": "anunți",
+      "el": "anunță",
+      "noi": "anunțăm",
+      "voi": "anunțați",
+      "ei": "anunță",
+
+      "eu1": "anunț",
+      "tu1": "anunți",
+      "el1": "anunțe",
+      "noi1": "anunțăm",
+      "voi1": "anunțați",
+      "ei1": "anunțe"
+    },
+    "participle": "anunțat",
+    "impS": "anunță",
+    "impP": "anunțați"
+  },
+  {
+    "id": 217,
+    "nameRo": ["anula", 5],
+    "nameRu": "отменить, аннулировать",
+    "conjugation": {
+      "eu": ["anulez", 5],
+      "tu": "anulezi",
+      "el": "anulează",
+      "noi": "anulăm",
+      "voi": "anulați",
+      "ei": "anulează",
+
+      "eu1": "anulez",
+      "tu1": "anulezi",
+      "el1": "anuleze",
+      "noi1": "anulăm",
+      "voi1": "anulați",
+      "ei1": "anuleze"
+    },
+    "participle": "anulat",
+    "impS": "anulează",
+    "impP": "anulați"
+  },
+  {
+    "id": 218,
+    "nameRo": ["rata", 4],
+    "nameRu": "пропустить, упустить(шанс), прозевать",
+    "conjugation": {
+      "eu": ["ratez", 4],
+      "tu": "ratezi",
+      "el": "ratează",
+      "noi": "ratăm",
+      "voi": "ratați",
+      "ei": "ratează",
+
+      "eu1": "ratez",
+      "tu1": "ratezi",
+      "el1": "rateze",
+      "noi1": "ratăm",
+      "voi1": "ratați",
+      "ei1": "rateze"
+    },
+    "participle": "ratat",
+    "impS": "ratează",
+    "impP": "ratați"
+  },
+  {
+    "id": 219,
+    "nameRo": ["ascunde", 4],
+    "nameRu": "скрыть, (с)прятать",
+    "conjugation": {
+      "eu": ["ascund", 4],
+      "tu": "ascunzi",
+      "el": "ascunde",
+      "noi": "ascundem",
+      "voi": "ascundeți",
+      "ei": "ascund",
+
+      "eu1": "ascund",
+      "tu1": "ascunzi",
+      "el1": "ascundă",
+      "noi1": "ascundem",
+      "voi1": "ascundeți",
+      "ei1": "ascundă"
+    },
+    "participle": "ascuns",
+    "impS": "ascunde",
+    "impP": "ascundeți"
+  },
+  {
+    "id": 220,
+    "nameRo": ["ataca", 5],
+    "nameRu": "атаковать, нападать, накинуться, наброситься",
+    "conjugation": {
+      "eu": ["atac", 3],
+      "tu": "ataci",
+      "el": "atacă",
+      "noi": "atacăm",
+      "voi": "atacați",
+      "ei": "atacă",
+
+      "eu1": "atac",
+      "tu1": "ataci",
+      "el1": "atace",
+      "noi1": "atacăm",
+      "voi1": "atacați",
+      "ei1": "atace"
+    },
+    "participle": "atacat",
+    "impS": "atacă",
+    "impP": "atacați"
   }
 ]
