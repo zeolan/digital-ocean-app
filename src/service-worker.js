@@ -22,10 +22,10 @@ const ignored = self.__WB_MANIFEST;
 // these are the routes we are going to cache for offline support
 const cacheFiles = [
   "/",
-  "/static",
-  "/static/*",
-  "/static/js/*",
-  "/static/css/*",
+  //"/static",
+  //"/static/*",
+  //"/static/js/*",
+  //"/static/css/*",
 ];
 
 clientsClaim();
