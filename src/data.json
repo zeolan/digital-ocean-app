@@ -2547,7 +2547,7 @@
   {
     "id": 111,
     "nameRo": ["(se) întoarce", 10],
-    "nameRu": "возвращать (возвращаться)",
+    "nameRu": "возвращать(ся), повернуть(ся), вернуть(ся)",
     "conjugation": {
       "eu": ["întorc", 4],
       "tu": "întorci",
@@ -5072,5 +5072,189 @@
     "participle": "atacat",
     "impS": "atacă",
     "impP": "atacați"
+  },
+  {
+    "id": 221,
+    "nameRo": ["regreta", 7],
+    "nameRu": "сожалеть, жалеть",
+    "conjugation": {
+      "eu": ["regret", 5],
+      "tu": "regreți",
+      "el": "regretă",
+      "noi": "regretăm",
+      "voi": "regretați",
+      "ei": "regretă",
+
+      "eu1": "regret",
+      "tu1": "regreți",
+      "el1": "regrete",
+      "noi1": "regretăm",
+      "voi1": "regretați",
+      "ei1": "regrete"
+    },
+    "participle": "regretat",
+    "impS": "regretă",
+    "impP": "regretați"
+  },
+  {
+    "id": 221,
+    "nameRo": ["exceda", 6],
+    "nameRu": "превышать, превосходить",
+    "conjugation": {
+      "eu": ["excedez", 6],
+      "tu": "excedezi",
+      "el": "excedează",
+      "noi": "excedăm",
+      "voi": "excedați",
+      "ei": "excedează",
+
+      "eu1": "excedez",
+      "tu1": "excedezi",
+      "el1": "excedeze",
+      "noi1": "excedăm",
+      "voi1": "excedați",
+      "ei1": "excedeze"
+    },
+    "participle": "excedat",
+    "impS": "excedează",
+    "impP": "excedați"
+  },
+  {
+    "id": 222,
+    "nameRo": ["ordona", 6],
+    "nameRu": "упорядочить, расположить по порядку",
+    "conjugation": {
+      "eu": ["ordonez", 6],
+      "tu": "ordonezi",
+      "el": "ordonează",
+      "noi": "ordonăm",
+      "voi": "ordonați",
+      "ei": "ordonează",
+
+      "eu1": "ordonez",
+      "tu1": "ordonezi",
+      "el1": "ordoneze",
+      "noi1": "ordonăm",
+      "voi1": "ordonați",
+      "ei1": "ordoneze"
+    },
+    "participle": "ordonat",
+    "impS": "ordonează",
+    "impP": "ordonați"
+  },
+  {
+    "id": 223,
+    "nameRo": ["certa", 5],
+    "nameRu": "ругаться, разругаться, поссориться",
+    "conjugation": {
+      "eu": ["cert", 2],
+      "tu": "cerți",
+      "el": "ceartă",
+      "noi": "certăm",
+      "voi": "certați",
+      "ei": "ceartă",
+
+      "eu1": "cert",
+      "tu1": "cerți",
+      "el1": "certe",
+      "noi1": "certăm",
+      "voi1": "certați",
+      "ei1": "certe"
+    },
+    "participle": "certat",
+    "impS": "ceartă",
+    "impP": "certați"
+  },
+  {
+    "id": 224,
+    "nameRo": ["sublinia", 8],
+    "nameRu": "подчеркивать",
+    "conjugation": {
+      "eu": ["subliniez", 8],
+      "tu": "subliniezi",
+      "el": "subliniază",
+      "noi": "subliniem",
+      "voi": "subliniați",
+      "ei": "subliniază",
+
+      "eu1": "subliniez",
+      "tu1": "subliniezi",
+      "el1": "sublinieze",
+      "noi1": "subliniem",
+      "voi1": "subliniați",
+      "ei1": "sublinieze"
+    },
+    "participle": "subliniat",
+    "impS": "subliniază",
+    "impP": "subliniați"
+  },
+  {
+    "id": 225,
+    "nameRo": ["turna", 5],
+    "nameRu": "налить, пролить",
+    "conjugation": {
+      "eu": ["torn", 2],
+      "tu": "torni",
+      "el": "toarnă",
+      "noi": "turnăm",
+      "voi": "turnați",
+      "ei": "toarnă",
+
+      "eu1": "torn",
+      "tu1": "torni",
+      "el1": "toarne",
+      "noi1": "turnăm",
+      "voi1": "turnați",
+      "ei1": "toarne"
+    },
+    "participle": "turnat",
+    "impS": "toarnă",
+    "impP": "turnați"
+  },
+  {
+    "id": 226,
+    "nameRo": ["escalada", 8],
+    "nameRu": "карабкаться, взбираться на что-то",
+    "conjugation": {
+      "eu": ["escaladez", 8],
+      "tu": "escaladezi",
+      "el": "escaladează",
+      "noi": "escaladăm",
+      "voi": "escaladați",
+      "ei": "escaladează",
+
+      "eu1": "escaladez",
+      "tu1": "escaladezi",
+      "el1": "escaladaze",
+      "noi1": "escaladăm",
+      "voi1": "escaladați",
+      "ei1": "escaladeze"
+    },
+    "participle": "escaladat",
+    "impS": "escaladează",
+    "impP": "escaladați"
+  },
+  {
+    "id": 227,
+    "nameRo": ["sări", 4],
+    "nameRu": "прыгать, подпрыгивать",
+    "conjugation": {
+      "eu": ["sar", 2],
+      "tu": "sari, sări",
+      "el": "sare",
+      "noi": "sărim",
+      "voi": "săriți",
+      "ei": "sar",
+
+      "eu1": "sar",
+      "tu1": "sari, sări",
+      "el1": "sară",
+      "noi1": "sărim",
+      "voi1": "săriți",
+      "ei1": "sară"
+    },
+    "participle": "sărit",
+    "impS": "sari, sări",
+    "impP": "săriți"
   }
 ]
