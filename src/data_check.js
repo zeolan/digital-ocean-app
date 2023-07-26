@@ -1,10 +1,14 @@
 const data = require("./data.json");
 
 console.log(`Number of Verbs ==> ${data.length}`);
-let roNameArrv = [];
+let roNameArr = [];
+let idArr = [];
 for (let i = 0; i < data.length; i++) {
-  if (roNameArrv.includes(data[i].nameRo[0])) {
+  if (roNameArr.includes(data[i].nameRo[0])) {
     console.error(`--------- Duplicated name ${data[i].nameRo[0]}`);
+  }
+  if (idArr.includes(data[i].id)) {
+    console.error(`--------- Duplicated id ${data[i].id}`);
   }
   let missedPerson = "";
   if (
@@ -30,5 +34,6 @@ for (let i = 0; i < data.length; i++) {
       `--------- Missed conjugation for person '${missedPerson}' for verb '${data[i].nameRo[0]}'`
     );
   }
-  roNameArrv.push(data[i].nameRo[0]);
+  roNameArr.push(data[i].nameRo[0]);
+  idArr.push(data[i].id);
 }

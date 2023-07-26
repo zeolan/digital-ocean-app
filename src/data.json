@@ -5097,29 +5097,6 @@
     "impP": "regretați"
   },
   {
-    "id": 221,
-    "nameRo": ["exceda", 6],
-    "nameRu": "превышать, превосходить",
-    "conjugation": {
-      "eu": ["excedez", 6],
-      "tu": "excedezi",
-      "el": "excedează",
-      "noi": "excedăm",
-      "voi": "excedați",
-      "ei": "excedează",
-
-      "eu1": "excedez",
-      "tu1": "excedezi",
-      "el1": "excedeze",
-      "noi1": "excedăm",
-      "voi1": "excedați",
-      "ei1": "excedeze"
-    },
-    "participle": "excedat",
-    "impS": "excedează",
-    "impP": "excedați"
-  },
-  {
     "id": 222,
     "nameRo": ["ordona", 6],
     "nameRu": "упорядочить, расположить по порядку",
@@ -5258,29 +5235,6 @@
     "impP": "săriți"
   },
   {
-    "id": 227,
-    "nameRo": ["lansa", 5],
-    "nameRu": "запускать (проект, шоу, ракету), выпускать, спускать на воду",
-    "conjugation": {
-      "eu": ["lansez", 5],
-      "tu": "lansezi",
-      "el": "lansează",
-      "noi": "lansăm",
-      "voi": "lansați",
-      "ei": "lansează",
-
-      "eu1": "lansez",
-      "tu1": "lansezi",
-      "el1": "lanseze",
-      "noi1": "lansăm",
-      "voi1": "lansați",
-      "ei1": "lanseze"
-    },
-    "participle": "lansat",
-    "impS": "lansează",
-    "impP": "lansați"
-  },
-  {
     "id": 228,
     "nameRo": ["completa", 8],
     "nameRu": "заполнять (документ, форму), дополнять",
@@ -5394,5 +5348,258 @@
     "participle": "strigat",
     "impS": "strigă",
     "impP": "strigați"
+  },
+  {
+    "id": 233,
+    "nameRo": ["(se) antrena", 12],
+    "nameRu": "тренировать(ся)",
+    "conjugation": {
+      "eu": ["antrenez", 7],
+      "tu": "antrenezi",
+      "el": "antrenează",
+      "noi": "antrenăm",
+      "voi": "antrenați",
+      "ei": "antrenează",
+
+      "eu1": "antrenez",
+      "tu1": "antrenezi",
+      "el1": "antreneze",
+      "noi1": "antrenăm",
+      "voi1": "antrenați",
+      "ei1": "antreneze"
+    },
+    "participle": "antrenat",
+    "impS": "antrenează",
+    "impP": "antrenați"
+  },
+  {
+    "id": 234,
+    "nameRo": ["angaja", 6],
+    "nameRu": "нанимать, брать на работу",
+    "conjugation": {
+      "eu": ["angajez", 6],
+      "tu": "angajezi",
+      "el": "angajează",
+      "noi": "angajăm",
+      "voi": "angajați",
+      "ei": "angajează",
+
+      "eu1": "angajez",
+      "tu1": "angajezi",
+      "el1": "angajeze",
+      "noi1": "angajăm",
+      "voi1": "angajați",
+      "ei1": "angajeze"
+    },
+    "participle": "angajat",
+    "impS": "angajează",
+    "impP": "angajați"
+  },
+  {
+    "id": 235,
+    "nameRo": ["clăti", 5],
+    "nameRu": "полоскать",
+    "conjugation": {
+      "eu": ["clătesc", 5],
+      "tu": "clătești",
+      "el": "clătește",
+      "noi": "clătim",
+      "voi": "clătiți",
+      "ei": "clătesc",
+
+      "eu1": "clătesc",
+      "tu1": "clătești",
+      "el1": "clătească",
+      "noi1": "clătim",
+      "voi1": "clătiți",
+      "ei1": "clătească"
+    },
+    "participle": "clătit",
+    "impS": "clătește",
+    "impP": "clătiți"
+  },
+  {
+    "id": 236,
+    "nameRo": ["lipi", 4],
+    "nameRu": "клеить, приклеить(ся), липнуть",
+    "conjugation": {
+      "eu": ["lipesc", 4],
+      "tu": "lipești",
+      "el": "lipește",
+      "noi": "lipim",
+      "voi": "lipiți",
+      "ei": "lipesc",
+
+      "eu1": "lipesc",
+      "tu1": "lipești",
+      "el1": "lipească",
+      "noi1": "lipim",
+      "voi1": "lipiți",
+      "ei1": "lipească"
+    },
+    "participle": "lipit",
+    "impS": "lipește",
+    "impP": "lipiți"
+  },
+  {
+    "id": 237,
+    "nameRo": ["(se) hrăni", 10],
+    "nameRu": "кормить(ся), питать(ся)",
+    "conjugation": {
+      "eu": ["hrănesc", 5],
+      "tu": "hrănești",
+      "el": "hrănește",
+      "noi": "hrănim",
+      "voi": "hrăniți",
+      "ei": "hrănesc",
+
+      "eu1": "hrănesc",
+      "tu1": "hrănești",
+      "el1": "hrănească",
+      "noi1": "hrănim",
+      "voi1": "hrăniți",
+      "ei1": "hrănească"
+    },
+    "participle": "hrănit",
+    "impS": "hrănește",
+    "impP": "hrăniți"
+  },
+  {
+    "id": 238,
+    "nameRo": ["(se) amesteca", 13],
+    "nameRu": "смешивать, перемешивать, (вмешиваться)",
+    "conjugation": {
+      "eu": ["amestec", 3],
+      "tu": "amesteci",
+      "el": "amestecă",
+      "noi": "amestecăm",
+      "voi": "amestecați",
+      "ei": "amestecă",
+
+      "eu1": "amestec",
+      "tu1": "amesteci",
+      "el1": "amestece",
+      "noi1": "amestecăm",
+      "voi1": "amestecați",
+      "ei1": "amestece"
+    },
+    "participle": "amestecat",
+    "impS": "amestecă",
+    "impP": "amestecați"
+  },
+  {
+    "id": 239,
+    "nameRo": ["sosi", 4],
+    "nameRu": "прибывать, прибыть",
+    "conjugation": {
+      "eu": ["sosesc", 4],
+      "tu": "sosești",
+      "el": "sosește",
+      "noi": "sosim",
+      "voi": "sosiți",
+      "ei": "sosesc",
+
+      "eu1": "sosesc",
+      "tu1": "sosești",
+      "el1": "sosească",
+      "noi1": "sosim",
+      "voi1": "sosiți",
+      "ei1": "sosească"
+    },
+    "participle": "sosit",
+    "impS": "sosește",
+    "impP": "sosiți"
+  },
+  {
+    "id": 240,
+    "nameRo": ["vopsi", 5],
+    "nameRu": "красить, окрашивать",
+    "conjugation": {
+      "eu": ["vopsesc", 5],
+      "tu": "vopsești",
+      "el": "vopsește",
+      "noi": "vopsim",
+      "voi": "vopsiți",
+      "ei": "vopsesc",
+
+      "eu1": "vopsesc",
+      "tu1": "vopsești",
+      "el1": "vopsească",
+      "noi1": "vopsim",
+      "voi1": "vopsiți",
+      "ei1": "vopsească"
+    },
+    "participle": "vopsit",
+    "impS": "vopsește",
+    "impP": "vopsiți"
+  },
+  {
+    "id": 241,
+    "nameRo": ["lansa", 5],
+    "nameRu": "запускать (проект, шоу, ракету), выпускать, спускать на воду",
+    "conjugation": {
+      "eu": ["lansez", 5],
+      "tu": "lansezi",
+      "el": "lansează",
+      "noi": "lansăm",
+      "voi": "lansați",
+      "ei": "lansează",
+
+      "eu1": "lansez",
+      "tu1": "lansezi",
+      "el1": "lanseze",
+      "noi1": "lansăm",
+      "voi1": "lansați",
+      "ei1": "lanseze"
+    },
+    "participle": "lansat",
+    "impS": "lansează",
+    "impP": "lansați"
+  },
+  {
+    "id": 242,
+    "nameRo": ["exceda", 6],
+    "nameRu": "превышать, превосходить",
+    "conjugation": {
+      "eu": ["excedez", 6],
+      "tu": "excedezi",
+      "el": "excedează",
+      "noi": "excedăm",
+      "voi": "excedați",
+      "ei": "excedează",
+
+      "eu1": "excedez",
+      "tu1": "excedezi",
+      "el1": "excedeze",
+      "noi1": "excedăm",
+      "voi1": "excedați",
+      "ei1": "excedeze"
+    },
+    "participle": "excedat",
+    "impS": "excedează",
+    "impP": "excedați"
+  },
+  {
+    "id": 243,
+    "nameRo": ["picta", 5],
+    "nameRu": "рисовать (живопись), изображать",
+    "conjugation": {
+      "eu": ["pictez", 5],
+      "tu": "pictezi",
+      "el": "pictează",
+      "noi": "pictăm",
+      "voi": "pictați",
+      "ei": "pictează",
+
+      "eu1": "pictez",
+      "tu1": "pictezi",
+      "el1": "picteze",
+      "noi1": "pictăm",
+      "voi1": "pictați",
+      "ei1": "picteze"
+    },
+    "participle": "pictat",
+    "impS": "pictează",
+    "impP": "pictați"
   }
 ]
