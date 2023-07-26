@@ -3789,7 +3789,7 @@
   {
     "id": 165,
     "nameRo": ["porni", 5],
-    "nameRu": "отправиться, двинуться, запустить что-то",
+    "nameRu": "отправиться, двинуться, запустить/включить что-то",
     "conjugation": {
       "eu": ["pornesc", 5],
       "tu": "pornești",
@@ -5256,5 +5256,143 @@
     "participle": "sărit",
     "impS": "sari, sări",
     "impP": "săriți"
+  },
+  {
+    "id": 227,
+    "nameRo": ["lansa", 5],
+    "nameRu": "запускать (проект, шоу, ракету), выпускать, спускать на воду",
+    "conjugation": {
+      "eu": ["lansez", 5],
+      "tu": "lansezi",
+      "el": "lansează",
+      "noi": "lansăm",
+      "voi": "lansați",
+      "ei": "lansează",
+
+      "eu1": "lansez",
+      "tu1": "lansezi",
+      "el1": "lanseze",
+      "noi1": "lansăm",
+      "voi1": "lansați",
+      "ei1": "lanseze"
+    },
+    "participle": "lansat",
+    "impS": "lansează",
+    "impP": "lansați"
+  },
+  {
+    "id": 228,
+    "nameRo": ["completa", 8],
+    "nameRu": "заполнять (документ, форму), дополнять",
+    "conjugation": {
+      "eu": ["completez", 8],
+      "tu": "completezi",
+      "el": "completează",
+      "noi": "completăm",
+      "voi": "completați",
+      "ei": "completează",
+
+      "eu1": "completez",
+      "tu1": "completezi",
+      "el1": "completeze",
+      "noi1": "completăm",
+      "voi1": "completați",
+      "ei1": "completeze"
+    },
+    "participle": "completat",
+    "impS": "completează",
+    "impP": "completați"
+  },
+  {
+    "id": 229,
+    "nameRo": ["vâna", 4],
+    "nameRu": "охотиться",
+    "conjugation": {
+      "eu": ["vânez", 4],
+      "tu": "vânezi",
+      "el": "vânează",
+      "noi": "vânăm",
+      "voi": "vânați",
+      "ei": "vânează",
+
+      "eu1": "vânez",
+      "tu1": "vânezi",
+      "el1": "vâneze",
+      "noi1": "vânăm",
+      "voi1": "vânați",
+      "ei1": "vâneze"
+    },
+    "participle": "vânat",
+    "impS": "vânează",
+    "impP": "vânați"
+  },
+  {
+    "id": 230,
+    "nameRo": ["(se) scălda", 10],
+    "nameRu": "купать(ся)",
+    "conjugation": {
+      "eu": ["scald", 3],
+      "tu": "scalzi",
+      "el": "scaldă",
+      "noi": "scăldăm",
+      "voi": "scăldați",
+      "ei": "scaldă",
+
+      "eu1": "scald",
+      "tu1": "scalzi",
+      "el1": "scalde",
+      "noi1": "scăldăm",
+      "voi1": "scăldați",
+      "ei1": "scalde"
+    },
+    "participle": "scăldat",
+    "impS": "scaldă",
+    "impP": "scăldați"
+  },
+  {
+    "id": 231,
+    "nameRo": ["respira", 7],
+    "nameRu": "дышать",
+    "conjugation": {
+      "eu": ["respir", 5],
+      "tu": "respiri",
+      "el": "respiră",
+      "noi": "respirăm",
+      "voi": "respirați",
+      "ei": "respiră",
+
+      "eu1": "respir",
+      "tu1": "respiri",
+      "el1": "respire",
+      "noi1": "respirăm",
+      "voi1": "respirați",
+      "ei1": "respire"
+    },
+    "participle": "respirat",
+    "impS": "respiră",
+    "impP": "respirați"
+  },
+  {
+    "id": 232,
+    "nameRo": ["striga", 6],
+    "nameRu": "кричать",
+    "conjugation": {
+      "eu": ["strig", 4],
+      "tu": "strigi",
+      "el": "strigă",
+      "noi": "strigăm",
+      "voi": "strigați",
+      "ei": "strigă",
+
+      "eu1": "strig",
+      "tu1": "strigi",
+      "el1": "strige",
+      "noi1": "strigăm",
+      "voi1": "strigați",
+      "ei1": "strige"
+    },
+    "participle": "strigat",
+    "impS": "strigă",
+    "impP": "strigați"
   }
 ]
