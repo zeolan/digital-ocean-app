@@ -5,6 +5,7 @@ const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 const cacheFiles = [
   "./index.html",
   "./manifest.json",
+  "./static/js/",
   /*"/static",
   "/static/*",
   "./static/js/*",
