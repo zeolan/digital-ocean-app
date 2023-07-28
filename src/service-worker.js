@@ -34,7 +34,8 @@ clientsClaim();
 // Their URLs are injected into the manifest variable below.
 // This variable must be present somewhere in your service worker file,
 // even if you decide not to use precaching. See https://cra.link/PWA
-//precacheAndRoute(self.__WB_MANIFEST);
+console.log("__WB_MANIFEST = ", self.__WB_MANIFEST);
+precacheAndRoute(self.__WB_MANIFEST);
 
 // Set up App Shell-style routing, so that all navigation requests
 // are fulfilled with your index.html shell. Learn more at
@@ -85,6 +86,7 @@ self.addEventListener("message", (event) => {
   }
 });
 
+```
 // --------------------- Network first strategy-----------------------
 // on activation we clean up the previously registered service workers
 self.addEventListener("activate", (evt) =>
@@ -146,4 +148,4 @@ self.addEventListener("fetch", (evt) => {
     fromNetwork(evt.request, 10000).catch(() => fromCache(evt.request))
   );
   evt.waitUntil(update(evt.request));
-});
+});```;
