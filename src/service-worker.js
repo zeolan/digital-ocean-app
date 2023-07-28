@@ -17,7 +17,7 @@ import { StaleWhileRevalidate } from "workbox-strategies";
 const CACHE_VERSION = 5;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 // eslint-disable-next-line no-restricted-globals
-const ignored = self.__WB_MANIFEST;
+//const ignored = self.__WB_MANIFEST;
 
 // these are the routes we are going to cache for offline support
 const cacheFiles = [
