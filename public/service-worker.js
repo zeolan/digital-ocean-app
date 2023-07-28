@@ -1,4 +1,5 @@
 // Establish a cache name
+const APP_VERSION = require("../package.json").version;
 const CACHE_VERSION = 1;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
@@ -14,6 +15,7 @@ const cacheFiles = [
 
 self.addEventListener("install", (evt) => {
   console.log("=== install event");
+  console.log("=== APP_VERSION -> ", APP_VERSION);
   return evt.waitUntil(
     caches.open(CURRENT_CACHE).then((cache) => {
       //return cache.addAll(cacheFiles);
