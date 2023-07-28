@@ -2,6 +2,23 @@
 const CACHE_VERSION = 1;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
+const cacheFiles = [
+  "/",
+  //"/static",
+  //"/static/*",
+  //"/static/js/*",
+  //"/static/css/*",
+];
+
+self.addEventListener("install", (evt) => {
+  console.log("=== install event");
+  return evt.waitUntil(
+    caches.open(CURRENT_CACHE).then((cache) => {
+      return cache.addAll(cacheFiles);
+    })
+  );
+});
+
 self.addEventListener("fetch", (event) => {
   // Check if this is a navigation request
   console.log("=== fetch event");
