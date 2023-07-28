@@ -5601,5 +5601,97 @@
     "participle": "pictat",
     "impS": "pictează",
     "impP": "pictați"
+  },
+  {
+    "id": 244,
+    "nameRo": ["clocoti", 7],
+    "nameRu": "кипеть, бурлить",
+    "conjugation": {
+      "eu": ["clocotesc", 7],
+      "tu": "clocotești",
+      "el": "clocotește",
+      "noi": "clocotim",
+      "voi": "clocotiți",
+      "ei": "clocotesc",
+
+      "eu1": "clocotesc",
+      "tu1": "clocotești",
+      "el1": "clocotească",
+      "noi1": "clocotim",
+      "voi1": "clocotiți",
+      "ei1": "clocotească"
+    },
+    "participle": "clocotit",
+    "impS": "clocotește",
+    "impP": "clocotiți"
+  },
+  {
+    "id": 245,
+    "nameRo": ["(se) mări", 9],
+    "nameRu": "увеличивать(ся)",
+    "conjugation": {
+      "eu": ["măresc", 4],
+      "tu": "mărești",
+      "el": "mărește",
+      "noi": "mărim",
+      "voi": "măriți",
+      "ei": "măresc",
+
+      "eu1": "măresc",
+      "tu1": "mărești",
+      "el1": "mărească",
+      "noi1": "mărim",
+      "voi1": "măriți",
+      "ei1": "mărească"
+    },
+    "participle": "mărit",
+    "impS": "mărește",
+    "impP": "măriți"
+  },
+  {
+    "id": 246,
+    "nameRo": ["(se) răcori", 11],
+    "nameRu": "охлаждать(ся), остывать",
+    "conjugation": {
+      "eu": ["răcoresc", 6],
+      "tu": "răcorești",
+      "el": "răcorește",
+      "noi": "răcorim",
+      "voi": "răcoriți",
+      "ei": "răcoresc",
+
+      "eu1": "răcoresc",
+      "tu1": "răcorești",
+      "el1": "răcorească",
+      "noi1": "răcorim",
+      "voi1": "răcoriți",
+      "ei1": "răcorească"
+    },
+    "participle": "răcorit",
+    "impS": "răcorește",
+    "impP": "răcoriți"
+  },
+  {
+    "id": 247,
+    "nameRo": ["(se) topi", 9],
+    "nameRu": "таять, плавить(ся), топить(ся)",
+    "conjugation": {
+      "eu": ["topesc", 64],
+      "tu": "topești",
+      "el": "topește",
+      "noi": "topim",
+      "voi": "topiți",
+      "ei": "topesc",
+
+      "eu1": "topesc",
+      "tu1": "topești",
+      "el1": "topească",
+      "noi1": "topim",
+      "voi1": "topiți",
+      "ei1": "topească"
+    },
+    "participle": "topit",
+    "impS": "topește",
+    "impP": "topiți"
   }
 ]
