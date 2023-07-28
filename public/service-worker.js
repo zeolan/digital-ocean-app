@@ -1,5 +1,5 @@
 // Establish a cache name
-const CACHE_VERSION = 3;
+const CACHE_VERSION = 4;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
 const cacheFiles = [
@@ -21,6 +21,7 @@ self.addEventListener("install", (evt) => {
   );
 });
 
+// on activation we clean up the previously registered service workers and clear cache
 self.addEventListener("activate", (evt) =>
   evt.waitUntil(
     caches.keys().then((cacheNames) => {
