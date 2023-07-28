@@ -47,7 +47,16 @@ self.addEventListener("fetch", (event) => {
       // Go to the network first
       return fetch(event.request.url)
         .then((fetchedResponse) => {
-          cache.put(event.request, fetchedResponse.clone());
+          cache.match(event.request.url).then((response) => {
+            if (response === undefined) {
+              console.log("=== not match");
+              cache.put(event.request, fetchedResponse.clone());
+              //return response;
+            } else {
+              console.log("=== match");
+            }
+          });
+          //cache.put(event.request, fetchedResponse.clone());
 
           return fetchedResponse;
         })
