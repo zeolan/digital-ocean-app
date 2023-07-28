@@ -1,5 +1,5 @@
 // Establish a cache name
-const CACHE_VERSION = 2;
+const CACHE_VERSION = 3;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
 const cacheFiles = [
@@ -20,6 +20,20 @@ self.addEventListener("install", (evt) => {
     })
   );
 });
+
+self.addEventListener("activate", (evt) =>
+  evt.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (cacheName !== CURRENT_CACHE) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  )
+);
 
 self.addEventListener("fetch", (event) => {
   // Check if this is a navigation request
