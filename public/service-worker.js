@@ -3,9 +3,10 @@ const CACHE_VERSION = 1;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
 const cacheFiles = [
-  "./*",
-  /*"./static",
-  "./static/*",
+  "./index.html",
+  "./manifest.json",
+  /*"/static",
+  "/static/*",
   "./static/js/*",
   "./static/css/*",*/
 ];
