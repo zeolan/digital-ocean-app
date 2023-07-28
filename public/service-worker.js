@@ -58,7 +58,7 @@ self.addEventListener("fetch", (event) => {
           });
           //cache.put(event.request, fetchedResponse.clone());
 
-          return fetchedResponse;
+          return fetchedResponse.clone();
         })
         .catch(() => {
           // If the network is unavailable, get
