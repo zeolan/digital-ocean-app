@@ -4,8 +4,10 @@ const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
 self.addEventListener("fetch", (event) => {
   // Check if this is a navigation request
+  console.log("=== fetch event");
   if (event.request.mode === "navigate") {
     // Open the cache
+    console.log("=== fetch event -> mode === navigate");
     event.respondWith(
       caches.open(CURRENT_CACHE).then((cache) => {
         // Go to the network first
@@ -22,6 +24,7 @@ self.addEventListener("fetch", (event) => {
       })
     );
   } else {
+    console.log("=== fetch event -> else");
     return;
   }
 });
