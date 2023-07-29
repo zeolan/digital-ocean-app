@@ -13,7 +13,6 @@ const cacheFiles = [
 ];
 
 self.addEventListener("install", (evt) => {
-  console.log("=== install event");
   return evt.waitUntil(
     caches.open(CURRENT_CACHE).then((cache) => {
       //return cache.addAll(cacheFiles);
@@ -38,10 +37,8 @@ self.addEventListener("activate", (evt) =>
 
 self.addEventListener("fetch", (event) => {
   // Check if this is a navigation request
-  console.log("=== fetch event");
   //if (event.request.mode === "navigate") {
   // Open the cache
-  console.log("=== fetch event -> mode === navigate");
   event.respondWith(
     caches.open(CURRENT_CACHE).then((cache) => {
       // Go to the network first
@@ -49,11 +46,8 @@ self.addEventListener("fetch", (event) => {
         .then((fetchedResponse) => {
           cache.match(event.request.url).then((response) => {
             if (response === undefined) {
-              console.log("=== not match");
               cache.put(event.request, fetchedResponse.clone());
-              //return response;
             } else {
-              console.log("=== match");
             }
           });
           //cache.put(event.request, fetchedResponse.clone());

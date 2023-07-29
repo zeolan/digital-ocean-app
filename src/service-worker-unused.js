@@ -86,7 +86,6 @@ self.addEventListener("message", (event) => {
   }
 });
 
-```
 // --------------------- Network first strategy-----------------------
 // on activation we clean up the previously registered service workers
 self.addEventListener("activate", (evt) =>
@@ -148,4 +147,4 @@ self.addEventListener("fetch", (evt) => {
     fromNetwork(evt.request, 10000).catch(() => fromCache(evt.request))
   );
   evt.waitUntil(update(evt.request));
-});```;
+});
