@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { IconButton, List, ListItem, ListItemText } from "@mui/material";
 import { Search, Cancel } from "@mui/icons-material";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import TextField from "@mui/material/TextField";
 import { useTheme } from "@mui/material/styles";
 import cx from "classnames";
@@ -16,14 +18,19 @@ import {
   getShowTooltip,
   setShowTooltip,
   getMode,
+  setVerbIdx,
+  getVerbIdx,
+  getVerbsOrder,
 } from "../store/appSlice.ts";
-import { getNextVerb } from "../utils.js";
+import { getVerbByIdx } from "../utils.ts";
 import { IVerb, Lang, Mode } from "../types.ts";
 
 const Verb: React.FC = () => {
   const theme = useTheme();
   const dispatch = useDispatch();
   const verb = useSelector(getVerb);
+  const verbIdx = useSelector(getVerbIdx);
+  const verbsOrder = useSelector(getVerbsOrder);
   const isLightMode = useSelector(getMode) === Mode.light;
   const tooltipOpen = useSelector(getShowTooltip);
   const [lang, setLang] = useState<Lang>(Lang.ro);
@@ -59,7 +66,7 @@ const Verb: React.FC = () => {
       typeof verb.nameRo[0] === "string" &&
       typeof verb.nameRo[1] === "number"
     ) {
-      const name = (verb.nameRo[0] as String).split("");
+      const name = verb.nameRo[0].split("");
       let key = 1;
       const result = name.map((item: string) => {
         return key !== verb.nameRo[1] ? (
@@ -92,9 +99,28 @@ const Verb: React.FC = () => {
   const onNextClick = () => {
     hideTooltip();
     setShowSearchInput(false);
-    const foundVerb = getNextVerb();
-    if (foundVerb) {
-      dispatch(setVerb(foundVerb));
+    if (verbIdx < data.length - 1) {
+      dispatch(setVerbIdx(verbIdx + 1));
+      const foundVerb = getVerbByIdx(data, verbsOrder[verbIdx + 1]);
+      if (foundVerb) {
+        dispatch(setVerb(foundVerb));
+      }
+    } else {
+      dispatch(setVerbIdx(0));
+    }
+  };
+
+  const onPrevClick = () => {
+    hideTooltip();
+    setShowSearchInput(false);
+    if (verbIdx > 0) {
+      dispatch(setVerbIdx(verbIdx - 1));
+      const foundVerb = getVerbByIdx(data, verbsOrder[verbIdx - 1]);
+      if (foundVerb) {
+        dispatch(setVerb(foundVerb));
+      }
+    } else {
+      dispatch(setVerbIdx(0));
     }
   };
 
@@ -209,6 +235,11 @@ const Verb: React.FC = () => {
           </div>
           <div className="App-verb-buttons">
             <OutlinedButton
+              onClick={onPrevClick}
+              startIcon={<ArrowBackIcon />}
+              sx={{ borderColor: theme.palette.primary.main }}
+            ></OutlinedButton>
+            <OutlinedButton
               onClick={onConjugationClick}
               sx={{ borderColor: theme.palette.primary.main }}
             >
@@ -216,10 +247,9 @@ const Verb: React.FC = () => {
             </OutlinedButton>
             <OutlinedButton
               onClick={onNextClick}
+              endIcon={<ArrowForwardIcon />}
               sx={{ borderColor: theme.palette.primary.main }}
-            >
-              Далі
-            </OutlinedButton>
+            ></OutlinedButton>
           </div>
           <div className="App-verb-search-icon">
             <IconButton onClick={onSearchClick}>

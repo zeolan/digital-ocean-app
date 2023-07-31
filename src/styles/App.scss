@@ -66,15 +66,22 @@
 }
 
 .App-verb-buttons {
-  padding-top: 20px;
+  padding: 20px 20px 0 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 50px;
+  //gap: 50px;
+}
+@media screen and (min-width: 500px) {
+  .App-verb-buttons {
+    justify-content: center;
+    gap: 30px;
+  }
 }
 
 .App-verb-buttons button {
   font-size: 14px;
+  min-width: unset;
   //border: 1px solid #1976d2;
 }
 
@@ -138,7 +145,17 @@
   }
 }
 
-@media screen and (min-width: 500px) and (min-height: 300px) {
+@media screen and (min-width: 500px) and (min-height: 300px) and (orientation: landscape) {
+  .App-verb-block1-button {
+    width: 50%;
+    //padding: 40px !important;
+    font-size: 40px;
+    button {
+      padding: 30px !important;
+    }
+  }
+}
+@media screen and (min-width: 800px) and (min-height: 500px) {
   .App-verb-block1-button {
     width: 50%;
     //padding: 40px !important;

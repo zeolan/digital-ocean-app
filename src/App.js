@@ -5,8 +5,15 @@ import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
 import data from "./data.json";
-import { getNextVerb } from "./utils";
-import { getShowConjugation, setVerb, getMode } from "./store/appSlice.ts";
+import { getRandomVerbsOrder } from "./utils.ts";
+import {
+  getShowConjugation,
+  setVerb,
+  getMode,
+  setVerbsOrder,
+  setVerbIdx,
+  setNumberOfVerbs,
+} from "./store/appSlice.ts";
 import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
 import Verb from "./components/Verb.tsx";
@@ -20,13 +27,21 @@ function App() {
   const showConjugation = useSelector(getShowConjugation);
   const isLightMode = useSelector(getMode) === Mode.light;
   const dispatch = useDispatch();
-  localStorage.setItem("numberOfVerbs", JSON.stringify(data.length));
+  const numberOfVerbs = data.length;
+  localStorage.setItem("numberOfVerbs", JSON.stringify(numberOfVerbs));
   localStorage.setItem("version", [process.env.REACT_APP_VERSION]);
 
   useEffect(() => {
-    const foundVerb = getNextVerb();
-    if (foundVerb) {
-      dispatch(setVerb(foundVerb));
+    const verbsOrder = getRandomVerbsOrder(numberOfVerbs);
+    dispatch(setNumberOfVerbs(numberOfVerbs));
+    if (verbsOrder.length) {
+      dispatch(setVerbsOrder(verbsOrder));
+      const initialIndex = verbsOrder[0];
+      dispatch(setVerbIdx(0));
+      const initialVerb = data.find((verb) => verb.id === initialIndex);
+      if (initialVerb) {
+        dispatch(setVerb(initialVerb));
+      }
     }
   }, []);
 
