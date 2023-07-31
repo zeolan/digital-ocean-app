@@ -12,6 +12,7 @@ import {
   getNumberOfVerbs,
   setVerbIdx,
   setShowConjugation,
+  getVerbsOrder,
 } from "../store/appSlice.ts";
 import { getVerbByIdx } from "../utils.ts";
 import data from "../data.json";
@@ -39,6 +40,7 @@ const StyledPaper = styled(Paper)(({ theme }) => ({
 const Conjugation: React.FC = () => {
   const verb = useSelector(getVerb);
   const verbIdx = useSelector(getVerbIdx);
+  const verbsOrder = useSelector(getVerbsOrder);
   const numberOfVerbs = useSelector(getNumberOfVerbs);
   const dispatch = useDispatch();
 
@@ -126,14 +128,14 @@ const Conjugation: React.FC = () => {
 
   const onNextClick = () => {
     dispatch(setShowConjugation(false));
-    if (verbIdx < numberOfVerbs - 1) {
-      dispatch(setVerbIdx(verbIdx + 1));
-      const foundVerb = getVerbByIdx(data, verbIdx + 1);
-      if (foundVerb) {
-        dispatch(setVerb(foundVerb));
-      }
-    } else {
-      dispatch(setVerbIdx(0));
+    let idx = verbIdx + 1;
+    if (idx >= verbsOrder.length) {
+      idx = 0;
+    }
+    dispatch(setVerbIdx(idx));
+    const foundVerb = getVerbByIdx(data, verbsOrder[idx]);
+    if (foundVerb) {
+      dispatch(setVerb(foundVerb));
     }
   };
 

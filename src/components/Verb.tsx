@@ -99,28 +99,28 @@ const Verb: React.FC = () => {
   const onNextClick = () => {
     hideTooltip();
     setShowSearchInput(false);
-    if (verbIdx < data.length - 1) {
-      dispatch(setVerbIdx(verbIdx + 1));
-      const foundVerb = getVerbByIdx(data, verbsOrder[verbIdx + 1]);
-      if (foundVerb) {
-        dispatch(setVerb(foundVerb));
-      }
-    } else {
-      dispatch(setVerbIdx(0));
+    let idx = verbIdx + 1;
+    if (idx >= verbsOrder.length) {
+      idx = 0;
+    }
+    dispatch(setVerbIdx(idx));
+    const foundVerb = getVerbByIdx(data, verbsOrder[idx]);
+    if (foundVerb) {
+      dispatch(setVerb(foundVerb));
     }
   };
 
   const onPrevClick = () => {
     hideTooltip();
     setShowSearchInput(false);
-    if (verbIdx > 0) {
-      dispatch(setVerbIdx(verbIdx - 1));
-      const foundVerb = getVerbByIdx(data, verbsOrder[verbIdx - 1]);
-      if (foundVerb) {
-        dispatch(setVerb(foundVerb));
-      }
-    } else {
-      dispatch(setVerbIdx(0));
+    let idx = verbIdx - 1;
+    if (verbIdx <= 0) {
+      idx = verbsOrder.length - 1;
+    }
+    dispatch(setVerbIdx(idx));
+    const foundVerb = getVerbByIdx(data, verbsOrder[idx]);
+    if (foundVerb) {
+      dispatch(setVerb(foundVerb));
     }
   };
 
