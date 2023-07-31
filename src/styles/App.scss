@@ -22,13 +22,11 @@
   margin-top: 5px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.06rem;
 }
 
 .App-verb {
   height: 100%;
-  //display: flex;
-  //overflow-y: scroll;
   flex-direction: column;
   align-items: center;
 }
@@ -37,8 +35,6 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  //position: fixed;
-  //z-index: 10;
 }
 
 .App-verb-search-list {
@@ -54,10 +50,8 @@
 }
 
 .App-verb-search-icon {
-  //display: flex;
   flex-direction: column;
   text-align: center;
-  //position: relative;
   margin-top: 5px;
 }
 
@@ -70,7 +64,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //gap: 50px;
 }
 @media screen and (min-width: 500px) {
   .App-verb-buttons {
@@ -82,11 +75,9 @@
 .App-verb-buttons button {
   font-size: 14px;
   min-width: unset;
-  //border: 1px solid #1976d2;
 }
 
 .App-verb-block1 {
-  //position: relative;
   width: 100%;
   height: 50%;
   display: flex;
@@ -103,7 +94,7 @@
   font-size: 40px;
   position: absolute;
   backface-visibility: hidden;
-  transition: transform 0.8s 0s;
+  transition: transform 0.5s 0s;
   &.front {
     transform: rotateX(0deg);
     button {
@@ -148,7 +139,6 @@
 @media screen and (min-width: 500px) and (min-height: 300px) and (orientation: landscape) {
   .App-verb-block1-button {
     width: 50%;
-    //padding: 40px !important;
     font-size: 40px;
     button {
       padding: 30px !important;
@@ -158,7 +148,6 @@
 @media screen and (min-width: 800px) and (min-height: 500px) {
   .App-verb-block1-button {
     width: 50%;
-    //padding: 40px !important;
     font-size: 60px;
     button {
       padding: 40px !important;

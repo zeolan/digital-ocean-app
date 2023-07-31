@@ -5693,5 +5693,143 @@
     "participle": "topit",
     "impS": "topește",
     "impP": "topiți"
+  },
+  {
+    "id": 248,
+    "nameRo": ["proba", 5],
+    "nameRu": "пробовать, примерять, испытывать",
+    "conjugation": {
+      "eu": ["probez", 5],
+      "tu": "probezi",
+      "el": "probează",
+      "noi": "probăm",
+      "voi": "probați",
+      "ei": "probează",
+
+      "eu1": "probez",
+      "tu1": "probezi",
+      "el1": "probeze",
+      "noi1": "probăm",
+      "voi1": "probați",
+      "ei1": "probeze"
+    },
+    "participle": "probat",
+    "impS": "probează",
+    "impP": "probați"
+  },
+  {
+    "id": 249,
+    "nameRo": ["copia", 5],
+    "nameRu": "копировать",
+    "conjugation": {
+      "eu": ["copiez", 5],
+      "tu": "copiezi",
+      "el": "copiază",
+      "noi": "copiem",
+      "voi": "copiați",
+      "ei": "copiază",
+
+      "eu1": "copiez",
+      "tu1": "copiezi",
+      "el1": "copieze",
+      "noi1": "copiem",
+      "voi1": "copiați",
+      "ei1": "copieze"
+    },
+    "participle": "copiat",
+    "impS": "copiază",
+    "impP": "copiați"
+  },
+  {
+    "id": 250,
+    "nameRo": ["rula", 4],
+    "nameRu": "крутить, сворачивать (рулон), показывать фильм",
+    "conjugation": {
+      "eu": ["rulez", 4],
+      "tu": "rulezi",
+      "el": "rulează",
+      "noi": "rulăm",
+      "voi": "rulați",
+      "ei": "rulează",
+
+      "eu1": "rulez",
+      "tu1": "rulezi",
+      "el1": "ruleze",
+      "noi1": "rulăm",
+      "voi1": "rulați",
+      "ei1": "ruleze"
+    },
+    "participle": "rulat",
+    "impS": "rulează",
+    "impP": "rulați"
+  },
+  {
+    "id": 251,
+    "nameRo": ["divorța", 7],
+    "nameRu": "разводиться, развестись",
+    "conjugation": {
+      "eu": ["divorțez", 7],
+      "tu": "divorțezi",
+      "el": "divorțează",
+      "noi": "divorțăm",
+      "voi": "divorțați",
+      "ei": "divorțează",
+
+      "eu1": "divorțez",
+      "tu1": "divorțezi",
+      "el1": "divorțeze",
+      "noi1": "divorțăm",
+      "voi1": "divorțați",
+      "ei1": "divorțeze"
+    },
+    "participle": "divorțat",
+    "impS": "divorțează",
+    "impP": "divorțați"
+  },
+  {
+    "id": 252,
+    "nameRo": ["bate", 2],
+    "nameRu": "бить(ся), ударять, побить(выиграть)",
+    "conjugation": {
+      "eu": ["bat", 2],
+      "tu": "bați",
+      "el": "bate",
+      "noi": "batem",
+      "voi": "bateți",
+      "ei": "bat",
+
+      "eu1": "bat",
+      "tu1": "bați",
+      "el1": "bată",
+      "noi1": "batem",
+      "voi1": "bateți",
+      "ei1": "bată"
+    },
+    "participle": "bătut",
+    "impS": "bate",
+    "impP": "bateți"
+  },
+  {
+    "id": 253,
+    "nameRo": ["curge", 2],
+    "nameRu": "течь (вода, слезы, пот...), стекать",
+    "conjugation": {
+      "eu": ["-", 2],
+      "tu": "-",
+      "el": "curge",
+      "noi": "-",
+      "voi": "-",
+      "ei": "curg",
+
+      "eu1": "-",
+      "tu1": "-",
+      "el1": "curgă",
+      "noi1": "-",
+      "voi1": "-",
+      "ei1": "curgă"
+    },
+    "participle": "curs",
+    "impS": "-",
+    "impP": "-"
   }
 ]
