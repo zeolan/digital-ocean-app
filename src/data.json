@@ -5831,5 +5831,212 @@
     "participle": "curs",
     "impS": "-",
     "impP": "-"
+  },
+  {
+    "id": 254,
+    "nameRo": ["felia", 5],
+    "nameRu": "нарезать (на ломтики), резать",
+    "conjugation": {
+      "eu": ["feliez", 5],
+      "tu": "feliezi",
+      "el": "feliază",
+      "noi": "feliem",
+      "voi": "felieți",
+      "ei": "feliază",
+
+      "eu1": "feliez",
+      "tu1": "feliezi",
+      "el1": "felieze",
+      "noi1": "feliem",
+      "voi1": "felieți",
+      "ei1": "felieze"
+    },
+    "participle": "feliat",
+    "impS": "feliază",
+    "impP": "felieți"
+  },
+  {
+    "id": 255,
+    "nameRo": ["(se) naște", 7],
+    "nameRu": "родить(ся), рожать",
+    "conjugation": {
+      "eu": ["nasc", 2],
+      "tu": "naști",
+      "el": "naște",
+      "noi": "naștem",
+      "voi": "nașteți",
+      "ei": "nasc",
+
+      "eu1": "nasc",
+      "tu1": "naști",
+      "el1": "nască",
+      "noi1": "naștem",
+      "voi1": "nașteți",
+      "ei1": "nască"
+    },
+    "participle": "nascut",
+    "impS": "naște",
+    "impP": "nașteți"
+  },
+  {
+    "id": 256,
+    "nameRo": ["apăsa", 5],
+    "nameRu": "нажимать, давить, надавливать",
+    "conjugation": {
+      "eu": ["apăs", 3],
+      "tu": "apeși",
+      "el": "apasă",
+      "noi": "apăsăm",
+      "voi": "apăsați",
+      "ei": "apasă",
+
+      "eu1": "apăs",
+      "tu1": "apeși",
+      "el1": "apese",
+      "noi1": "apăsăm",
+      "voi1": "apăsați",
+      "ei1": "apese"
+    },
+    "participle": "apăsat",
+    "impS": "apasă",
+    "impP": "apăsați"
+  },
+  {
+    "id": 257,
+    "nameRo": ["căra", 4],
+    "nameRu": "переносить, перевозить (кого/что)",
+    "conjugation": {
+      "eu": ["car", 2],
+      "tu": "cari",
+      "el": "cară",
+      "noi": "cărăm",
+      "voi": "cărați",
+      "ei": "cară",
+
+      "eu1": "car",
+      "tu1": "cari",
+      "el1": "care",
+      "noi1": "cărăm",
+      "voi1": "cărați",
+      "ei1": "care"
+    },
+    "participle": "cărat",
+    "impS": "cară",
+    "impP": "cărați"
+  },
+  {
+    "id": 258,
+    "nameRo": ["strânge", 4],
+    "nameRu": "затянуть (пояс, ...), пожать руку",
+    "conjugation": {
+      "eu": ["strâng", 4],
+      "tu": "strângi",
+      "el": "strânge",
+      "noi": "strângem",
+      "voi": "strângeți",
+      "ei": "strâng",
+
+      "eu1": "strâng",
+      "tu1": "strângi",
+      "el1": "strângă",
+      "noi1": "strângem",
+      "voi1": "strângeți",
+      "ei1": "strângă"
+    },
+    "participle": "strâns",
+    "impS": "strânge",
+    "impP": "strângeți"
+  },
+  {
+    "id": 259,
+    "nameRo": ["cuceri", 6],
+    "nameRu": "завоевывать, занимать, забирать",
+    "conjugation": {
+      "eu": ["cuceresc", 6],
+      "tu": "cucerești",
+      "el": "cucerește",
+      "noi": "cucerim",
+      "voi": "cuceriți",
+      "ei": "cuceresc",
+
+      "eu1": "cuceresc",
+      "tu1": "cucerești",
+      "el1": "cucerească",
+      "noi1": "cucerim",
+      "voi1": "cuceriți",
+      "ei1": "cucerească"
+    },
+    "participle": "cucerit",
+    "impS": "cucerește",
+    "impP": "cuceriți"
+  },
+  {
+    "id": 260,
+    "nameRo": ["invada", 6],
+    "nameRu": "вторгаться, нападать",
+    "conjugation": {
+      "eu": ["invadez", 6],
+      "tu": "invadezi",
+      "el": "invadează",
+      "noi": "invadăm",
+      "voi": "invadați",
+      "ei": "invadează",
+
+      "eu1": "invadez",
+      "tu1": "invadezi",
+      "el1": "invadeze",
+      "noi1": "invadăm",
+      "voi1": "invadați",
+      "ei1": "invadeze"
+    },
+    "participle": "invadat",
+    "impS": "invadează",
+    "impP": "invadați"
+  },
+  {
+    "id": 261,
+    "nameRo": ["continua", 8],
+    "nameRu": "продолжать",
+    "conjugation": {
+      "eu": ["continuu(i)", 5],
+      "tu": "continui",
+      "el": "continuă",
+      "noi": "continuăm",
+      "voi": "continuați",
+      "ei": "continuă",
+
+      "eu1": "continuu(i)",
+      "tu1": "continui",
+      "el1": "continue",
+      "noi1": "continuăm",
+      "voi1": "continuați",
+      "ei1": "continue"
+    },
+    "participle": "continuat",
+    "impS": "continuă",
+    "impP": "continuați"
+  },
+  {
+    "id": 262,
+    "nameRo": ["(se) mira", 9],
+    "nameRu": "удивлять(ся)",
+    "conjugation": {
+      "eu": ["mir", 2],
+      "tu": "miri",
+      "el": "miră",
+      "noi": "mirăm",
+      "voi": "mirați",
+      "ei": "miră",
+
+      "eu1": "mir",
+      "tu1": "miri",
+      "el1": "mire",
+      "noi1": "mirăm",
+      "voi1": "mirați",
+      "ei1": "mire"
+    },
+    "participle": "mirat",
+    "impS": "miră",
+    "impP": "mirați"
   }
 ]
