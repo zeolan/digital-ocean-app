@@ -6038,5 +6038,120 @@
     "participle": "mirat",
     "impS": "miră",
     "impP": "mirați"
+  },
+  {
+    "id": 263,
+    "nameRo": ["planta", 6],
+    "nameRu": "сажать, садить, закапывать",
+    "conjugation": {
+      "eu": ["plantez", 6],
+      "tu": "plantezi",
+      "el": "plantează",
+      "noi": "plantăm",
+      "voi": "plantați",
+      "ei": "plantează",
+
+      "eu1": "plantez",
+      "tu1": "plantezi",
+      "el1": "planteze",
+      "noi1": "plantăm",
+      "voi1": "plantați",
+      "ei1": "planteze"
+    },
+    "participle": "plantat",
+    "impS": "plantează",
+    "impP": "plantați"
+  },
+  {
+    "id": 264,
+    "nameRo": ["(se) speria", 11],
+    "nameRu": "(ис)пугать(ся), бояться",
+    "conjugation": {
+      "eu": ["sperii", 3],
+      "tu": "sperii",
+      "el": "sperie",
+      "noi": "speriem",
+      "voi": "speriați",
+      "ei": "sperie",
+
+      "eu1": "sperii",
+      "tu1": "sperii",
+      "el1": "sperie",
+      "noi1": "speriem",
+      "voi1": "speriați",
+      "ei1": "sperie"
+    },
+    "participle": "speriat",
+    "impS": "sperie",
+    "impP": "speriați"
+  },
+  {
+    "id": 265,
+    "nameRo": ["servi", 5],
+    "nameRu": "служить, прислуживать, подавать (на стол, мяч, ...)",
+    "conjugation": {
+      "eu": ["servesc", 5],
+      "tu": "servești",
+      "el": "servește",
+      "noi": "servim",
+      "voi": "serviți",
+      "ei": "servesc",
+
+      "eu1": "servesc",
+      "tu1": "servești",
+      "el1": "servească",
+      "noi1": "servim",
+      "voi1": "serviți",
+      "ei1": "servească"
+    },
+    "participle": "servit",
+    "impS": "servește",
+    "impP": "serviți"
+  },
+  {
+    "id": 266,
+    "nameRo": ["obosi", 5],
+    "nameRu": "уставать, терять силы",
+    "conjugation": {
+      "eu": ["obosesc", 5],
+      "tu": "obosești",
+      "el": "obosește",
+      "noi": "obosim",
+      "voi": "obosiți",
+      "ei": "obosesc",
+
+      "eu1": "obosesc",
+      "tu1": "obosești",
+      "el1": "obosească",
+      "noi1": "obosim",
+      "voi1": "obosiți",
+      "ei1": "obosească"
+    },
+    "participle": "obosit",
+    "impS": "obosește",
+    "impP": "obosiți"
+  },
+  {
+    "id": 267,
+    "nameRo": ["(se) roti", 9],
+    "nameRu": "крутить(ся), вращать(ся) (по кругу)",
+    "conjugation": {
+      "eu": ["rotesc", 4],
+      "tu": "rotești",
+      "el": "rotește",
+      "noi": "rotim",
+      "voi": "rotiți",
+      "ei": "rotesc",
+
+      "eu1": "rotesc",
+      "tu1": "rotești",
+      "el1": "rotească",
+      "noi1": "rotim",
+      "voi1": "rotiți",
+      "ei1": "rotească"
+    },
+    "participle": "rotit",
+    "impS": "rotește",
+    "impP": "rotiți"
   }
 ]
