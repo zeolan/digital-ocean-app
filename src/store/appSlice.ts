@@ -7,9 +7,11 @@ interface MainState {
   showTooltip: Boolean;
   showConjugation: Boolean;
   verbsOrder: number[];
+  verbsOrderSorted: number[];
   verbIdx: number | null;
   numberOfVerbs: number;
   mode: string;
+  sortVerbs: boolean;
 }
 
 const mode = localStorage.getItem("mode") || Mode.light;
@@ -19,9 +21,11 @@ const initialState: MainState = {
   showTooltip: true,
   showConjugation: false,
   verbsOrder: [],
+  verbsOrderSorted: [],
   verbIdx: 0,
   numberOfVerbs: 0,
   mode,
+  sortVerbs: false,
 };
 
 export const mainSlice = createSlice({
@@ -44,11 +48,17 @@ export const mainSlice = createSlice({
     setVerbsOrder: (state, action) => {
       state.verbsOrder = action.payload;
     },
+    setVerbsOrderSorted: (state, action) => {
+      state.verbsOrderSorted = action.payload;
+    },
     setVerbIdx: (state, action) => {
       state.verbIdx = action.payload;
     },
     setNumberOfVerbs: (state, action) => {
       state.numberOfVerbs = action.payload;
+    },
+    setSortVerbs: (state, action) => {
+      state.sortVerbs = action.payload;
     },
   },
 });
@@ -62,6 +72,8 @@ export const {
   setVerbsOrder,
   setVerbIdx,
   setNumberOfVerbs,
+  setSortVerbs,
+  setVerbsOrderSorted,
 } = mainSlice.actions;
 
 export const getVerb = (state) => {
@@ -84,12 +96,20 @@ export const getVerbsOrder = (state): number[] => {
   return state.main.verbsOrder;
 };
 
+export const getVerbsOrderSorted = (state): number[] => {
+  return state.main.verbsOrderSorted;
+};
+
 export const getVerbIdx = (state): number => {
   return state.main.verbIdx;
 };
 
 export const getNumberOfVerbs = (state): number => {
   return state.main.numberOfVerbs;
+};
+
+export const getSortVerbs = (state): boolean => {
+  return state.main.sortVerbs;
 };
 
 export default mainSlice.reducer;

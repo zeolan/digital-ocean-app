@@ -9,7 +9,6 @@ import {
   getVerb,
   setVerb,
   getVerbIdx,
-  getNumberOfVerbs,
   setVerbIdx,
   setShowConjugation,
   getVerbsOrder,
@@ -41,7 +40,6 @@ const Conjugation: React.FC = () => {
   const verb = useSelector(getVerb);
   const verbIdx = useSelector(getVerbIdx);
   const verbsOrder = useSelector(getVerbsOrder);
-  const numberOfVerbs = useSelector(getNumberOfVerbs);
   const dispatch = useDispatch();
 
   const getNameRo = (nameRo: any) => {

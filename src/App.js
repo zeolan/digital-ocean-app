@@ -18,6 +18,7 @@ import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
 import Verb from "./components/Verb.tsx";
 import ThemeButton from "./components/ThemeButton.tsx";
+import SettingsButton from "./components/SettingsButton.tsx";
 import Conjugation from "./components/Conjugation.tsx";
 import "./styles/App.scss";
 import { Mode } from "./types.ts";
@@ -49,6 +50,7 @@ function App() {
     <ThemeProvider theme={isLightMode ? defaultTheme : darkTheme}>
       <CssBaseline />
       <div className="App">
+        <SettingsButton />
         <ThemeButton />
         <Header />
         {showConjugation ? <Conjugation /> : <Verb />}
