@@ -499,7 +499,7 @@
   },
   {
     "id": 22,
-    "nameRo": ["uita (se uita)", 4],
+    "nameRo": ["(se) uita", 9],
     "nameRu": "забывать (смотреть)",
     "conjugation": {
       "eu": ["uit", 1],
@@ -2938,7 +2938,7 @@
   {
     "id": 128,
     "nameRo": ["(se) bate", 7],
-    "nameRu": "ударять(ся), бить, побить (рекорд, выиграть)",
+    "nameRu": "ударять(ся), бить(ся), побить (рекорд, выиграть)",
     "conjugation": {
       "eu": ["bat", 2],
       "tu": "bați",
@@ -4846,7 +4846,7 @@
   {
     "id": 211,
     "nameRo": ["atinge", 3],
-    "nameRu": "трогать, (при)касаться",
+    "nameRu": "трогать, (при)касаться, достигать (границ, пределов...)",
     "conjugation": {
       "eu": ["ating", 3],
       "tu": "atingi",
@@ -5788,26 +5788,26 @@
   },
   {
     "id": 252,
-    "nameRo": ["bate", 2],
-    "nameRu": "бить(ся), ударять, побить(выиграть)",
+    "nameRo": ["umbla", 5],
+    "nameRu": "прогуливаться, гулять, бродить",
     "conjugation": {
-      "eu": ["bat", 2],
-      "tu": "bați",
-      "el": "bate",
-      "noi": "batem",
-      "voi": "bateți",
-      "ei": "bat",
+      "eu": ["umblu", 1],
+      "tu": "umbli",
+      "el": "umblă",
+      "noi": "umblăm",
+      "voi": "umblați",
+      "ei": "umblă",
 
-      "eu1": "bat",
-      "tu1": "bați",
-      "el1": "bată",
-      "noi1": "batem",
-      "voi1": "bateți",
-      "ei1": "bată"
+      "eu1": "umblu",
+      "tu1": "umbli",
+      "el1": "umble",
+      "noi1": "umblăm",
+      "voi1": "umblați",
+      "ei1": "umble"
     },
-    "participle": "bătut",
-    "impS": "bate",
-    "impP": "bateți"
+    "participle": "umblat",
+    "impS": "umblă",
+    "impP": "umblați"
   },
   {
     "id": 253,
@@ -6153,5 +6153,143 @@
     "participle": "rotit",
     "impS": "rotește",
     "impP": "rotiți"
+  },
+  {
+    "id": 268,
+    "nameRo": ["invita", 6],
+    "nameRu": "приглашать",
+    "conjugation": {
+      "eu": ["invit", 4],
+      "tu": "inviți",
+      "el": "invită",
+      "noi": "invităm",
+      "voi": "invitați",
+      "ei": "invită",
+
+      "eu1": "invit",
+      "tu1": "inviți",
+      "el1": "invite",
+      "noi1": "invităm",
+      "voi1": "invitați",
+      "ei1": "invite"
+    },
+    "participle": "invitat",
+    "impS": "invită",
+    "impP": "invitați"
+  },
+  {
+    "id": 269,
+    "nameRo": ["sclipi", 6],
+    "nameRu": "блестеть",
+    "conjugation": {
+      "eu": ["sclipesc", 6],
+      "tu": "sclipești",
+      "el": "sclipește",
+      "noi": "sclipim",
+      "voi": "sclipiți",
+      "ei": "sclipesc",
+
+      "eu1": "sclipesc",
+      "tu1": "sclipești",
+      "el1": "sclipească",
+      "noi1": "sclipim",
+      "voi1": "sclipiți",
+      "ei1": "sclipească"
+    },
+    "participle": "sclipit",
+    "impS": "sclipește",
+    "impP": "sclipiți"
+  },
+  {
+    "id": 270,
+    "nameRo": ["(se) hotărî", 11],
+    "nameRu": "решить(ся), принять решение",
+    "conjugation": {
+      "eu": ["hotărăsc", 6],
+      "tu": "hotărăști",
+      "el": "hotărăște",
+      "noi": "hotărâm",
+      "voi": "hotărâți",
+      "ei": "hotărăsc",
+
+      "eu1": "hotărăsc",
+      "tu1": "hotărăști",
+      "el1": "hotărască",
+      "noi1": "hotărâm",
+      "voi1": "hotărâți",
+      "ei1": "hotărască"
+    },
+    "participle": "hotărât",
+    "impS": "hotărăște",
+    "impP": "hotărâți"
+  },
+  {
+    "id": 271,
+    "nameRo": ["(se) încărca", 12],
+    "nameRu": "заправлять(ся), заряжать(ся), пополнять, нагружать",
+    "conjugation": {
+      "eu": ["încarca", 4],
+      "tu": "încarci",
+      "el": "încarcă",
+      "noi": "încărcăm",
+      "voi": "încărcați",
+      "ei": "încarcă",
+
+      "eu1": "încarca",
+      "tu1": "încarci",
+      "el1": "încarce",
+      "noi1": "încărcăm",
+      "voi1": "încărcați",
+      "ei1": "încarce"
+    },
+    "participle": "încărcat",
+    "impS": "încarcă",
+    "impP": "încărcați"
+  },
+  {
+    "id": 272,
+    "nameRo": ["rezista", 7],
+    "nameRu": "сопротивляться, оказывать сопротивление",
+    "conjugation": {
+      "eu": ["rezist", 4],
+      "tu": "reziști",
+      "el": "rezistă",
+      "noi": "rezistăm",
+      "voi": "rezistați",
+      "ei": "rezistă",
+
+      "eu1": "rezist",
+      "tu1": "reziști",
+      "el1": "reziste",
+      "noi1": "rezistăm",
+      "voi1": "rezistați",
+      "ei1": "reziste"
+    },
+    "participle": "rezistat",
+    "impS": "rezistă",
+    "impP": "rezistați"
+  },
+  {
+    "id": 273,
+    "nameRo": ["depăși", 6],
+    "nameRu": "превышать, превысить (предел, лимит, ...), опередить",
+    "conjugation": {
+      "eu": ["depășesc", 6],
+      "tu": "depășești",
+      "el": "depășește",
+      "noi": "depășim",
+      "voi": "depășiți",
+      "ei": "depășesc",
+
+      "eu1": "depășesc",
+      "tu1": "depășești",
+      "el1": "depășească",
+      "noi1": "depășim",
+      "voi1": "depășiți",
+      "ei1": "depășească"
+    },
+    "participle": "depășit",
+    "impS": "depășește",
+    "impP": "depășiți"
   }
 ]
