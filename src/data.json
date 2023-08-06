@@ -6291,5 +6291,51 @@
     "participle": "depășit",
     "impS": "depășește",
     "impP": "depășiți"
+  },
+  {
+    "id": 274,
+    "nameRo": ["primi", 5],
+    "nameRu": "получать, принимать",
+    "conjugation": {
+      "eu": ["primesc", 5],
+      "tu": "primești",
+      "el": "primește",
+      "noi": "primim",
+      "voi": "primiți",
+      "ei": "primesc",
+
+      "eu1": "primesc",
+      "tu1": "primești",
+      "el1": "primească",
+      "noi1": "primim",
+      "voi1": "primiți",
+      "ei1": "primească"
+    },
+    "participle": "primit",
+    "impS": "primește",
+    "impP": "primiți"
+  },
+  {
+    "id": 275,
+    "nameRo": ["accepta", 7],
+    "nameRu": "соглашаться, принимать",
+    "conjugation": {
+      "eu": ["accept", 4],
+      "tu": "accepți",
+      "el": "acceptă",
+      "noi": "acceptăm",
+      "voi": "acceptați",
+      "ei": "acceptă",
+
+      "eu1": "accept",
+      "tu1": "accepți",
+      "el1": "accepte",
+      "noi1": "acceptăm",
+      "voi1": "acceptați",
+      "ei1": "accepte"
+    },
+    "participle": "acceptat",
+    "impS": "acceptă",
+    "impP": "acceptați"
   }
 ]
