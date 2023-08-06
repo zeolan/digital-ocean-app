@@ -6,15 +6,15 @@ import { styled } from "@mui/material/styles";
 
 import { CapButton, LowCaseButton } from "./MyButtons.js";
 import {
+  getVerbs,
   getVerb,
   setVerb,
   getVerbIdx,
   setVerbIdx,
   setShowConjugation,
   getVerbsOrder,
-} from "../store/appSlice.ts";
+} from "../store/reducer.ts";
 import { getVerbByIdx } from "../utils.ts";
-import data from "../data.json";
 
 const personButtons = [
   <CapButton key="persona" variant="outlined">
@@ -37,6 +37,7 @@ const StyledPaper = styled(Paper)(({ theme }) => ({
 }));
 
 const Conjugation: React.FC = () => {
+  const verbs = useSelector(getVerbs);
   const verb = useSelector(getVerb);
   const verbIdx = useSelector(getVerbIdx);
   const verbsOrder = useSelector(getVerbsOrder);
@@ -131,7 +132,7 @@ const Conjugation: React.FC = () => {
       idx = 0;
     }
     dispatch(setVerbIdx(idx));
-    const foundVerb = getVerbByIdx(data, verbsOrder[idx]);
+    const foundVerb = getVerbByIdx(verbs, verbsOrder[idx]);
     if (foundVerb) {
       dispatch(setVerb(foundVerb));
     }

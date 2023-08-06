@@ -1,6 +1,6 @@
 export interface IVerb {
   id: number;
-  nameRo: string;
+  nameRo: [string, number];
   nameRu: string;
   conjugation: {
     eu: string;

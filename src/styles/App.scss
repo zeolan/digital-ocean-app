@@ -40,9 +40,16 @@
 }
 
 .App-verb-search-block {
-  width: 100%;
+  position: relative;
+  width: 60%;
+  margin-left: 20%;
   height: 100%;
+  margin-top: 20px;
   text-align: center;
+  &_close-btn {
+    position: absolute !important;
+    top: -15px;
+  }
 }
 
 .App-verb-search-list {

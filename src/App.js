@@ -4,16 +4,16 @@ import { useSelector, useDispatch } from "react-redux";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
-import data from "./data.json";
 import { getRandomVerbsOrder } from "./utils.ts";
 import {
+  getVerbs,
   getShowConjugation,
   setVerb,
   getMode,
   setVerbsOrder,
   setVerbIdx,
   setNumberOfVerbs,
-} from "./store/appSlice.ts";
+} from "./store/reducer.ts";
 import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
 import Verb from "./components/Verb.tsx";
@@ -25,12 +25,13 @@ import { Mode } from "./types.ts";
 import { darkTheme, defaultTheme } from "./themes";
 
 function App() {
+  const verbs = useSelector(getVerbs);
   const showConjugation = useSelector(getShowConjugation);
   const isLightMode = useSelector(getMode) === Mode.light;
   const dispatch = useDispatch();
-  const numberOfVerbs = data.length;
-  localStorage.setItem("numberOfVerbs", JSON.stringify(numberOfVerbs));
-  localStorage.setItem("version", [process.env.REACT_APP_VERSION]);
+  const numberOfVerbs = verbs.length;
+  //localStorage.setItem("numberOfVerbs", JSON.stringify(numberOfVerbs));
+  //localStorage.setItem("version", [process.env.REACT_APP_VERSION]);
 
   useEffect(() => {
     const verbsOrder = getRandomVerbsOrder(numberOfVerbs);
@@ -39,7 +40,7 @@ function App() {
       dispatch(setVerbsOrder(verbsOrder));
       const initialIndex = verbsOrder[0];
       dispatch(setVerbIdx(0));
-      const initialVerb = data.find((verb) => verb.id === initialIndex);
+      const initialVerb = verbs.find((verb) => verb.id === initialIndex);
       if (initialVerb) {
         dispatch(setVerb(initialVerb));
       }

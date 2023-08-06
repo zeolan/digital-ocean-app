@@ -1,9 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 import { Mode, IVerb } from "../types.ts";
+import data from "../data.json";
 
 interface MainState {
   verb: IVerb | null;
+  verbs: IVerb[];
   showTooltip: Boolean;
   showConjugation: Boolean;
   verbsOrder: number[];
@@ -15,9 +17,11 @@ interface MainState {
 }
 
 const mode = localStorage.getItem("mode") || Mode.light;
+const verbs = data as IVerb[];
 
 const initialState: MainState = {
   verb: null,
+  verbs: verbs,
   showTooltip: true,
   showConjugation: false,
   verbsOrder: [],
@@ -63,7 +67,6 @@ export const mainSlice = createSlice({
   },
 });
 
-// Action creators are generated for each case reducer function
 export const {
   setShowTooltip,
   setShowConjugation,
@@ -76,19 +79,23 @@ export const {
   setVerbsOrderSorted,
 } = mainSlice.actions;
 
-export const getVerb = (state) => {
+export const getVerb = (state): IVerb => {
   return state.main.verb;
 };
 
-export const getShowTooltip = (state) => {
+export const getVerbs = (state): IVerb[] => {
+  return state.main.verbs;
+};
+
+export const getShowTooltip = (state): boolean => {
   return state.main.showTooltip;
 };
 
-export const getShowConjugation = (state) => {
+export const getShowConjugation = (state): boolean => {
   return state.main.showConjugation;
 };
 
-export const getMode = (state) => {
+export const getMode = (state): string => {
   return state.main.mode;
 };
 

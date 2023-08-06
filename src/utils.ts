@@ -13,14 +13,14 @@ export const getRandomVerbsOrder = (numVerbs: number): number[] => {
 };
 
 export const getSortedVerbsOrder = (verbs: any[]): number[] => {
-  verbs.sort((a: any, b: any) => {
-    var nameA = a.nameRo[0];
+  const verbsCopy = structuredClone(verbs).sort((a: any, b: any) => {
+    let nameA = a.nameRo[0];
     if (nameA.indexOf("(se) ") !== -1) {
       nameA = nameA.slice("(se) ".length);
     } else if (nameA.indexOf("se ") !== -1) {
       nameA = nameA.slice("se ".length);
     }
-    var nameB = b.nameRo[0];
+    let nameB = b.nameRo[0];
     if (nameB.indexOf("(se) ") !== -1) {
       nameB = nameB.slice("(se) ".length);
     } else if (nameB.indexOf("se ") !== -1) {
@@ -28,7 +28,7 @@ export const getSortedVerbsOrder = (verbs: any[]): number[] => {
     }
     return nameA > nameB ? 1 : nameA < nameB ? -1 : 0;
   });
-  return verbs.map((verb: any) => verb.id);
+  return verbsCopy.map((verb: any) => verb.id);
 };
 
 export const getVerbByIdx = (verbs: any[], idx: number): any => {

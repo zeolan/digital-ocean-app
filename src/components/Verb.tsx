@@ -1,17 +1,22 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { IconButton, List, ListItem, ListItemText } from "@mui/material";
-import { Search, Cancel } from "@mui/icons-material";
+import { Search, Cancel, Close } from "@mui/icons-material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import BackspaceIcon from "@mui/icons-material/Backspace";
 import TextField from "@mui/material/TextField";
+//import InputLabel from "@mui/material/InputLabel";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import InputAdornment from "@mui/material/InputAdornment";
 import { useTheme } from "@mui/material/styles";
 import cx from "classnames";
 
-import data from "../data.json";
 import { OutlinedButton, VerbButton } from "./MyButtons.js";
 import { LightTooltip } from "./MyTooltip.tsx";
 import {
+  getVerbs,
   getVerb,
   setVerb,
   setShowConjugation,
@@ -21,13 +26,14 @@ import {
   setVerbIdx,
   getVerbIdx,
   getVerbsOrder,
-} from "../store/appSlice.ts";
+} from "../store/reducer.ts";
 import { getVerbByIdx } from "../utils.ts";
 import { IVerb, Lang, Mode } from "../types.ts";
 
 const Verb: React.FC = () => {
   const theme = useTheme();
   const dispatch = useDispatch();
+  const verbs = useSelector(getVerbs);
   const verb = useSelector(getVerb);
   const verbIdx = useSelector(getVerbIdx);
   const verbsOrder = useSelector(getVerbsOrder);
@@ -35,9 +41,12 @@ const Verb: React.FC = () => {
   const tooltipOpen = useSelector(getShowTooltip);
   const [lang, setLang] = useState<Lang>(Lang.ro);
   const [searchLang, setSearchLang] = useState<Lang>(Lang.ro);
+  const [searchString, setSearchString] = useState<string>("");
   const [showSearchInput, setShowSearchInput] = useState<boolean>(false);
   const [searchResults, setSearchResults] = useState<any[]>([]);
   const [localNameRu, setLocalNameRu] = useState<string>("");
+  const inputRef = useRef<HTMLInputElement>();
+
   const tooltipText = `Натисніть на дієслово щоб подивитись переклад.
      Натисніть ВІДМІНЮВАННЯ щоб подивитися відмінювання дієслова.
      Натисніть ДАЛІ щоб перейти до наступного дієслова.
@@ -61,8 +70,9 @@ const Verb: React.FC = () => {
   const getNameRo = () => {
     if (
       typeof verb.nameRo === "object" &&
-      verb.nameRo[0] &&
-      verb.nameRo[1] &&
+      verb !== null &&
+      verb?.nameRo[0] &&
+      verb?.nameRo[1] &&
       typeof verb.nameRo[0] === "string" &&
       typeof verb.nameRo[1] === "number"
     ) {
@@ -104,7 +114,7 @@ const Verb: React.FC = () => {
       idx = 0;
     }
     dispatch(setVerbIdx(idx));
-    const foundVerb = getVerbByIdx(data, verbsOrder[idx]);
+    const foundVerb = getVerbByIdx(verbs, verbsOrder[idx]);
     if (foundVerb) {
       dispatch(setVerb(foundVerb));
     }
@@ -118,7 +128,7 @@ const Verb: React.FC = () => {
       idx = verbsOrder.length - 1;
     }
     dispatch(setVerbIdx(idx));
-    const foundVerb = getVerbByIdx(data, verbsOrder[idx]);
+    const foundVerb = getVerbByIdx(verbs, verbsOrder[idx]);
     if (foundVerb) {
       dispatch(setVerb(foundVerb));
     }
@@ -130,22 +140,29 @@ const Verb: React.FC = () => {
   };
 
   const onCancelSearchClick = () => {
+    setSearchString("");
     setSearchResults([]);
     setShowSearchInput(false);
   };
 
   const onListItemClick = (item: IVerb) => {
-    setSearchResults([]);
-    setShowSearchInput(false);
     dispatch(setVerb(item));
+    onCancelSearchClick();
+  };
+
+  const handleClearSearchString = () => {
+    setSearchResults([]);
+    setSearchString("");
+    inputRef && inputRef.current && inputRef.current.focus();
   };
 
   const onSearchChange = (e: any) => {
+    setSearchString(e.target.value);
     if (e.target.value.length > 1) {
-      const searchResultsRo = data.filter((item: any) =>
+      const searchResultsRo = verbs.filter((item: any) =>
         item.nameRo[0].includes(e.target.value.toLowerCase())
       );
-      const searchResultsRu = data.filter((item: any) =>
+      const searchResultsRu = verbs.filter((item: any) =>
         item.nameRu.includes(e.target.value.toLowerCase())
       );
       const searchResults = searchResultsRo.length
@@ -162,15 +179,39 @@ const Verb: React.FC = () => {
   return verb ? (
     <div className="App-verb" onClick={hideTooltip}>
       {showSearchInput ? (
-        <div className={cx("App-verb-search-block")}>
+        <div className="App-verb-search-block">
           <TextField
-            variant="standard"
+            id="search-input"
+            label="Пошук"
+            size="medium"
+            inputRef={inputRef}
+            variant="outlined"
             autoFocus={true}
+            value={searchString}
             onChange={onSearchChange}
             autoComplete="off"
+            style={{ paddingRight: "0 !important" }}
+            InputProps={{
+              endAdornment: (
+                <InputAdornment
+                  position="end"
+                  sx={{
+                    position: "relative",
+                    visibility: searchString.length ? "visible" : "hidden",
+                  }}
+                >
+                  <IconButton onClick={handleClearSearchString} edge="end">
+                    <BackspaceIcon />
+                  </IconButton>
+                </InputAdornment>
+              ),
+            }}
           />
-          <IconButton onClick={onCancelSearchClick}>
-            <Cancel />
+          <IconButton
+            onClick={onCancelSearchClick}
+            className="App-verb-search-block_close-btn"
+          >
+            <Close />
           </IconButton>
           {searchResults.length > 0 ? (
             <div className="App-verb-search-list">

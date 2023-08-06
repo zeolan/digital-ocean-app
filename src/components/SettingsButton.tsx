@@ -16,21 +16,21 @@ import Paper from "@mui/material/Paper";
 import Popper from "@mui/material/Popper";
 import MenuItem from "@mui/material/MenuItem";
 import MenuList from "@mui/material/MenuList";
-import Stack from "@mui/material/Stack";
 
 import {
+  getVerbs,
   setVerb,
   getSortVerbs,
   setSortVerbs,
   setVerbsOrder,
   setVerbIdx,
   setShowTooltip,
-} from "../store/appSlice.ts";
+} from "../store/reducer.ts";
 import { getRandomVerbsOrder, getSortedVerbsOrder } from "../utils.ts";
-import data from "../data.json";
 
 function SettingsButton() {
   const dispatch = useDispatch();
+  const verbs = useSelector(getVerbs);
   const sortVerbs = useSelector(getSortVerbs);
 
   const [open, setOpen] = useState(false);
@@ -47,24 +47,24 @@ function SettingsButton() {
     if (dataset.active === "false") {
       dispatch(setSortVerbs(!sortVerbs));
       if (!sortVerbs) {
-        const verbsOrder = getSortedVerbsOrder(data);
+        const verbsOrder = getSortedVerbsOrder(verbs);
         if (verbsOrder.length) {
           dispatch(setVerbsOrder(verbsOrder));
           const initialIndex = verbsOrder[0];
           dispatch(setVerbIdx(0));
-          const initialVerb = data.find((verb) => verb.id === initialIndex);
+          const initialVerb = verbs.find((verb) => verb.id === initialIndex);
           if (initialVerb) {
             dispatch(setVerb(initialVerb));
           }
         }
       } else {
-        const numberOfVerbs = data.length;
+        const numberOfVerbs = verbs.length;
         const verbsOrder = getRandomVerbsOrder(numberOfVerbs);
         if (verbsOrder.length) {
           dispatch(setVerbsOrder(verbsOrder));
           const initialIndex = verbsOrder[0];
           dispatch(setVerbIdx(0));
-          const initialVerb = data.find((verb) => verb.id === initialIndex);
+          const initialVerb = verbs.find((verb) => verb.id === initialIndex);
           if (initialVerb) {
             dispatch(setVerb(initialVerb));
           }
