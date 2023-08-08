@@ -6337,5 +6337,166 @@
     "participle": "acceptat",
     "impS": "acceptă",
     "impP": "acceptați"
+  },
+  {
+    "id": 276,
+    "nameRo": ["merita", 6],
+    "nameRu": "заслуживать",
+    "conjugation": {
+      "eu": ["merit", 2],
+      "tu": "meriți",
+      "el": "merită",
+      "noi": "merităm",
+      "voi": "meritați",
+      "ei": "merită",
+
+      "eu1": "merit",
+      "tu1": "meriți",
+      "el1": "merite",
+      "noi1": "merităm",
+      "voi1": "meritați",
+      "ei1": "merite"
+    },
+    "participle": "meritat",
+    "impS": "merită",
+    "impP": "meritați"
+  },
+  {
+    "id": 277,
+    "nameRo": ["sufla", 5],
+    "nameRu": "дуть, задуть, выдувать, надувать",
+    "conjugation": {
+      "eu": ["suflu", 2],
+      "tu": "sufli",
+      "el": "suflă",
+      "noi": "suflăm",
+      "voi": "suflați",
+      "ei": "suflă",
+
+      "eu1": "suflu",
+      "tu1": "sufli",
+      "el1": "sufle",
+      "noi1": "suflăm",
+      "voi1": "suflați",
+      "ei1": "sufle"
+    },
+    "participle": "suflat",
+    "impS": "suflă",
+    "impP": "suflați"
+  },
+  {
+    "id": 278,
+    "nameRo": ["dezamăgi", 8],
+    "nameRu": "разочаровать",
+    "conjugation": {
+      "eu": ["dezamăgesc", 8],
+      "tu": "dezamăgești",
+      "el": "dezamăgește",
+      "noi": "dezamăgim",
+      "voi": "dezamăgiți",
+      "ei": "dezamăgesc",
+
+      "eu1": "dezamăgesc",
+      "tu1": "dezamăgești",
+      "el1": "dezamăgească",
+      "noi1": "dezamăgim",
+      "voi1": "dezamăgiți",
+      "ei1": "dezamăgească"
+    },
+    "participle": "dezamăgit",
+    "impS": "dezamăgește",
+    "impP": "dezamăgiți"
+  },
+  {
+    "id": 279,
+    "nameRo": ["motiva", 6],
+    "nameRu": "мотивировать",
+    "conjugation": {
+      "eu": ["motivez", 6],
+      "tu": "motivezi",
+      "el": "motivează",
+      "noi": "motivăm",
+      "voi": "motivați",
+      "ei": "motivează",
+
+      "eu1": "motivez",
+      "tu1": "motivezi",
+      "el1": "motiveze",
+      "noi1": "motivăm",
+      "voi1": "motivați",
+      "ei1": "motiveze"
+    },
+    "participle": "motivat",
+    "impS": "motivează",
+    "impP": "motivați"
+  },
+  {
+    "id": 280,
+    "nameRo": ["argumenta", 9],
+    "nameRu": "аргументировать",
+    "conjugation": {
+      "eu": ["argumentez", 9],
+      "tu": "argumentezi",
+      "el": "argumentează",
+      "noi": "argumentăm",
+      "voi": "argumentați",
+      "ei": "argumentează",
+
+      "eu1": "argumentez",
+      "tu1": "argumentezi",
+      "el1": "argumenteze",
+      "noi1": "argumentăm",
+      "voi1": "argumentați",
+      "ei1": "argumenteze"
+    },
+    "participle": "argumentat",
+    "impS": "argumentează",
+    "impP": "argumentați"
+  },
+  {
+    "id": 281,
+    "nameRo": ["aminti", 6],
+    "nameRu": "вспоминать, напоминать, упоминать",
+    "conjugation": {
+      "eu": ["amintesc", 6],
+      "tu": "amintești",
+      "el": "amintește",
+      "noi": "amintim",
+      "voi": "amintiți",
+      "ei": "amintesc",
+
+      "eu1": "amintesc",
+      "tu1": "amintești",
+      "el1": "amintească",
+      "noi1": "amintim",
+      "voi1": "amintiți",
+      "ei1": "amintească"
+    },
+    "participle": "aminti",
+    "impS": "amintește",
+    "impP": "amintiți"
+  },
+  {
+    "id": 281,
+    "nameRo": ["circula", 7],
+    "nameRu": "циркулировать, двигаться",
+    "conjugation": {
+      "eu": ["circul", 2],
+      "tu": "circuli",
+      "el": "circulă",
+      "noi": "circulăm",
+      "voi": "circulați",
+      "ei": "circulă",
+
+      "eu1": "circul",
+      "tu1": "circuli",
+      "el1": "circule",
+      "noi1": "circulăm",
+      "voi1": "circulați",
+      "ei1": "circule"
+    },
+    "participle": "circulat",
+    "impS": "circulă",
+    "impP": "circulați"
   }
 ]
