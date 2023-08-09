@@ -30,7 +30,7 @@ function App() {
   const isLightMode = useSelector(getMode) === Mode.light;
   const dispatch = useDispatch();
   const numberOfVerbs = verbs.length;
-  //localStorage.setItem("numberOfVerbs", JSON.stringify(numberOfVerbs));
+  localStorage.setItem("numberOfVerbs", JSON.stringify(numberOfVerbs));
   //localStorage.setItem("version", [process.env.REACT_APP_VERSION]);
 
   useEffect(() => {
