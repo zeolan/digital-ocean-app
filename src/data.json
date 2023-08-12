@@ -2616,7 +2616,7 @@
   {
     "id": 114,
     "nameRo": ["șterge", 3],
-    "nameRu": "стереть, вытереть, протереть",
+    "nameRu": "вытирать, стирать, протирать",
     "conjugation": {
       "eu": ["șterg", 3],
       "tu": "ștergi",
@@ -3029,7 +3029,7 @@
   },
   {
     "id": 132,
-    "nameRo": ["(se) teme", 7],
+    "nameRo": ["se teme", 5],
     "nameRu": "бояться, опасаться кого/чего",
     "conjugation": {
       "eu": ["tem", 2],
@@ -4455,7 +4455,7 @@
   {
     "id": 194,
     "nameRo": ["(se) supăra", 11],
-    "nameRu": "расстраивать (-ся)",
+    "nameRu": "расстраивать(ся), сердить(ся), злить(ся)",
     "conjugation": {
       "eu": ["supăr", 2],
       "tu": "superi",
@@ -6477,7 +6477,191 @@
     "impP": "amintiți"
   },
   {
-    "id": 281,
+    "id": 282,
+    "nameRo": ["dispărea", 8],
+    "nameRu": "исчезнуть, стать невидимым",
+    "conjugation": {
+      "eu": ["dispar", 5],
+      "tu": "dispari",
+      "el": "dispare",
+      "noi": "dispărem",
+      "voi": "dispăreți",
+      "ei": "dispar",
+
+      "eu1": "dispar",
+      "tu1": "dispari",
+      "el1": "dispară",
+      "noi1": "dispărem",
+      "voi1": "dispăreți",
+      "ei1": "dispară"
+    },
+    "participle": "dispărut",
+    "impS": "dispari",
+    "impP": "dispăreți"
+  },
+  {
+    "id": 283,
+    "nameRo": ["coase", 3],
+    "nameRu": "шить, пришивать",
+    "conjugation": {
+      "eu": ["cos", 2],
+      "tu": "coși",
+      "el": "coase",
+      "noi": "coasem",
+      "voi": "coaseți",
+      "ei": "cos",
+
+      "eu1": "cos",
+      "tu1": "coși",
+      "el1": "coasă",
+      "noi1": "coasem",
+      "voi1": "coaseți",
+      "ei1": "coasă"
+    },
+    "participle": "cusut",
+    "impS": "coase",
+    "impP": "coaseți"
+  },
+  {
+    "id": 284,
+    "nameRo": ["plănui", 6],
+    "nameRu": "планировать",
+    "conjugation": {
+      "eu": ["plănuiesc", 7],
+      "tu": "plănuiești",
+      "el": "plănuiește",
+      "noi": "plănuim",
+      "voi": "plănuiți",
+      "ei": "plănuiesc",
+
+      "eu1": "plănuiesc",
+      "tu1": "plănuiești",
+      "el1": "plănuiască",
+      "noi1": "plănuim",
+      "voi1": "plănuiți",
+      "ei1": "plănuiască"
+    },
+    "participle": "plănuit",
+    "impS": "plănuiește",
+    "impP": "plănuiți"
+  },
+  {
+    "id": 285,
+    "nameRo": ["sparge", 3],
+    "nameRu": "разбить, развалить на части",
+    "conjugation": {
+      "eu": ["sparg", 3],
+      "tu": "spargi",
+      "el": "sparge",
+      "noi": "spargem",
+      "voi": "spargeți",
+      "ei": "sparg",
+
+      "eu1": "sparg",
+      "tu1": "spargi",
+      "el1": "spargă",
+      "noi1": "spargem",
+      "voi1": "spargeți",
+      "ei1": "spargă"
+    },
+    "participle": "spart",
+    "impS": "sparge",
+    "impP": "spargeți"
+  },
+  {
+    "id": 286,
+    "nameRo": ["aparține", 6],
+    "nameRu": "принадлежать",
+    "conjugation": {
+      "eu": ["aparțin", 6],
+      "tu": "aparții",
+      "el": "aparține",
+      "noi": "aparținem",
+      "voi": "aparțineți",
+      "ei": "aparțin",
+
+      "eu1": "aparțin",
+      "tu1": "aparții",
+      "el1": "aparțină",
+      "noi1": "aparținem",
+      "voi1": "aparțineți",
+      "ei1": "aparțină"
+    },
+    "participle": "aparținut",
+    "impS": "aparține",
+    "impP": "aparțineți"
+  },
+  {
+    "id": 287,
+    "nameRo": ["compune", 5],
+    "nameRu": "собирать (в целое), создавать, сочинять (муз., поэз.)",
+    "conjugation": {
+      "eu": ["compun", 5],
+      "tu": "compui",
+      "el": "compune",
+      "noi": "compunem",
+      "voi": "compuneți",
+      "ei": "compun",
+
+      "eu1": "compun",
+      "tu1": "compui",
+      "el1": "compună",
+      "noi1": "compunem",
+      "voi1": "compuneți",
+      "ei1": "compună"
+    },
+    "participle": "compus",
+    "impS": "compune",
+    "impP": "compuneți"
+  },
+  {
+    "id": 288,
+    "nameRo": ["tremura", 7],
+    "nameRu": "дрожать, труситься, вибрировать",
+    "conjugation": {
+      "eu": ["tremur", 3],
+      "tu": "tremuri",
+      "el": "tremură",
+      "noi": "tremurăm",
+      "voi": "tremurați",
+      "ei": "tremură",
+
+      "eu1": "tremur",
+      "tu1": "tremuri",
+      "el1": "tremure",
+      "noi1": "tremurăm",
+      "voi1": "tremurați",
+      "ei1": "tremure"
+    },
+    "participle": "tremurat",
+    "impS": "tremură",
+    "impP": "tremurați"
+  },
+  {
+    "id": 289,
+    "nameRo": ["fluiera", 7],
+    "nameRu": "свистеть, играть на флейте",
+    "conjugation": {
+      "eu": ["fluier", 3],
+      "tu": "fluieri",
+      "el": "fluieră",
+      "noi": "fluierăm",
+      "voi": "fluierați",
+      "ei": "fluieră",
+
+      "eu1": "fluier",
+      "tu1": "fluieri",
+      "el1": "fluiere",
+      "noi1": "fluierăm",
+      "voi1": "fluierați",
+      "ei1": "fluiere"
+    },
+    "participle": "fluierat",
+    "impS": "fluieră",
+    "impP": "fluierați"
+  },
+  {
+    "id": 290,
     "nameRo": ["circula", 7],
     "nameRu": "циркулировать, двигаться",
     "conjugation": {
@@ -6498,5 +6682,120 @@
     "participle": "circulat",
     "impS": "circulă",
     "impP": "circulați"
+  },
+  {
+    "id": 291,
+    "nameRo": ["congela", 7],
+    "nameRu": "замораживать, морозить",
+    "conjugation": {
+      "eu": ["congelez", 7],
+      "tu": "congelezi",
+      "el": "congelează",
+      "noi": "congelăm",
+      "voi": "congelați",
+      "ei": "congelează",
+
+      "eu1": "congelez",
+      "tu1": "congelezi",
+      "el1": "congeleze",
+      "noi1": "congelăm",
+      "voi1": "congelați",
+      "ei1": "congeleze"
+    },
+    "participle": "congelat",
+    "impS": "congelează",
+    "impP": "congelați"
+  },
+  {
+    "id": 292,
+    "nameRo": ["(se) tunde", 7],
+    "nameRu": "стричь(ся) (волосы,борода,шерсть,трава...)",
+    "conjugation": {
+      "eu": ["congelez", 7],
+      "tu": "congelezi",
+      "el": "congelează",
+      "noi": "congelăm",
+      "voi": "congelați",
+      "ei": "congelează",
+
+      "eu1": "congelez",
+      "tu1": "congelezi",
+      "el1": "congeleze",
+      "noi1": "congelăm",
+      "voi1": "congelați",
+      "ei1": "congeleze"
+    },
+    "participle": "congelat",
+    "impS": "congelează",
+    "impP": "congelați"
+  },
+  {
+    "id": 293,
+    "nameRo": ["(se) deplasa", 12],
+    "nameRu": "перемещать(ся)",
+    "conjugation": {
+      "eu": ["deplasez", 7],
+      "tu": "deplasezi",
+      "el": "deplasează",
+      "noi": "deplasăm",
+      "voi": "deplasați",
+      "ei": "deplasează",
+
+      "eu1": "deplasez",
+      "tu1": "deplasezi",
+      "el1": "deplaseze",
+      "noi1": "deplasăm",
+      "voi1": "deplasați",
+      "ei1": "deplaseze"
+    },
+    "participle": "deplasat",
+    "impS": "deplasează",
+    "impP": "deplasați"
+  },
+  {
+    "id": 294,
+    "nameRo": ["se plictisi", 11],
+    "nameRu": "скучать, утомляться",
+    "conjugation": {
+      "eu": ["plictisesc", 8],
+      "tu": "plictisești",
+      "el": "plictisește",
+      "noi": "plictisim",
+      "voi": "plictisiți",
+      "ei": "plictisesc",
+
+      "eu1": "plictisesc",
+      "tu1": "plictisești",
+      "el1": "plictisească",
+      "noi1": "plictisim",
+      "voi1": "plictisiți",
+      "ei1": "plictisească"
+    },
+    "participle": "plictisit",
+    "impS": "plictisește",
+    "impP": "plictisiți"
+  },
+  {
+    "id": 295,
+    "nameRo": ["lăsa", 4],
+    "nameRu": "позволять, разрешать, пускать",
+    "conjugation": {
+      "eu": ["las", 2],
+      "tu": "lași",
+      "el": "lasă",
+      "noi": "lăsăm",
+      "voi": "lăsați",
+      "ei": "lasă",
+
+      "eu1": "las",
+      "tu1": "lași",
+      "el1": "lase",
+      "noi1": "lăsăm",
+      "voi1": "lăsați",
+      "ei1": "lase"
+    },
+    "participle": "lăsat",
+    "impS": "lasă",
+    "impP": "lăsați"
   }
 ]
