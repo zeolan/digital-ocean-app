@@ -277,11 +277,11 @@
       "el": "mănâncă",
       "noi": "mâncăm",
       "voi": "mâncați",
-      "ei": "mănânce",
+      "ei": "mănâncă",
 
       "eu1": "mănânc",
       "tu1": "mănânci",
-      "el1": "mănâncă",
+      "el1": "mănânce",
       "noi1": "mâncăm",
       "voi1": "mâncați",
       "ei1": "mănânce"
@@ -6711,23 +6711,23 @@
     "nameRo": ["(se) tunde", 7],
     "nameRu": "стричь(ся) (волосы,борода,шерсть,трава...)",
     "conjugation": {
-      "eu": ["congelez", 7],
-      "tu": "congelezi",
-      "el": "congelează",
-      "noi": "congelăm",
-      "voi": "congelați",
-      "ei": "congelează",
+      "eu": ["tund", 2],
+      "tu": "tunzi",
+      "el": "tunde",
+      "noi": "tundem",
+      "voi": "tundeți",
+      "ei": "tund",
 
-      "eu1": "congelez",
-      "tu1": "congelezi",
-      "el1": "congeleze",
-      "noi1": "congelăm",
-      "voi1": "congelați",
-      "ei1": "congeleze"
+      "eu1": "tund",
+      "tu1": "tunzi",
+      "el1": "tundă",
+      "noi1": "tundem",
+      "voi1": "tundeți",
+      "ei1": "tundă"
     },
-    "participle": "congelat",
-    "impS": "congelează",
-    "impP": "congelați"
+    "participle": "tuns",
+    "impS": "tunde",
+    "impP": "tundeți"
   },
   {
     "id": 293,
@@ -6797,5 +6797,166 @@
     "participle": "lăsat",
     "impS": "lasă",
     "impP": "lăsați"
+  },
+  {
+    "id": 296,
+    "nameRo": ["aplica", 6],
+    "nameRu": "наносить, применять",
+    "conjugation": {
+      "eu": ["aplic", 4],
+      "tu": "aplici",
+      "el": "aplică",
+      "noi": "aplicăm",
+      "voi": "aplicați",
+      "ei": "aplică",
+
+      "eu1": "aplic",
+      "tu1": "aplici",
+      "el1": "aplice",
+      "noi1": "aplicăm",
+      "voi1": "aplicați",
+      "ei1": "aplice"
+    },
+    "participle": "aplicat",
+    "impS": "aplică",
+    "impP": "aplicați"
+  },
+  {
+    "id": 297,
+    "nameRo": ["(se) trata", 10],
+    "nameRu": "лечить(ся), обрабатывать; угощать",
+    "conjugation": {
+      "eu": ["tratez", 5],
+      "tu": "tratezi",
+      "el": "tratează",
+      "noi": "tratăm",
+      "voi": "tratați",
+      "ei": "tratează",
+
+      "eu1": "tratez",
+      "tu1": "tratezi",
+      "el1": "trateze",
+      "noi1": "tratăm",
+      "voi1": "tratați",
+      "ei1": "trateze"
+    },
+    "participle": "tratat",
+    "impS": "tratează",
+    "impP": "tratați"
+  },
+  {
+    "id": 298,
+    "nameRo": ["sprijini", 8],
+    "nameRu": "поддерживать, помогать",
+    "conjugation": {
+      "eu": ["sprijin", 4],
+      "tu": "sprijini",
+      "el": "sprijină",
+      "noi": "sprijinim",
+      "voi": "sprijiniți",
+      "ei": "sprijină",
+
+      "eu1": "sprijin",
+      "tu1": "sprijini",
+      "el1": "sprijine",
+      "noi1": "sprijinim",
+      "voi1": "sprijiniți",
+      "ei1": "sprijine"
+    },
+    "participle": "sprijinit",
+    "impS": "sprijină",
+    "impP": "sprijiniți"
+  },
+  {
+    "id": 299,
+    "nameRo": ["observa", 7],
+    "nameRu": "замечать, обращать внимание, наблюдать",
+    "conjugation": {
+      "eu": ["observ", 4],
+      "tu": "observi",
+      "el": "observă",
+      "noi": "observăm",
+      "voi": "observați",
+      "ei": "observă",
+
+      "eu1": "observ",
+      "tu1": "observi",
+      "el1": "observe",
+      "noi1": "observăm",
+      "voi1": "observați",
+      "ei1": "observe"
+    },
+    "participle": "observat",
+    "impS": "observă",
+    "impP": "observați"
+  },
+  {
+    "id": 300,
+    "nameRo": ["conține", 5],
+    "nameRu": "содержать, включать в себя",
+    "conjugation": {
+      "eu": ["conțin", 5],
+      "tu": "conții",
+      "el": "conține",
+      "noi": "conținem",
+      "voi": "conțineți",
+      "ei": "conțin",
+
+      "eu1": "conțin",
+      "tu1": "conții",
+      "el1": "conțină",
+      "noi1": "conținem",
+      "voi1": "conțineți",
+      "ei1": "conțină"
+    },
+    "participle": "conținut",
+    "impS": "conține",
+    "impP": "conțineți"
+  },
+  {
+    "id": 301,
+    "nameRo": ["evita", 5],
+    "nameRu": "избегать",
+    "conjugation": {
+      "eu": ["evit", 3],
+      "tu": "eviți",
+      "el": "evită",
+      "noi": "evităm",
+      "voi": "evitați",
+      "ei": "evită",
+
+      "eu1": "evit",
+      "tu1": "eviți",
+      "el1": "evite",
+      "noi1": "evităm",
+      "voi1": "evitați",
+      "ei1": "evite"
+    },
+    "participle": "evitat",
+    "impS": "evită",
+    "impP": "evitați"
+  },
+  {
+    "id": 302,
+    "nameRo": ["regla", 5],
+    "nameRu": "регулировать, регламентировать",
+    "conjugation": {
+      "eu": ["reglez", 5],
+      "tu": "reglezi",
+      "el": "reglează",
+      "noi": "reglăm",
+      "voi": "reglați",
+      "ei": "reglează",
+
+      "eu1": "reglez",
+      "tu1": "reglezi",
+      "el1": "regleze",
+      "noi1": "reglăm",
+      "voi1": "reglați",
+      "ei1": "regleze"
+    },
+    "participle": "reglat",
+    "impS": "reglează",
+    "impP": "reglați"
   }
 ]
