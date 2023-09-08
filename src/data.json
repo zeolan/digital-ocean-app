@@ -2342,7 +2342,7 @@
     "nameRo": ["lovi", 4],
     "nameRu": "бить, ударять",
     "conjugation": {
-      "eu": "lovesc",
+      "eu": ["lovesc", 4],
       "tu": "lovești",
       "el": "lovește",
       "noi": "lovim",
@@ -4134,7 +4134,7 @@
   {
     "id": 180,
     "nameRo": ["urca", 4],
-    "nameRu": "подниматься, входить в транспорт",
+    "nameRu": "подниматься, заходить в транспорт",
     "conjugation": {
       "eu": ["urc", 1],
       "tu": "urci",
@@ -6228,14 +6228,14 @@
     "nameRo": ["(se) încărca", 12],
     "nameRu": "заправлять(ся), заряжать(ся), пополнять, нагружать",
     "conjugation": {
-      "eu": ["încarca", 4],
+      "eu": ["încarc", 4],
       "tu": "încarci",
       "el": "încarcă",
       "noi": "încărcăm",
       "voi": "încărcați",
       "ei": "încarcă",
 
-      "eu1": "încarca",
+      "eu1": "încarc",
       "tu1": "încarci",
       "el1": "încarce",
       "noi1": "încărcăm",
@@ -6958,5 +6958,28 @@
     "participle": "reglat",
     "impS": "reglează",
     "impP": "reglați"
+  },
+  {
+    "id": 303,
+    "nameRo": ["(se) murdări", 12],
+    "nameRu": "вымазывать(ся), пачкать(ся), загрязнять(ся)",
+    "conjugation": {
+      "eu": ["murdăresc", 7],
+      "tu": "murdărești",
+      "el": "murdărește",
+      "noi": "murdărim",
+      "voi": "murdăriți",
+      "ei": "murdăresc",
+
+      "eu1": "murdăresc",
+      "tu1": "murdărești",
+      "el1": "murdărească",
+      "noi1": "murdărim",
+      "voi1": "murdăriți",
+      "ei1": "murdărească"
+    },
+    "participle": "murdărit",
+    "impS": "murdărește",
+    "impP": "murdăriți"
   }
 ]
