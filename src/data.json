@@ -6981,5 +6981,51 @@
     "participle": "murdărit",
     "impS": "murdărește",
     "impP": "murdăriți"
+  },
+  {
+    "id": 304,
+    "nameRo": ["(se) achita", 11],
+    "nameRu": "расплатиться, рассчитаться, выплатить",
+    "conjugation": {
+      "eu": ["achit", 4],
+      "tu": "achiți",
+      "el": "achită",
+      "noi": "achităm",
+      "voi": "achitați",
+      "ei": "achită",
+
+      "eu1": "achit",
+      "tu1": "achiți",
+      "el1": "achite",
+      "noi1": "achităm",
+      "voi1": "achitați",
+      "ei1": "achite"
+    },
+    "participle": "achitat",
+    "impS": "achită",
+    "impP": "achitați"
+  },
+  {
+    "id": 305,
+    "nameRo": ["livra", 5],
+    "nameRu": "доставлять",
+    "conjugation": {
+      "eu": ["livrez", 5],
+      "tu": "livrezi",
+      "el": "livrează",
+      "noi": "livrăm",
+      "voi": "livrați",
+      "ei": "livrează",
+
+      "eu1": "livrez",
+      "tu1": "livrezi",
+      "el1": "livreze",
+      "noi1": "livrăm",
+      "voi1": "livrați",
+      "ei1": "livreze"
+    },
+    "participle": "livrat",
+    "impS": "livrează",
+    "impP": "livrați"
   }
 ]
