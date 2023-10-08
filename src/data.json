@@ -5214,7 +5214,7 @@
   {
     "id": 227,
     "nameRo": ["sări", 4],
-    "nameRu": "прыгать, подпрыгивать",
+    "nameRu": "прыгать, подпрыгивать; перескочить, пропустить",
     "conjugation": {
       "eu": ["sar", 2],
       "tu": "sari, sări",
@@ -7027,5 +7027,51 @@
     "participle": "livrat",
     "impS": "livrează",
     "impP": "livrați"
+  },
+  {
+    "id": 306,
+    "nameRo": ["judeca", 6],
+    "nameRu": "судить, осуждать, высказывать мнение, суждение",
+    "conjugation": {
+      "eu": ["judec", 2],
+      "tu": "judeci",
+      "el": "judecă",
+      "noi": "judecăm",
+      "voi": "judecați",
+      "ei": "judecă",
+
+      "eu1": "judec",
+      "tu1": "judeci",
+      "el1": "judece",
+      "noi1": "judecăm",
+      "voi1": "judecați",
+      "ei1": "judece"
+    },
+    "participle": "judecat",
+    "impS": "judecă",
+    "impP": "judecați"
+  },
+  {
+    "id": 307,
+    "nameRo": ["cerceta", 7],
+    "nameRu": "исследовать, осматривать, изучать",
+    "conjugation": {
+      "eu": ["cercetez", 7],
+      "tu": "cercetezi",
+      "el": "cercetează",
+      "noi": "cercetăm",
+      "voi": "cercetați",
+      "ei": "cercetează",
+
+      "eu1": "cercetez",
+      "tu1": "cercetezi",
+      "el1": "cerceteze",
+      "noi1": "cercetăm",
+      "voi1": "cercetați",
+      "ei1": "cerceteze"
+    },
+    "participle": "cercetat",
+    "impS": "cercetează",
+    "impP": "cercetați"
   }
 ]
