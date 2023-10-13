@@ -3674,7 +3674,7 @@
   {
     "id": 160,
     "nameRo": ["oferi", 5],
-    "nameRu": "предлагать, предложить",
+    "nameRu": "предлагать, предложить; дарить",
     "conjugation": {
       "eu": ["ofer", 3],
       "tu": "oferi",
@@ -6456,7 +6456,7 @@
   {
     "id": 281,
     "nameRo": ["aminti", 6],
-    "nameRu": "вспоминать, напоминать, упоминать",
+    "nameRu": "вспоминать, напоминать, упоминать, помнить",
     "conjugation": {
       "eu": ["amintesc", 6],
       "tu": "amintești",
@@ -7073,5 +7073,28 @@
     "participle": "cercetat",
     "impS": "cercetează",
     "impP": "cercetați"
+  },
+  {
+    "id": 308,
+    "nameRo": ["(se) scula", 10],
+    "nameRu": "вставать, встать, поднимать(ся), разбудить",
+    "conjugation": {
+      "eu": ["scol", 3],
+      "tu": "scoli",
+      "el": "scoală",
+      "noi": "sculăm",
+      "voi": "sculați",
+      "ei": "scoală",
+
+      "eu1": "scol",
+      "tu1": "scoli",
+      "el1": "scoale",
+      "noi1": "sculăm",
+      "voi1": "sculați",
+      "ei1": "scoale"
+    },
+    "participle": "sculat",
+    "impS": "scoală",
+    "impP": "sculați"
   }
 ]
