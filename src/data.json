@@ -2592,7 +2592,7 @@
   },
   {
     "id": 113,
-    "nameRo": ["muta", 4],
+    "nameRo": ["(se) muta", 9],
     "nameRu": "переехать, сменить место, изменить",
     "conjugation": {
       "eu": ["mut", 2],
@@ -3121,7 +3121,7 @@
   },
   {
     "id": 136,
-    "nameRo": ["strădui", 7],
+    "nameRo": ["se strădui", 10],
     "nameRu": "стараться, пытаться",
     "conjugation": {
       "eu": ["străduiesc", 7],
@@ -4065,7 +4065,7 @@
   {
     "id": 177,
     "nameRo": ["opri", 4],
-    "nameRu": "остановить(-ся), прекратить(-ся)",
+    "nameRu": "остановить(-ся), прекратить(-ся), выключить что-то",
     "conjugation": {
       "eu": ["opresc", 4],
       "tu": "oprești",
@@ -7096,5 +7096,28 @@
     "participle": "sculat",
     "impS": "scoală",
     "impP": "sculați"
+  },
+  {
+    "id": 309,
+    "nameRo": ["împărți", 7],
+    "nameRu": "делить(ся), разделять",
+    "conjugation": {
+      "eu": ["împart", 4],
+      "tu": "împarți",
+      "el": "împarte",
+      "noi": "împărțim",
+      "voi": "împărțiți",
+      "ei": "împart",
+
+      "eu1": "împart",
+      "tu1": "împarți",
+      "el1": "împartă",
+      "noi1": "împărțim",
+      "voi1": "împărțiți",
+      "ei1": "împartă"
+    },
+    "participle": "împărțit",
+    "impS": "împarte",
+    "impP": "împărțiți"
   }
 ]
