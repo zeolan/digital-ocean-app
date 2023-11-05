@@ -7119,5 +7119,28 @@
     "participle": "împărțit",
     "impS": "împarte",
     "impP": "împărțiți"
+  },
+  {
+    "id": 310,
+    "nameRo": ["(se) ofensa", 11],
+    "nameRu": "обижать(ся)",
+    "conjugation": {
+      "eu": ["ofensez", 6],
+      "tu": "ofensezi",
+      "el": "ofensează",
+      "noi": "ofensăm",
+      "voi": "ofensați",
+      "ei": "ofensează",
+
+      "eu1": "ofensez",
+      "tu1": "ofensezi",
+      "el1": "ofenseze",
+      "noi1": "ofensăm",
+      "voi1": "ofensați",
+      "ei1": "ofenseze"
+    },
+    "participle": "ofensat",
+    "impS": "ofensează",
+    "impP": "ofensați"
   }
 ]
