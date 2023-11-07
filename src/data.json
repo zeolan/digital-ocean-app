@@ -7142,5 +7142,74 @@
     "participle": "ofensat",
     "impS": "ofensează",
     "impP": "ofensați"
+  },
+  {
+    "id": 311,
+    "nameRo": ["studia", 6],
+    "nameRu": "учиться, обучаться",
+    "conjugation": {
+      "eu": ["studiez", 6],
+      "tu": "studiezi",
+      "el": "studiază",
+      "noi": "studiem",
+      "voi": "studiați",
+      "ei": "studiază",
+
+      "eu1": "studiez",
+      "tu1": "studiezi",
+      "el1": "studieze",
+      "noi1": "studiem",
+      "voi1": "studiați",
+      "ei1": "studieze"
+    },
+    "participle": "studiat",
+    "impS": "studiază",
+    "impP": "studiați"
+  },
+  {
+    "id": 312,
+    "nameRo": ["întârzia", 8],
+    "nameRu": "опаздывать",
+    "conjugation": {
+      "eu": ["întârzii", 4],
+      "tu": "întârzii",
+      "el": "întârzie",
+      "noi": "întârziem",
+      "voi": "întârziați",
+      "ei": "întârzie",
+
+      "eu1": "întârzii",
+      "tu1": "întârzii",
+      "el1": "întârzie",
+      "noi1": "întârziem",
+      "voi1": "întârziați",
+      "ei1": "întârzie"
+    },
+    "participle": "închiriat",
+    "impS": "închiriază",
+    "impP": "închiriați"
+  },
+  {
+    "id": 313,
+    "nameRo": ["corecta", 7],
+    "nameRu": "исправлять, поправлять",
+    "conjugation": {
+      "eu": ["corectez", 7],
+      "tu": "corectezi",
+      "el": "corectează",
+      "noi": "corectăm",
+      "voi": "corectați",
+      "ei": "corectează",
+
+      "eu1": "corectez",
+      "tu1": "corectezi",
+      "el1": "corecteze",
+      "noi1": "corectăm",
+      "voi1": "corectați",
+      "ei1": "corecteze"
+    },
+    "participle": "corectat",
+    "impS": "corectează",
+    "impP": "corectați"
   }
 ]
