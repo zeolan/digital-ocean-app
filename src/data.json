@@ -7185,9 +7185,9 @@
       "voi1": "întârziați",
       "ei1": "întârzie"
     },
-    "participle": "închiriat",
-    "impS": "închiriază",
-    "impP": "închiriați"
+    "participle": "întârziat",
+    "impS": "întârzie",
+    "impP": "întârziați"
   },
   {
     "id": 313,
@@ -7211,5 +7211,51 @@
     "participle": "corectat",
     "impS": "corectează",
     "impP": "corectați"
+  },
+  {
+    "id": 314,
+    "nameRo": ["provoca", 7],
+    "nameRu": "провоцировать",
+    "conjugation": {
+      "eu": ["provoc", 5],
+      "tu": "provoci",
+      "el": "provoacă",
+      "noi": "provocăm",
+      "voi": "provocați",
+      "ei": "provoacă",
+
+      "eu1": "provoc",
+      "tu1": "provoci",
+      "el1": "provoace",
+      "noi1": "provocăm",
+      "voi1": "provocați",
+      "ei1": "provoace"
+    },
+    "participle": "provocat",
+    "impS": "provoacă",
+    "impP": "provocați"
+  },
+  {
+    "id": 315,
+    "nameRo": ["produce", 5],
+    "nameRu": "производить, изготовлять, вырабатывать, вызывать (чувства, эмоции, ...)",
+    "conjugation": {
+      "eu": ["produc", 5],
+      "tu": "produci",
+      "el": "produce",
+      "noi": "producem",
+      "voi": "produceți",
+      "ei": "produc",
+
+      "eu1": "produc",
+      "tu1": "produci",
+      "el1": "producă",
+      "noi1": "producem",
+      "voi1": "produceți",
+      "ei1": "producă"
+    },
+    "participle": "produs",
+    "impS": "produ, produce",
+    "impP": "produceți"
   }
 ]

@@ -1,6 +1,6 @@
 // Establish a cache name
 // !!! Need to increment CACHE_VERSION to force cache updates.
-const CACHE_VERSION = 17;
+const CACHE_VERSION = 18;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
 const cacheFiles = [
