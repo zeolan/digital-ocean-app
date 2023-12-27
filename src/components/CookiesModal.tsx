@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { useCookies } from "react-cookie";
 
-import { Box, Button } from "@mui/material";
-import Modal from "@mui/material/Modal";
+import { Box, Button, Modal } from "@mui/material";
 
 const style = {
   position: "absolute" as "absolute",
@@ -15,14 +14,16 @@ const style = {
   p: 2,
 };
 
-const CookiesModal: React.FC = () => {
-  const [cookies, setCookies] = useCookies(["showCookiesModal"]);
+const USER_MESSAGE = `This site uses cookies to create anonymous statistics.`;
+
+const CookiesModal: React.FC<{ cookieName: string }> = ({ cookieName }) => {
+  const [cookies, setCookies] = useCookies([cookieName]);
   const [isOpen, setIsOpen] = useState<boolean>(
-    cookies.showCookiesModal === true || cookies.showCookiesModal === undefined
+    cookies[cookieName] === true || cookies[cookieName] === undefined
   );
-  const handleClick = (e: any) => {
+  const handleClick = () => {
     setIsOpen(false);
-    setCookies("showCookiesModal", false);
+    setCookies(cookieName, false);
   };
 
   return (
@@ -33,7 +34,7 @@ const CookiesModal: React.FC = () => {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          This site uses cookies to improve user experience.
+          {USER_MESSAGE}
           <Button
             onClick={handleClick}
             variant="contained"

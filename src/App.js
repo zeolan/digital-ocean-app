@@ -58,7 +58,7 @@ function App() {
         {showConjugation ? <Conjugation /> : <Verb />}
         <Footer />
       </div>
-      <CookiesModal />
+      <CookiesModal cookieName="showCookiesModal" />
     </ThemeProvider>
   );
 }
