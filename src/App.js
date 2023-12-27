@@ -20,6 +20,7 @@ import Verb from "./components/Verb.tsx";
 import ThemeButton from "./components/ThemeButton.tsx";
 import SettingsButton from "./components/SettingsButton.tsx";
 import Conjugation from "./components/Conjugation.tsx";
+import CookiesModal from "./components/CookiesModal.tsx";
 import "./styles/App.scss";
 import { Mode } from "./types.ts";
 import { darkTheme, defaultTheme } from "./themes";
@@ -57,6 +58,7 @@ function App() {
         {showConjugation ? <Conjugation /> : <Verb />}
         <Footer />
       </div>
+      <CookiesModal />
     </ThemeProvider>
   );
 }
