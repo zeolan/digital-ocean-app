@@ -7257,5 +7257,51 @@
     "participle": "produs",
     "impS": "produ, produce",
     "impP": "produceți"
+  },
+  {
+    "id": 316,
+    "nameRo": ["poseda", 6],
+    "nameRu": "владеть, обладать",
+    "conjugation": {
+      "eu": ["posed", 4],
+      "tu": "posezi",
+      "el": "posedă",
+      "noi": "posedăm",
+      "voi": "posedați",
+      "ei": "posedă",
+
+      "eu1": "posed",
+      "tu1": "posezi",
+      "el1": "posede",
+      "noi1": "posedăm",
+      "voi1": "posedați",
+      "ei1": "posede"
+    },
+    "participle": "posedat",
+    "impS": "posedă",
+    "impP": "posedați"
+  },
+  {
+    "id": 317,
+    "nameRo": ["(se) înnoi", 10],
+    "nameRu": "обновить, заменить на новое, обновиться, возродиться",
+    "conjugation": {
+      "eu": ["înnoiesc", 6],
+      "tu": "înnoiești",
+      "el": "înnoiește",
+      "noi": "înnoim",
+      "voi": "înnoiți",
+      "ei": "înnoiesc",
+
+      "eu1": "înnoiesc",
+      "tu1": "înnoiești",
+      "el1": "înnoiască",
+      "noi1": "înnoim",
+      "voi1": "înnoiți",
+      "ei1": "înnoiască"
+    },
+    "participle": "înnoit",
+    "impS": "înnoiește",
+    "impP": "înnoiți"
   }
 ]
