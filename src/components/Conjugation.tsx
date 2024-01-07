@@ -104,12 +104,12 @@ const Conjugation: React.FC = () => {
     <CapButton key="title" variant="outlined">
       Imperfect
     </CapButton>,
-    <LowCaseButton key="eu1">{"să " + verb.conjugation.eu1}</LowCaseButton>,
-    <LowCaseButton key="tu1">{"să " + verb.conjugation.tu1}</LowCaseButton>,
-    <LowCaseButton key="el1">{"să " + verb.conjugation.el1}</LowCaseButton>,
-    <LowCaseButton key="noi1">{"să " + verb.conjugation.noi1}</LowCaseButton>,
-    <LowCaseButton key="voi1">{"să " + verb.conjugation.voi1}</LowCaseButton>,
-    <LowCaseButton key="ei1">{"să " + verb.conjugation.ei1}</LowCaseButton>,
+    <LowCaseButton key="eu1">{verb.conjugation?.eu2 || "---"}</LowCaseButton>,
+    <LowCaseButton key="tu1">{verb.conjugation?.tu2 || "---"}</LowCaseButton>,
+    <LowCaseButton key="el1">{verb.conjugation?.el2 || "---"}</LowCaseButton>,
+    <LowCaseButton key="noi1">{verb.conjugation?.noi2 || "---"}</LowCaseButton>,
+    <LowCaseButton key="voi1">{verb.conjugation?.voi2 || "---"}</LowCaseButton>,
+    <LowCaseButton key="ei1">{verb.conjugation?.ei2 || "---"}</LowCaseButton>,
   ];
   const partButtons = [
     <CapButton key="title" variant="outlined">

@@ -15,6 +15,12 @@ export interface IVerb {
     noi1: string;
     voi1: string;
     ei1: string;
+    eu2?: string;
+    tu2?: string;
+    el2?: string;
+    noi2?: string;
+    voi2?: string;
+    ei2?: string;
   };
   participle: string;
   impS: string;
