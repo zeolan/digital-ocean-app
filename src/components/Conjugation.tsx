@@ -68,7 +68,6 @@ const Conjugation: React.FC = () => {
       });
       return (
         <>
-          <span>&nbsp;</span>
           {result}
           <span>&nbsp;</span>
         </>
@@ -157,7 +156,11 @@ const Conjugation: React.FC = () => {
         <span>- {verb.nameRu}</span>
       </StyledPaper>
       <div className="App-conjugation-block2">
-        <ButtonGroup orientation="vertical" variant="text">
+        <ButtonGroup
+          orientation="vertical"
+          variant="text"
+          sx={{ alignItems: "center" }}
+        >
           {personButtons}
         </ButtonGroup>
         <ButtonGroup orientation="vertical" variant="text">
