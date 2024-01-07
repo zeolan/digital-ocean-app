@@ -25,6 +25,7 @@ export const LowCaseButton = styled(Button)({
   padding: "2px 12px",
   lineHeight: "1.5em",
   fontFamily: fontFamily.join(","),
+  width: "max-content",
 });
 
 export const OutlinedButton = styled(Button)({

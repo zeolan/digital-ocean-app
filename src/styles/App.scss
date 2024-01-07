@@ -211,6 +211,7 @@
   margin: 0 0 10px 0;
   display: flex;
   justify-content: space-around;
+  overflow-x: scroll;
 }
 
 @media screen and (min-width: 300px) {

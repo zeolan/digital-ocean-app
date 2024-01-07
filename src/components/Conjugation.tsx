@@ -100,6 +100,17 @@ const Conjugation: React.FC = () => {
     <LowCaseButton key="voi1">{"să " + verb.conjugation.voi1}</LowCaseButton>,
     <LowCaseButton key="ei1">{"să " + verb.conjugation.ei1}</LowCaseButton>,
   ];
+  const imperfectButtons = [
+    <CapButton key="title" variant="outlined">
+      Imperfect
+    </CapButton>,
+    <LowCaseButton key="eu1">{"să " + verb.conjugation.eu1}</LowCaseButton>,
+    <LowCaseButton key="tu1">{"să " + verb.conjugation.tu1}</LowCaseButton>,
+    <LowCaseButton key="el1">{"să " + verb.conjugation.el1}</LowCaseButton>,
+    <LowCaseButton key="noi1">{"să " + verb.conjugation.noi1}</LowCaseButton>,
+    <LowCaseButton key="voi1">{"să " + verb.conjugation.voi1}</LowCaseButton>,
+    <LowCaseButton key="ei1">{"să " + verb.conjugation.ei1}</LowCaseButton>,
+  ];
   const partButtons = [
     <CapButton key="title" variant="outlined">
       Participiu
@@ -154,6 +165,9 @@ const Conjugation: React.FC = () => {
         </ButtonGroup>
         <ButtonGroup orientation="vertical" variant="text">
           {conjuctivButtons}
+        </ButtonGroup>
+        <ButtonGroup orientation="vertical" variant="text">
+          {imperfectButtons}
         </ButtonGroup>
       </div>
       <div className="App-conjugation-block3">
