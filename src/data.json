@@ -5121,7 +5121,7 @@
   },
   {
     "id": 223,
-    "nameRo": ["certa", 5],
+    "nameRo": ["se certa", 8],
     "nameRu": "ругаться, разругаться, поссориться",
     "conjugation": {
       "eu": ["cert", 2],
@@ -7303,5 +7303,120 @@
     "participle": "înnoit",
     "impS": "înnoiește",
     "impP": "înnoiți"
+  },
+  {
+    "id": 318,
+    "nameRo": ["deține", 4],
+    "nameRu": "владеть, иметь(в собственности), обладать, удерживать",
+    "conjugation": {
+      "eu": ["dețin", 4],
+      "tu": "deții",
+      "el": "deține",
+      "noi": "deținem",
+      "voi": "dețineți",
+      "ei": "dețin",
+
+      "eu1": "dețin",
+      "tu1": "deții",
+      "el1": "dețină",
+      "noi1": "deținem",
+      "voi1": "dețineți",
+      "ei1": "dețină"
+    },
+    "participle": "deținut",
+    "impS": "deține",
+    "impP": "dețineți"
+  },
+  {
+    "id": 319,
+    "nameRo": ["cauza", 5],
+    "nameRu": "вызывать, провоцировать, быть причиной",
+    "conjugation": {
+      "eu": ["cauzez", 5],
+      "tu": "cauzezi",
+      "el": "cauzează",
+      "noi": "cauzăm",
+      "voi": "cauzați",
+      "ei": "cauzează",
+
+      "eu1": "cauzez",
+      "tu1": "cauzezi",
+      "el1": "cauzeze",
+      "noi1": "cauzăm",
+      "voi1": "cauzați",
+      "ei1": "cauzeze"
+    },
+    "participle": "cauzat",
+    "impS": "cauzează",
+    "impP": "cauzați"
+  },
+  {
+    "id": 320,
+    "nameRo": ["comite", 4],
+    "nameRu": "совершать, производить, делать",
+    "conjugation": {
+      "eu": ["comit", 4],
+      "tu": "comiți",
+      "el": "comite",
+      "noi": "comitem",
+      "voi": "comiteți",
+      "ei": "comite",
+
+      "eu1": "comit",
+      "tu1": "comiți",
+      "el1": "comită",
+      "noi1": "comitem",
+      "voi1": "comiteți",
+      "ei1": "comite"
+    },
+    "participle": "comis",
+    "impS": "comite",
+    "impP": "comiteți"
+  },
+  {
+    "id": 321,
+    "nameRo": ["deteriora", 9],
+    "nameRu": "повреждать, портить",
+    "conjugation": {
+      "eu": ["deteriorez", 9],
+      "tu": "deteriorezi",
+      "el": "deteriorează",
+      "noi": "deteriorăm",
+      "voi": "deteriorați",
+      "ei": "deteriorează",
+
+      "eu1": "deteriorez",
+      "tu1": "deteriorezi",
+      "el1": "deterioreze",
+      "noi1": "deteriorăm",
+      "voi1": "deteriorați",
+      "ei1": "deterioreze"
+    },
+    "participle": "deteriorat",
+    "impS": "deteriorează",
+    "impP": "deteriorați"
+  },
+  {
+    "id": 322,
+    "nameRo": ["amplasa", 7],
+    "nameRu": "установить, поставить на опред. место",
+    "conjugation": {
+      "eu": ["amplasez", 7],
+      "tu": "amplasezi",
+      "el": "amplasează",
+      "noi": "amplasăm",
+      "voi": "amplasați",
+      "ei": "amplasează",
+
+      "eu1": "amplasez",
+      "tu1": "amplasezi",
+      "el1": "amplaseze",
+      "noi1": "amplasăm",
+      "voi1": "amplasați",
+      "ei1": "amplaseze"
+    },
+    "participle": "amplasat",
+    "impS": "amplasează",
+    "impP": "amplasați"
   }
 ]
