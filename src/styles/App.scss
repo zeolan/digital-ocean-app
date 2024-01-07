@@ -210,17 +210,22 @@
 .App-conjugation-block2 {
   margin: 0 0 10px 0;
   display: flex;
-  justify-content: space-around;
-  overflow-x: scroll;
+  //justify-content: space-around;
+  overflow-x: auto;
 }
 
 @media screen and (min-width: 300px) {
   .App-conjugation-block2 {
     gap: 10px;
-    justify-content: center;
+    //justify-content: center;
   }
   .App-conjugation-block2 button.MuiButton-text {
     padding: 5px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .App-conjugation-block2 {
+    justify-content: center;
   }
 }
 .App-conjugation-block3 {
