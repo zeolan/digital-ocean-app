@@ -2365,7 +2365,7 @@
     "nameRo": ["mulțumi", 7],
     "nameRu": "благодарить",
     "conjugation": {
-      "eu": "mulțumesc",
+      "eu": ["mulțumesc", 7],
       "tu": "mulțumești",
       "el": "mulțumește",
       "noi": "mulțumim",
@@ -2593,7 +2593,7 @@
   {
     "id": 113,
     "nameRo": ["(se) muta", 9],
-    "nameRu": "переехать, сменить место, изменить",
+    "nameRu": "переехать, сменить место, передвинуть, переставить, подвинуть что-то",
     "conjugation": {
       "eu": ["mut", 2],
       "tu": "muți",
@@ -2892,7 +2892,7 @@
   {
     "id": 126,
     "nameRo": ["(se) pricepe", 10],
-    "nameRu": "понимать, постигать, разбираться, преуспеть в чем-то",
+    "nameRu": "понимать, постигать, разбираться в чем-то",
     "conjugation": {
       "eu": ["pricep", 5],
       "tu": "pricepi",
@@ -7418,5 +7418,74 @@
     "participle": "amplasat",
     "impS": "amplasează",
     "impP": "amplasați"
+  },
+  {
+    "id": 323,
+    "nameRo": ["repeta", 6],
+    "nameRu": "повторять, повторить",
+    "conjugation": {
+      "eu": ["repet", 4],
+      "tu": "repeți",
+      "el": "repetă",
+      "noi": "repetăm",
+      "voi": "repetați",
+      "ei": "repetă",
+
+      "eu1": "repet",
+      "tu1": "repeți",
+      "el1": "repete",
+      "noi1": "repetăm",
+      "voi1": "repetați",
+      "ei1": "repete"
+    },
+    "participle": "repetat",
+    "impS": "repetă",
+    "impP": "repetați"
+  },
+  {
+    "id": 324,
+    "nameRo": ["gusta", 5],
+    "nameRu": "пробовать на вкус",
+    "conjugation": {
+      "eu": ["gust", 2],
+      "tu": "guști",
+      "el": "gustă",
+      "noi": "gustăm",
+      "voi": "gustați",
+      "ei": "gustă",
+
+      "eu1": "gust",
+      "tu1": "guști",
+      "el1": "guste",
+      "noi1": "gustăm",
+      "voi1": "gustați",
+      "ei1": "guste"
+    },
+    "participle": "gustat",
+    "impS": "gustă",
+    "impP": "gustați"
+  },
+  {
+    "id": 325,
+    "nameRo": ["se descurca", 11],
+    "nameRu": "справляться (с чем-то)",
+    "conjugation": {
+      "eu": ["descurc", 5],
+      "tu": "descurci",
+      "el": "descurcă",
+      "noi": "descurcăm",
+      "voi": "descurcați",
+      "ei": "descurcă",
+
+      "eu1": "descurc",
+      "tu1": "descurci",
+      "el1": "descurce",
+      "noi1": "descurcăm",
+      "voi1": "descurcați",
+      "ei1": "descurce"
+    },
+    "participle": "descurcat",
+    "impS": "descurcă",
+    "impP": "descurcați"
   }
 ]
