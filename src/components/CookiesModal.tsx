@@ -19,7 +19,9 @@ const USER_MESSAGE = `This site uses cookies to create anonymous statistics.`;
 const CookiesModal: React.FC<{ cookieName: string }> = ({ cookieName }) => {
   const [cookies, setCookies] = useCookies([cookieName]);
   const [isOpen, setIsOpen] = useState<boolean>(
-    cookies[cookieName] === true || cookies[cookieName] === undefined
+    cookies[cookieName] === true ||
+      cookies[cookieName] === undefined ||
+      cookies[cookieName] === null
   );
   const handleClick = () => {
     setIsOpen(false);
