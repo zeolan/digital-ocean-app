@@ -3858,7 +3858,7 @@
   {
     "id": 168,
     "nameRo": ["aduce", 3],
-    "nameRu": "нести, приносить",
+    "nameRu": "нести, приносить, привести (кого-то)",
     "conjugation": {
       "eu": ["aduc", 3],
       "tu": "aduci",
@@ -7487,5 +7487,74 @@
     "participle": "descurcat",
     "impS": "descurcă",
     "impP": "descurcați"
+  },
+  {
+    "id": 326,
+    "nameRo": ["decola", 6],
+    "nameRu": "взлетать (самолет)",
+    "conjugation": {
+      "eu": ["decolez", 6],
+      "tu": "decolezi",
+      "el": "decolează",
+      "noi": "decolăm",
+      "voi": "decolați",
+      "ei": "decolează",
+
+      "eu1": "decolez",
+      "tu1": "decolezi",
+      "el1": "decoleze",
+      "noi1": "decolăm",
+      "voi1": "decolați",
+      "ei1": "decoleze"
+    },
+    "participle": "decolat",
+    "impS": "decolează",
+    "impP": "decolați"
+  },
+  {
+    "id": 327,
+    "nameRo": ["diminua", 7],
+    "nameRu": "уменьшать, снижать",
+    "conjugation": {
+      "eu": ["diminuez", 7],
+      "tu": "diminuezi",
+      "el": "diminuează",
+      "noi": "diminuăm",
+      "voi": "diminuați",
+      "ei": "diminuează",
+
+      "eu1": "diminuez",
+      "tu1": "diminuezi",
+      "el1": "diminueze",
+      "noi1": "diminuăm",
+      "voi1": "diminuați",
+      "ei1": "diminueze"
+    },
+    "participle": "diminuat",
+    "impS": "diminuează",
+    "impP": "diminuați"
+  },
+  {
+    "id": 328,
+    "nameRo": ["relata", 6],
+    "nameRu": "сообщать, рассказывать",
+    "conjugation": {
+      "eu": ["relatez", 6],
+      "tu": "relatezi",
+      "el": "relatează",
+      "noi": "relatăm",
+      "voi": "relatați",
+      "ei": "relatează",
+
+      "eu1": "relatez",
+      "tu1": "relatezi",
+      "el1": "relateze",
+      "noi1": "relatăm",
+      "voi1": "relatați",
+      "ei1": "relateze"
+    },
+    "participle": "relatat",
+    "impS": "relatează",
+    "impP": "relatați"
   }
 ]
