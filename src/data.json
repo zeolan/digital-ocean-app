@@ -384,7 +384,7 @@
   },
   {
     "id": 17,
-    "nameRo": ["vinde", 5],
+    "nameRo": ["vinde", 2],
     "nameRu": "продавать",
     "conjugation": {
       "eu": ["vând", 2],
@@ -3972,8 +3972,8 @@
   },
   {
     "id": 173,
-    "nameRo": ["se așeza", 8],
-    "nameRu": "садиться, присаживаться",
+    "nameRo": ["(se) așeza", 10],
+    "nameRu": "класть, ставить на место,(садиться, присаживаться)",
     "conjugation": {
       "eu": ["așez", 3],
       "tu": "așezi",
@@ -4111,7 +4111,7 @@
   {
     "id": 179,
     "nameRo": ["aduna", 5],
-    "nameRu": "собирать",
+    "nameRu": "собирать (в кучу, в целое)",
     "conjugation": {
       "eu": ["adun", 3],
       "tu": "aduni",
@@ -7556,5 +7556,189 @@
     "participle": "relatat",
     "impS": "relatează",
     "impP": "relatați"
+  },
+  {
+    "id": 329,
+    "nameRo": ["înflori", 7],
+    "nameRu": "цвести, расцветать",
+    "conjugation": {
+      "eu": ["înfloresc", 7],
+      "tu": "înflorești",
+      "el": "înflorește",
+      "noi": "înflorim",
+      "voi": "înfloriți",
+      "ei": "înfloresc",
+
+      "eu1": "înfloresc",
+      "tu1": "înflorești",
+      "el1": "înflorească",
+      "noi1": "înflorim",
+      "voi1": "înfloriți",
+      "ei1": "înflorească"
+    },
+    "participle": "înflorit",
+    "impS": "înflorește",
+    "impP": "înfloriți"
+  },
+  {
+    "id": 330,
+    "nameRo": ["uda", 3],
+    "nameRu": "поливать, мочить",
+    "conjugation": {
+      "eu": ["ud", 1],
+      "tu": "uzi",
+      "el": "udă",
+      "noi": "udăm",
+      "voi": "udați",
+      "ei": "udă",
+
+      "eu1": "ud",
+      "tu1": "uzi",
+      "el1": "ude",
+      "noi1": "udăm",
+      "voi1": "udați",
+      "ei1": "ude"
+    },
+    "participle": "udat",
+    "impS": "udă",
+    "impP": "udați"
+  },
+  {
+    "id": 331,
+    "nameRo": ["usca", 4],
+    "nameRu": "сушить, высушивать",
+    "conjugation": {
+      "eu": ["usuc", 3],
+      "tu": "usuci",
+      "el": "usucă",
+      "noi": "usucăm",
+      "voi": "usucați",
+      "ei": "usucă",
+
+      "eu1": "usuc",
+      "tu1": "usuci",
+      "el1": "usuce",
+      "noi1": "usucăm",
+      "voi1": "usucați",
+      "ei1": "usuce"
+    },
+    "participle": "uscat",
+    "impS": "usucă",
+    "impP": "uscați"
+  },
+  {
+    "id": 332,
+    "nameRo": ["absolvi", 7],
+    "nameRu": "закончить (школу, вуз), выпуститься",
+    "conjugation": {
+      "eu": ["absolv", 4],
+      "tu": "absolvi",
+      "el": "absolvă",
+      "noi": "absolvim",
+      "voi": "absolviți",
+      "ei": "absolvă",
+
+      "eu1": "absolv",
+      "tu1": "absolvi",
+      "el1": "absolve",
+      "noi1": "absolvim",
+      "voi1": "absolviți",
+      "ei1": "absolve"
+    },
+    "participle": "absolvat",
+    "impS": "absolvă",
+    "impP": "absolviți"
+  },
+  {
+    "id": 333,
+    "nameRo": ["ancheta", 7],
+    "nameRu": "расследовать, проводить расследование",
+    "conjugation": {
+      "eu": ["anchetez", 7],
+      "tu": "anchetezi",
+      "el": "anchetează",
+      "noi": "anchetăm",
+      "voi": "anchetați",
+      "ei": "anchetează",
+
+      "eu1": "anchetez",
+      "tu1": "anchetezi",
+      "el1": "ancheteze",
+      "noi1": "anchetăm",
+      "voi1": "anchetați",
+      "ei1": "ancheteze"
+    },
+    "participle": "anchetat",
+    "impS": "anchetează",
+    "impP": "anchetați"
+  },
+  {
+    "id": 334,
+    "nameRo": ["construi", 8],
+    "nameRu": "строить, конструировать",
+    "conjugation": {
+      "eu": ["construiesc", 9],
+      "tu": "construiești",
+      "el": "construiește",
+      "noi": "construim",
+      "voi": "construiți",
+      "ei": "construiesc",
+
+      "eu1": "construiesc",
+      "tu1": "construiești",
+      "el1": "construiască",
+      "noi1": "construim",
+      "voi1": "construiți",
+      "ei1": "construiască"
+    },
+    "participle": "construit",
+    "impS": "construiește",
+    "impP": "construiți"
+  },
+  {
+    "id": 335,
+    "nameRo": ["trage", 3],
+    "nameRu": "тянуть",
+    "conjugation": {
+      "eu": ["trag", 3],
+      "tu": "tragi",
+      "el": "trage",
+      "noi": "tragem",
+      "voi": "trageți",
+      "ei": "trag",
+
+      "eu1": "trag",
+      "tu1": "tragi",
+      "el1": "tragă",
+      "noi1": "tragem",
+      "voi1": "trageți",
+      "ei1": "tragă"
+    },
+    "participle": "tras",
+    "impS": "trage",
+    "impP": "trageți"
+  },
+  {
+    "id": 336,
+    "nameRo": ["susține", 5],
+    "nameRu": "поддерживать",
+    "conjugation": {
+      "eu": ["susțin", 5],
+      "tu": "susții",
+      "el": "susține",
+      "noi": "susținem",
+      "voi": "susțineți",
+      "ei": "susțin",
+
+      "eu1": "susțin",
+      "tu1": "susții",
+      "el1": "susțină",
+      "noi1": "susținem",
+      "voi1": "susțineți",
+      "ei1": "susțină"
+    },
+    "participle": "susținut",
+    "impS": "susține",
+    "impP": "susțineți"
   }
 ]
