@@ -5282,7 +5282,7 @@
   },
   {
     "id": 230,
-    "nameRo": ["(se) scălda", 10],
+    "nameRo": ["(se) scălda", 11],
     "nameRu": "купать(ся)",
     "conjugation": {
       "eu": ["scald", 3],
@@ -7763,5 +7763,74 @@
     "participle": "întrerupt",
     "impS": "întrerupe",
     "impP": "întrerupeți"
+  },
+  {
+    "id": 338,
+    "nameRo": ["oprima", 6],
+    "nameRu": "угнетать, эксплуатировать",
+    "conjugation": {
+      "eu": ["oprim", 4],
+      "tu": "oprimi",
+      "el": "oprimă",
+      "noi": "oprimăm",
+      "voi": "oprimați",
+      "ei": "oprimă",
+
+      "eu1": "oprim",
+      "tu1": "oprimi",
+      "el1": "oprime",
+      "noi1": "oprimăm",
+      "voi1": "oprimați",
+      "ei1": "oprime"
+    },
+    "participle": "oprima",
+    "impS": "oprimă",
+    "impP": "oprimați"
+  },
+  {
+    "id": 339,
+    "nameRo": ["(se) clătina", 12],
+    "nameRu": "качать, раскачивать, покачивать (-ся)",
+    "conjugation": {
+      "eu": ["clatin", 3],
+      "tu": "clatini",
+      "el": "clatină",
+      "noi": "clătinăm",
+      "voi": "clătinați",
+      "ei": "clatină",
+
+      "eu1": "clatin",
+      "tu1": "clatini",
+      "el1": "clatine",
+      "noi1": "clătinăm",
+      "voi1": "clătinați",
+      "ei1": "clatine"
+    },
+    "participle": "clătinat",
+    "impS": "clatină",
+    "impP": "clătinați"
+  },
+  {
+    "id": 340,
+    "nameRo": ["recolta", 7],
+    "nameRu": "собирать урожай, пожинать плоды; брать анализы",
+    "conjugation": {
+      "eu": ["recoltez", 7],
+      "tu": "recoltezi",
+      "el": "recoltează",
+      "noi": "recoltăm",
+      "voi": "recoltați",
+      "ei": "recoltează",
+
+      "eu1": "recoltez",
+      "tu1": "recoltezi",
+      "el1": "recolteze",
+      "noi1": "recoltăm",
+      "voi1": "recoltați",
+      "ei1": "recolteze"
+    },
+    "participle": "recoltat",
+    "impS": "recoltează",
+    "impP": "recoltați"
   }
 ]
