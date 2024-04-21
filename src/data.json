@@ -7740,5 +7740,28 @@
     "participle": "susținut",
     "impS": "susține",
     "impP": "susțineți"
+  },
+  {
+    "id": 337,
+    "nameRo": ["întrerupe", 7],
+    "nameRu": "прерывать, останавливать (что-то,кого-то)",
+    "conjugation": {
+      "eu": ["întrerup", 7],
+      "tu": "întrerupi",
+      "el": "întrerupe",
+      "noi": "întrerupem",
+      "voi": "întrerupeți",
+      "ei": "întrerup",
+
+      "eu1": "întrerup",
+      "tu1": "întrerupi",
+      "el1": "întrerupă",
+      "noi1": "întrerupem",
+      "voi1": "întrerupeți",
+      "ei1": "întrerupă"
+    },
+    "participle": "întrerupt",
+    "impS": "întrerupe",
+    "impP": "întrerupeți"
   }
 ]

@@ -31,7 +31,8 @@ const CookiesModal: React.FC<{ cookieName: string }> = ({ cookieName }) => {
   return (
     <div>
       <Modal
-        open={isOpen}
+        //open={isOpen}
+        open={false}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
