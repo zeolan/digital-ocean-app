@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { IconButton, List, ListItem, ListItemText } from "@mui/material";
-import { Search, Cancel, Close } from "@mui/icons-material";
+import { Search, Close } from "@mui/icons-material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import BackspaceIcon from "@mui/icons-material/Backspace";
 import TextField from "@mui/material/TextField";
 //import InputLabel from "@mui/material/InputLabel";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
+//import Card from "@mui/material/Card";
+//import CardContent from "@mui/material/CardContent";
 import InputAdornment from "@mui/material/InputAdornment";
 import { useTheme } from "@mui/material/styles";
 import cx from "classnames";
@@ -165,6 +165,22 @@ const Verb: React.FC = () => {
       const searchResultsRu = verbs.filter((item: any) =>
         item.nameRu.includes(e.target.value.toLowerCase())
       );
+      const searchResults = searchResultsRo.length
+        ? searchResultsRo
+        : searchResultsRu;
+      const searchLang = searchResultsRo.length ? Lang.ro : Lang.ru;
+      setSearchLang(searchLang);
+      setSearchResults(searchResults);
+    } else if (e.target.value.length === 1) {
+      let searchResultsRo: any[] = [];
+      let searchResultsRu: any[] = [];
+      verbs.forEach((item: any) => {
+        const regExp = new RegExp(`^${e.target.value.toLowerCase()}`);
+        const matchesRo = item.nameRo[0].match(regExp);
+        matchesRo && searchResultsRo.push(item);
+        const matchesRu = item.nameRu.match(regExp);
+        matchesRu && searchResultsRu.push(item);
+      });
       const searchResults = searchResultsRo.length
         ? searchResultsRo
         : searchResultsRu;
