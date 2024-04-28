@@ -4,7 +4,7 @@ import { configureStore, compose } from "@reduxjs/toolkit";
 
 import mainReducer from "./reducer.ts";
 
-export const store = configureStore({
+export default configureStore({
   reducer: {
     main: mainReducer,
   },
