@@ -26,6 +26,7 @@ import {
   setVerbIdx,
   getVerbIdx,
   getVerbsOrder,
+  getFromLang,
 } from "../store/reducer.ts";
 import { getVerbByIdx } from "../utils.ts";
 import { IVerb, Lang, Mode } from "../types.ts";
@@ -39,12 +40,15 @@ const Verb: React.FC = () => {
   const verbsOrder = useSelector(getVerbsOrder);
   const isLightMode = useSelector(getMode) === Mode.light;
   const tooltipOpen = useSelector(getShowTooltip);
-  const [lang, setLang] = useState<Lang>(Lang.ro);
-  const [searchLang, setSearchLang] = useState<Lang>(Lang.ro);
+  const fromLang = useSelector(getFromLang);
+
+  const [lang, setLang] = useState<Lang>(fromLang);
+  const [searchLang, setSearchLang] = useState<Lang>(fromLang);
   const [searchString, setSearchString] = useState<string>("");
   const [showSearchInput, setShowSearchInput] = useState<boolean>(false);
   const [searchResults, setSearchResults] = useState<any[]>([]);
   const [localNameRu, setLocalNameRu] = useState<string>("");
+  const [localNameRo, setLocalNameRo] = useState<any>(null);
   const inputRef = useRef<HTMLInputElement>();
 
   const tooltipText = `Натисніть на дієслово щоб подивитись переклад.
@@ -54,12 +58,16 @@ const Verb: React.FC = () => {
 
   useEffect(() => {
     if (verb) {
-      setLang(Lang.ro);
-      setTimeout(() => {
-        setLocalNameRu(verb.nameRu);
-      }, 500);
+      setLang(fromLang);
+      setTimeout(
+        () => {
+          setLocalNameRu(verb.nameRu);
+          setLocalNameRo(getNameRo());
+        },
+        lang !== fromLang ? 100 : 0
+      );
     }
-  }, [verb]);
+  }, [verb, fromLang]);
 
   const translate = () => {
     dispatch(setShowTooltip(false));
@@ -192,6 +200,16 @@ const Verb: React.FC = () => {
     }
   };
 
+  const getVerbDisplay = (side: string) => {
+    return side === "front"
+      ? fromLang === Lang.ru
+        ? localNameRu
+        : localNameRo
+      : fromLang === Lang.ro
+      ? localNameRu
+      : localNameRo;
+  };
+
   return verb ? (
     <div className="App-verb" onClick={hideTooltip}>
       {showSearchInput ? (
@@ -262,7 +280,7 @@ const Verb: React.FC = () => {
           <div className="App-verb-block1">
             <div
               className={cx("App-verb-block1-button", "front", {
-                rotated: lang === Lang.ru,
+                rotated: fromLang !== lang,
               })}
             >
               <LightTooltip
@@ -271,14 +289,14 @@ const Verb: React.FC = () => {
                 className="App-verb-tooltip"
               >
                 <VerbButton variant="contained" onClick={translate}>
-                  {getNameRo()}
+                  {getVerbDisplay("front")}
                 </VerbButton>
               </LightTooltip>
             </div>
 
             <div
               className={cx("App-verb-block1-button", "back", {
-                rotated: lang === Lang.ru,
+                rotated: fromLang !== lang,
               })}
             >
               <VerbButton
@@ -286,7 +304,7 @@ const Verb: React.FC = () => {
                 onClick={translate}
                 sx={{ pt: "7px" }}
               >
-                {localNameRu}
+                {getVerbDisplay("back")}
               </VerbButton>
             </div>
           </div>

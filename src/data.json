@@ -7832,5 +7832,28 @@
     "participle": "recoltat",
     "impS": "recoltează",
     "impP": "recoltați"
+  },
+  {
+    "id": 342,
+    "nameRo": ["(se) atașa", 10],
+    "nameRu": "присоединить, привязать (привязаться к к/т или ч/т)",
+    "conjugation": {
+      "eu": ["atașez", 5],
+      "tu": "atașezi",
+      "el": "atașează",
+      "noi": "atașăm",
+      "voi": "atașați",
+      "ei": "atașează",
+
+      "eu1": "atașez",
+      "tu1": "atașezi",
+      "el1": "atașeze",
+      "noi1": "atașăm",
+      "voi1": "atașați",
+      "ei1": "atașeze"
+    },
+    "participle": "atașat",
+    "impS": "atașează",
+    "impP": "atașați"
   }
 ]

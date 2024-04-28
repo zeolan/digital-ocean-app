@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import { Mode, IVerb } from "../types.ts";
+import { Mode, IVerb, Lang } from "../types.ts";
+//import data from "../data_new.json";
 import data from "../data.json";
 
 interface MainState {
@@ -14,6 +15,7 @@ interface MainState {
   numberOfVerbs: number;
   mode: string;
   sortVerbs: boolean;
+  fromLang: Lang;
 }
 
 const mode = localStorage.getItem("mode") || Mode.light;
@@ -30,6 +32,7 @@ const initialState: MainState = {
   numberOfVerbs: 0,
   mode,
   sortVerbs: false,
+  fromLang: Lang.ro,
 };
 
 export const mainSlice = createSlice({
@@ -64,6 +67,9 @@ export const mainSlice = createSlice({
     setSortVerbs: (state, action) => {
       state.sortVerbs = action.payload;
     },
+    setFromLang: (state, action) => {
+      state.fromLang = action.payload;
+    },
   },
 });
 
@@ -77,6 +83,7 @@ export const {
   setNumberOfVerbs,
   setSortVerbs,
   setVerbsOrderSorted,
+  setFromLang,
 } = mainSlice.actions;
 
 export const getVerb = (state): IVerb => {
@@ -117,6 +124,10 @@ export const getNumberOfVerbs = (state): number => {
 
 export const getSortVerbs = (state): boolean => {
   return state.main.sortVerbs;
+};
+
+export const getFromLang = (state): Lang => {
+  return state.main.fromLang;
 };
 
 export default mainSlice.reducer;

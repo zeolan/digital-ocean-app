@@ -1,16 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
-import { IconButton } from "@mui/material";
+import { IconButton, Divider } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import Check from "@mui/icons-material/Check";
 import SortByAlphaIcon from "@mui/icons-material/SortByAlpha";
 import ListItemIcon from "@mui/material/ListItemIcon";
 
-//import MenuItem from "@mui/material/MenuItem";
-//import MenuList from "@mui/material/MenuList";
-
-import Button from "@mui/material/Button";
 import ClickAwayListener from "@mui/material/ClickAwayListener";
 import Paper from "@mui/material/Paper";
 import Popper from "@mui/material/Popper";
@@ -25,13 +21,17 @@ import {
   setVerbsOrder,
   setVerbIdx,
   setShowTooltip,
+  getFromLang,
+  setFromLang,
 } from "../store/reducer.ts";
 import { getRandomVerbsOrder, getSortedVerbsOrder } from "../utils.ts";
+import { Lang } from "../types.ts";
 
 function SettingsButton() {
   const dispatch = useDispatch();
   const verbs = useSelector(getVerbs);
   const sortVerbs = useSelector(getSortVerbs);
+  const fromLang = useSelector(getFromLang);
 
   const [open, setOpen] = useState(false);
   const anchorRef = useRef<HTMLButtonElement>(null);
@@ -39,6 +39,16 @@ function SettingsButton() {
   const handleClose = () => {
     dispatch(setShowTooltip(false));
     setOpen((prevOpen) => !prevOpen);
+  };
+
+  const handleFromLangClick = (event: Event | React.SyntheticEvent) => {
+    const dataset = (event.target as HTMLDivElement).dataset;
+    setOpen(false);
+    if (dataset.active === "false") {
+      dispatch(setFromLang(fromLang === Lang.ru ? Lang.ro : Lang.ru));
+    } else {
+      console.log("skip clicking on active item");
+    }
   };
 
   const handleItemClick = (event: Event | React.SyntheticEvent) => {
@@ -148,6 +158,35 @@ function SettingsButton() {
                   <Check />
                 </ListItemIcon>
                 В випадковому порядку
+              </MenuItem>
+              <Divider />
+              <MenuItem
+                onClick={handleFromLangClick}
+                className={fromLang === Lang.ro ? "active" : ""}
+                data-active={fromLang === Lang.ro}
+              >
+                <ListItemIcon
+                  sx={{
+                    visibility: fromLang === Lang.ro ? "visible" : "hidden",
+                  }}
+                >
+                  <Check />
+                </ListItemIcon>
+                {"Ro -> Ru"}
+              </MenuItem>
+              <MenuItem
+                onClick={handleFromLangClick}
+                className={fromLang === Lang.ru ? "active" : ""}
+                data-active={fromLang === Lang.ru}
+              >
+                <ListItemIcon
+                  sx={{
+                    visibility: fromLang === Lang.ru ? "visible" : "hidden",
+                  }}
+                >
+                  <Check />
+                </ListItemIcon>
+                {"Ru -> Ro"}
               </MenuItem>
             </MenuList>
           </ClickAwayListener>

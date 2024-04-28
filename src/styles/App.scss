@@ -110,17 +110,40 @@
   position: absolute;
   backface-visibility: hidden;
   transition: transform 0.5s 0s;
+  button {
+    word-break: keep-all;
+  }
   &.front {
     transform: rotateX(0deg);
     button {
       padding-top: 20px;
     }
   }
+  &.front.rotated {
+    transform: rotateX(180deg);
+  }
   &.back {
     transform: rotateX(-180deg);
+    button {
+      padding-top: 20px;
+    }
+  }
+  &.back.rotated {
+    transform: rotateX(0deg);
   }
 }
-
+/*.App-verb-block1-button.front.rotated {
+  transform: rotateX(180deg);
+  button {
+    word-break: break-word;
+  }
+}
+.App-verb-block1-button.back.rotated {
+  transform: rotateX(0deg);
+  button {
+    word-break: break-word;
+  }
+}*/
 @media screen and (min-width: 600px) and (min-height: 300px) and (orientation: landscape) {
   .App-verb-block1-button {
     width: 70%;
@@ -167,19 +190,6 @@
     button {
       padding: 40px !important;
     }
-  }
-}
-
-.App-verb-block1-button.front.rotated {
-  transform: rotateX(180deg);
-  button {
-    word-break: break-word;
-  }
-}
-.App-verb-block1-button.back.rotated {
-  transform: rotateX(0deg);
-  button {
-    word-break: break-word;
   }
 }
 
