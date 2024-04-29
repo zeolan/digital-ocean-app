@@ -7375,8 +7375,8 @@
   },
   {
     "id": 321,
-    "nameRo": ["deteriora", 9],
-    "nameRu": "повреждать, портить",
+    "nameRo": ["(se) deteriora", 15],
+    "nameRu": "повреждать, портить (-ся)",
     "conjugation": {
       "eu": ["deteriorez", 9],
       "tu": "deteriorezi",
@@ -7834,7 +7834,7 @@
     "impP": "recoltați"
   },
   {
-    "id": 342,
+    "id": 341,
     "nameRo": ["(se) atașa", 10],
     "nameRu": "присоединить, привязать (привязаться к к/т или ч/т)",
     "conjugation": {
@@ -7855,5 +7855,189 @@
     "participle": "atașat",
     "impS": "atașează",
     "impP": "atașați"
+  },
+  {
+    "id": 342,
+    "nameRo": ["împlini", 7],
+    "nameRu": "достигать возраста",
+    "conjugation": {
+      "eu": ["împlinesc", 7],
+      "tu": "împlinești",
+      "el": "împlinește",
+      "noi": "împlinim",
+      "voi": "împliniți",
+      "ei": "împlinesc",
+
+      "eu1": "împlinesc",
+      "tu1": "împlinești",
+      "el1": "împlinească",
+      "noi1": "împlinim",
+      "voi1": "împliniți",
+      "ei1": "împlinească"
+    },
+    "participle": "împlinit",
+    "impS": "împlinește",
+    "impP": "împliniți"
+  },
+  {
+    "id": 343,
+    "nameRo": ["nega", 4],
+    "nameRu": "отрицать",
+    "conjugation": {
+      "eu": ["neg", 2],
+      "tu": "negi",
+      "el": "neagă",
+      "noi": "negăm",
+      "voi": "negați",
+      "ei": "neagă",
+
+      "eu1": "neg",
+      "tu1": "negi",
+      "el1": "nege",
+      "noi1": "negăm",
+      "voi1": "negați",
+      "ei1": "nege"
+    },
+    "participle": "negat",
+    "impS": "neagă",
+    "impP": "negați"
+  },
+  {
+    "id": 344,
+    "nameRo": ["mesteca", 7],
+    "nameRu": "жевать, пережевывать",
+    "conjugation": {
+      "eu": ["mestec", 2],
+      "tu": "mesteci",
+      "el": "mestecă",
+      "noi": "mestecăm",
+      "voi": "mestecați",
+      "ei": "mestecă",
+
+      "eu1": "mestec",
+      "tu1": "mesteci",
+      "el1": "mestece",
+      "noi1": "mestecăm",
+      "voi1": "mestecați",
+      "ei1": "mestece"
+    },
+    "participle": "mestecat",
+    "impS": "mestecă",
+    "impP": "mestecați"
+  },
+  {
+    "id": 345,
+    "nameRo": ["echilibra", 9],
+    "nameRu": "уравновешивать, балансировать",
+    "conjugation": {
+      "eu": ["echilibrez", 9],
+      "tu": "echilibrezi",
+      "el": "echilibrează",
+      "noi": "echilibrăm",
+      "voi": "echilibrați",
+      "ei": "echilibrează",
+
+      "eu1": "echilibrez",
+      "tu1": "echilibrezi",
+      "el1": "echilibreze",
+      "noi1": "echilibrăm",
+      "voi1": "echilibrați",
+      "ei1": "echilibreze"
+    },
+    "participle": "echilibrat",
+    "impS": "echilibrează",
+    "impP": "echilibrați"
+  },
+  {
+    "id": 346,
+    "nameRo": ["curta", 5],
+    "nameRu": "ухаживать (за женщ.)",
+    "conjugation": {
+      "eu": ["curtez", 5],
+      "tu": "curtezi",
+      "el": "curtează",
+      "noi": "curtăm",
+      "voi": "curtați",
+      "ei": "curtează",
+
+      "eu1": "curtez",
+      "tu1": "curtezi",
+      "el1": "curteze",
+      "noi1": "curtăm",
+      "voi1": "curtați",
+      "ei1": "curteze"
+    },
+    "participle": "curta",
+    "impS": "curtează",
+    "impP": "curtați"
+  },
+  {
+    "id": 347,
+    "nameRo": ["feri", 4],
+    "nameRu": "оберегать, охранять, хранить, защищать",
+    "conjugation": {
+      "eu": ["feresc", 4],
+      "tu": "ferești",
+      "el": "ferește",
+      "noi": "ferim",
+      "voi": "feriți",
+      "ei": "feresc",
+
+      "eu1": "feresc",
+      "tu1": "ferești",
+      "el1": "ferească",
+      "noi1": "ferim",
+      "voi1": "feriți",
+      "ei1": "ferească"
+    },
+    "participle": "ferit",
+    "impS": "ferește",
+    "impP": "feriți"
+  },
+  {
+    "id": 348,
+    "nameRo": ["proveni", 7],
+    "nameRu": "происходить, брать начало от..., походить от...",
+    "conjugation": {
+      "eu": ["provin", 5],
+      "tu": "provii",
+      "el": "provine",
+      "noi": "provenim",
+      "voi": "proveniți",
+      "ei": "provin",
+
+      "eu1": "provin",
+      "tu1": "provii",
+      "el1": "provină",
+      "noi1": "provenim",
+      "voi1": "proveniți",
+      "ei1": "provină"
+    },
+    "participle": "provenit",
+    "impS": "provino",
+    "impP": "proveniți"
+  },
+  {
+    "id": 349,
+    "nameRo": ["moșteni", 7],
+    "nameRu": "наследовать, унаследовать, получить в наследство",
+    "conjugation": {
+      "eu": ["moștenesc", 7],
+      "tu": "moștenești",
+      "el": "moștenește",
+      "noi": "moștenim",
+      "voi": "moșteniți",
+      "ei": "moștenesc",
+
+      "eu1": "moștenesc",
+      "tu1": "moștenești",
+      "el1": "moștenească",
+      "noi1": "moștenim",
+      "voi1": "moșteniți",
+      "ei1": "moștenească"
+    },
+    "participle": "moștenit",
+    "impS": "moștenește",
+    "impP": "moșteniți"
   }
 ]
