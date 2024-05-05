@@ -1,14 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { IconButton, List, ListItem, ListItemText } from "@mui/material";
+import { IconButton } from "@mui/material";
 import { Search, Close } from "@mui/icons-material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import BackspaceIcon from "@mui/icons-material/Backspace";
 import TextField from "@mui/material/TextField";
-//import InputLabel from "@mui/material/InputLabel";
-//import Card from "@mui/material/Card";
-//import CardContent from "@mui/material/CardContent";
 import InputAdornment from "@mui/material/InputAdornment";
 import { useTheme } from "@mui/material/styles";
 import cx from "classnames";
@@ -22,14 +19,14 @@ import {
   setShowConjugation,
   getShowTooltip,
   setShowTooltip,
-  getMode,
   setVerbIdx,
   getVerbIdx,
   getVerbsOrder,
   getFromLang,
 } from "../store/reducer.ts";
 import { getVerbByIdx } from "../utils.ts";
-import { IVerb, Lang, Mode } from "../types.ts";
+import { IVerb, Lang } from "../types.ts";
+import SearchList from "./SearchList.tsx";
 
 const Verb: React.FC = () => {
   const theme = useTheme();
@@ -38,7 +35,6 @@ const Verb: React.FC = () => {
   const verb = useSelector(getVerb);
   const verbIdx = useSelector(getVerbIdx);
   const verbsOrder = useSelector(getVerbsOrder);
-  const isLightMode = useSelector(getMode) === Mode.light;
   const tooltipOpen = useSelector(getShowTooltip);
   const fromLang = useSelector(getFromLang);
 
@@ -255,33 +251,11 @@ const Verb: React.FC = () => {
           >
             <Close />
           </IconButton>
-          {searchResults.length > 0 ? (
-            <div className="App-verb-search-list">
-              <List
-                style={{
-                  backgroundColor: !isLightMode ? "#555555" : "#cccccc",
-                }}
-              >
-                {searchResults.map((option) => (
-                  <ListItem
-                    key={option.id}
-                    value={option.nameRo}
-                    disablePadding
-                    onClick={() => onListItemClick(option)}
-                  >
-                    <ListItemText
-                      primary={
-                        searchLang === Lang.ro
-                          ? option.nameRo[0]
-                          : option.nameRu
-                      }
-                      sx={{ borderBottom: "1px solid #aaaaaa" }}
-                    />
-                  </ListItem>
-                ))}
-              </List>
-            </div>
-          ) : null}
+          <SearchList
+            searchResults={searchResults}
+            searchLang={searchLang}
+            onItemClick={onListItemClick}
+          />
         </div>
       ) : (
         <>
