@@ -8154,5 +8154,51 @@
     "participle": "potrivit",
     "impS": "potrivește",
     "impP": "potriviți"
+  },
+  {
+    "id": 355,
+    "nameRo": ["ateriza", 7],
+    "nameRu": "приземляться, касаться земли",
+    "conjugation": {
+      "eu": ["aterizez", 7],
+      "tu": "aterizezi",
+      "el": "aterizează",
+      "noi": "aterizăm",
+      "voi": "aterizați",
+      "ei": "aterizează",
+
+      "eu1": "aterizez",
+      "tu1": "aterizezi",
+      "el1": "aterizeze",
+      "noi1": "aterizăm",
+      "voi1": "aterizați",
+      "ei1": "aterizeze"
+    },
+    "participle": "aterizat",
+    "impS": "aterizează",
+    "impP": "aterizați"
+  },
+  {
+    "id": 356,
+    "nameRo": ["(se) deosebi", 12],
+    "nameRu": "различать(ся), отличать(ся), видеть разницу, (выделяться)",
+    "conjugation": {
+      "eu": ["deosebesc", 7],
+      "tu": "deosebești",
+      "el": "deosebește",
+      "noi": "deosebim",
+      "voi": "deosebiți",
+      "ei": "deosebesc",
+
+      "eu1": "deosebesc",
+      "tu1": "deosebești",
+      "el1": "deosebească",
+      "noi1": "deosebim",
+      "voi1": "deosebiți",
+      "ei1": "deosebească"
+    },
+    "participle": "deosebi",
+    "impS": "deosebește",
+    "impP": "deosebiți"
   }
 ]
