@@ -1534,8 +1534,8 @@
   },
   {
     "id": 67,
-    "nameRo": ["plânge", 3],
-    "nameRu": "плакать",
+    "nameRo": ["(se) plânge", 8],
+    "nameRu": "плакать, (плакаться, жаловаться)",
     "conjugation": {
       "eu": ["plâng", 3],
       "tu": "plângi",
@@ -8039,5 +8039,97 @@
     "participle": "moștenit",
     "impS": "moștenește",
     "impP": "moșteniți"
+  },
+  {
+    "id": 350,
+    "nameRo": ["reține", 4],
+    "nameRu": "удерживать, сохранять, помнить",
+    "conjugation": {
+      "eu": ["rețin", 4],
+      "tu": "reții",
+      "el": "reține",
+      "noi": "reținem",
+      "voi": "rețineți",
+      "ei": "rețin",
+
+      "eu1": "rețin",
+      "tu1": "reții",
+      "el1": "rețină",
+      "noi1": "reținem",
+      "voi1": "rețineți",
+      "ei1": "rețină"
+    },
+    "participle": "reținut",
+    "impS": "reține",
+    "impP": "rețineți"
+  },
+  {
+    "id": 351,
+    "nameRo": ["răbda", 5],
+    "nameRu": "терпеть",
+    "conjugation": {
+      "eu": ["rabd", 2],
+      "tu": "rabzi",
+      "el": "rabdă",
+      "noi": "răbdam",
+      "voi": "răbdați",
+      "ei": "rabdă",
+
+      "eu1": "rabd",
+      "tu1": "rabzi",
+      "el1": "rabde",
+      "noi1": "răbdam",
+      "voi1": "răbdați",
+      "ei1": "rabde"
+    },
+    "participle": "răbdat",
+    "impS": "rabdă",
+    "impP": "răbdați"
+  },
+  {
+    "id": 352,
+    "nameRo": ["amenința", 8],
+    "nameRu": "угрожать",
+    "conjugation": {
+      "eu": ["ameninț", 3],
+      "tu": "ameninți",
+      "el": "amenință",
+      "noi": "amenințăm",
+      "voi": "amenințați",
+      "ei": "amenință",
+
+      "eu1": "ameninț",
+      "tu1": "ameninți",
+      "el1": "amenințe",
+      "noi1": "amenințăm",
+      "voi1": "amenințați",
+      "ei1": "amenințe"
+    },
+    "participle": "amenințat",
+    "impS": "amenință",
+    "impP": "amenințați"
+  },
+  {
+    "id": 353,
+    "nameRo": ["păcăli", 6],
+    "nameRu": "обмануть, обхитрить",
+    "conjugation": {
+      "eu": ["păcălesc", 6],
+      "tu": "păcălești",
+      "el": "păcălește",
+      "noi": "păcălim",
+      "voi": "păcăliți",
+      "ei": "păcălesc",
+
+      "eu1": "păcălesc",
+      "tu1": "păcălești",
+      "el1": "păcălească",
+      "noi1": "păcălim",
+      "voi1": "păcăliți",
+      "ei1": "păcălească"
+    },
+    "participle": "păcălit",
+    "impS": "păcălește",
+    "impP": "păcăliți"
   }
 ]
