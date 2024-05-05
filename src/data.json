@@ -8131,5 +8131,28 @@
     "participle": "păcălit",
     "impS": "păcălește",
     "impP": "păcăliți"
+  },
+  {
+    "id": 354,
+    "nameRo": ["potrivi", 7],
+    "nameRu": "соответсвовать, подходить",
+    "conjugation": {
+      "eu": ["potrivesc", 7],
+      "tu": "potrivești",
+      "el": "potrivește",
+      "noi": "potrivim",
+      "voi": "potriviți",
+      "ei": "potrivesc",
+
+      "eu1": "potrivesc",
+      "tu1": "potrivești",
+      "el1": "potrivească",
+      "noi1": "potrivim",
+      "voi1": "potriviți",
+      "ei1": "potrivească"
+    },
+    "participle": "potrivit",
+    "impS": "potrivește",
+    "impP": "potriviți"
   }
 ]

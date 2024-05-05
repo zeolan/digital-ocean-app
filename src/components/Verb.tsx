@@ -190,8 +190,16 @@ const Verb: React.FC = () => {
         matchesRu && searchResultsRu.push(item);
       });
       const searchResults = searchResultsRo.length
-        ? searchResultsRo
-        : searchResultsRu;
+        ? searchResultsRo.sort((a: any, b: any) => {
+            return a.nameRo[0] > b.nameRo[0]
+              ? 1
+              : a.nameRo[0] < b.nameRo[0]
+              ? -1
+              : 0;
+          })
+        : searchResultsRu.sort((a: any, b: any) => {
+            return a.nameRu > b.nameRu ? 1 : a.nameRu < b.nameRu ? -1 : 0;
+          });
       const searchLang = searchResultsRo.length ? Lang.ro : Lang.ru;
       setSearchLang(searchLang);
       setSearchResults(searchResults);
