@@ -7645,7 +7645,7 @@
       "voi1": "absolviți",
       "ei1": "absolve"
     },
-    "participle": "absolvat",
+    "participle": "absolvit",
     "impS": "absolvă",
     "impP": "absolviți"
   },
@@ -8200,5 +8200,51 @@
     "participle": "deosebi",
     "impS": "deosebește",
     "impP": "deosebiți"
+  },
+  {
+    "id": 357,
+    "nameRo": ["(se) umili", 10],
+    "nameRu": "унижать(ся)",
+    "conjugation": {
+      "eu": ["umilesc", 5],
+      "tu": "umilești",
+      "el": "umilește",
+      "noi": "umilim",
+      "voi": "umiliți",
+      "ei": "umilesc",
+
+      "eu1": "umilesc",
+      "tu1": "umilești",
+      "el1": "umilească",
+      "noi1": "umilim",
+      "voi1": "umiliți",
+      "ei1": "umilească"
+    },
+    "participle": "umilit",
+    "impS": "umilește",
+    "impP": "umiliți"
+  },
+  {
+    "id": 358,
+    "nameRo": ["(se) îmbina", 11],
+    "nameRu": "объединять(ся), связывать(ся)",
+    "conjugation": {
+      "eu": ["îmbin", 4],
+      "tu": "îmbini",
+      "el": "îmbină",
+      "noi": "îmbinăm",
+      "voi": "îmbinați",
+      "ei": "îmbină",
+
+      "eu1": "îmbin",
+      "tu1": "îmbini",
+      "el1": "îmbine",
+      "noi1": "îmbinăm",
+      "voi1": "îmbinați",
+      "ei1": "îmbine"
+    },
+    "participle": "îmbinat",
+    "impS": "îmbină",
+    "impP": "îmbinați"
   }
 ]
