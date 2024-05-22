@@ -8315,5 +8315,28 @@
     "participle": "furnizat",
     "impS": "furnizează",
     "impP": "furnizați"
+  },
+  {
+    "id": 362,
+    "nameRo": ["aprecia", 7],
+    "nameRu": "ценить, быть признательным",
+    "conjugation": {
+      "eu": ["apreciez", 7],
+      "tu": "apreciezi",
+      "el": "apreciază",
+      "noi": "apreciem",
+      "voi": "apreciați",
+      "ei": "apreciază",
+
+      "eu1": "apreciez",
+      "tu1": "apreciezi",
+      "el1": "aprecieze",
+      "noi1": "apreciem",
+      "voi1": "apreciați",
+      "ei1": "aprecieze"
+    },
+    "participle": "apreciat",
+    "impS": "apreciază",
+    "impP": "apreciați"
   }
 ]
