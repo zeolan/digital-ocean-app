@@ -161,13 +161,13 @@
     "nameRu": "разговаривать",
     "conjugation": {
       "eu": ["vorbesc", 5],
-      "tu": "vorbeșți",
+      "tu": "vorbești",
       "el": "vorbește",
       "noi": "vorbim",
       "voi": "vorbiți",
       "ei": "vorbesc",
       "eu1": "vorbesc",
-      "tu1": "vorbeșți",
+      "tu1": "vorbești",
       "el1": "vorbească",
       "noi1": "vorbim",
       "voi1": "vorbiți",
@@ -3122,7 +3122,7 @@
   {
     "id": 136,
     "nameRo": ["se strădui", 10],
-    "nameRu": "стараться, пытаться",
+    "nameRu": "стараться, пытаться, стремиться",
     "conjugation": {
       "eu": ["străduiesc", 7],
       "tu": "străduiești",
@@ -8246,5 +8246,74 @@
     "participle": "îmbinat",
     "impS": "îmbină",
     "impP": "îmbinați"
+  },
+  {
+    "id": 359,
+    "nameRo": ["scumpi", 6],
+    "nameRu": "дорожать, становиться дороже",
+    "conjugation": {
+      "eu": ["scumpesc", 6],
+      "tu": "scumpești",
+      "el": "scumpește",
+      "noi": "scumpim",
+      "voi": "scumpiți",
+      "ei": "scumpesc",
+
+      "eu1": "scumpesc",
+      "tu1": "scumpești",
+      "el1": "scumpească",
+      "noi1": "scumpim",
+      "voi1": "scumpiți",
+      "ei1": "scumpească"
+    },
+    "participle": "scumpit",
+    "impS": "scumpește",
+    "impP": "scumpiți"
+  },
+  {
+    "id": 360,
+    "nameRo": ["mărunți", 7],
+    "nameRu": "измельчать",
+    "conjugation": {
+      "eu": ["mărunțesc", 7],
+      "tu": "mărunțești",
+      "el": "mărunțește",
+      "noi": "mărunțim",
+      "voi": "mărunțiți",
+      "ei": "mărunțesc",
+
+      "eu1": "mărunțesc",
+      "tu1": "mărunțești",
+      "el1": "mărunțească",
+      "noi1": "mărunțim",
+      "voi1": "mărunțiți",
+      "ei1": "mărunțească"
+    },
+    "participle": "mărunțit",
+    "impS": "mărunțește",
+    "impP": "mărunțiți"
+  },
+  {
+    "id": 361,
+    "nameRo": ["furniza", 7],
+    "nameRu": "поставлять, доставлять (товары, услуги)",
+    "conjugation": {
+      "eu": ["furnizez", 7],
+      "tu": "furnizezi",
+      "el": "furnizează",
+      "noi": "furnizăm",
+      "voi": "furnizați",
+      "ei": "furnizează",
+
+      "eu1": "furnizez",
+      "tu1": "furnizezi",
+      "el1": "furnizeze",
+      "noi1": "furnizăm",
+      "voi1": "furnizați",
+      "ei1": "furnizeze"
+    },
+    "participle": "furnizat",
+    "impS": "furnizează",
+    "impP": "furnizați"
   }
 ]
