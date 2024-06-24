@@ -8338,5 +8338,74 @@
     "participle": "apreciat",
     "impS": "apreciază",
     "impP": "apreciați"
+  },
+  {
+    "id": 363,
+    "nameRo": ["pedepsi", 7],
+    "nameRu": "наказывать",
+    "conjugation": {
+      "eu": ["pedepsesc", 7],
+      "tu": "pedepsești",
+      "el": "pedepsește",
+      "noi": "pedepsim",
+      "voi": "pedepsiți",
+      "ei": "pedepsesc",
+
+      "eu1": "pedepsesc",
+      "tu1": "pedepsești",
+      "el1": "pedepsească",
+      "noi1": "pedepsim",
+      "voi1": "pedepsiți",
+      "ei1": "pedepsească"
+    },
+    "participle": "pedepsit",
+    "impS": "pedepsește",
+    "impP": "pedepsiți"
+  },
+  {
+    "id": 364,
+    "nameRo": ["obișnui", 7],
+    "nameRu": "привыкать, приучать",
+    "conjugation": {
+      "eu": ["obișnuiesc", 7],
+      "tu": "obișnuiești",
+      "el": "obișnuiește",
+      "noi": "obișnuim",
+      "voi": "obișnuiți",
+      "ei": "obișnuiesc",
+
+      "eu1": "obișnuiesc",
+      "tu1": "obișnuiești",
+      "el1": "obișnuiască",
+      "noi1": "obișnuim",
+      "voi1": "obișnuiți",
+      "ei1": "obișnuiască"
+    },
+    "participle": "obișnuit",
+    "impS": "obișnuiește",
+    "impP": "obișnuiți"
+  },
+  {
+    "id": 365,
+    "nameRo": ["pica", 4],
+    "nameRu": "свалиться, упасть с высоты",
+    "conjugation": {
+      "eu": ["pic", 2],
+      "tu": "pici",
+      "el": "pică",
+      "noi": "picăm",
+      "voi": "picați",
+      "ei": "pică",
+
+      "eu1": "pic",
+      "tu1": "pici",
+      "el1": "pice",
+      "noi1": "picăm",
+      "voi1": "picați",
+      "ei1": "pice"
+    },
+    "participle": "picat",
+    "impS": "pică",
+    "impP": "picați"
   }
 ]
