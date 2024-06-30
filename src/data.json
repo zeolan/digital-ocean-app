@@ -8407,5 +8407,74 @@
     "participle": "picat",
     "impS": "pică",
     "impP": "picați"
+  },
+  {
+    "id": 366,
+    "nameRo": ["(se) scutura", 12],
+    "nameRu": "трясти, трусить (трястись, отряхиваться)",
+    "conjugation": {
+      "eu": ["scutur", 3],
+      "tu": "scuturi",
+      "el": "scutură",
+      "noi": "scuturăm",
+      "voi": "scuturați",
+      "ei": "scutură",
+
+      "eu1": "scutur",
+      "tu1": "scuturi",
+      "el1": "scuture",
+      "noi1": "scuturăm",
+      "voi1": "scuturați",
+      "ei1": "scuture"
+    },
+    "participle": "scuturat",
+    "impS": "scutură",
+    "impP": "scuturați"
+  },
+  {
+    "id": 367,
+    "nameRo": ["(se) adăposti", 13],
+    "nameRu": "укрывать, скрывать (укрываться в укрытие)",
+    "conjugation": {
+      "eu": ["adăpostesc", 8],
+      "tu": "adăpostești",
+      "el": "adăpostește",
+      "noi": "adăpostim",
+      "voi": "adăpostiți",
+      "ei": "adăpostesc",
+
+      "eu1": "adăpostesc",
+      "tu1": "adăpostești",
+      "el1": "adăpostească",
+      "noi1": "adăpostim",
+      "voi1": "adăpostiți",
+      "ei1": "adăpostească"
+    },
+    "participle": "adăpostit",
+    "impS": "adăpostește",
+    "impP": "adăpostiți"
+  },
+  {
+    "id": 368,
+    "nameRo": ["înconjura", 9],
+    "nameRu": "окружать, огораживать",
+    "conjugation": {
+      "eu": ["înconjor", 7],
+      "tu": "înconjori",
+      "el": "înconjoară",
+      "noi": "înconjurăm",
+      "voi": "înconjurați",
+      "ei": "înconjoară",
+
+      "eu1": "înconjor",
+      "tu1": "înconjori",
+      "el1": "înconjoare",
+      "noi1": "înconjurăm",
+      "voi1": "înconjurați",
+      "ei1": "înconjoare"
+    },
+    "participle": "înconjurat",
+    "impS": "înconjoară",
+    "impP": "înconjurați"
   }
 ]
