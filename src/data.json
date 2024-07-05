@@ -6778,7 +6778,7 @@
   {
     "id": 295,
     "nameRo": ["lăsa", 4],
-    "nameRu": "позволять, разрешать, пускать",
+    "nameRu": "позволять, разрешать, (от)пускать",
     "conjugation": {
       "eu": ["las", 2],
       "tu": "lași",
@@ -8476,5 +8476,120 @@
     "participle": "înconjurat",
     "impS": "înconjoară",
     "impP": "înconjurați"
+  },
+  {
+    "id": 369,
+    "nameRo": ["insulta", 7],
+    "nameRu": "оскорблять",
+    "conjugation": {
+      "eu": ["insult", 4],
+      "tu": "insulți",
+      "el": "insultă",
+      "noi": "insultăm",
+      "voi": "insultați",
+      "ei": "insultă",
+
+      "eu1": "insult",
+      "tu1": "insulți",
+      "el1": "insulte",
+      "noi1": "insultăm",
+      "voi1": "insultați",
+      "ei1": "insulte"
+    },
+    "participle": "insultat",
+    "impS": "insultă",
+    "impP": "insultați"
+  },
+  {
+    "id": 370,
+    "nameRo": ["stima", 5],
+    "nameRu": "уважать, испытывать уважение к к.т.",
+    "conjugation": {
+      "eu": ["stimez", 5],
+      "tu": "stimezi",
+      "el": "stimează",
+      "noi": "stimăm",
+      "voi": "stimați",
+      "ei": "stimează",
+
+      "eu1": "stimez",
+      "tu1": "stimezi",
+      "el1": "stimeze",
+      "noi1": "stimăm",
+      "voi1": "stimați",
+      "ei1": "stimeze"
+    },
+    "participle": "stimat",
+    "impS": "stimează",
+    "impP": "stimați"
+  },
+  {
+    "id": 371,
+    "nameRo": ["tampona", 7],
+    "nameRu": "столкнуться, удариться (авто)",
+    "conjugation": {
+      "eu": ["tamponez", 7],
+      "tu": "tamponezi",
+      "el": "tamponează",
+      "noi": "tamponăm",
+      "voi": "tamponați",
+      "ei": "tamponează",
+
+      "eu1": "tamponez",
+      "tu1": "tamponezi",
+      "el1": "tamponeze",
+      "noi1": "tamponăm",
+      "voi1": "tamponați",
+      "ei1": "tamponeze"
+    },
+    "participle": "tamponat",
+    "impS": "tamponează",
+    "impP": "tamponați"
+  },
+  {
+    "id": 372,
+    "nameRo": ["respecta", 8],
+    "nameRu": "уважать",
+    "conjugation": {
+      "eu": ["respect", 5],
+      "tu": "respecți",
+      "el": "respectă",
+      "noi": "respectăm",
+      "voi": "respectați",
+      "ei": "respectă",
+
+      "eu1": "respect",
+      "tu1": "respecți",
+      "el1": "respecte",
+      "noi1": "respectăm",
+      "voi1": "respectați",
+      "ei1": "respecte"
+    },
+    "participle": "respectat",
+    "impS": "respectă",
+    "impP": "respectați"
+  },
+  {
+    "id": 373,
+    "nameRo": ["disprețui", 9],
+    "nameRu": "презирать, не уважать",
+    "conjugation": {
+      "eu": ["disprețuiesc", 9],
+      "tu": "disprețuiești",
+      "el": "disprețuiește",
+      "noi": "disprețuim",
+      "voi": "disprețuiți",
+      "ei": "disprețuiesc",
+
+      "eu1": "disprețuiesc",
+      "tu1": "disprețuiești",
+      "el1": "disprețuiască",
+      "noi1": "disprețuim",
+      "voi1": "disprețuiți",
+      "ei1": "disprețuiască"
+    },
+    "participle": "disprețuit",
+    "impS": "disprețuiește",
+    "impP": "disprețuiți"
   }
 ]
