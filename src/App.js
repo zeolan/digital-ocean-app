@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
+import { CookiesProvider } from "react-cookie";
 
 import { getRandomVerbsOrder } from "./utils.ts";
 import {
@@ -50,15 +51,17 @@ function App() {
 
   return (
     <ThemeProvider theme={isLightMode ? defaultTheme : darkTheme}>
-      <CssBaseline />
-      <div className="App">
-        <SettingsButton />
-        <ThemeButton />
-        <Header />
-        {showConjugation ? <Conjugation /> : <Verb />}
-        <Footer />
-      </div>
-      <CookiesModal cookieName="showCookiesModal" />
+      <CookiesProvider defaultSetOptions={{ path: "/" }}>
+        <CssBaseline />
+        <div className="App">
+          <SettingsButton />
+          <ThemeButton />
+          <Header />
+          {showConjugation ? <Conjugation /> : <Verb />}
+          <Footer />
+        </div>
+        <CookiesModal cookieName="showCookiesModal" />
+      </CookiesProvider>
     </ThemeProvider>
   );
 }
