@@ -162,12 +162,13 @@ const Verb: React.FC = () => {
 
   const onSearchChange = (e: any) => {
     setSearchString(e.target.value);
-    if (e.target.value.length > 1) {
+    const searchString = e.target.value.trim();
+    if (searchString.length > 1) {
       const searchResultsRo = verbs.filter((item: any) =>
-        item.nameRo[0].includes(e.target.value.toLowerCase())
+        item.nameRo[0].includes(searchString.toLowerCase())
       );
       const searchResultsRu = verbs.filter((item: any) =>
-        item.nameRu.includes(e.target.value.toLowerCase())
+        item.nameRu.includes(searchString.toLowerCase())
       );
       const searchResults = searchResultsRo.length
         ? searchResultsRo
@@ -175,11 +176,11 @@ const Verb: React.FC = () => {
       const searchLang = searchResultsRo.length ? Lang.ro : Lang.ru;
       setSearchLang(searchLang);
       setSearchResults(searchResults);
-    } else if (e.target.value.length === 1) {
+    } else if (searchString.length === 1) {
       let searchResultsRo: any[] = [];
       let searchResultsRu: any[] = [];
       verbs.forEach((item: any) => {
-        const regExp = new RegExp(`^${e.target.value.toLowerCase()}`);
+        const regExp = new RegExp(`^${searchString.toLowerCase()}`);
         const matchesRo = item.nameRo[0].match(regExp);
         matchesRo && searchResultsRo.push(item);
         const matchesRu = item.nameRu.match(regExp);
