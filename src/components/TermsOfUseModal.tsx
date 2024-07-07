@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import { useCookies } from "react-cookie";
+import { useSelector, useDispatch } from "react-redux";
 
 import { Box, Button, Modal } from "@mui/material";
+
+import { getShowTermsOfUse, setShowTermsOfUse } from "../store/reducer.ts";
 
 const style = {
   position: "absolute" as "absolute",
@@ -14,18 +16,13 @@ const style = {
   p: 2,
 };
 
-const USER_MESSAGE = `This site uses cookies to create anonymous statistics.`;
+const USER_MESSAGE = `This site collects anonymous statistics to improve application`;
 
-const CookiesModal: React.FC<{ cookieName: string }> = ({ cookieName }) => {
-  const [cookies, setCookies] = useCookies([cookieName]);
-  const [isOpen, setIsOpen] = useState<boolean>(
-    cookies[cookieName] === true ||
-      cookies[cookieName] === undefined ||
-      cookies[cookieName] === null
-  );
+const TermsOfUseModal: React.FC = () => {
+  const dispatch = useDispatch();
+  const isOpen = useSelector(getShowTermsOfUse);
   const handleClick = () => {
-    setIsOpen(false);
-    setCookies(cookieName, false);
+    dispatch(setShowTermsOfUse(false));
   };
 
   return (
@@ -50,4 +47,4 @@ const CookiesModal: React.FC<{ cookieName: string }> = ({ cookieName }) => {
   );
 };
 
-export default CookiesModal;
+export default TermsOfUseModal;

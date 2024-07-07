@@ -16,6 +16,7 @@ interface MainState {
   mode: string;
   sortVerbs: boolean;
   fromLang: Lang;
+  showTermsOfUse: boolean;
 }
 
 const mode = localStorage.getItem("mode") || Mode.light;
@@ -33,6 +34,7 @@ const initialState: MainState = {
   mode,
   sortVerbs: false,
   fromLang: Lang.ro,
+  showTermsOfUse: true,
 };
 
 export const mainSlice = createSlice({
@@ -70,6 +72,9 @@ export const mainSlice = createSlice({
     setFromLang: (state, action) => {
       state.fromLang = action.payload;
     },
+    setShowTermsOfUse: (state, action) => {
+      state.showTermsOfUse = action.payload;
+    },
   },
 });
 
@@ -84,6 +89,7 @@ export const {
   setSortVerbs,
   setVerbsOrderSorted,
   setFromLang,
+  setShowTermsOfUse,
 } = mainSlice.actions;
 
 export const getVerb = (state): IVerb => {
@@ -128,6 +134,10 @@ export const getSortVerbs = (state): boolean => {
 
 export const getFromLang = (state): Lang => {
   return state.main.fromLang;
+};
+
+export const getShowTermsOfUse = (state): boolean => {
+  return state.main.showTermsOfUse;
 };
 
 export default mainSlice.reducer;
