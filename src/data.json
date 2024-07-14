@@ -4754,7 +4754,7 @@
   {
     "id": 207,
     "nameRo": ["(se) elibera", 12],
-    "nameRu": "освобождать(-ся)",
+    "nameRu": "освобождать(-ся), увольнять",
     "conjugation": {
       "eu": ["eliberez", 7],
       "tu": "eliberezi",
@@ -8591,5 +8591,97 @@
     "participle": "disprețuit",
     "impS": "disprețuiește",
     "impP": "disprețuiți"
+  },
+  {
+    "id": 374,
+    "nameRo": ["preciza", 7],
+    "nameRu": "уточнить, уточнять",
+    "conjugation": {
+      "eu": ["precizez", 7],
+      "tu": "precizezi",
+      "el": "precizează",
+      "noi": "precizăm",
+      "voi": "precizați",
+      "ei": "precizează",
+
+      "eu1": "precizez",
+      "tu1": "precizezi",
+      "el1": "precizeze",
+      "noi1": "precizăm",
+      "voi1": "precizați",
+      "ei1": "precizeze"
+    },
+    "participle": "precizat",
+    "impS": "precizează",
+    "impP": "precizați"
+  },
+  {
+    "id": 375,
+    "nameRo": ["(se) enerva", 11],
+    "nameRu": "раздражать(ся), нервничать",
+    "conjugation": {
+      "eu": ["enervez", 6],
+      "tu": "enervezi",
+      "el": "enervează",
+      "noi": "enervăm",
+      "voi": "enervați",
+      "ei": "enervează",
+
+      "eu1": "enervez",
+      "tu1": "enervezi",
+      "el1": "enerveze",
+      "noi1": "enervăm",
+      "voi1": "enervați",
+      "ei1": "enerveze"
+    },
+    "participle": "enervat",
+    "impS": "enervează",
+    "impP": "enervați"
+  },
+  {
+    "id": 376,
+    "nameRo": ["invidia", 7],
+    "nameRu": "завидовать",
+    "conjugation": {
+      "eu": ["invidiez", 7],
+      "tu": "invidiezi",
+      "el": "invidiază",
+      "noi": "invidiem",
+      "voi": "invidiați",
+      "ei": "invidiază",
+
+      "eu1": "invidiez",
+      "tu1": "invidiezi",
+      "el1": "invidieze",
+      "noi1": "invidiem",
+      "voi1": "invidiați",
+      "ei1": "invidieze"
+    },
+    "participle": "invidiat",
+    "impS": "invidiază",
+    "impP": "invidiați"
+  },
+  {
+    "id": 377,
+    "nameRo": ["lichida", 7],
+    "nameRu": "заканчивать, завершать, закрывать; ликвидировать",
+    "conjugation": {
+      "eu": ["lichidez", 7],
+      "tu": "lichidezi",
+      "el": "lichidează",
+      "noi": "lichidăm",
+      "voi": "lichidați",
+      "ei": "lichidează",
+
+      "eu1": "lichidez",
+      "tu1": "lichidezi",
+      "el1": "lichideze",
+      "noi1": "lichidăm",
+      "voi1": "lichidați",
+      "ei1": "lichideze"
+    },
+    "participle": "lichidat",
+    "impS": "lichidează",
+    "impP": "lichidați"
   }
 ]
