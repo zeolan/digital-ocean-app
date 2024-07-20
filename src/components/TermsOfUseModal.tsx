@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 
 import { Box, Button, Modal } from "@mui/material";
@@ -16,7 +16,8 @@ const style = {
   p: 2,
 };
 
-const USER_MESSAGE = `This site collects anonymous statistics to improve application`;
+// const USER_MESSAGE = `This site collects anonymous statistics to improve application`;
+const USER_MESSAGE = `Этот сайт собирает анонимную статистику для улучшения приложения`;
 
 const TermsOfUseModal: React.FC = () => {
   const dispatch = useDispatch();
