@@ -142,7 +142,7 @@ function SettingsButton() {
                 >
                   <Check />
                 </ListItemIcon>
-                Сортування &nbsp;
+                Сортировка &nbsp;
                 <ListItemIcon>
                   <SortByAlphaIcon />
                 </ListItemIcon>
@@ -157,7 +157,7 @@ function SettingsButton() {
                 >
                   <Check />
                 </ListItemIcon>
-                В випадковому порядку
+                В случайном порядке
               </MenuItem>
               <Divider />
               <MenuItem

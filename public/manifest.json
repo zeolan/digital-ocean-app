@@ -1,6 +1,6 @@
 {
   "short_name": "RO Verbs",
-  "name": "Тренажер румунських дієслів / Romanian verbs trainer / Trainer de verbe românești",
+  "name": "Тренажер румынских глаголов / Romanian verbs trainer / Trainer de verbe românești",
   "icons": [
     {
       "src": "favicon.ico",
@@ -22,5 +22,6 @@
   "id": "/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "description": "Приложение для изучения румынских глаголов, их перевода и спряжения"
 }

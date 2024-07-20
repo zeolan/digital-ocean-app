@@ -47,10 +47,15 @@ const Verb: React.FC = () => {
   const [localNameRo, setLocalNameRo] = useState<any>(null);
   const inputRef = useRef<HTMLInputElement>();
 
-  const tooltipText = `Натисніть на дієслово щоб подивитись переклад.
-     Натисніть ВІДМІНЮВАННЯ щоб подивитися відмінювання дієслова.
-     Натисніть ДАЛІ щоб перейти до наступного дієслова.
-     Наголос в дієслові позначається рисочкою над буквою`;
+  // const tooltipText = `Натисніть на дієслово щоб подивитись переклад.
+  //    Натисніть ВІДМІНЮВАННЯ щоб подивитися відмінювання дієслова.
+  //    Натисніть ДАЛІ щоб перейти до наступного дієслова.
+  //    Наголос в дієслові позначається рисочкою над буквою`;
+
+  const tooltipText = `Нажмите на глагол чтобы посмотреть переводю
+  Нажмите СПРЯЖЕНИЕ чтобы посмотреть спряжение глагола.
+  Нажмите ДАЛЬШЕ чтобы перейти к следуещему глаголу.
+  Ударение в словах обозначается верхним подчеркиванием`;
 
   useEffect(() => {
     if (verb) {
@@ -221,7 +226,7 @@ const Verb: React.FC = () => {
         <div className="App-verb-search-block">
           <TextField
             id="search-input"
-            label="Пошук"
+            label="Поиск"
             size="medium"
             inputRef={inputRef}
             variant="outlined"
@@ -301,7 +306,7 @@ const Verb: React.FC = () => {
               onClick={onConjugationClick}
               sx={{ borderColor: theme.palette.primary.main }}
             >
-              ВІДМІНЮВАННЯ
+              СПРЯЖЕНИЕ
             </OutlinedButton>
             <OutlinedButton
               onClick={onNextClick}

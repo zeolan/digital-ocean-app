@@ -186,7 +186,7 @@ const Conjugation: React.FC = () => {
       </div>
       <div className="App-conjugation-block4">
         <Button variant={"contained"} onClick={onNextClick}>
-          Далі
+          Дальше
         </Button>
       </div>
     </div>
