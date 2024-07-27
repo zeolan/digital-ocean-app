@@ -1948,7 +1948,7 @@
   },
   {
     "id": 85,
-    "nameRo": ["distra", 6],
+    "nameRo": ["(se) distra", 11],
     "nameRu": "веселиться, развлекаться",
     "conjugation": {
       "eu": ["distrez", 6],
@@ -3536,7 +3536,7 @@
   {
     "id": 154,
     "nameRo": ["parca", 5],
-    "nameRu": "парковаться",
+    "nameRu": "парковать машину, парковаться",
     "conjugation": {
       "eu": ["parchez", 6],
       "tu": "parchezi",
@@ -4799,8 +4799,8 @@
   },
   {
     "id": 209,
-    "nameRo": ["aranja", 6],
-    "nameRu": "упорядочить, расположить, привести в порядок",
+    "nameRo": ["(se) aranja", 11],
+    "nameRu": "упорядочить, расположить, привести в порядок, устроить(ся)",
     "conjugation": {
       "eu": ["aranjez", 6],
       "tu": "aranjezi",
@@ -5950,7 +5950,7 @@
   {
     "id": 259,
     "nameRo": ["cuceri", 6],
-    "nameRu": "завоевывать, занимать, забирать",
+    "nameRu": "завоевывать, покорять, занимать, забирать",
     "conjugation": {
       "eu": ["cuceresc", 6],
       "tu": "cucerești",
@@ -8683,5 +8683,97 @@
     "participle": "lichidat",
     "impS": "lichidează",
     "impP": "lichidați"
+  },
+  {
+    "id": 378,
+    "nameRo": ["(se) vindeca", 12],
+    "nameRu": "лечить(ся), вылечить(ся)",
+    "conjugation": {
+      "eu": ["vindec", 2],
+      "tu": "vindeci",
+      "el": "vindecă",
+      "noi": "vindecăm",
+      "voi": "vindecați",
+      "ei": "vindecă",
+
+      "eu1": "vindec",
+      "tu1": "vindeci",
+      "el1": "vindece",
+      "noi1": "vindecăm",
+      "voi1": "vindecați",
+      "ei1": "vindece"
+    },
+    "participle": "vindecat",
+    "impS": "vindecă",
+    "impP": "vindecați"
+  },
+  {
+    "id": 379,
+    "nameRo": ["dobândi", 7],
+    "nameRu": "добиваться, добиться, получить, выиграть",
+    "conjugation": {
+      "eu": ["dobândesc", 7],
+      "tu": "dobândești",
+      "el": "dobândește",
+      "noi": "dobândim",
+      "voi": "dobândiți",
+      "ei": "dobândesc",
+
+      "eu1": "dobândesc",
+      "tu1": "dobândești",
+      "el1": "dobândească",
+      "noi1": "dobândim",
+      "voi1": "dobândiți",
+      "ei1": "dobândească"
+    },
+    "participle": "dobândit",
+    "impS": "dobândește",
+    "impP": "dobândiți"
+  },
+  {
+    "id": 380,
+    "nameRo": ["(se) înclina", 12],
+    "nameRu": "наклонять(ся), склониться, поклоняться",
+    "conjugation": {
+      "eu": ["înclin", 5],
+      "tu": "înclini",
+      "el": "înclină",
+      "noi": "înclinăm",
+      "voi": "înclinați",
+      "ei": "înclină",
+
+      "eu1": "înclin",
+      "tu1": "înclini",
+      "el1": "încline",
+      "noi1": "înclinam",
+      "voi1": "înclinați",
+      "ei1": "încline"
+    },
+    "participle": "înclinat",
+    "impS": "înclină",
+    "impP": "înclinați"
+  },
+  {
+    "id": 381,
+    "nameRo": ["situa", 5],
+    "nameRu": "находиться в, занимать определенное место)",
+    "conjugation": {
+      "eu": ["situez", 5],
+      "tu": "situezi",
+      "el": "situează",
+      "noi": "situăm",
+      "voi": "situați",
+      "ei": "situează",
+
+      "eu1": "situez",
+      "tu1": "situezi",
+      "el1": "situeze",
+      "noi1": "situăm",
+      "voi1": "situați",
+      "ei1": "situeze"
+    },
+    "participle": "situat",
+    "impS": "situează",
+    "impP": "situați"
   }
 ]
