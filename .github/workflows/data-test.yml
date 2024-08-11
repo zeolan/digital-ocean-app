@@ -4,10 +4,10 @@ run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
   check-data-json:
-    runs-on: [self-hosted] #ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-#      - uses: actions/checkout
-#      - uses: actions/setup-node
-#        with:
-#          node-version: "20"
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
       - run: node src/check_data.js
