@@ -1,0 +1,13 @@
+name: learn-github-actions
+run-name: ${{ github.actor }} is learning GitHub Actions
+# ^ we use github context to give an access to the username
+on: [push]
+jobs:
+  check-data-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout
+      - uses: actions/setup-node
+        with:
+          node-version: "20"
+      - run: node src/check_data.js
