@@ -8775,5 +8775,51 @@
     "participle": "situat",
     "impS": "situează",
     "impP": "situați"
+  },
+  {
+    "id": 382,
+    "nameRo": ["proiecta", 8],
+    "nameRu": "проектировать, делать проект; опрокидывать, бросать)",
+    "conjugation": {
+      "eu": ["proiectez", 8],
+      "tu": "proiectezi",
+      "el": "proiectează",
+      "noi": "proiectăm",
+      "voi": "proiectați",
+      "ei": "proiectează",
+
+      "eu1": "proiectez",
+      "tu1": "proiectezi",
+      "el1": "proiecteze",
+      "noi1": "proiectăm",
+      "voi1": "proiectați",
+      "ei1": "proiecteze"
+    },
+    "participle": "proiectat",
+    "impS": "proiectează",
+    "impP": "proiectați"
+  },
+  {
+    "id": 382,
+    "nameRo": ["(se) apuca", 10],
+    "nameRu": "хватать(ся), схватить(ся)",
+    "conjugation": {
+      "eu": ["apuc", 3],
+      "tu": "apuci",
+      "el": "apucă",
+      "noi": "apucăm",
+      "voi": "apucați",
+      "ei": "apucă",
+
+      "eu1": "apuc",
+      "tu1": "apuci",
+      "el1": "apuce",
+      "noi1": "apucăm",
+      "voi1": "apucați",
+      "ei1": "apuce"
+    },
+    "participle": "apucat",
+    "impS": "apucă",
+    "impP": "apucați"
   }
 ]
