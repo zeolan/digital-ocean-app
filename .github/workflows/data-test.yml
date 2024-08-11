@@ -1,5 +1,5 @@
-name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
+name: check-data-json
+run-name: ${{ github.actor }} is checking data.json file
 # ^ we use github context to give an access to the username
 on: [push]
 jobs:
