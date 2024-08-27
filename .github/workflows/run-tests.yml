@@ -1,4 +1,4 @@
-name: tesst-runner
+name: test-runner
 run-name: ${{ github.actor }} is running tests
 # ^ we use github context to give an access to the username
 on: [push]
@@ -10,4 +10,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm run test
+      - run: npm install; npm run test
