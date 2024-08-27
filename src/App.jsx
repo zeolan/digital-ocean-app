@@ -23,7 +23,7 @@ import Conjugation from "./components/Conjugation.tsx";
 import TermsOfUseModal from "./components/TermsOfUseModal.tsx";
 import "./styles/App.scss";
 import { Mode } from "./types.ts";
-import { darkTheme, defaultTheme } from "./themes";
+import { darkTheme, defaultTheme } from "./themes.js";
 
 function App() {
   const verbs = useSelector(getVerbs);
