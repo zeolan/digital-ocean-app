@@ -11,7 +11,7 @@ import { useTheme } from "@mui/material/styles";
 import cx from "classnames";
 
 import { OutlinedButton, VerbButton } from "./MyButtons.js";
-import { LightTooltip } from "./MyTooltip.tsx";
+import HintTooltip from "./HintTooltip.tsx";
 import {
   getVerbs,
   getVerb,
@@ -46,16 +46,6 @@ const Verb: React.FC = () => {
   const [localNameRu, setLocalNameRu] = useState<string>("");
   const [localNameRo, setLocalNameRo] = useState<any>(null);
   const inputRef = useRef<HTMLInputElement>();
-
-  // const tooltipText = `Натисніть на дієслово щоб подивитись переклад.
-  //    Натисніть ВІДМІНЮВАННЯ щоб подивитися відмінювання дієслова.
-  //    Натисніть ДАЛІ щоб перейти до наступного дієслова.
-  //    Наголос в дієслові позначається рисочкою над буквою`;
-
-  const tooltipText = `Нажмите на глагол чтобы посмотреть перевод.
-  Нажмите СПРЯЖЕНИЕ чтобы посмотреть спряжение глагола.
-  Нажмите ДАЛЬШЕ чтобы перейти к следующему глаголу.
-  Ударение в словах обозначается верхним подчеркиванием`;
 
   useEffect(() => {
     if (verb) {
@@ -271,15 +261,11 @@ const Verb: React.FC = () => {
                 rotated: fromLang !== lang,
               })}
             >
-              <LightTooltip
-                title={tooltipText}
-                open={tooltipOpen}
-                className="App-verb-tooltip"
-              >
+              <HintTooltip open={tooltipOpen}>
                 <VerbButton variant="contained" onClick={translate}>
                   {getVerbDisplay("front")}
                 </VerbButton>
-              </LightTooltip>
+              </HintTooltip>
             </div>
 
             <div
