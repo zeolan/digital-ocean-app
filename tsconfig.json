@@ -1,8 +1,9 @@
 {
-  "moduleResolution": "bundler",
   "compilerOptions": {
     "jsx": "react",
     "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "bundler",
     "noEmit": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
