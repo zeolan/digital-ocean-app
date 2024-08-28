@@ -172,14 +172,18 @@ const Verb: React.FC = () => {
       setSearchLang(searchLang);
       setSearchResults(searchResults);
     } else if (searchString.length === 1) {
-      let searchResultsRo: any[] = [];
-      let searchResultsRu: any[] = [];
+      const searchResultsRo: any[] = [];
+      const searchResultsRu: any[] = [];
       verbs.forEach((item: any) => {
         const regExp = new RegExp(`^${searchString.toLowerCase()}`);
         const matchesRo = item.nameRo[0].match(regExp);
-        matchesRo && searchResultsRo.push(item);
+        if (!!matchesRo) {
+          searchResultsRo.push(item);
+        }
         const matchesRu = item.nameRu.match(regExp);
-        matchesRu && searchResultsRu.push(item);
+        if (matchesRu) {
+          searchResultsRu.push(item);
+        }
       });
       const searchResults = searchResultsRo.length
         ? searchResultsRo.sort((a: any, b: any) => {

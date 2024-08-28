@@ -51,7 +51,7 @@ const Conjugation: React.FC = () => {
       typeof nameRo[0] === "string" &&
       typeof nameRo[1] === "number"
     ) {
-      const name = (nameRo[0] as String).split("");
+      const name = (nameRo[0] as string).split("");
       let key = 1;
       const result = name.map((item: string) => {
         return key !== nameRo[1] ? (

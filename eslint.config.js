@@ -29,6 +29,7 @@ module.exports = [
       //"no-unused-vars": "error",
       "no-undef": "error",
       "no-shadow": "off",
+      "@typescript-eslint/no-explicit-any": "off",
       //"@typescript-eslint/no-shadow": "error",
     },
     ignores: [

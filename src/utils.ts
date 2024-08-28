@@ -1,5 +1,7 @@
+import { IVerb } from "./types.ts";
+
 export const getRandomVerbsOrder = (numVerbs: number): number[] => {
-  let verbsOrder = [];
+  const verbsOrder = [];
   let cnt = 0;
   while (cnt < numVerbs - 1) {
     let verbIdInt;
@@ -12,7 +14,7 @@ export const getRandomVerbsOrder = (numVerbs: number): number[] => {
   return verbsOrder;
 };
 
-export const getSortedVerbsOrder = (verbs: any[]): number[] => {
+export const getSortedVerbsOrder = (verbs: IVerb[]): number[] => {
   const verbsCopy = structuredClone(verbs).sort((a: any, b: any) => {
     let nameA = a.nameRo[0];
     if (nameA.indexOf("(se) ") !== -1) {

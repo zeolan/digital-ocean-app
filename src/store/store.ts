@@ -21,7 +21,7 @@ const persistConfig = {
 
 const persistedReducer = persistReducer(persistConfig, mainReducer);
 
-let store = configureStore({
+const store = configureStore({
   reducer: {
     main: persistedReducer,
   },

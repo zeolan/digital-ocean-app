@@ -7,8 +7,8 @@ import data from "../data.json";
 interface MainState {
   verb: IVerb | null;
   verbs: IVerb[];
-  showTooltip: Boolean;
-  showConjugation: Boolean;
+  showTooltip: boolean;
+  showConjugation: boolean;
   verbsOrder: number[];
   verbsOrderSorted: number[];
   verbIdx: number | null;
