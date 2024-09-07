@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
-import { getRandomVerbsOrder } from "./utils.ts";
+import { getRandomVerbsOrder } from "./utils/utils.ts";
 import {
   getVerbs,
   getShowConjugation,

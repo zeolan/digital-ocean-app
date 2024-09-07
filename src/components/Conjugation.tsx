@@ -14,7 +14,7 @@ import {
   setShowConjugation,
   getVerbsOrder,
 } from "../store/reducer.ts";
-import { getVerbByIdx } from "../utils.ts";
+import { getVerbByIdx } from "../utils/utils.ts";
 
 const personButtons = [
   <CapButton key="persona" variant="outlined">

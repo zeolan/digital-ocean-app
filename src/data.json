@@ -8821,5 +8821,120 @@
     "participle": "apucat",
     "impS": "apucă",
     "impP": "apucați"
+  },
+  {
+    "id": 384,
+    "nameRo": ["colora", 6],
+    "nameRu": "красить, раскрашивать, приукрашивать",
+    "conjugation": {
+      "eu": ["colorez", 6],
+      "tu": "colorezi",
+      "el": "colorează",
+      "noi": "colorăm",
+      "voi": "colorați",
+      "ei": "colorează",
+
+      "eu1": "colorez",
+      "tu1": "colorezi",
+      "el1": "coloreze",
+      "noi1": "colorăm",
+      "voi1": "colorați",
+      "ei1": "coloreze"
+    },
+    "participle": "colorat",
+    "impS": "colorează",
+    "impP": "colorați"
+  },
+  {
+    "id": 385,
+    "nameRo": ["doborî", 6],
+    "nameRu": "сбить, подбить, повалить, свалить; побить рекорд",
+    "conjugation": {
+      "eu": ["dobor", 4],
+      "tu": "dobori",
+      "el": "doboară",
+      "noi": "doborâm",
+      "voi": "doborâți",
+      "ei": "doboară",
+
+      "eu1": "dobor",
+      "tu1": "dobori",
+      "el1": "doboare",
+      "noi1": "doborâm",
+      "voi1": "doborâți",
+      "ei1": "doboare"
+    },
+    "participle": "doborât",
+    "impS": "doboară",
+    "impP": "doborâți"
+  },
+  {
+    "id": 386,
+    "nameRo": ["intenționa", 10],
+    "nameRu": "намереваться, планировать, собираться, хотеть",
+    "conjugation": {
+      "eu": ["intenționez", 10],
+      "tu": "intenționezi",
+      "el": "intenționează",
+      "noi": "intenționăm",
+      "voi": "intenționați",
+      "ei": "intenționează",
+
+      "eu1": "intenționez",
+      "tu1": "intenționezi",
+      "el1": "intenționeze",
+      "noi1": "intenționăm",
+      "voi1": "intenționați",
+      "ei1": "intenționeze"
+    },
+    "participle": "intenționat",
+    "impS": "intenționează",
+    "impP": "intenționați"
+  },
+  {
+    "id": 387,
+    "nameRo": ["inhala", 6],
+    "nameRu": "вдыхать (газ, пар, ...)",
+    "conjugation": {
+      "eu": ["inhalez", 6],
+      "tu": "inhalezi",
+      "el": "inhalează",
+      "noi": "inhalăm",
+      "voi": "inhalați",
+      "ei": "inhalează",
+
+      "eu1": "inhalez",
+      "tu1": "inhalezi",
+      "el1": "inhaleze",
+      "noi1": "inhalăm",
+      "voi1": "inhalați",
+      "ei1": "inhaleze"
+    },
+    "participle": "inhalat",
+    "impS": "inhalează",
+    "impP": "inhalați"
+  },
+  {
+    "id": 388,
+    "nameRo": ["economisi", 9],
+    "nameRu": "экономить",
+    "conjugation": {
+      "eu": ["economisesc", 9],
+      "tu": "economisești",
+      "el": "economisește",
+      "noi": "economisim",
+      "voi": "economisiți",
+      "ei": "economisesc",
+
+      "eu1": "economisesc",
+      "tu1": "economisești",
+      "el1": "economisească",
+      "noi1": "economisim",
+      "voi1": "economisiți",
+      "ei1": "economisească"
+    },
+    "participle": "economisit",
+    "impS": "economisește",
+    "impP": "economisiți"
   }
 ]

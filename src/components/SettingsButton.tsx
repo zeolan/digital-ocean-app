@@ -24,7 +24,7 @@ import {
   getFromLang,
   setFromLang,
 } from "../store/reducer.ts";
-import { getRandomVerbsOrder, getSortedVerbsOrder } from "../utils.ts";
+import { getRandomVerbsOrder, getSortedVerbsOrder } from "../utils/utils.ts";
 import { Lang } from "../types.ts";
 
 function SettingsButton() {

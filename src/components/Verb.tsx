@@ -24,7 +24,7 @@ import {
   getVerbsOrder,
   getFromLang,
 } from "../store/reducer.ts";
-import { getVerbByIdx } from "../utils.ts";
+import { getVerbByIdx } from "../utils/utils.ts";
 import { IVerb, Lang } from "../types.ts";
 import SearchList from "./SearchList.tsx";
 

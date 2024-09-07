@@ -1,4 +1,4 @@
-import { IVerb } from "./types.ts";
+import { IVerb } from "../types.ts";
 
 export const getRandomVerbsOrder = (numVerbs: number): number[] => {
   const verbsOrder = [];
