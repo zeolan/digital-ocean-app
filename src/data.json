@@ -8936,5 +8936,120 @@
     "participle": "economisit",
     "impS": "economisește",
     "impP": "economisiți"
+  },
+  {
+    "id": 389,
+    "nameRo": ["însoți", 6],
+    "nameRu": "сопровождать (кого-то)",
+    "conjugation": {
+      "eu": ["însoțesc", 6],
+      "tu": "însoțești",
+      "el": "însoțește",
+      "noi": "însoțim",
+      "voi": "însoțiți",
+      "ei": "însoțesc",
+
+      "eu1": "însoțesc",
+      "tu1": "însoțești",
+      "el1": "însoțească",
+      "noi1": "însoțim",
+      "voi1": "însoțiți",
+      "ei1": "însoțească"
+    },
+    "participle": "însoțit",
+    "impS": "însoțește",
+    "impP": "însoțiți"
+  },
+  {
+    "id": 390,
+    "nameRo": ["cântări", 7],
+    "nameRu": "взвешивать",
+    "conjugation": {
+      "eu": ["cântăresc", 7],
+      "tu": "cântărești",
+      "el": "cântărește",
+      "noi": "cântărim",
+      "voi": "cântăriți",
+      "ei": "cântăresc",
+
+      "eu1": "cântăresc",
+      "tu1": "cântărești",
+      "el1": "cântărească",
+      "noi1": "cântărim",
+      "voi1": "cântăriți",
+      "ei1": "cântărească"
+    },
+    "participle": "cântărit",
+    "impS": "cântărește",
+    "impP": "cântăriți"
+  },
+  {
+    "id": 391,
+    "nameRo": ["scurta", 6],
+    "nameRu": "укорачивать, обрезать, сокращать путь(срезать)",
+    "conjugation": {
+      "eu": ["scurtez", 6],
+      "tu": "scurtezi",
+      "el": "scurtează",
+      "noi": "scurtăm",
+      "voi": "scurtați",
+      "ei": "scurtează",
+
+      "eu1": "scurtez",
+      "tu1": "scurtezi",
+      "el1": "scurteze",
+      "noi1": "scurtăm",
+      "voi1": "scurtați",
+      "ei1": "scurteze"
+    },
+    "participle": "scurtat",
+    "impS": "scurtează",
+    "impP": "scurtați"
+  },
+  {
+    "id": 392,
+    "nameRo": ["îndeplini", 9],
+    "nameRu": "выполнить, исполнить, реализовать",
+    "conjugation": {
+      "eu": ["îndeplinesc", 9],
+      "tu": "îndeplinești",
+      "el": "îndeplinește",
+      "noi": "îndeplinim",
+      "voi": "îndepliniți",
+      "ei": "îndeplinesc",
+
+      "eu1": "îndeplinesc",
+      "tu1": "îndeplinești",
+      "el1": "îndeplinească",
+      "noi1": "îndeplinim",
+      "voi1": "îndepliniți",
+      "ei1": "îndeplinească"
+    },
+    "participle": "îndeplinit",
+    "impS": "îndeplinește",
+    "impP": "îndepliniți"
+  },
+  {
+    "id": 393,
+    "nameRo": ["uni", 3],
+    "nameRu": "соединять, объединять в целое",
+    "conjugation": {
+      "eu": ["unesc", 3],
+      "tu": "unești",
+      "el": "unește",
+      "noi": "unim",
+      "voi": "uniți",
+      "ei": "unesc",
+
+      "eu1": "unesc",
+      "tu1": "unești",
+      "el1": "unească",
+      "noi1": "unim",
+      "voi1": "uniți",
+      "ei1": "unească"
+    },
+    "participle": "unit",
+    "impS": "unește",
+    "impP": "uniți"
   }
 ]
