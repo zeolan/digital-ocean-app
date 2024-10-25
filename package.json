@@ -1,6 +1,8 @@
 {
   "name": "ro-verbs",
   "version": "0.1.15",
+  "author": "Oleksandr Zelenskyi zealan74@gmail.com",
+  "license": "MIT",
   "private": true,
   "engines": {
     "node": "^18.18.0"
