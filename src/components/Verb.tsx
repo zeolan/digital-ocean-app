@@ -279,7 +279,7 @@ const Verb: React.FC = () => {
                 <VerbButton
                   variant="contained"
                   onClick={translate}
-                  style={{ "font-size": getVerbFontSize() }}
+                  style={{ "fontSize": getVerbFontSize() }}
                 >
                   {getVerbDisplay("front")}
                 </VerbButton>
@@ -295,7 +295,7 @@ const Verb: React.FC = () => {
                 variant="contained"
                 onClick={translate}
                 sx={{ pt: "7px" }}
-                style={{ "font-size": getVerbFontSize() }}
+                style={{ "fontSize": getVerbFontSize() }}
               >
                 {getVerbDisplay("back")}
               </VerbButton>
