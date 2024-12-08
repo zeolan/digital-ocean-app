@@ -111,6 +111,7 @@
   backface-visibility: hidden;
   transition: transform 0.5s 0s;
   button {
+    transition: font-size 0.2s;
     word-break: keep-all;
   }
   &.front {
