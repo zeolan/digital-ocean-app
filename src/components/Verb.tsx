@@ -214,6 +214,16 @@ const Verb: React.FC = () => {
       : localNameRo;
   };
 
+  const getVerbFontSize = () => {
+    return (
+      lang === Lang.ru ?
+      localNameRu.length > 60 ? "0.8em" :
+      localNameRu.length > 35 ? "0.9em" :
+      "1em" :
+      "1em"
+    )
+  }
+
   return verb ? (
     <div className="App-verb" onClick={hideTooltip}>
       {showSearchInput ? (
@@ -266,7 +276,11 @@ const Verb: React.FC = () => {
               })}
             >
               <HintTooltip open={tooltipOpen}>
-                <VerbButton variant="contained" onClick={translate}>
+                <VerbButton
+                  variant="contained"
+                  onClick={translate}
+                  style={{ "font-size": getVerbFontSize() }}
+                >
                   {getVerbDisplay("front")}
                 </VerbButton>
               </HintTooltip>
@@ -281,6 +295,7 @@ const Verb: React.FC = () => {
                 variant="contained"
                 onClick={translate}
                 sx={{ pt: "7px" }}
+                style={{ "font-size": getVerbFontSize() }}
               >
                 {getVerbDisplay("back")}
               </VerbButton>
