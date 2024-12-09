@@ -12,12 +12,12 @@ export const CapButton = styled(Button)({
   fontFamily: fontFamily.join(","),
 });
 
-export const VerbButton = styled(Button)({
+export const VerbButton = styled(Button)(() => ({
   textTransform: "none",
   padding: "15px 5px 10px 5px",
   fontWeight: "normal",
   fontFamily: fontFamily.join(","),
-});
+}));
 
 export const LowCaseButton = styled(Button)({
   textTransform: "lowercase",
