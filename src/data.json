@@ -8411,7 +8411,7 @@
   {
     "id": 366,
     "nameRo": ["(se) scutura", 12],
-    "nameRu": "трясти, трусить (трястись, отряхиваться)",
+    "nameRu": "трусить, вытрушивать, отряхивать(ся), трястись, стряхивать, скинуть что-то",
     "conjugation": {
       "eu": ["scutur", 3],
       "tu": "scuturi",
@@ -9051,5 +9051,235 @@
     "participle": "unit",
     "impS": "unește",
     "impP": "uniți"
+  },
+  {
+    "id": 394,
+    "nameRo": ["uimi", 4],
+    "nameRu": "удивлять",
+    "conjugation": {
+      "eu": ["uimesc", 3],
+      "tu": "uimești",
+      "el": "uimește",
+      "noi": "uimim",
+      "voi": "uimiți",
+      "ei": "uimesc",
+
+      "eu1": "uimesc",
+      "tu1": "uimești",
+      "el1": "uimească",
+      "noi1": "uimim",
+      "voi1": "uimiți",
+      "ei1": "uimească"
+    },
+    "participle": "uimit",
+    "impS": "uimește",
+    "impP": "uimiți"
+  },
+  {
+    "id": 395,
+    "nameRo": ["rosti", 5],
+    "nameRu": "произносить",
+    "conjugation": {
+      "eu": ["rostesc", 3],
+      "tu": "rostești",
+      "el": "rostește",
+      "noi": "rostim",
+      "voi": "rostiți",
+      "ei": "rostesc",
+
+      "eu1": "rostesc",
+      "tu1": "rostești",
+      "el1": "rostească",
+      "noi1": "rostim",
+      "voi1": "rostiți",
+      "ei1": "rostească"
+    },
+    "participle": "rostit",
+    "impS": "rostește",
+    "impP": "rostiți"
+  },
+  {
+    "id": 396,
+    "nameRo": ["sforăi", 6],
+    "nameRu": "храпеть",
+    "conjugation": {
+      "eu": ["sforăi", 3],
+      "tu": "sforăi",
+      "el": "sforăie",
+      "noi": "sforăim",
+      "voi": "sforăiți",
+      "ei": "sforăie",
+
+      "eu1": "sforăi",
+      "tu1": "sforăi",
+      "el1": "sforăie",
+      "noi1": "sforăim",
+      "voi1": "sforăiți",
+      "ei1": "sforăie"
+    },
+    "participle": "sforăit",
+    "impS": "sforăie",
+    "impP": "sforăiți"
+  },
+  {
+    "id": 397,
+    "nameRo": ["(se) zgudui", 11],
+    "nameRu": "трясти, встряхивать(ся), трусить(ся), потрясать",
+    "conjugation": {
+      "eu": ["zgudui", 3],
+      "tu": "zgudui",
+      "el": "zguduie",
+      "noi": "zguduim",
+      "voi": "zguduiți",
+      "ei": "zguduie",
+
+      "eu1": "zgudui",
+      "tu1": "zgudui",
+      "el1": "zguduie",
+      "noi1": "zguduim",
+      "voi1": "zguduiți",
+      "ei1": "zguduie"
+    },
+    "participle": "zguduit",
+    "impS": "zguduie",
+    "impP": "zguduiți"
+  },
+  {
+    "id": 398,
+    "nameRo": ["izbuti", 6],
+    "nameRu": "преуспеть, добиться успеха, хорошо закончить начатое",
+    "conjugation": {
+      "eu": ["izbutesc", 6],
+      "tu": "izbutești",
+      "el": "izbutește",
+      "noi": "izbutim",
+      "voi": "izbutiți",
+      "ei": "izbutesc",
+
+      "eu1": "izbutesc",
+      "tu1": "izbutești",
+      "el1": "izbutească",
+      "noi1": "izbutim",
+      "voi1": "izbutiți",
+      "ei1": "izbutească"
+    },
+    "participle": "izbutit",
+    "impS": "izbutește",
+    "impP": "izbutiți"
+  },
+  {
+    "id": 399,
+    "nameRo": ["respinge", 5],
+    "nameRu": "отклонять, отказывать, не принимать",
+    "conjugation": {
+      "eu": ["resping", 5],
+      "tu": "respingi",
+      "el": "respinge",
+      "noi": "respingem",
+      "voi": "respingeți",
+      "ei": "resping",
+
+      "eu1": "resping",
+      "tu1": "respingi",
+      "el1": "respingă",
+      "noi1": "respingem",
+      "voi1": "respingeți",
+      "ei1": "respingă"
+    },
+    "participle": "respins",
+    "impS": "respinge",
+    "impP": "respingeți"
+  },
+  {
+    "id": 400,
+    "nameRo": ["(se) mărturisi", 14],
+    "nameRu": "признавать(ся), заявлять, декларировать, говорить открыто(правду)",
+    "conjugation": {
+      "eu": ["mărturisesc", 6],
+      "tu": "mărturisești",
+      "el": "mărturisește",
+      "noi": "mărturisim",
+      "voi": "mărturisiți",
+      "ei": "mărturisesc",
+
+      "eu1": "mărturisesc",
+      "tu1": "mărturisești",
+      "el1": "mărturisească",
+      "noi1": "mărturisim",
+      "voi1": "mărturisiți",
+      "ei1": "mărturisească"
+    },
+    "participle": "mărturisit",
+    "impS": "mărturisește",
+    "impP": "mărturisiți"
+  },
+  {
+    "id": 401,
+    "nameRo": ["pocni", 5],
+    "nameRu": "щелкать, стучать, постукивать",
+    "conjugation": {
+      "eu": ["pocnesc", 5],
+      "tu": "pocnești",
+      "el": "pocnește",
+      "noi": "pocnim",
+      "voi": "pocniți",
+      "ei": "pocnesc",
+
+      "eu1": "pocnesc",
+      "tu1": "pocnești",
+      "el1": "pocnească",
+      "noi1": "pocnim",
+      "voi1": "pocniți",
+      "ei1": "pocnească"
+    },
+    "participle": "pocnit",
+    "impS": "pocnește",
+    "impP": "pocniți"
+  },
+  {
+    "id": 402,
+    "nameRo": ["preveni", 7],
+    "nameRu": "предупреждать, предотвращать",
+    "conjugation": {
+      "eu": ["previn", 5],
+      "tu": "previi",
+      "el": "previne",
+      "noi": "prevenim",
+      "voi": "preveniți",
+      "ei": "previn",
+
+      "eu1": "previn",
+      "tu1": "previi",
+      "el1": "prevină",
+      "noi1": "prevenim",
+      "voi1": "preveniți",
+      "ei1": "prevină"
+    },
+    "participle": "prevenit",
+    "impS": "prevină, previn",
+    "impP": "preveniți"
+  },
+  {
+    "id": 403,
+    "nameRo": ["concepe", 5],
+    "nameRu": "задумывать, замысливать, проектировать, разрабатывать что-то",
+    "conjugation": {
+      "eu": ["concep", 5],
+      "tu": "concepi",
+      "el": "concepe",
+      "noi": "concepem",
+      "voi": "concepeți",
+      "ei": "concep",
+
+      "eu1": "concep",
+      "tu1": "concepi",
+      "el1": "conceapă",
+      "noi1": "concepem",
+      "voi1": "concepeți",
+      "ei1": "conceapă"
+    },
+    "participle": "conceput",
+    "impS": "concepe",
+    "impP": "concepeți"
   }
 ]
