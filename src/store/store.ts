@@ -9,7 +9,7 @@ import {
   // PURGE,
   // REGISTER,
 } from "redux-persist";
-import storage from "redux-persist/lib/storage"; // defaults to localStorage for web
+import storage from "redux-persist/lib/storage";
 
 import mainReducer from "./reducer.ts";
 
@@ -38,7 +38,7 @@ const store = configureStore({
 });
 
 export type RootState = ReturnType<typeof store.getState>;
-export type AppStore = ReturnType<typeof setupStore>;
+export type AppTestStore = ReturnType<typeof setupTestStore>;
 
 export default {
   store,
@@ -50,7 +50,7 @@ const rootReducer = combineReducers({
   main: persistedReducer,
 });
 
-export function setupStore(preloadedState?: Partial<RootState>) {
+export function setupTestStore(preloadedState?: Partial<RootState>) {
   return configureStore({
     reducer: rootReducer,
     preloadedState,

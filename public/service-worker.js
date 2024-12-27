@@ -7,10 +7,6 @@ const cacheFiles = [
   "./index.html",
   "./manifest.json",
   "./static/js/",
-  /*"/static",
-  "/static/*",
-  "./static/js/*",
-  "./static/css/*",*/
 ];
 
 self.addEventListener("install", (evt) => {

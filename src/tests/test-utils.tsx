@@ -3,15 +3,15 @@ import { render } from "@testing-library/react";
 import type { RenderOptions } from "@testing-library/react";
 import { Provider } from "react-redux";
 
-import type { AppStore, RootState } from "../store/store.ts";
-import { setupStore } from "../store/store.ts";
+import type { AppTestStore, RootState } from "../store/store.ts";
+import { setupTestStore } from "../store/store.ts";
 // As a basic setup, import your same slice reducers
 
 // This type interface extends the default options for render from RTL, as well
 // as allows the user to specify other things such as initialState, store.
 interface ExtendedRenderOptions extends Omit<RenderOptions, "queries"> {
   preloadedState?: Partial<RootState>;
-  store?: AppStore;
+  store?: AppTestStore;
 }
 
 export function renderWithProviders(
@@ -21,7 +21,7 @@ export function renderWithProviders(
   const {
     preloadedState = {},
     // Automatically create a store instance if no store was passed in
-    store = setupStore(preloadedState),
+    store = setupTestStore(preloadedState),
     ...renderOptions
   } = extendedRenderOptions;
 
