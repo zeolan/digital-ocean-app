@@ -9281,5 +9281,51 @@
     "participle": "conceput",
     "impS": "concepe",
     "impP": "concepeți"
+  },
+  {
+    "id": 404,
+    "nameRo": ["trăda", 5],
+    "nameRu": "предавать; не функционировать как нужно, подводить (например память)",
+    "conjugation": {
+      "eu": ["trădez", 5],
+      "tu": "trădezi",
+      "el": "trădează",
+      "noi": "trădăm",
+      "voi": "trădați",
+      "ei": "trădează",
+
+      "eu1": "trădez",
+      "tu1": "trădezi",
+      "el1": "trădeze",
+      "noi1": "trădăm",
+      "voi1": "trădați",
+      "ei1": "trădeze"
+    },
+    "participle": "trădat",
+    "impS": "trădează",
+    "impP": "trădați"
+  },
+  {
+    "id": 405,
+    "nameRo": ["(se) dedica", 11],
+    "nameRu": "посвящать что-то кому-то (напр. стих); отдаваться, посвящать себя какому-то делу, идее",
+    "conjugation": {
+      "eu": ["dedic", 4],
+      "tu": "dedici",
+      "el": "dedică",
+      "noi": "dedicăm",
+      "voi": "dedicați",
+      "ei": "dedică",
+
+      "eu1": "dedic",
+      "tu1": "dedici",
+      "el1": "dedice",
+      "noi1": "dedicăm",
+      "voi1": "dedicați",
+      "ei1": "dedice"
+    },
+    "participle": "dedicat",
+    "impS": "dedică",
+    "impP": "dedicați"
   }
 ]
