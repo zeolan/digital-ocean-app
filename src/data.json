@@ -9419,5 +9419,51 @@
     "participle": "dezvăluit",
     "impS": "dezvăluie",
     "impP": "dezvăluiți"
+  },
+  {
+    "id": 410,
+    "nameRo": ["alunga", 6],
+    "nameRu": "выгонять, прогонять, изгонять, гонять; гоняться (рефл.)",
+    "conjugation": {
+      "eu": ["alung", 3],
+      "tu": "alungi",
+      "el": "alungă",
+      "noi": "alungăm",
+      "voi": "alungați",
+      "ei": "alungă",
+
+      "eu1": "alung",
+      "tu1": "alungi",
+      "el1": "alunge",
+      "noi1": "alungăm",
+      "voi1": "alungați",
+      "ei1": "alunge"
+    },
+    "participle": "alungat",
+    "impS": "alungă",
+    "impP": "alungați"
+  },
+  {
+    "id": 411,
+    "nameRo": ["blestema", 8],
+    "nameRu": "проклинать, говорить проклятья в чью-то сторону",
+    "conjugation": {
+      "eu": ["blestem", 6],
+      "tu": "blestemi",
+      "el": "blestemă",
+      "noi": "blestemăm",
+      "voi": "blestemați",
+      "ei": "blestemă",
+
+      "eu1": "blestem",
+      "tu1": "blestemi",
+      "el1": "blesteme",
+      "noi1": "blestemăm",
+      "voi1": "blestemați",
+      "ei1": "blesteme"
+    },
+    "participle": "blestemat",
+    "impS": "blestemă",
+    "impP": "blestemați"
   }
 ]
