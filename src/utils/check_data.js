@@ -4,6 +4,10 @@ console.log(`Number of Verbs ==> ${data.length}`);
 let roNameArr = [];
 let idArr = [];
 for (let i = 0; i < data.length; i++) {
+  if (data[i].id !== 0 && data[i].id !== i) {
+    console.error(`--------- Index error: ${i} !== ${data[i].id}`);
+    //throw new Error(`--------- ${i} !== ${data[i].id}`);
+  }
   if (roNameArr.includes(data[i].nameRo[0])) {
     console.error(`--------- Duplicated name ${data[i].nameRo[0]}`);
     throw new Error(`--------- Duplicated name ${data[i].nameRo[0]}`);

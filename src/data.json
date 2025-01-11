@@ -9327,5 +9327,97 @@
     "participle": "dedicat",
     "impS": "dedică",
     "impP": "dedicați"
+  },
+  {
+    "id": 406,
+    "nameRo": ["îmbolnăvi", 9],
+    "nameRu": "заболевать, становиться больным",
+    "conjugation": {
+      "eu": ["îmbolnăvesc", 9],
+      "tu": "îmbolnăvești",
+      "el": "îmbolnăvește",
+      "noi": "îmbolnăvim",
+      "voi": "îmbolnăviți",
+      "ei": "îmbolnăvesc",
+
+      "eu1": "îmbolnăvesc",
+      "tu1": "îmbolnăvești",
+      "el1": "îmbolnăvească",
+      "noi1": "îmbolnăvim",
+      "voi1": "îmbolnăviți",
+      "ei1": "îmbolnăvească"
+    },
+    "participle": "îmbolnăvit",
+    "impS": "îmbolnăvește",
+    "impP": "îmbolnăviți"
+  },
+  {
+    "id": 407,
+    "nameRo": ["adera", 5],
+    "nameRu": "присоединяться, вступать",
+    "conjugation": {
+      "eu": ["ader", 3],
+      "tu": "aderi",
+      "el": "aderă",
+      "noi": "aderăm",
+      "voi": "aderați",
+      "ei": "aderă",
+
+      "eu1": "ader",
+      "tu1": "aderi",
+      "el1": "adere",
+      "noi1": "aderăm",
+      "voi1": "aderați",
+      "ei1": "adere"
+    },
+    "participle": "aderat",
+    "impS": "aderă",
+    "impP": "aderați"
+  },
+  {
+    "id": 408,
+    "nameRo": ["răcni", 5],
+    "nameRu": "реветь (животные), громко протяжно кричать",
+    "conjugation": {
+      "eu": ["răcnesc", 5],
+      "tu": "răcnești",
+      "el": "răcnește",
+      "noi": "răcnim",
+      "voi": "răcniți",
+      "ei": "răcnesc",
+
+      "eu1": "răcnesc",
+      "tu1": "răcnești",
+      "el1": "răcnească",
+      "noi1": "răcnim",
+      "voi1": "răcniți",
+      "ei1": "răcnească"
+    },
+    "participle": "răcnit",
+    "impS": "răcnește",
+    "impP": "răcniți"
+  },
+  {
+    "id": 409,
+    "nameRo": ["dezvălui", 8],
+    "nameRu": "разоблачать, раскрывать, сделать тайное явным; раскрываться, раскрыться, выйти из тени",
+    "conjugation": {
+      "eu": ["dezvălui", 5],
+      "tu": "dezvălui",
+      "el": "dezvăluie",
+      "noi": "dezvăluim",
+      "voi": "dezvăluiți",
+      "ei": "dezvăluie",
+
+      "eu1": "dezvălui",
+      "tu1": "dezvălui",
+      "el1": "dezvăluie",
+      "noi1": "dezvăluim",
+      "voi1": "dezvăluiți",
+      "ei1": "dezvăluie"
+    },
+    "participle": "dezvăluit",
+    "impS": "dezvăluie",
+    "impP": "dezvăluiți"
   }
 ]
