@@ -9465,5 +9465,28 @@
     "participle": "blestemat",
     "impS": "blestemă",
     "impP": "blestemați"
+  },
+  {
+    "id": 412,
+    "nameRo": ["educa", 5],
+    "nameRu": "обучать, воспитывать, образовывать кого-то",
+    "conjugation": {
+      "eu": ["educ", 3],
+      "tu": "educi",
+      "el": "educă",
+      "noi": "educăm",
+      "voi": "educați",
+      "ei": "educă",
+
+      "eu1": "educ",
+      "tu1": "educi",
+      "el1": "educe",
+      "noi1": "educăm",
+      "voi1": "educați",
+      "ei1": "educe"
+    },
+    "participle": "educat",
+    "impS": "educă",
+    "impP": "educați"
   }
 ]
