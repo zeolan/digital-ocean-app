@@ -569,7 +569,7 @@
   {
     "id": 25,
     "nameRo": ["număra", 6],
-    "nameRu": "считать",
+    "nameRu": "считать, подсчитывать, насчитывать",
     "conjugation": {
       "eu": ["număr", 2],
       "tu": "numeri",
@@ -6272,7 +6272,7 @@
   {
     "id": 273,
     "nameRo": ["depăși", 6],
-    "nameRu": "превышать, превысить (предел, лимит, ...), опередить",
+    "nameRu": "превышать, превысить (предел, лимит, ...), опередить; превосходить",
     "conjugation": {
       "eu": ["depășesc", 6],
       "tu": "depășești",
@@ -9488,5 +9488,28 @@
     "participle": "educat",
     "impS": "educă",
     "impP": "educați"
+  },
+  {
+    "id": 413,
+    "nameRo": ["opune", 3],
+    "nameRu": "возражать, противопоставлять",
+    "conjugation": {
+      "eu": ["opun", 3],
+      "tu": "opui",
+      "el": "opune",
+      "noi": "opunem",
+      "voi": "opuneți",
+      "ei": "opun",
+
+      "eu1": "opun",
+      "tu1": "opui",
+      "el1": "opună",
+      "noi1": "opunem",
+      "voi1": "opuneți",
+      "ei1": "opună"
+    },
+    "participle": "opus",
+    "impS": "opune",
+    "impP": "opuneți"
   }
 ]
