@@ -9054,8 +9054,8 @@
   },
   {
     "id": 394,
-    "nameRo": ["uimi", 4],
-    "nameRu": "удивлять",
+    "nameRo": ["(se) uimi", 9],
+    "nameRu": "удивлять(ся), поражать, впечатлять",
     "conjugation": {
       "eu": ["uimesc", 3],
       "tu": "uimești",
@@ -9511,5 +9511,28 @@
     "participle": "opus",
     "impS": "opune",
     "impP": "opuneți"
+  },
+  {
+    "id": 414,
+    "nameRo": ["(se) ciocni", 11],
+    "nameRu": "ударить(ся), стукнуть(ся), разбить(ся), столкнуться, врезаться, чокаться",
+    "conjugation": {
+      "eu": ["ciocnesc", 6],
+      "tu": "ciocnești",
+      "el": "ciocnește",
+      "noi": "ciocnim",
+      "voi": "ciocniți",
+      "ei": "ciocnesc",
+
+      "eu1": "ciocnesc",
+      "tu1": "ciocnești",
+      "el1": "ciocnească",
+      "noi1": "ciocnim",
+      "voi1": "ciocniți",
+      "ei1": "ciocnească"
+    },
+    "participle": "ciocnit",
+    "impS": "ciocnește",
+    "impP": "ciocniți"
   }
 ]
