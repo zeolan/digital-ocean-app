@@ -9534,5 +9534,28 @@
     "participle": "ciocnit",
     "impS": "ciocnește",
     "impP": "ciocniți"
+  },
+  {
+    "id": 415,
+    "nameRo": ["(se) smuci", 10],
+    "nameRu": "дергать(ся), выдергивать, выдернуть",
+    "conjugation": {
+      "eu": ["smucesc", 5],
+      "tu": "smucești",
+      "el": "smucește",
+      "noi": "smucim",
+      "voi": "smuciți",
+      "ei": "smucesc",
+
+      "eu1": "smucesc",
+      "tu1": "smucești",
+      "el1": "smucească",
+      "noi1": "smucim",
+      "voi1": "smuciți",
+      "ei1": "smucească"
+    },
+    "participle": "smucit",
+    "impS": "smucește",
+    "impP": "smuciți"
   }
 ]
