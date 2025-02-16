@@ -592,7 +592,7 @@
   {
     "id": 26,
     "nameRo": ["privi", 5],
-    "nameRu": "смотреть",
+    "nameRu": "смотреть, набдюдать, разглядывать",
     "conjugation": {
       "eu": ["privesc", 5],
       "tu": "privești",
@@ -9557,5 +9557,51 @@
     "participle": "smucit",
     "impS": "smucește",
     "impP": "smuciți"
+  },
+  {
+    "id": 416,
+    "nameRo": ["avertiza", 8],
+    "nameRu": "предупреждать",
+    "conjugation": {
+      "eu": ["avertizez", 8],
+      "tu": "avertizezi",
+      "el": "avertizează",
+      "noi": "avertizăm",
+      "voi": "avertizați",
+      "ei": "avertizează",
+
+      "eu1": "avertizez",
+      "tu1": "avertizezi",
+      "el1": "avertizeze",
+      "noi1": "avertizăm",
+      "voi1": "avertizați",
+      "ei1": "avertizeze"
+    },
+    "participle": "avertizat",
+    "impS": "avertizează",
+    "impP": "avertizați"
+  },
+  {
+    "id": 417,
+    "nameRo": ["viza", 4],
+    "nameRu": "визировать; целитьться, направлять оружие, относиться к ч.либо, намекать на ч.либо, иметь целью",
+    "conjugation": {
+      "eu": ["vizez", 6],
+      "tu": "vizezi",
+      "el": "vizează",
+      "noi": "vizăm",
+      "voi": "vizați",
+      "ei": "vizează",
+
+      "eu1": "vizez",
+      "tu1": "vizezi",
+      "el1": "vizeze",
+      "noi1": "vizăm",
+      "voi1": "vizați",
+      "ei1": "vizeze"
+    },
+    "participle": "vizat",
+    "impS": "vizează",
+    "impP": "vizați"
   }
 ]
