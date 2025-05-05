@@ -9603,5 +9603,97 @@
     "participle": "vizat",
     "impS": "vizează",
     "impP": "vizați"
+  },
+  {
+    "id": 418,
+    "nameRo": ["(se) plasa", 10],
+    "nameRu": "размещать, размещаться",
+    "conjugation": {
+      "eu": ["plasez", 5],
+      "tu": "plasezi",
+      "el": "plasează",
+      "noi": "plasăm",
+      "voi": "plasați",
+      "ei": "plasează",
+
+      "eu1": "plasez",
+      "tu1": "plasezi",
+      "el1": "plaseze",
+      "noi1": "plasăm",
+      "voi1": "plasați",
+      "ei1": "plaseze"
+    },
+    "participle": "plasat",
+    "impS": "plasează",
+    "impP": "plasați"
+  },
+  {
+    "id": 419,
+    "nameRo": ["dezice", 4],
+    "nameRu": "отрекаться, отказаться от своих слов",
+    "conjugation": {
+      "eu": ["dezic", 4],
+      "tu": "dezici",
+      "el": "dezice",
+      "noi": "dezicem",
+      "voi": "deziceți",
+      "ei": "dezic",
+
+      "eu1": "dezic",
+      "tu1": "dezic",
+      "el1": "dezică",
+      "noi1": "dezicem",
+      "voi1": "deziceți",
+      "ei1": "dezică"
+    },
+    "participle": "dezis",
+    "impS": "dezi, dezice",
+    "impP": "deziceți"
+  },
+  {
+    "id": 420,
+    "nameRo": ["(se) îmbuna", 11],
+    "nameRu": "улучшать(-ся)",
+    "conjugation": {
+      "eu": ["îmbunez", 6],
+      "tu": "îmbunezi",
+      "el": "îmbunează",
+      "noi": "îmbunăm",
+      "voi": "îmbunați",
+      "ei": "îmbunează",
+
+      "eu1": "îmbunez",
+      "tu1": "îmbunezi",
+      "el1": "îmbuneze",
+      "noi1": "îmbunăm",
+      "voi1": "îmbunați",
+      "ei1": "îmbuneze"
+    },
+    "participle": "îmbunat",
+    "impS": "îmbunează",
+    "impP": "îmbunați"
+  },
+  {
+    "id": 421,
+    "nameRo": ["prelua", 6],
+    "nameRu": "брать, принимать на себя; перенимать",
+    "conjugation": {
+      "eu": ["preiau", 5],
+      "tu": "preiei",
+      "el": "preia",
+      "noi": "preluăm",
+      "voi": "preluați",
+      "ei": "preiau",
+
+      "eu1": "preiau",
+      "tu1": "preiei",
+      "el1": "preia",
+      "noi1": "preluăm",
+      "voi1": "preluați",
+      "ei1": "preia"
+    },
+    "participle": "preluat",
+    "impS": "preia",
+    "impP": "preluați"
   }
 ]
