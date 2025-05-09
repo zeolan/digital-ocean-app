@@ -3259,7 +3259,7 @@
   },
   {
     "id": 142,
-    "nameRo": ["lupta", 5],
+    "nameRo": ["(se) lupta", 10],
     "nameRu": "сражаться, биться, воевать, бороться",
     "conjugation": {
       "eu": ["lupt", 2],
@@ -6042,7 +6042,7 @@
   {
     "id": 263,
     "nameRo": ["planta", 6],
-    "nameRu": "сажать, садить, закапывать",
+    "nameRu": "сажать, садить, высаживать; закапывать, вкапывать",
     "conjugation": {
       "eu": ["plantez", 6],
       "tu": "plantezi",
@@ -6778,7 +6778,7 @@
   {
     "id": 295,
     "nameRo": ["lăsa", 4],
-    "nameRu": "позволять, разрешать, (от)пускать",
+    "nameRu": "позволять, разрешать; (от)пускать, оставлять, покидать; бросать, прекращать",
     "conjugation": {
       "eu": ["las", 2],
       "tu": "lași",
@@ -7031,7 +7031,7 @@
   {
     "id": 306,
     "nameRo": ["judeca", 6],
-    "nameRu": "судить, осуждать, высказывать мнение, суждение",
+    "nameRu": "судить, осуждать, высказывать мнение, суждение, рассматривать",
     "conjugation": {
       "eu": ["judec", 2],
       "tu": "judeci",
@@ -8388,7 +8388,7 @@
   {
     "id": 365,
     "nameRo": ["pica", 4],
-    "nameRu": "свалиться, упасть с высоты",
+    "nameRu": "свалиться, упасть с высоты; провалить тест, экзамен, работу",
     "conjugation": {
       "eu": ["pic", 2],
       "tu": "pici",
@@ -9584,7 +9584,7 @@
   {
     "id": 417,
     "nameRo": ["viza", 4],
-    "nameRu": "визировать; целитьться, направлять оружие, относиться к ч.либо, намекать на ч.либо, иметь целью",
+    "nameRu": "визировать, подтверждать, заверять; целиться, направлять оружие, относиться к ч.либо, намекать на ч.либо, иметь целью",
     "conjugation": {
       "eu": ["vizez", 6],
       "tu": "vizezi",
@@ -9695,5 +9695,51 @@
     "participle": "preluat",
     "impS": "preia",
     "impP": "preluați"
+  },
+  {
+    "id": 422,
+    "nameRo": ["împune", 4],
+    "nameRu": "навязывать, принуждать, заставлять",
+    "conjugation": {
+      "eu": ["împun", 4],
+      "tu": "împui",
+      "el": "împune",
+      "noi": "împunem",
+      "voi": "împuneți",
+      "ei": "împun",
+
+      "eu1": "împun",
+      "tu1": "împui",
+      "el1": "împună",
+      "noi1": "împunem",
+      "voi1": "împuneți",
+      "ei1": "împună"
+    },
+    "participle": "împus",
+    "impS": "împune",
+    "impP": "împuneți"
+  },
+  {
+    "id": 423,
+    "nameRo": ["depune", 4],
+    "nameRu": "подавать, вкладывать, размещать, вносить (деньги, средства), прилагать (усилия)",
+    "conjugation": {
+      "eu": ["depun", 4],
+      "tu": "depui",
+      "el": "depune",
+      "noi": "depunem",
+      "voi": "depuneți",
+      "ei": "depun",
+
+      "eu1": "depun",
+      "tu1": "depui",
+      "el1": "depună",
+      "noi1": "depunem",
+      "voi1": "depuneți",
+      "ei1": "depună"
+    },
+    "participle": "depus",
+    "impS": "depune",
+    "impP": "depuneți"
   }
 ]
