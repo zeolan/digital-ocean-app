@@ -3489,7 +3489,7 @@
   },
   {
     "id": 152,
-    "nameRo": ["însemna", 7],
+    "nameRo": ["însemna (1)", 7],
     "nameRu": "значить, обозначать",
     "conjugation": {
       "eu": ["însemn", 4],
@@ -6386,8 +6386,8 @@
   },
   {
     "id": 278,
-    "nameRo": ["dezamăgi", 8],
-    "nameRu": "разочаровать",
+    "nameRo": ["(se) dezamăgi", 13],
+    "nameRu": "разочаровать, разочаровывать(-ся)",
     "conjugation": {
       "eu": ["dezamăgesc", 8],
       "tu": "dezamăgești",
@@ -7215,7 +7215,7 @@
   {
     "id": 314,
     "nameRo": ["provoca", 7],
-    "nameRu": "провоцировать",
+    "nameRu": "провоцировать, вызывать, приводить к",
     "conjugation": {
       "eu": ["provoc", 5],
       "tu": "provoci",
@@ -9741,5 +9741,120 @@
     "participle": "depus",
     "impS": "depune",
     "impP": "depuneți"
+  },
+  {
+    "id": 424,
+    "nameRo": ["anticipa", 8],
+    "nameRu": "предвидеть, прогнозировать, предугадывать",
+    "conjugation": {
+      "eu": ["anticipez", 8],
+      "tu": "anticipezi",
+      "el": "anticipează",
+      "noi": "anticipăm",
+      "voi": "anticipați",
+      "ei": "anticipează",
+
+      "eu1": "anticipez",
+      "tu1": "anticipezi",
+      "el1": "anticipeze",
+      "noi1": "anticipăm",
+      "voi1": "anticipați",
+      "ei1": "anticipeze"
+    },
+    "participle": "anticipat",
+    "impS": "anticipează",
+    "impP": "anticipați"
+  },
+  {
+    "id": 425,
+    "nameRo": ["(se) rătăci", 11],
+    "nameRu": "теряться(-ся), заблудиться",
+    "conjugation": {
+      "eu": ["rătăcesc", 6],
+      "tu": "rătăcești",
+      "el": "rătăcește",
+      "noi": "rătăcim",
+      "voi": "rătăciți",
+      "ei": "rătăcesc",
+
+      "eu1": "rătăcesc",
+      "tu1": "rătăcești",
+      "el1": "rătăcească",
+      "noi1": "rătăcim",
+      "voi1": "rătăciți",
+      "ei1": "rătăcească"
+    },
+    "participle": "rătăcit",
+    "impS": "rătăcește",
+    "impP": "rătăciți"
+  },
+  {
+    "id": 426,
+    "nameRo": ["însemna (2)", 7],
+    "nameRu": "помечать, отмечать",
+    "conjugation": {
+      "eu": ["însemnez", 5],
+      "tu": "însemnezi",
+      "el": "însemnează",
+      "noi": "însemnăm",
+      "voi": "însemnați",
+      "ei": "însemnează",
+
+      "eu1": "însemnez",
+      "tu1": "însemnezi",
+      "el1": "însemneze",
+      "noi1": "însemnăm",
+      "voi1": "însemnați",
+      "ei1": "însemneze"
+    },
+    "participle": "însemnat",
+    "impS": "însemnează",
+    "impP": "însemnați"
+  },
+  {
+    "id": 427,
+    "nameRo": ["părăsi", 6],
+    "nameRu": "покидать, бросать кого-то, что-то, отказываться от чего-то",
+    "conjugation": {
+      "eu": ["părăsesc", 6],
+      "tu": "părăsești",
+      "el": "părăsește",
+      "noi": "părăsim",
+      "voi": "părăsiți",
+      "ei": "părăsesc",
+
+      "eu1": "părăsesc",
+      "tu1": "părăsești",
+      "el1": "părăsească",
+      "noi1": "părăsim",
+      "voi1": "părăsiți",
+      "ei1": "părăsească"
+    },
+    "participle": "părăsit",
+    "impS": "părăsește",
+    "impP": "părăsiți"
+  },
+  {
+    "id": 428,
+    "nameRo": ["favoriza", 8],
+    "nameRu": "благоприятствовать, способствовать",
+    "conjugation": {
+      "eu": ["favorizez", 8],
+      "tu": "favorizezi",
+      "el": "favorizează",
+      "noi": "favorizăm",
+      "voi": "favorizați",
+      "ei": "favorizează",
+
+      "eu1": "favorizez",
+      "tu1": "favorizezi",
+      "el1": "favorizeze",
+      "noi1": "favorizăm",
+      "voi1": "favorizați",
+      "ei1": "favorizeze"
+    },
+    "participle": "favorizat",
+    "impS": "favorizează",
+    "impP": "favorizați"
   }
 ]
