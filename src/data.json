@@ -9353,7 +9353,7 @@
   },
   {
     "id": 407,
-    "nameRo": ["adera", 5],
+    "nameRo": ["adera (la)", 5],
     "nameRu": "присоединяться, вступать",
     "conjugation": {
       "eu": ["ader", 3],
@@ -9856,5 +9856,28 @@
     "participle": "favorizat",
     "impS": "favorizează",
     "impP": "favorizați"
+  },
+  {
+    "id": 429,
+    "nameRo": ["(se) pipăi", 10],
+    "nameRu": "трогать, касаться, щупать, ощупывать",
+    "conjugation": {
+      "eu": ["pipăi", 2],
+      "tu": "pipăi",
+      "el": "pipăie",
+      "noi": "pipăim",
+      "voi": "pipăiți",
+      "ei": "pipăie",
+
+      "eu1": "pipăi",
+      "tu1": "pipăi",
+      "el1": "pipăie",
+      "noi1": "pipăim",
+      "voi1": "pipăiți",
+      "ei1": "pipăie"
+    },
+    "participle": "pipăit",
+    "impS": "pipăie",
+    "impP": "pipăiți"
   }
 ]
