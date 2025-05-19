@@ -142,10 +142,10 @@ function SettingsButton() {
                 >
                   <Check />
                 </ListItemIcon>
-                Сортировка &nbsp;
-                <ListItemIcon>
+                Сортировка &nbsp;A-Z
+                {/* <ListItemIcon>
                   <SortByAlphaIcon />
-                </ListItemIcon>
+                </ListItemIcon> */}
               </MenuItem>
               <MenuItem
                 onClick={handleSortClick}
