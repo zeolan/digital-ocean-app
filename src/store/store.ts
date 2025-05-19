@@ -16,7 +16,14 @@ import mainReducer from "./reducer.ts";
 const persistConfig = {
   key: "root",
   storage,
-  whitelist: ["showTermsOfUse", "fromLang", "mode"],
+  whitelist: [
+    "showTermsOfUse",
+    "fromLang",
+    "mode",
+    "verbsOrder",
+    "verbIdx",
+    "sortVerbs",
+  ],
 };
 
 const persistedReducer = persistReducer(persistConfig, mainReducer);

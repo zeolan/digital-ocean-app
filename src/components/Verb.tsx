@@ -146,6 +146,17 @@ const Verb: React.FC = () => {
 
   const onListItemClick = (item: IVerb) => {
     dispatch(setVerb(item));
+
+    let searchedVerbIdx = -1;
+    verbsOrder.forEach((verbId, index) => {
+      if (item.id === verbId) {
+        searchedVerbIdx = index;
+      }
+    });
+
+    if (searchedVerbIdx > -1) {
+      dispatch(setVerbIdx(searchedVerbIdx));
+    }
     onCancelSearchClick();
   };
 
@@ -215,14 +226,14 @@ const Verb: React.FC = () => {
   };
 
   const getVerbFontSize = () => {
-    return (
-      lang === Lang.ru ?
-      localNameRu.length > 60 ? "0.8em" :
-      localNameRu.length > 35 ? "0.9em" :
-      "1em" :
-      "1em"
-    )
-  }
+    return lang === Lang.ru
+      ? localNameRu.length > 60
+        ? "0.8em"
+        : localNameRu.length > 35
+        ? "0.9em"
+        : "1em"
+      : "1em";
+  };
 
   return verb ? (
     <div className="App-verb" onClick={hideTooltip}>
@@ -279,7 +290,7 @@ const Verb: React.FC = () => {
                 <VerbButton
                   variant="contained"
                   onClick={translate}
-                  style={{ "fontSize": getVerbFontSize() }}
+                  style={{ fontSize: getVerbFontSize() }}
                 >
                   {getVerbDisplay("front")}
                 </VerbButton>
@@ -295,7 +306,7 @@ const Verb: React.FC = () => {
                 variant="contained"
                 onClick={translate}
                 sx={{ pt: "7px" }}
-                style={{ "fontSize": getVerbFontSize() }}
+                style={{ fontSize: getVerbFontSize() }}
               >
                 {getVerbDisplay("back")}
               </VerbButton>

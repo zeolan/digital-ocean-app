@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
-import { getRandomVerbsOrder } from "./utils/utils.ts";
+import { getRandomVerbsOrder, getSortedVerbsOrder } from "./utils/utils.ts";
 import {
   getVerbs,
   getShowConjugation,
@@ -12,7 +12,9 @@ import {
   getMode,
   setVerbsOrder,
   setVerbIdx,
+  getVerbIdx,
   setNumberOfVerbs,
+  getSortVerbs,
 } from "./store/reducer.ts";
 import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
@@ -27,6 +29,8 @@ import { darkTheme, defaultTheme } from "./themes.js";
 
 function App() {
   const verbs = useSelector(getVerbs);
+  const sortVerbs = useSelector(getSortVerbs);
+  const lastVerbIdx = useSelector(getVerbIdx);
   const showConjugation = useSelector(getShowConjugation);
   const isLightMode = useSelector(getMode) === Mode.light;
   const dispatch = useDispatch();
@@ -35,15 +39,27 @@ function App() {
   //localStorage.setItem("version", [process.env.REACT_APP_VERSION]);
 
   useEffect(() => {
-    const verbsOrder = getRandomVerbsOrder(numberOfVerbs);
-    dispatch(setNumberOfVerbs(numberOfVerbs));
-    if (verbsOrder.length) {
+    if (sortVerbs) {
+      const verbsOrder = getSortedVerbsOrder(verbs);
       dispatch(setVerbsOrder(verbsOrder));
-      const initialIndex = verbsOrder[0];
-      dispatch(setVerbIdx(0));
-      const initialVerb = verbs.find((verb) => verb.id === initialIndex);
-      if (initialVerb) {
-        dispatch(setVerb(initialVerb));
+
+      const lastVerb = verbs.find(
+        (verb) => verb.id === verbsOrder[lastVerbIdx]
+      );
+      if (lastVerb) {
+        dispatch(setVerb(lastVerb));
+      }
+    } else {
+      const verbsOrder = getRandomVerbsOrder(numberOfVerbs);
+      dispatch(setNumberOfVerbs(numberOfVerbs));
+      if (verbsOrder.length) {
+        dispatch(setVerbsOrder(verbsOrder));
+        const initialIndex = verbsOrder[0];
+        dispatch(setVerbIdx(0));
+        const initialVerb = verbs.find((verb) => verb.id === initialIndex);
+        if (initialVerb) {
+          dispatch(setVerb(initialVerb));
+        }
       }
     }
   }, []);

@@ -51,7 +51,7 @@ function SettingsButton() {
     }
   };
 
-  const handleItemClick = (event: Event | React.SyntheticEvent) => {
+  const handleSortClick = (event: Event | React.SyntheticEvent) => {
     const dataset = (event.target as HTMLDivElement).dataset;
     setOpen(false);
     if (dataset.active === "false") {
@@ -133,7 +133,7 @@ function SettingsButton() {
               onKeyDown={handleListKeyDown}
             >
               <MenuItem
-                onClick={handleItemClick}
+                onClick={handleSortClick}
                 className={sortVerbs ? "active" : ""}
                 data-active={sortVerbs}
               >
@@ -148,7 +148,7 @@ function SettingsButton() {
                 </ListItemIcon>
               </MenuItem>
               <MenuItem
-                onClick={handleItemClick}
+                onClick={handleSortClick}
                 className={!sortVerbs ? "active" : ""}
                 data-active={!sortVerbs}
               >
