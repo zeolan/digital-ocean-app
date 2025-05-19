@@ -1,6 +1,6 @@
 // Establish a cache name
 // !!! Need to increment CACHE_VERSION to force cache updates.
-const CACHE_VERSION = 427;
+const CACHE_VERSION = 428;
 const CURRENT_CACHE = `main-${CACHE_VERSION}`;
 
 const cacheFiles = ["./index.html", "./manifest.json", "./static/js/"];
