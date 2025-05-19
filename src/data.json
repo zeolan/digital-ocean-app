@@ -3007,7 +3007,7 @@
   {
     "id": 131,
     "nameRo": ["tăia", 4],
-    "nameRu": "резать, нарезать",
+    "nameRu": "резать, нарезать, рубить, урезать, вырезать",
     "conjugation": {
       "eu": ["tai", 2],
       "tu": "tai",
@@ -8802,7 +8802,7 @@
   {
     "id": 383,
     "nameRo": ["(se) apuca", 10],
-    "nameRu": "хватать(ся), схватить(ся)",
+    "nameRu": "хватать(ся), схватить(ся), брать(ся)",
     "conjugation": {
       "eu": ["apuc", 3],
       "tu": "apuci",
@@ -9879,5 +9879,27 @@
     "participle": "pipăit",
     "impS": "pipăie",
     "impP": "pipăiți"
+  },
+  {
+    "id": 430,
+    "nameRo": ["însuși", 6],
+    "nameRu": "освоить, овладеть (знаниями, навыками)",
+    "conjugation": {
+      "eu": ["însușesc", 6],
+      "tu": "însușești",
+      "el": "însușește",
+      "noi": "însușim",
+      "voi": "însușiți",
+      "ei": "însușesc",
+      "eu1": "însușesc",
+      "tu1": "însușești",
+      "el1": "însușească",
+      "noi1": "însușim",
+      "voi1": "însușiți",
+      "ei1": "însușească"
+    },
+    "participle": "însușit",
+    "impS": "el",
+    "impP": "voi"
   }
 ]
