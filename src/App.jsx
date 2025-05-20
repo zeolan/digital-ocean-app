@@ -43,12 +43,12 @@ function App() {
       const verbsOrder = getSortedVerbsOrder(verbs);
       dispatch(setVerbsOrder(verbsOrder));
 
-      const lastVerb = verbs.find(
-        (verb) => verb.id === verbsOrder[lastVerbIdx]
-      );
-      if (lastVerb) {
-        dispatch(setVerb(lastVerb));
+      let lastVerb = verbs.find((verb) => verb.id === verbsOrder[lastVerbIdx]);
+      if (!lastVerb) {
+        lastVerb = verbs.find((verb) => verb.id === verbsOrder[0]);
+        dispatch(setVerbIdx(0));
       }
+      dispatch(setVerb(lastVerb));
     } else {
       const verbsOrder = getRandomVerbsOrder(numberOfVerbs);
       dispatch(setNumberOfVerbs(numberOfVerbs));

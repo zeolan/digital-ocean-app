@@ -3,10 +3,10 @@ import { IVerb } from "../types.ts";
 export const getRandomVerbsOrder = (numVerbs: number): number[] => {
   const verbsOrder = [];
   let cnt = 0;
-  while (cnt < numVerbs - 1) {
+  while (cnt < numVerbs) {
     let verbIdInt;
     do {
-      verbIdInt = Math.floor(Math.random() * (numVerbs - 1));
+      verbIdInt = Math.floor(Math.random() * numVerbs);
     } while (verbsOrder.includes(verbIdInt));
     verbsOrder.push(verbIdInt);
     cnt++;
