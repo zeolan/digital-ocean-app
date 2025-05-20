@@ -150,7 +150,7 @@ const Conjugation: React.FC = () => {
 
   return (
     <div className="App-conjugation">
-      <StyledPaper elevation={0}>
+      <StyledPaper elevation={0} className="App-conjugation-block1">
         <span>a&nbsp;</span>
         {getNameRo(verb.nameRo)}
         <span>- {verb.nameRu}</span>
