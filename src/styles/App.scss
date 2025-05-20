@@ -227,11 +227,11 @@
 
 @media screen and (min-width: 300px) {
   .App-conjugation-block2 {
-    gap: 10px;
+    gap: 13px;
     //justify-content: center;
   }
   .App-conjugation-block2 button.MuiButton-text {
-    padding: 5px;
+    padding: 10px;
   }
 }
 @media screen and (min-width: 600px) {
@@ -243,7 +243,7 @@
   margin: 0 0 20px 0;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 .App-conjugation-block4 {
   margin-bottom: 5px;
