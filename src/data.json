@@ -3467,7 +3467,7 @@
   {
     "id": 151,
     "nameRo": ["dovedi", 6],
-    "nameRu": "доказывать, подтверждать",
+    "nameRu": "доказывать, подтверждать, предоставить доказательства",
     "conjugation": {
       "eu": ["dovedesc", 6],
       "tu": "dovedești",
@@ -6824,7 +6824,7 @@
   {
     "id": 297,
     "nameRo": ["(se) trata", 10],
-    "nameRu": "лечить(ся), обрабатывать; угощать",
+    "nameRu": "лечить(ся), обрабатывать; угощать; относиться к кому-то опред. образом",
     "conjugation": {
       "eu": ["tratez", 5],
       "tu": "tratezi",
@@ -9901,5 +9901,73 @@
     "participle": "însușit",
     "impS": "el",
     "impP": "voi"
+  },
+  {
+    "id": 431,
+    "nameRo": ["da", 2],
+    "nameRu": "давать, дать",
+    "conjugation": {
+      "eu": ["dau", 2],
+      "tu": "dai",
+      "el": "dă",
+      "noi": "dăm",
+      "voi": "dați",
+      "ei": "dau",
+      "eu1": "dau",
+      "tu1": "dai",
+      "el1": "dea",
+      "noi1": "dăm",
+      "voi1": "dați",
+      "ei1": "dea"
+    },
+    "participle": "dat",
+    "impS": "dă",
+    "impP": "dați"
+  },
+  {
+    "id": 432,
+    "nameRo": ["prețui", 6],
+    "nameRu": "ценить, уважать, признавать важность, значимость",
+    "conjugation": {
+      "eu": ["prețuiesc", 7],
+      "tu": "prețuiești",
+      "el": "prețuiește",
+      "noi": "prețuim",
+      "voi": "prețuiți",
+      "ei": "prețuiesc",
+
+      "eu1": "prețuiesc",
+      "tu1": "prețuiești",
+      "el1": "prețuiască",
+      "noi1": "prețuim",
+      "voi1": "prețuiți",
+      "ei1": "prețuiască"
+    },
+    "participle": "prețuit",
+    "impS": "prețuiește",
+    "impP": "prețuiți"
+  },
+  {
+    "id": 433,
+    "nameRo": ["îndemna", 7],
+    "nameRu": "побуждать, призывать, понукать, подталкивать",
+    "conjugation": {
+      "eu": ["îndemn", 4],
+      "tu": "îndemni",
+      "el": "îndeamnă",
+      "noi": "îndemnăm",
+      "voi": "îndemnați",
+      "ei": "îndeamnă",
+
+      "eu1": "îndemn",
+      "tu1": "îndemni",
+      "el1": "îndemne",
+      "noi1": "îndemnăm",
+      "voi1": "îndemnați",
+      "ei1": "îndemne"
+    },
+    "participle": "îndemnat",
+    "impS": "îndeamnă",
+    "impP": "îndemnați"
   }
 ]
